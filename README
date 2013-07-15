@@ -1,0 +1,28 @@
+
+#Annotating and analyzing ncRNAs in bird genomes
+
+Non-coding annotations, analyses scripts and resulting manuscript for 48 bird genomes.
+
+#0. annotation tools:
+
+
+
+#1. analyses tools:
+
+cd bird-genomes
+
+#Merge all the different annotations, resolve the major overlaps:
+# Overlap rules are:
+#  1. specific methods (e.g. tRNAscan, miRBase, ...) are selected over Rfam predictions
+#  2. High-scoring predictions are selected over low-scoring predictions
+
+#paste all the filenames together (check they coincide if adding new annotations) and run compete_clans.pl:
+ls data/rfam/*gff > /tmp/blah1 && 
+ls data/trnascan/*gff > /tmp/blah2 && 
+ls data/mirbase/*gff > /tmp/blah3 && 
+paste /tmp/blah1 /tmp/blah2 /tmp/blah3 | perl -lane 'if(/mirbase\/(\S+).gff/){print "scripts/compete_clans.pl -g $F[0] -g $F[1] -g $F[2] -cl data/clan_info.txt -od data/overlaps/ > data/merged-annotations/$1.gff"}' | sh
+
+#generate the count matrices (in data/R) and run the R-code that generates the figures: 
+./scripts/gffs2heatmaps.pl
+
+
