@@ -1,0 +1,53 @@
+Species List
+ACACH	rifleman	Acanthisitta chloris	Rifleman
+ALLIG	alligator	Alligator mississippiensis	American Alligator
+ANAPL	duck		Anas platyrhynchos	Mallard (domestic)
+ANOCA	lizard		Anolis carolinensis	Green lizard
+ANTCA	nightjar	Antrostomus carolinensis	Chuck-will's-widow (Nightjar)
+APAVI	trogon		Apaloderma vittatum	Bar-tailed Trogon
+APTFO	emperor_penquin	Aptenodytes forsteri	Emperor Penguin
+BALRE	crane		Balearica regulorum	Grey Crowned Crane
+BUCRH	hornbill	Buceros rhinoceros	Rhinoceros Hornbill
+CALAN	hummingbird	Calypte anna	Anna's Hummingbird
+CARCR	seriema		Cariama cristata	Red-legged Seriema
+CATAU	vulture		Cathartes aura	Turkey Vulture
+CHAPE	swift		Chaetura pelagica	Chimney Swift
+CHAVO	plover		Charadrius vociferus	Killdeer (Plover)
+CHEMY	turtle		Chelonia mydas	Green Turtle
+CHLUN	bustard		Chlamydotis macqueenii	MacQueen's Bustard
+COLLI	pigeon		Columba livia	Rock Pigeon (domestic)
+COLST	mousebird	Colius striatus	Speckled Mousebird
+CORBR	crow		Corvus brachyrhynchos	American Crow
+CUCCA	cuckoo		Cuculus canorus	Common Cuckoo
+EGRGA	egret		Egretta garzetta	Little Egret
+EURHE	sunbittern	Eurypyga helias	Sunbittern
+FALPE	falcon		Falco peregrinus	Peregrine Falcon
+FULGL	fulmar		Fulmarus glacialis	Northern Fulmar
+GALGA	chicken		Gallus gallus	Red Junglefowl (Chicken)
+GAVST	loon		Gavia stellata	Red-throated Loon
+GEOFO	ground_finch	Geospiza fortis	Medium Ground-finch
+HALAL	white_tailed_eagle	 Haliaeetus albicilla	White-tailed Eagle
+HALLE	bald_eagle		 Haliaeetus leucocephalus	Bald Eagle
+HUMAN	human			 Homo sapiens	Human
+LEPDI	cuckoo_roller		 Leptosomus discolor	Cuckoo Roller
+MANVI	manakin			 Manacus vitellinus	Golden-collared Manakin
+MELGA	turkey			 Meleagris gallopavo	Turkey
+MELUN	budgerigar			 Melopsittacus undulatus	Budgerigar
+MERNU	bee_eater			 Merops nubicus	Carmine Bee-eater
+MESUN	mesite				 Mesitornis unicolor	Brown Mesite
+NESNO	kea				 Nestor notabilis	Kea
+NIPNI	ibis				 Nipponia nippon	Crested Ibis
+OPIHO	hoatzin				 Opisthocomus hoazin	Hoatzin
+PELCR	pelican				 Pelecanus crispus	Dalmatian Pelican
+PHACA	cormorant			 Phalacrocorax carbo	Cormorant
+PHALE	tropicbird			 Phaethon lepturus	White-tailed Tropicbird
+PHORU	flamingo			 Phoenicopterus ruber	American Flamingo
+PICPU	woodpecker			 Picoides pubescens	Downy Woodpecker
+PODCR	grebe				 Podiceps cristatus	Great Crested Grebe
+PTEGU	sandgrouse			 Pterocles gutturalis	Yellow-throated Sandgrouse
+PYGAD	adelie_penquin			 Pygoscelis adeliae	Adelie Penguin
+STRCA	ostrich				 Struthio camelus	Ostrich
+TAEGU	zebrafinch			 Taeniopygia guttata	Zebra Finch
+TAUER	turaco				 Tauraco erythrolophus	Red-crested Turaco
+TINMA	tinamou				 Tinamus guttatus	White throated tinamou
+TYTAL	owl				 Tyto alba	Barn Owl

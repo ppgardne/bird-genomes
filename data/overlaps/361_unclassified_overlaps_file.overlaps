@@ -1,0 +1,640 @@
+#GFFS: [data/rfam/Haliaeetus_leucocephalus.e0.0005.gff data/trnascan/Haliaeetus_leucocephalus_tRNAscan-SE.gff data/mirbase/Haliaeetus_leucocephalus.gff]
+#unclassified overlap:[RF01265][684629/684629-684805] vs [RF01005][684628/684628-684785]
+Scaffold1025	Rfam	similarity	684629	684805	44.3	+	.	rfam-id=snR42;evalue=3.8e-08;model_end=349;id=1.1171;model_start=1;rfam-acc=RF01265;gc-content=0.41
+Scaffold1025	Rfam	similarity	684628	684785	58.3	+	.	rfam-id=MIR530;evalue=5.6e-10;model_end=172;id=1.660;model_start=1;rfam-acc=RF01005;gc-content=0.38
+#unclassified overlap:[RF01005][684631/684631-684782] vs [RF01265][684628/684628-684785]
+Scaffold1025	Rfam	similarity	684628	684785	58.3	+	.	rfam-id=MIR530;evalue=5.6e-10;model_end=172;id=1.660;model_start=1;rfam-acc=RF01005;gc-content=0.38
+Scaffold1025	Rfam	similarity	684631	684782	62.3	-	.	rfam-id=MIR530;evalue=4.3e-11;model_end=172;id=1.570;model_start=1;rfam-acc=RF01005;gc-content=0.36
+#unclassified overlap:[RF01578][684663/684663-684811] vs [RF01005][684631/684631-684782]
+Scaffold1025	Rfam	similarity	684663	684811	40.9	-	.	rfam-id=RUF1;evalue=4.7e-07;model_end=264;id=1.1369;model_start=1;rfam-acc=RF01578;gc-content=0.40
+Scaffold1025	Rfam	similarity	684631	684782	62.3	-	.	rfam-id=MIR530;evalue=4.3e-11;model_end=172;id=1.570;model_start=1;rfam-acc=RF01005;gc-content=0.36
+#unclassified overlap:[RF00027][254603/254603-254679] vs [undef][254601/254601-254682]
+Scaffold1036	Rfam	similarity	254603	254679	36.3	+	.	rfam-id=let-7;evalue=0.00018;model_end=84;id=1.1713;model_start=1;rfam-acc=RF00027;gc-content=0.43
+Scaffold1036	.	microRNA	254601	254682	.	-	.	ID=let-7_11
+#unclassified overlap:[RF02095][375603/375603-375678] vs [RF00772][375602/375602-375674]
+Scaffold1058	Rfam	similarity	375602	375674	36.3	-	.	rfam-id=mir-328;evalue=0.00046;model_end=84;id=1.1715;model_start=1;rfam-acc=RF00772;gc-content=0.42
+Scaffold1058	Rfam	similarity	375603	375678	36.5	+	.	rfam-id=mir-2985-2;evalue=0.00023;model_end=81;id=1.1695;model_start=1;rfam-acc=RF02095;gc-content=0.41
+#unclassified overlap:[RF00772][375612/375612-375685] vs [RF02095][375603/375603-375678]
+Scaffold1058	Rfam	similarity	375603	375678	36.5	+	.	rfam-id=mir-2985-2;evalue=0.00023;model_end=81;id=1.1695;model_start=1;rfam-acc=RF02095;gc-content=0.41
+Scaffold1058	Rfam	similarity	375612	375685	36.6	+	.	rfam-id=mir-328;evalue=0.00038;model_end=84;id=1.1680;model_start=1;rfam-acc=RF00772;gc-content=0.42
+#unclassified overlap:[RF01024][93831/93831-93914] vs [RF00995][93821/93821-93917]
+Scaffold1120	Rfam	similarity	93821	93917	61.3	-	.	rfam-id=mir-616;evalue=1.8e-11;model_end=97;id=1.592;model_start=1;rfam-acc=RF00995;gc-content=0.54
+Scaffold1120	Rfam	similarity	93831	93914	69.2	-	.	rfam-id=mir-944;evalue=3.5e-14;model_end=88;id=1.426;model_start=1;rfam-acc=RF01024;gc-content=0.62
+#unclassified overlap:[RF00911][1581729/1581729-1581820] vs [RF00104][1581699/1581699-1581767]
+Scaffold118	Rfam	similarity	1581699	1581767	35.6	-	.	rfam-id=mir-10;evalue=0.00032;model_end=73;id=1.1750;model_start=1;rfam-acc=RF00104;gc-content=0.42
+Scaffold118	Rfam	similarity	1581729	1581820	52.6	+	.	rfam-id=mir-672;evalue=4.4e-09;model_end=100;id=1.809;model_start=1;rfam-acc=RF00911;gc-content=0.35
+#unclassified overlap:[RF00104][1581788/1581788-1581856] vs [RF00911][1581729/1581729-1581820]
+Scaffold118	Rfam	similarity	1581788	1581856	35.6	+	.	rfam-id=mir-10;evalue=0.00032;model_end=73;id=1.1751;model_start=1;rfam-acc=RF00104;gc-content=0.42
+Scaffold118	Rfam	similarity	1581729	1581820	52.6	+	.	rfam-id=mir-672;evalue=4.4e-09;model_end=100;id=1.809;model_start=1;rfam-acc=RF00911;gc-content=0.35
+#unclassified overlap:[RF00104][1581829/1581829-1581903] vs [RF00929][1581829/1581829-1581902]
+Scaffold118	Rfam	similarity	1581829	1581903	42.4	-	.	rfam-id=mir-10;evalue=2.7e-06;model_end=73;id=1.1272;model_start=1;rfam-acc=RF00104;gc-content=0.43
+Scaffold118	Rfam	similarity	1581829	1581902	46.9	-	.	rfam-id=mir-574;evalue=1.6e-06;model_end=77;id=1.1026;model_start=1;rfam-acc=RF00929;gc-content=0.42
+#unclassified overlap:[RF01005][35778/35778-35931] vs [RF01043][35778/35778-35930]
+Scaffold1188	Rfam	similarity	35778	35930	46.5	-	.	rfam-id=MIR1023;evalue=3.2e-07;model_end=159;id=1.1048;model_start=17;rfam-acc=RF01043;gc-content=0.33
+Scaffold1188	Rfam	similarity	35778	35931	46.6	+	.	rfam-id=MIR530;evalue=8.9e-07;model_end=172;id=1.1045;model_start=1;rfam-acc=RF01005;gc-content=0.32
+#unclassified overlap:[RF01859][661984/661984-662095] vs [RF00954][661982/661982-662085]
+Scaffold12	Rfam	similarity	661984	662095	42.4	+	.	rfam-id=Phe_leader;evalue=2.5e-05;model_end=126;id=1.1270;model_start=1;rfam-acc=RF01859;gc-content=0.38
+Scaffold12	Rfam	similarity	661982	662085	55.3	-	.	rfam-id=MIR1446;evalue=2.6e-10;model_end=105;id=1.736;model_start=1;rfam-acc=RF00954;gc-content=0.42
+#unclassified overlap:[RF00778][661991/661991-662074] vs [RF01859][661982/661982-662085]
+Scaffold12	Rfam	similarity	661991	662074	40.7	-	.	rfam-id=MIR473;evalue=0.00013;model_end=98;id=1.1385;model_start=1;rfam-acc=RF00778;gc-content=0.46
+Scaffold12	Rfam	similarity	661982	662085	55.3	-	.	rfam-id=MIR1446;evalue=2.6e-10;model_end=105;id=1.736;model_start=1;rfam-acc=RF00954;gc-content=0.42
+#unclassified overlap:[RF02149][661992/661992-662067] vs [RF00778][661982/661982-662085]
+Scaffold12	Rfam	similarity	661992	662067	31.9	+	.	rfam-id=MESTIT1_2;evalue=0.00039;model_end=207;id=1.1849;model_start=116;rfam-acc=RF02149;gc-content=0.47
+Scaffold12	Rfam	similarity	661982	662085	55.3	-	.	rfam-id=MIR1446;evalue=2.6e-10;model_end=105;id=1.736;model_start=1;rfam-acc=RF00954;gc-content=0.42
+#unclassified overlap:[RF01001][661996/661996-662074] vs [RF02149][661982/661982-662085]
+Scaffold12	Rfam	similarity	661996	662074	52.5	+	.	rfam-id=mir-609;evalue=5.5e-09;model_end=95;id=1.814;model_start=1;rfam-acc=RF01001;gc-content=0.48
+Scaffold12	Rfam	similarity	661982	662085	55.3	-	.	rfam-id=MIR1446;evalue=2.6e-10;model_end=105;id=1.736;model_start=1;rfam-acc=RF00954;gc-content=0.42
+#unclassified overlap:[RF00690][662032/662032-662134] vs [RF01001][661982/661982-662085]
+Scaffold12	Rfam	similarity	662032	662134	43.8	-	.	rfam-id=MIR408;evalue=8.6e-07;model_end=126;id=1.1198;model_start=1;rfam-acc=RF00690;gc-content=0.40
+Scaffold12	Rfam	similarity	661982	662085	55.3	-	.	rfam-id=MIR1446;evalue=2.6e-10;model_end=105;id=1.736;model_start=1;rfam-acc=RF00954;gc-content=0.42
+#unclassified overlap:[RF00772][662037/662037-662120] vs [RF00690][661982/661982-662085]
+Scaffold12	Rfam	similarity	661982	662085	55.3	-	.	rfam-id=MIR1446;evalue=2.6e-10;model_end=105;id=1.736;model_start=1;rfam-acc=RF00954;gc-content=0.42
+Scaffold12	Rfam	similarity	661982	662085	55.3	-	.	rfam-id=MIR1446;evalue=2.6e-10;model_end=105;id=1.736;model_start=1;rfam-acc=RF00954;gc-content=0.42
+#unclassified overlap:[RF00809][662037/662037-662133] vs [RF00772][661982/661982-662085]
+Scaffold12	Rfam	similarity	662037	662133	50.1	+	.	rfam-id=mir-241;evalue=3.1e-08;model_end=96;id=1.902;model_start=1;rfam-acc=RF00809;gc-content=0.42
+Scaffold12	Rfam	similarity	661982	662085	55.3	-	.	rfam-id=MIR1446;evalue=2.6e-10;model_end=105;id=1.736;model_start=1;rfam-acc=RF00954;gc-content=0.42
+#unclassified overlap:[RF00809][662039/662039-662126] vs [RF00809][661982/661982-662085]
+Scaffold12	Rfam	similarity	662039	662126	44.8	-	.	rfam-id=mir-241;evalue=1.1e-06;model_end=96;id=1.1133;model_start=1;rfam-acc=RF00809;gc-content=0.47
+Scaffold12	Rfam	similarity	661982	662085	55.3	-	.	rfam-id=MIR1446;evalue=2.6e-10;model_end=105;id=1.736;model_start=1;rfam-acc=RF00954;gc-content=0.42
+#unclassified overlap:[RF02095][662044/662044-662119] vs [RF00809][661982/661982-662085]
+Scaffold12	Rfam	similarity	662044	662119	50.2	+	.	rfam-id=mir-2985-2;evalue=1.4e-08;model_end=81;id=1.898;model_start=1;rfam-acc=RF02095;gc-content=0.54
+Scaffold12	Rfam	similarity	661982	662085	55.3	-	.	rfam-id=MIR1446;evalue=2.6e-10;model_end=105;id=1.736;model_start=1;rfam-acc=RF00954;gc-content=0.42
+#unclassified overlap:[RF00802][662047/662047-662119] vs [RF02095][661982/661982-662085]
+Scaffold12	Rfam	similarity	662047	662119	48.2	+	.	rfam-id=mir-207;evalue=1.7e-07;model_end=79;id=1.965;model_start=1;rfam-acc=RF00802;gc-content=0.56
+Scaffold12	Rfam	similarity	661982	662085	55.3	-	.	rfam-id=MIR1446;evalue=2.6e-10;model_end=105;id=1.736;model_start=1;rfam-acc=RF00954;gc-content=0.42
+#unclassified overlap:[RF00802][662047/662047-662122] vs [RF00802][661982/661982-662085]
+Scaffold12	Rfam	similarity	662047	662122	52.8	-	.	rfam-id=mir-207;evalue=7.7e-09;model_end=79;id=1.801;model_start=1;rfam-acc=RF00802;gc-content=0.54
+Scaffold12	Rfam	similarity	661982	662085	55.3	-	.	rfam-id=MIR1446;evalue=2.6e-10;model_end=105;id=1.736;model_start=1;rfam-acc=RF00954;gc-content=0.42
+#unclassified overlap:[RF00942][662048/662048-662120] vs [RF00802][661982/661982-662085]
+Scaffold12	Rfam	similarity	662048	662120	38.8	-	.	rfam-id=mir-1224;evalue=0.00015;model_end=86;id=1.1525;model_start=1;rfam-acc=RF00942;gc-content=0.56
+Scaffold12	Rfam	similarity	661982	662085	55.3	-	.	rfam-id=MIR1446;evalue=2.6e-10;model_end=105;id=1.736;model_start=1;rfam-acc=RF00954;gc-content=0.42
+#unclassified overlap:[RF02095][662048/662048-662125] vs [RF00942][661982/661982-662085]
+Scaffold12	Rfam	similarity	662048	662125	54.0	-	.	rfam-id=mir-2985-2;evalue=9.1e-10;model_end=81;id=1.770;model_start=1;rfam-acc=RF02095;gc-content=0.53
+Scaffold12	Rfam	similarity	661982	662085	55.3	-	.	rfam-id=MIR1446;evalue=2.6e-10;model_end=105;id=1.736;model_start=1;rfam-acc=RF00954;gc-content=0.42
+#unclassified overlap:[RF01017][662050/662050-662118] vs [RF02095][661982/661982-662085]
+Scaffold12	Rfam	similarity	661982	662085	55.3	-	.	rfam-id=MIR1446;evalue=2.6e-10;model_end=105;id=1.736;model_start=1;rfam-acc=RF00954;gc-content=0.42
+Scaffold12	Rfam	similarity	662050	662118	59.7	-	.	rfam-id=mir-625;evalue=1.9e-11;model_end=86;id=1.622;model_start=1;rfam-acc=RF01017;gc-content=0.59
+#unclassified overlap:[RF00772][662050/662050-662129] vs [RF01017][662050/662050-662118]
+Scaffold12	Rfam	similarity	662050	662129	53.1	+	.	rfam-id=mir-328;evalue=6e-09;model_end=84;id=1.792;model_start=1;rfam-acc=RF00772;gc-content=0.51
+Scaffold12	Rfam	similarity	662050	662118	59.7	-	.	rfam-id=mir-625;evalue=1.9e-11;model_end=86;id=1.622;model_start=1;rfam-acc=RF01017;gc-content=0.59
+#unclassified overlap:[RF01017][662051/662051-662117] vs [RF00772][662050/662050-662118]
+Scaffold12	Rfam	similarity	662051	662117	53.8	+	.	rfam-id=mir-625;evalue=1.1e-09;model_end=86;id=1.773;model_start=1;rfam-acc=RF01017;gc-content=0.61
+Scaffold12	Rfam	similarity	662050	662118	59.7	-	.	rfam-id=mir-625;evalue=1.9e-11;model_end=86;id=1.622;model_start=1;rfam-acc=RF01017;gc-content=0.59
+#unclassified overlap:[RF00870][662052/662052-662115] vs [RF01017][662050/662050-662118]
+Scaffold12	Rfam	similarity	662052	662115	43.1	-	.	rfam-id=mir-423;evalue=2.2e-06;model_end=81;id=1.1238;model_start=1;rfam-acc=RF00870;gc-content=0.62
+Scaffold12	Rfam	similarity	662050	662118	59.7	-	.	rfam-id=mir-625;evalue=1.9e-11;model_end=86;id=1.622;model_start=1;rfam-acc=RF01017;gc-content=0.59
+#unclassified overlap:[RF00446][797709/797709-797795] vs [undef][797699/797699-797799]
+Scaffold1208	Rfam	similarity	797709	797795	93.6	-	.	rfam-id=mir-133;evalue=1.2e-20;model_end=87;id=1.163;model_start=1;rfam-acc=RF00446;gc-content=0.41
+Scaffold1208	.	microRNA	797699	797799	.	+	.	ID=mir-3582_1
+#unclassified overlap:[RF00857][204233/204233-204324] vs [RF00553][204161/204161-204315]
+Scaffold1255	Rfam	similarity	204233	204324	38.7	-	.	rfam-id=mir-233;evalue=2.7e-05;model_end=99;id=1.1528;model_start=1;rfam-acc=RF00857;gc-content=0.39
+Scaffold1255	Rfam	similarity	204161	204315	48.5	-	.	rfam-id=SCARNA1;evalue=2.2e-06;model_end=166;id=1.953;model_start=1;rfam-acc=RF00553;gc-content=0.48
+#unclassified overlap:[RF00245][138844/138844-138917] vs [undef][138844/138844-138915]
+Scaffold1264	Rfam	similarity	138844	138917	41.9	+	.	rfam-id=mir-19;evalue=9e-06;model_end=77;id=1.1299;model_start=1;rfam-acc=RF00245;gc-content=0.41
+Scaffold1264	.	microRNA	138844	138915	.	-	.	ID=mir-19_2
+#unclassified overlap:[RF01013][878671/878671-878775] vs [RF01064][878609/878609-878707]
+Scaffold1279	Rfam	similarity	878609	878707	58.8	-	.	rfam-id=mir-253;evalue=2.9e-12;model_end=100;id=1.649;model_start=1;rfam-acc=RF01064;gc-content=0.54
+Scaffold1279	Rfam	similarity	878671	878775	66.6	-	.	rfam-id=mir-577;evalue=2.2e-14;model_end=96;id=1.470;model_start=1;rfam-acc=RF01013;gc-content=0.55
+#unclassified overlap:[RF00772][878680/878680-878766] vs [RF01013][878671/878671-878775]
+Scaffold1279	Rfam	similarity	878680	878766	48.7	-	.	rfam-id=mir-328;evalue=1.1e-07;model_end=84;id=1.946;model_start=1;rfam-acc=RF00772;gc-content=0.56
+Scaffold1279	Rfam	similarity	878671	878775	66.6	-	.	rfam-id=mir-577;evalue=2.2e-14;model_end=96;id=1.470;model_start=1;rfam-acc=RF01013;gc-content=0.55
+#unclassified overlap:[RF00942][878681/878681-878776] vs [RF00772][878671/878671-878775]
+Scaffold1279	Rfam	similarity	878681	878776	37.7	+	.	rfam-id=mir-1224;evalue=0.00032;model_end=86;id=1.1615;model_start=1;rfam-acc=RF00942;gc-content=0.59
+Scaffold1279	Rfam	similarity	878671	878775	66.6	-	.	rfam-id=mir-577;evalue=2.2e-14;model_end=96;id=1.470;model_start=1;rfam-acc=RF01013;gc-content=0.55
+#unclassified overlap:[RF00879][878682/878682-878774] vs [RF00942][878671/878671-878775]
+Scaffold1279	Rfam	similarity	878682	878774	51.7	+	.	rfam-id=mir-615;evalue=1.2e-06;model_end=96;id=1.846;model_start=1;rfam-acc=RF00879;gc-content=0.60
+Scaffold1279	Rfam	similarity	878671	878775	66.6	-	.	rfam-id=mir-577;evalue=2.2e-14;model_end=96;id=1.470;model_start=1;rfam-acc=RF01013;gc-content=0.55
+#unclassified overlap:[RF01013][878682/878682-878781] vs [RF00879][878671/878671-878775]
+Scaffold1279	Rfam	similarity	878682	878781	57.6	+	.	rfam-id=mir-577;evalue=1.5e-11;model_end=96;id=1.675;model_start=1;rfam-acc=RF01013;gc-content=0.60
+Scaffold1279	Rfam	similarity	878671	878775	66.6	-	.	rfam-id=mir-577;evalue=2.2e-14;model_end=96;id=1.470;model_start=1;rfam-acc=RF01013;gc-content=0.55
+#unclassified overlap:[RF00879][878683/878683-878775] vs [RF01013][878671/878671-878775]
+Scaffold1279	Rfam	similarity	878683	878775	47.8	-	.	rfam-id=mir-615;evalue=1.1e-05;model_end=96;id=1.982;model_start=1;rfam-acc=RF00879;gc-content=0.60
+Scaffold1279	Rfam	similarity	878671	878775	66.6	-	.	rfam-id=mir-577;evalue=2.2e-14;model_end=96;id=1.470;model_start=1;rfam-acc=RF01013;gc-content=0.55
+#unclassified overlap:[RF00802][878684/878684-878769] vs [RF00879][878671/878671-878775]
+Scaffold1279	Rfam	similarity	878684	878769	48.0	+	.	rfam-id=mir-207;evalue=2e-07;model_end=79;id=1.970;model_start=1;rfam-acc=RF00802;gc-content=0.57
+Scaffold1279	Rfam	similarity	878671	878775	66.6	-	.	rfam-id=mir-577;evalue=2.2e-14;model_end=96;id=1.470;model_start=1;rfam-acc=RF01013;gc-content=0.55
+#unclassified overlap:[RF01017][878685/878685-878771] vs [RF00802][878671/878671-878775]
+Scaffold1279	Rfam	similarity	878685	878771	66.1	+	.	rfam-id=mir-625;evalue=2.2e-13;model_end=86;id=1.473;model_start=1;rfam-acc=RF01017;gc-content=0.57
+Scaffold1279	Rfam	similarity	878671	878775	66.6	-	.	rfam-id=mir-577;evalue=2.2e-14;model_end=96;id=1.470;model_start=1;rfam-acc=RF01013;gc-content=0.55
+#unclassified overlap:[RF01017][878686/878686-878772] vs [RF01017][878671/878671-878775]
+Scaffold1279	Rfam	similarity	878671	878775	66.6	-	.	rfam-id=mir-577;evalue=2.2e-14;model_end=96;id=1.470;model_start=1;rfam-acc=RF01013;gc-content=0.55
+Scaffold1279	Rfam	similarity	878686	878772	68.5	-	.	rfam-id=mir-625;evalue=3.9e-14;model_end=86;id=1.440;model_start=1;rfam-acc=RF01017;gc-content=0.57
+#unclassified overlap:[RF00802][878688/878688-878771] vs [RF01017][878686/878686-878772]
+Scaffold1279	Rfam	similarity	878688	878771	54.8	-	.	rfam-id=mir-207;evalue=2e-09;model_end=79;id=1.751;model_start=1;rfam-acc=RF00802;gc-content=0.56
+Scaffold1279	Rfam	similarity	878686	878772	68.5	-	.	rfam-id=mir-625;evalue=3.9e-14;model_end=86;id=1.440;model_start=1;rfam-acc=RF01017;gc-content=0.57
+#unclassified overlap:[RF00772][878691/878691-878777] vs [RF00802][878686/878686-878772]
+Scaffold1279	Rfam	similarity	878691	878777	47.7	+	.	rfam-id=mir-328;evalue=2.2e-07;model_end=84;id=1.988;model_start=1;rfam-acc=RF00772;gc-content=0.57
+Scaffold1279	Rfam	similarity	878686	878772	68.5	-	.	rfam-id=mir-625;evalue=3.9e-14;model_end=86;id=1.440;model_start=1;rfam-acc=RF01017;gc-content=0.57
+#unclassified overlap:[RF00802][410878/410878-410943] vs [RF00772][410867/410867-410938]
+Scaffold128	Rfam	similarity	410867	410938	36.5	-	.	rfam-id=mir-328;evalue=0.00038;model_end=84;id=1.1696;model_start=1;rfam-acc=RF00772;gc-content=0.51
+Scaffold128	Rfam	similarity	410878	410943	37.4	-	.	rfam-id=mir-207;evalue=0.00027;model_end=79;id=1.1630;model_start=1;rfam-acc=RF00802;gc-content=0.59
+#unclassified overlap:[RF00826][2745011/2745011-2745101] vs [RF00772][2745009/2745009-2745089]
+Scaffold1295	Rfam	similarity	2745011	2745101	42.3	-	.	rfam-id=mir-55;evalue=3.3e-06;model_end=97;id=1.1276;model_start=1;rfam-acc=RF00826;gc-content=0.38
+Scaffold1295	Rfam	similarity	2745009	2745089	44.2	-	.	rfam-id=mir-328;evalue=2.4e-06;model_end=84;id=1.1179;model_start=1;rfam-acc=RF00772;gc-content=0.42
+#unclassified overlap:[RF00772][2745020/2745020-2745098] vs [RF00826][2745009/2745009-2745089]
+Scaffold1295	Rfam	similarity	2745020	2745098	43.6	+	.	rfam-id=mir-328;evalue=3.5e-06;model_end=84;id=1.1209;model_start=1;rfam-acc=RF00772;gc-content=0.44
+Scaffold1295	Rfam	similarity	2745009	2745089	44.2	-	.	rfam-id=mir-328;evalue=2.4e-06;model_end=84;id=1.1179;model_start=1;rfam-acc=RF00772;gc-content=0.42
+#unclassified overlap:[RF02095][2745021/2745021-2745084] vs [RF00772][2745009/2745009-2745089]
+Scaffold1295	Rfam	similarity	2745009	2745089	44.2	-	.	rfam-id=mir-328;evalue=2.4e-06;model_end=84;id=1.1179;model_start=1;rfam-acc=RF00772;gc-content=0.42
+Scaffold1295	Rfam	similarity	2745009	2745089	44.2	-	.	rfam-id=mir-328;evalue=2.4e-06;model_end=84;id=1.1179;model_start=1;rfam-acc=RF00772;gc-content=0.42
+#unclassified overlap:[RF02095][2745021/2745021-2745084] vs [RF02095][2745009/2745009-2745089]
+Scaffold1295	Rfam	similarity	2745009	2745089	44.2	-	.	rfam-id=mir-328;evalue=2.4e-06;model_end=84;id=1.1179;model_start=1;rfam-acc=RF00772;gc-content=0.42
+Scaffold1295	Rfam	similarity	2745009	2745089	44.2	-	.	rfam-id=mir-328;evalue=2.4e-06;model_end=84;id=1.1179;model_start=1;rfam-acc=RF00772;gc-content=0.42
+#unclassified overlap:[RF02095][3822307/3822307-3822384] vs [RF00809][3822305/3822305-3822392]
+Scaffold134	Rfam	similarity	3822305	3822392	40.4	+	.	rfam-id=mir-241;evalue=2.3e-05;model_end=96;id=1.1403;model_start=1;rfam-acc=RF00809;gc-content=0.36
+Scaffold134	Rfam	similarity	3822307	3822384	46.1	+	.	rfam-id=mir-2985-2;evalue=2.5e-07;model_end=81;id=1.1075;model_start=1;rfam-acc=RF02095;gc-content=0.37
+#unclassified overlap:[RF00772][444034/444034-444114] vs [RF01064][443999/443999-444161]
+Scaffold1367	Rfam	similarity	443999	444161	46.2	+	.	rfam-id=mir-253;evalue=3.6e-08;model_end=100;id=1.1067;model_start=1;rfam-acc=RF01064;gc-content=0.52
+Scaffold1367	Rfam	similarity	444034	444114	48.4	-	.	rfam-id=mir-328;evalue=1.4e-07;model_end=84;id=1.957;model_start=1;rfam-acc=RF00772;gc-content=0.56
+#unclassified overlap:[RF00809][532794/532794-532885] vs [RF00857][532763/532763-532845]
+Scaffold1385	Rfam	similarity	532763	532845	35.8	-	.	rfam-id=mir-233;evalue=0.0002;model_end=99;id=1.1740;model_start=1;rfam-acc=RF00857;gc-content=0.60
+Scaffold1385	Rfam	similarity	532794	532885	48.1	-	.	rfam-id=mir-241;evalue=1.2e-07;model_end=96;id=1.969;model_start=1;rfam-acc=RF00809;gc-content=0.42
+#unclassified overlap:[RF00772][532806/532806-532886] vs [RF00809][532794/532794-532885]
+Scaffold1385	Rfam	similarity	532794	532885	48.1	-	.	rfam-id=mir-241;evalue=1.2e-07;model_end=96;id=1.969;model_start=1;rfam-acc=RF00809;gc-content=0.42
+Scaffold1385	Rfam	similarity	532806	532886	52.9	+	.	rfam-id=mir-328;evalue=6.6e-09;model_end=84;id=1.799;model_start=1;rfam-acc=RF00772;gc-content=0.48
+#unclassified overlap:[RF00857][532833/532833-532921] vs [RF00772][532806/532806-532886]
+Scaffold1385	Rfam	similarity	532833	532921	48.5	+	.	rfam-id=mir-233;evalue=2.7e-08;model_end=99;id=1.954;model_start=1;rfam-acc=RF00857;gc-content=0.43
+Scaffold1385	Rfam	similarity	532806	532886	52.9	+	.	rfam-id=mir-328;evalue=6.6e-09;model_end=84;id=1.799;model_start=1;rfam-acc=RF00772;gc-content=0.48
+#unclassified overlap:[RF00772][532870/532870-532949] vs [RF00857][532806/532806-532886]
+Scaffold1385	Rfam	similarity	532806	532886	52.9	+	.	rfam-id=mir-328;evalue=6.6e-09;model_end=84;id=1.799;model_start=1;rfam-acc=RF00772;gc-content=0.48
+Scaffold1385	Rfam	similarity	532870	532949	53.6	-	.	rfam-id=mir-328;evalue=4.1e-09;model_end=84;id=1.778;model_start=1;rfam-acc=RF00772;gc-content=0.51
+#unclassified overlap:[RF00802][532883/532883-532947] vs [RF00772][532870/532870-532949]
+Scaffold1385	Rfam	similarity	532883	532947	40.9	-	.	rfam-id=mir-207;evalue=2.5e-05;model_end=79;id=1.1367;model_start=1;rfam-acc=RF00802;gc-content=0.62
+Scaffold1385	Rfam	similarity	532870	532949	53.6	-	.	rfam-id=mir-328;evalue=4.1e-09;model_end=84;id=1.778;model_start=1;rfam-acc=RF00772;gc-content=0.51
+#unclassified overlap:[RF00780][297849/297849-297947] vs [RF00954][297847/297847-297949]
+Scaffold14	Rfam	similarity	297849	297947	43.5	-	.	rfam-id=MIR477;evalue=2.5e-06;model_end=99;id=1.1211;model_start=1;rfam-acc=RF00780;gc-content=0.36
+Scaffold14	Rfam	similarity	297847	297949	46.5	+	.	rfam-id=MIR1446;evalue=1.3e-07;model_end=105;id=1.1051;model_start=1;rfam-acc=RF00954;gc-content=0.35
+#unclassified overlap:[RF00954][297850/297850-297945] vs [RF00780][297847/297847-297949]
+Scaffold14	Rfam	similarity	297850	297945	44.0	-	.	rfam-id=MIR1446;evalue=8.1e-07;model_end=105;id=1.1189;model_start=1;rfam-acc=RF00954;gc-content=0.36
+Scaffold14	Rfam	similarity	297847	297949	46.5	+	.	rfam-id=MIR1446;evalue=1.3e-07;model_end=105;id=1.1051;model_start=1;rfam-acc=RF00954;gc-content=0.35
+#unclassified overlap:[RF01669][297885/297885-297967] vs [RF00954][297847/297847-297949]
+Scaffold14	Rfam	similarity	297885	297967	37.7	+	.	rfam-id=P14;evalue=0.00025;model_end=146;id=1.1611;model_start=1;rfam-acc=RF01669;gc-content=0.39
+Scaffold14	Rfam	similarity	297847	297949	46.5	+	.	rfam-id=MIR1446;evalue=1.3e-07;model_end=105;id=1.1051;model_start=1;rfam-acc=RF00954;gc-content=0.35
+#unclassified overlap:[RF00561][138239/138239-138365] vs [RF00415][138237/138237-138366]
+Scaffold1401	Rfam	similarity	138237	138366	50.6	+	.	rfam-id=SNORA30;evalue=5e-07;model_end=129;id=1.886;model_start=1;rfam-acc=RF00415;gc-content=0.38
+Scaffold1401	Rfam	similarity	138239	138365	64.0	+	.	rfam-id=SNORA40;evalue=2.5e-09;model_end=128;id=1.531;model_start=1;rfam-acc=RF00561;gc-content=0.39
+#unclassified overlap:[RF00694][55500/55500-55596] vs [RF01589][55379/55379-55575]
+Scaffold1402	Rfam	similarity	55500	55596	37.8	+	.	rfam-id=mir-137;evalue=4.8e-05;model_end=100;id=1.1602;model_start=1;rfam-acc=RF00694;gc-content=0.33
+Scaffold1402	Rfam	similarity	55379	55575	38.5	-	.	rfam-id=plasmodium_snoR11;evalue=0.00046;model_end=207;id=1.1551;model_start=1;rfam-acc=RF01589;gc-content=0.32
+#unclassified overlap:[RF00884][376839/376839-376904] vs [RF00857][376828/376828-376916]
+Scaffold1402	Rfam	similarity	376839	376904	42.1	-	.	rfam-id=MIR815;evalue=8.8e-05;model_end=81;id=1.1286;model_start=1;rfam-acc=RF00884;gc-content=0.56
+Scaffold1402	Rfam	similarity	376828	376916	46.5	-	.	rfam-id=mir-233;evalue=1.1e-07;model_end=99;id=1.1052;model_start=1;rfam-acc=RF00857;gc-content=0.51
+#unclassified overlap:[RF01017][314974/314974-315060] vs [RF00954][314909/314909-315013]
+Scaffold1519	Rfam	similarity	314974	315060	35.4	+	.	rfam-id=mir-625;evalue=0.0004;model_end=86;id=1.1760;model_start=1;rfam-acc=RF01017;gc-content=0.56
+Scaffold1519	Rfam	similarity	314909	315013	39.3	-	.	rfam-id=MIR1446;evalue=2.3e-05;model_end=105;id=1.1478;model_start=1;rfam-acc=RF00954;gc-content=0.48
+#unclassified overlap:[RF01017][314976/314976-315060] vs [RF01017][314909/314909-315013]
+Scaffold1519	Rfam	similarity	314909	315013	39.3	-	.	rfam-id=MIR1446;evalue=2.3e-05;model_end=105;id=1.1478;model_start=1;rfam-acc=RF00954;gc-content=0.48
+Scaffold1519	Rfam	similarity	314976	315060	41.5	-	.	rfam-id=mir-625;evalue=5.9e-06;model_end=86;id=1.1319;model_start=1;rfam-acc=RF01017;gc-content=0.56
+#unclassified overlap:[RF02094][643648/643648-643733] vs [undef][643647/643647-643734]
+Scaffold154	Rfam	similarity	643648	643733	63.8	+	.	rfam-id=mir-1803;evalue=4.2e-13;model_end=87;id=1.536;model_start=1;rfam-acc=RF02094;gc-content=0.42
+Scaffold154	.	microRNA	643647	643734	.	-	.	ID=mir-1620_1
+#unclassified overlap:[RF00076][368797/368797-368872] vs [undef][368789/368789-368884]
+Scaffold1587	Rfam	similarity	368797	368872	81.0	+	.	rfam-id=mir-181;evalue=6.9e-17;model_end=76;id=1.278;model_start=1;rfam-acc=RF00076;gc-content=0.45
+Scaffold1587	.	microRNA	368789	368884	.	-	.	ID=mir-3570_1
+#unclassified overlap:[RF00795][1786503/1786503-1786609] vs [RF01005][1786494/1786494-1786618]
+Scaffold1606	Rfam	similarity	1786503	1786609	56.0	+	.	rfam-id=mir-43;evalue=8.3e-12;model_end=105;id=1.718;model_start=1;rfam-acc=RF00795;gc-content=0.42
+Scaffold1606	Rfam	similarity	1786494	1786618	59.9	+	.	rfam-id=MIR530;evalue=2.1e-10;model_end=172;id=1.616;model_start=1;rfam-acc=RF01005;gc-content=0.36
+#unclassified overlap:[RF00251][369572/369572-369647] vs [undef][369562/369562-369659]
+Scaffold162	Rfam	similarity	369572	369647	37.3	-	.	rfam-id=mir-219;evalue=9.5e-05;model_end=72;id=1.1638;model_start=1;rfam-acc=RF00251;gc-content=0.50
+Scaffold162	.	microRNA	369562	369659	.	+	.	ID=mir-219_1
+#unclassified overlap:[RF01017][416975/416975-417062] vs [RF00879][416971/416971-417065]
+Scaffold1629	Rfam	similarity	416971	417065	44.2	+	.	rfam-id=mir-615;evalue=8.9e-05;model_end=96;id=1.1174;model_start=1;rfam-acc=RF00879;gc-content=0.52
+Scaffold1629	Rfam	similarity	416975	417062	68.2	+	.	rfam-id=mir-625;evalue=5.1e-14;model_end=86;id=1.446;model_start=1;rfam-acc=RF01017;gc-content=0.48
+#unclassified overlap:[RF00772][60782/60782-60863] vs [RF00942][60780/60780-60874]
+Scaffold1659	Rfam	similarity	60780	60874	38.9	+	.	rfam-id=mir-1224;evalue=0.00015;model_end=86;id=1.1509;model_start=1;rfam-acc=RF00942;gc-content=0.46
+Scaffold1659	Rfam	similarity	60782	60863	44.8	-	.	rfam-id=mir-328;evalue=1.5e-06;model_end=84;id=1.1128;model_start=1;rfam-acc=RF00772;gc-content=0.48
+#unclassified overlap:[RF00826][60782/60782-60878] vs [RF00772][60782/60782-60863]
+Scaffold1659	Rfam	similarity	60782	60863	44.8	-	.	rfam-id=mir-328;evalue=1.5e-06;model_end=84;id=1.1128;model_start=1;rfam-acc=RF00772;gc-content=0.48
+Scaffold1659	Rfam	similarity	60782	60878	45.9	-	.	rfam-id=mir-55;evalue=2.6e-07;model_end=97;id=1.1082;model_start=1;rfam-acc=RF00826;gc-content=0.47
+#unclassified overlap:[RF01017][60784/60784-60870] vs [RF00826][60782/60782-60878]
+Scaffold1659	Rfam	similarity	60782	60878	45.9	-	.	rfam-id=mir-55;evalue=2.6e-07;model_end=97;id=1.1082;model_start=1;rfam-acc=RF00826;gc-content=0.47
+Scaffold1659	Rfam	similarity	60784	60870	50.7	-	.	rfam-id=mir-625;evalue=9.9e-09;model_end=86;id=1.884;model_start=1;rfam-acc=RF01017;gc-content=0.44
+#unclassified overlap:[RF00802][60790/60790-60864] vs [RF01017][60784/60784-60870]
+Scaffold1659	Rfam	similarity	60790	60864	48.4	+	.	rfam-id=mir-207;evalue=1.6e-07;model_end=79;id=1.955;model_start=1;rfam-acc=RF00802;gc-content=0.51
+Scaffold1659	Rfam	similarity	60784	60870	50.7	-	.	rfam-id=mir-625;evalue=9.9e-09;model_end=86;id=1.884;model_start=1;rfam-acc=RF01017;gc-content=0.44
+#unclassified overlap:[RF00772][60792/60792-60875] vs [RF00802][60784/60784-60870]
+Scaffold1659	Rfam	similarity	60792	60875	46.7	+	.	rfam-id=mir-328;evalue=4.2e-07;model_end=84;id=1.1037;model_start=1;rfam-acc=RF00772;gc-content=0.49
+Scaffold1659	Rfam	similarity	60784	60870	50.7	-	.	rfam-id=mir-625;evalue=9.9e-09;model_end=86;id=1.884;model_start=1;rfam-acc=RF01017;gc-content=0.44
+#unclassified overlap:[RF00802][60795/60795-60863] vs [RF00772][60784/60784-60870]
+Scaffold1659	Rfam	similarity	60795	60863	36.5	-	.	rfam-id=mir-207;evalue=0.00046;model_end=79;id=1.1688;model_start=1;rfam-acc=RF00802;gc-content=0.49
+Scaffold1659	Rfam	similarity	60784	60870	50.7	-	.	rfam-id=mir-625;evalue=9.9e-09;model_end=86;id=1.884;model_start=1;rfam-acc=RF01017;gc-content=0.44
+#unclassified overlap:[RF00516][60810/60810-60921] vs [RF00802][60784/60784-60870]
+Scaffold1659	Rfam	similarity	60810	60921	36.5	-	.	rfam-id=ylbH;evalue=0.00015;model_end=122;id=1.1689;model_start=1;rfam-acc=RF00516;gc-content=0.41
+Scaffold1659	Rfam	similarity	60784	60870	50.7	-	.	rfam-id=mir-625;evalue=9.9e-09;model_end=86;id=1.884;model_start=1;rfam-acc=RF01017;gc-content=0.44
+#unclassified overlap:[RF00104][906006/906006-906077] vs [undef][906006/906006-906076]
+Scaffold1695	Rfam	similarity	906006	906077	44.6	-	.	rfam-id=mir-10;evalue=5.8e-07;model_end=73;id=1.1150;model_start=1;rfam-acc=RF00104;gc-content=0.47
+Scaffold1695	.	microRNA	906006	906076	.	+	.	ID=mir-99_1
+#unclassified overlap:[RF00052][943067/943067-943137] vs [undef][943049/943049-943154]
+Scaffold1695	Rfam	similarity	943067	943137	76.7	+	.	rfam-id=lin-4;evalue=2.6e-16;model_end=72;id=1.326;model_start=1;rfam-acc=RF00052;gc-content=0.46
+Scaffold1695	.	microRNA	943049	943154	.	-	.	ID=mir-3588_1
+#unclassified overlap:[RF00771][680625/680625-680709] vs [RF00772][680623/680623-680699]
+Scaffold1710	Rfam	similarity	680623	680699	37.7	-	.	rfam-id=mir-328;evalue=0.00017;model_end=84;id=1.1614;model_start=1;rfam-acc=RF00772;gc-content=0.71
+Scaffold1710	Rfam	similarity	680625	680709	39.2	+	.	rfam-id=mir-185;evalue=0.00012;model_end=81;id=1.1492;model_start=1;rfam-acc=RF00771;gc-content=0.73
+#unclassified overlap:[RF00802][680627/680627-680706] vs [RF00771][680626/680626-680707]
+Scaffold1710	Rfam	similarity	680627	680706	38.0	-	.	rfam-id=mir-207;evalue=0.00017;model_end=79;id=1.1593;model_start=1;rfam-acc=RF00802;gc-content=0.73
+Scaffold1710	Rfam	similarity	680626	680707	46.3	-	.	rfam-id=mir-185;evalue=1.1e-06;model_end=81;id=1.1063;model_start=1;rfam-acc=RF00771;gc-content=0.73
+#unclassified overlap:[RF01017][680629/680629-680702] vs [RF00802][680626/680626-680707]
+Scaffold1710	Rfam	similarity	680626	680707	46.3	-	.	rfam-id=mir-185;evalue=1.1e-06;model_end=81;id=1.1063;model_start=1;rfam-acc=RF00771;gc-content=0.73
+Scaffold1710	Rfam	similarity	680629	680702	48.6	+	.	rfam-id=mir-625;evalue=4.2e-08;model_end=86;id=1.952;model_start=1;rfam-acc=RF01017;gc-content=0.70
+#unclassified overlap:[RF00802][258736/258736-258824] vs [RF00954][258680/258680-258770]
+Scaffold1758	Rfam	similarity	258736	258824	43.6	+	.	rfam-id=mir-207;evalue=3.8e-06;model_end=79;id=1.1207;model_start=1;rfam-acc=RF00802;gc-content=0.63
+Scaffold1758	Rfam	similarity	258680	258770	44.3	+	.	rfam-id=MIR1446;evalue=6.6e-07;model_end=105;id=1.1169;model_start=1;rfam-acc=RF00954;gc-content=0.54
+#unclassified overlap:[RF00772][258738/258738-258812] vs [RF00802][258680/258680-258770]
+Scaffold1758	Rfam	similarity	258738	258812	36.6	-	.	rfam-id=mir-328;evalue=0.00038;model_end=84;id=1.1678;model_start=1;rfam-acc=RF00772;gc-content=0.64
+Scaffold1758	Rfam	similarity	258680	258770	44.3	+	.	rfam-id=MIR1446;evalue=6.6e-07;model_end=105;id=1.1169;model_start=1;rfam-acc=RF00954;gc-content=0.54
+#unclassified overlap:[RF00802][258738/258738-258824] vs [RF00772][258680/258680-258770]
+Scaffold1758	Rfam	similarity	258738	258824	40.8	-	.	rfam-id=mir-207;evalue=2.5e-05;model_end=79;id=1.1376;model_start=1;rfam-acc=RF00802;gc-content=0.64
+Scaffold1758	Rfam	similarity	258680	258770	44.3	+	.	rfam-id=MIR1446;evalue=6.6e-07;model_end=105;id=1.1169;model_start=1;rfam-acc=RF00954;gc-content=0.54
+#unclassified overlap:[RF01017][258739/258739-258821] vs [RF00802][258680/258680-258770]
+Scaffold1758	Rfam	similarity	258680	258770	44.3	+	.	rfam-id=MIR1446;evalue=6.6e-07;model_end=105;id=1.1169;model_start=1;rfam-acc=RF00954;gc-content=0.54
+Scaffold1758	Rfam	similarity	258739	258821	47.4	+	.	rfam-id=mir-625;evalue=9.7e-08;model_end=86;id=1.1001;model_start=1;rfam-acc=RF01017;gc-content=0.65
+#unclassified overlap:[RF00771][258740/258740-258821] vs [RF01017][258739/258739-258821]
+Scaffold1758	Rfam	similarity	258740	258821	43.0	+	.	rfam-id=mir-185;evalue=9.7e-06;model_end=81;id=1.1243;model_start=1;rfam-acc=RF00771;gc-content=0.65
+Scaffold1758	Rfam	similarity	258739	258821	47.4	+	.	rfam-id=mir-625;evalue=9.7e-08;model_end=86;id=1.1001;model_start=1;rfam-acc=RF01017;gc-content=0.65
+#unclassified overlap:[RF01017][486739/486739-486815] vs [RF01064][486674/486674-486760]
+Scaffold1851	Rfam	similarity	486674	486760	43.7	-	.	rfam-id=mir-253;evalue=2.3e-07;model_end=100;id=1.1203;model_start=1;rfam-acc=RF01064;gc-content=0.48
+Scaffold1851	Rfam	similarity	486739	486815	48.3	-	.	rfam-id=mir-625;evalue=5e-08;model_end=86;id=1.961;model_start=1;rfam-acc=RF01017;gc-content=0.58
+#unclassified overlap:[RF00898][486743/486743-486811] vs [RF01017][486739/486739-486815]
+Scaffold1851	Rfam	similarity	486743	486811	43.9	+	.	rfam-id=mir-242;evalue=6.1e-06;model_end=72;id=1.1191;model_start=1;rfam-acc=RF00898;gc-content=0.58
+Scaffold1851	Rfam	similarity	486739	486815	48.3	-	.	rfam-id=mir-625;evalue=5e-08;model_end=86;id=1.961;model_start=1;rfam-acc=RF01017;gc-content=0.58
+#unclassified overlap:[RF01017][200732/200732-200817] vs [RF00772][200730/200730-200815]
+Scaffold193	Rfam	similarity	200730	200815	40.2	-	.	rfam-id=mir-328;evalue=3.4e-05;model_end=84;id=1.1416;model_start=1;rfam-acc=RF00772;gc-content=0.55
+Scaffold193	Rfam	similarity	200732	200817	45.9	-	.	rfam-id=mir-625;evalue=2.7e-07;model_end=86;id=1.1084;model_start=1;rfam-acc=RF01017;gc-content=0.55
+#unclassified overlap:[RF00690][200732/200732-200817] vs [RF01017][200732/200732-200817]
+Scaffold193	Rfam	similarity	200732	200817	42.7	-	.	rfam-id=MIR408;evalue=1.9e-06;model_end=105;id=1.1256;model_start=21;rfam-acc=RF00690;gc-content=0.55
+Scaffold193	Rfam	similarity	200732	200817	45.9	-	.	rfam-id=mir-625;evalue=2.7e-07;model_end=86;id=1.1084;model_start=1;rfam-acc=RF01017;gc-content=0.55
+#unclassified overlap:[RF00802][200736/200736-200811] vs [RF00690][200732/200732-200817]
+Scaffold193	Rfam	similarity	200736	200811	39.5	+	.	rfam-id=mir-207;evalue=6.1e-05;model_end=79;id=1.1465;model_start=1;rfam-acc=RF00802;gc-content=0.49
+Scaffold193	Rfam	similarity	200732	200817	45.9	-	.	rfam-id=mir-625;evalue=2.7e-07;model_end=86;id=1.1084;model_start=1;rfam-acc=RF01017;gc-content=0.55
+#unclassified overlap:[RF01017][200736/200736-200813] vs [RF00802][200732/200732-200817]
+Scaffold193	Rfam	similarity	200736	200813	44.0	+	.	rfam-id=mir-625;evalue=1e-06;model_end=86;id=1.1186;model_start=1;rfam-acc=RF01017;gc-content=0.50
+Scaffold193	Rfam	similarity	200732	200817	45.9	-	.	rfam-id=mir-625;evalue=2.7e-07;model_end=86;id=1.1084;model_start=1;rfam-acc=RF01017;gc-content=0.55
+#unclassified overlap:[RF00772][403928/403928-404008] vs [RF00690][403907/403907-404032]
+Scaffold1970	Rfam	similarity	403907	404032	45.3	+	.	rfam-id=MIR408;evalue=3.2e-07;model_end=126;id=1.1102;model_start=1;rfam-acc=RF00690;gc-content=0.40
+Scaffold1970	Rfam	similarity	403928	404008	47.5	-	.	rfam-id=mir-328;evalue=2.6e-07;model_end=84;id=1.998;model_start=1;rfam-acc=RF00772;gc-content=0.44
+#unclassified overlap:[RF00258][579199/579199-579282] vs [undef][579198/579198-579281]
+Scaffold2011	Rfam	similarity	579199	579282	44.5	-	.	rfam-id=mir-130;evalue=5.4e-06;model_end=83;id=1.1157;model_start=1;rfam-acc=RF00258;gc-content=0.43
+Scaffold2011	.	microRNA	579198	579281	.	+	.	ID=mir-130_3
+#unclassified overlap:[RF00857][720552/720552-720634] vs [RF00995][720547/720547-720643]
+Scaffold2136	Rfam	similarity	720547	720643	41.0	-	.	rfam-id=mir-616;evalue=1.8e-05;model_end=97;id=1.1364;model_start=1;rfam-acc=RF00995;gc-content=0.38
+Scaffold2136	Rfam	similarity	720552	720634	42.4	+	.	rfam-id=mir-233;evalue=1.9e-06;model_end=99;id=1.1271;model_start=1;rfam-acc=RF00857;gc-content=0.42
+#unclassified overlap:[RF00954][720553/720553-720642] vs [RF00857][720552/720552-720634]
+Scaffold2136	Rfam	similarity	720553	720642	35.6	-	.	rfam-id=MIR1446;evalue=0.00032;model_end=105;id=1.1748;model_start=1;rfam-acc=RF00954;gc-content=0.41
+Scaffold2136	Rfam	similarity	720552	720634	42.4	+	.	rfam-id=mir-233;evalue=1.9e-06;model_end=99;id=1.1271;model_start=1;rfam-acc=RF00857;gc-content=0.42
+#unclassified overlap:[RF00925][720566/720566-720622] vs [RF00954][720552/720552-720634]
+Scaffold2136	Rfam	similarity	720566	720622	34.6	+	.	rfam-id=MIR1027;evalue=0.00029;model_end=100;id=1.1809;model_start=44;rfam-acc=RF00925;gc-content=0.46
+Scaffold2136	Rfam	similarity	720552	720634	42.4	+	.	rfam-id=mir-233;evalue=1.9e-06;model_end=99;id=1.1271;model_start=1;rfam-acc=RF00857;gc-content=0.42
+#unclassified overlap:[RF00766][127408/127408-127499] vs [RF01921][127356/127356-127463]
+Scaffold219	Rfam	similarity	127356	127463	51.2	-	.	rfam-id=mir-1296;evalue=7.7e-09;model_end=112;id=1.862;model_start=1;rfam-acc=RF01921;gc-content=0.42
+Scaffold219	Rfam	similarity	127408	127499	56.3	-	.	rfam-id=mir-335;evalue=2.1e-10;model_end=94;id=1.711;model_start=1;rfam-acc=RF00766;gc-content=0.46
+#unclassified overlap:[RF00809][426859/426859-426945] vs [RF00772][426859/426859-426934]
+Scaffold224	Rfam	similarity	426859	426945	40.4	+	.	rfam-id=mir-241;evalue=2.3e-05;model_end=96;id=1.1398;model_start=1;rfam-acc=RF00809;gc-content=0.54
+Scaffold224	Rfam	similarity	426859	426934	43.0	-	.	rfam-id=mir-328;evalue=5e-06;model_end=84;id=1.1245;model_start=1;rfam-acc=RF00772;gc-content=0.55
+#unclassified overlap:[RF00942][426866/426866-426938] vs [RF00809][426859/426859-426934]
+Scaffold224	Rfam	similarity	426866	426938	38.3	+	.	rfam-id=mir-1224;evalue=0.00021;model_end=86;id=1.1575;model_start=1;rfam-acc=RF00942;gc-content=0.56
+Scaffold224	Rfam	similarity	426859	426934	43.0	-	.	rfam-id=mir-328;evalue=5e-06;model_end=84;id=1.1245;model_start=1;rfam-acc=RF00772;gc-content=0.55
+#unclassified overlap:[RF00772][426868/426868-426947] vs [RF00942][426859/426859-426934]
+Scaffold224	Rfam	similarity	426859	426934	43.0	-	.	rfam-id=mir-328;evalue=5e-06;model_end=84;id=1.1245;model_start=1;rfam-acc=RF00772;gc-content=0.55
+Scaffold224	Rfam	similarity	426868	426947	45.8	+	.	rfam-id=mir-328;evalue=7.8e-07;model_end=84;id=1.1085;model_start=1;rfam-acc=RF00772;gc-content=0.54
+#unclassified overlap:[RF00104][721830/721830-721906] vs [RF00911][721817/721817-721912]
+Scaffold224	Rfam	similarity	721830	721906	40.8	+	.	rfam-id=mir-10;evalue=8.3e-06;model_end=73;id=1.1378;model_start=1;rfam-acc=RF00104;gc-content=0.39
+Scaffold224	Rfam	similarity	721817	721912	51.3	+	.	rfam-id=mir-672;evalue=1e-08;model_end=100;id=1.857;model_start=1;rfam-acc=RF00911;gc-content=0.31
+#unclassified overlap:[RF00929][721831/721831-721902] vs [RF00104][721817/721817-721912]
+Scaffold224	Rfam	similarity	721817	721912	51.3	+	.	rfam-id=mir-672;evalue=1e-08;model_end=100;id=1.857;model_start=1;rfam-acc=RF00911;gc-content=0.31
+Scaffold224	Rfam	similarity	721831	721902	54.1	-	.	rfam-id=mir-574;evalue=1.5e-08;model_end=77;id=1.765;model_start=1;rfam-acc=RF00929;gc-content=0.40
+#unclassified overlap:[RF00104][104956/104956-105030] vs [undef][104950/104950-105039]
+Scaffold2292	Rfam	similarity	104956	105030	40.1	-	.	rfam-id=mir-10;evalue=1.3e-05;model_end=73;id=1.1423;model_start=1;rfam-acc=RF00104;gc-content=0.45
+Scaffold2292	.	microRNA	104950	105039	.	+	.	ID=mir-10_3
+#unclassified overlap:[RF00451][5493/5493-5586] vs [RF00954][5490/5490-5589]
+Scaffold2400	Rfam	similarity	5493	5586	35.9	+	.	rfam-id=mir-395;evalue=0.00018;model_end=97;id=1.1732;model_start=1;rfam-acc=RF00451;gc-content=0.46
+Scaffold2400	Rfam	similarity	5490	5589	43.2	+	.	rfam-id=MIR1446;evalue=1.4e-06;model_end=105;id=1.1225;model_start=1;rfam-acc=RF00954;gc-content=0.43
+#unclassified overlap:[RF00074][376096/376096-376159] vs [undef][376082/376082-376181]
+Scaffold241	Rfam	similarity	376096	376159	70.1	+	.	rfam-id=mir-29;evalue=6e-13;model_end=71;id=1.415;model_start=1;rfam-acc=RF00074;gc-content=0.31
+Scaffold241	.	microRNA	376082	376181	.	-	.	ID=mir-3556_2
+#unclassified overlap:[RF01584][378497/378497-378630] vs [RF00396][378494/378494-378631]
+Scaffold2550	Rfam	similarity	378497	378630	42.3	-	.	rfam-id=snoR03;evalue=3.3e-05;model_end=153;id=1.1274;model_start=13;rfam-acc=RF01584;gc-content=0.37
+Scaffold2550	Rfam	similarity	378494	378631	48.8	-	.	rfam-id=SNORA13;evalue=1.4e-06;model_end=134;id=1.943;model_start=1;rfam-acc=RF00396;gc-content=0.37
+#unclassified overlap:[RF00396][378573/378573-378700] vs [RF01584][378494/378494-378631]
+Scaffold2550	Rfam	similarity	378573	378700	41.8	+	.	rfam-id=SNORA13;evalue=8.1e-05;model_end=134;id=1.1306;model_start=1;rfam-acc=RF00396;gc-content=0.39
+Scaffold2550	Rfam	similarity	378494	378631	48.8	-	.	rfam-id=SNORA13;evalue=1.4e-06;model_end=134;id=1.943;model_start=1;rfam-acc=RF00396;gc-content=0.37
+#unclassified overlap:[RF00876][657578/657578-657656] vs [RF02095][657578/657578-657654]
+Scaffold2611	Rfam	similarity	657578	657656	39.6	-	.	rfam-id=mir-684;evalue=0.00011;model_end=88;id=1.1458;model_start=1;rfam-acc=RF00876;gc-content=0.43
+Scaffold2611	Rfam	similarity	657578	657654	47.0	-	.	rfam-id=mir-2985-2;evalue=1.4e-07;model_end=81;id=1.1022;model_start=1;rfam-acc=RF02095;gc-content=0.44
+#unclassified overlap:[RF02095][212120/212120-212195] vs [RF00772][212114/212114-212185]
+Scaffold2685	Rfam	similarity	212120	212195	36.9	-	.	rfam-id=mir-2985-2;evalue=0.00016;model_end=81;id=1.1662;model_start=1;rfam-acc=RF02095;gc-content=0.54
+Scaffold2685	Rfam	similarity	212114	212185	40.2	-	.	rfam-id=mir-328;evalue=3.3e-05;model_end=84;id=1.1417;model_start=1;rfam-acc=RF00772;gc-content=0.60
+#unclassified overlap:[RF00802][212121/212121-212190] vs [RF02095][212114/212114-212185]
+Scaffold2685	Rfam	similarity	212121	212190	38.8	-	.	rfam-id=mir-207;evalue=0.0001;model_end=79;id=1.1522;model_start=1;rfam-acc=RF00802;gc-content=0.54
+Scaffold2685	Rfam	similarity	212114	212185	40.2	-	.	rfam-id=mir-328;evalue=3.3e-05;model_end=84;id=1.1417;model_start=1;rfam-acc=RF00772;gc-content=0.60
+#unclassified overlap:[RF01017][212124/212124-212187] vs [RF00802][212114/212114-212185]
+Scaffold2685	Rfam	similarity	212114	212185	40.2	-	.	rfam-id=mir-328;evalue=3.3e-05;model_end=84;id=1.1417;model_start=1;rfam-acc=RF00772;gc-content=0.60
+Scaffold2685	Rfam	similarity	212124	212187	43.8	-	.	rfam-id=mir-625;evalue=1.2e-06;model_end=86;id=1.1196;model_start=1;rfam-acc=RF01017;gc-content=0.59
+#unclassified overlap:[undef][389335/389335-389419] vs [RF00053][389330/389330-389419]
+Scaffold2827	Rfam	similarity	389330	389419	72.0	+	.	rfam-id=mir-7;evalue=2.3e-13;model_end=88;id=1.392;model_start=1;rfam-acc=RF00053;gc-content=0.54
+Scaffold2827	.	microRNA	389335	389419	.	-	.	ID=mir-3529_1
+#unclassified overlap:[RF00241][1848703/1848703-1848777] vs [undef][1848701/1848701-1848777]
+Scaffold2895	Rfam	similarity	1848703	1848777	38.7	+	.	rfam-id=mir-8;evalue=0.00017;model_end=76;id=1.1535;model_start=1;rfam-acc=RF00241;gc-content=0.40
+Scaffold2895	.	microRNA	1848701	1848777	.	-	.	ID=mir-200_2
+#unclassified overlap:[RF00704][527522/527522-527635] vs [RF00690][527513/527513-527645]
+Scaffold295	Rfam	similarity	527513	527645	42.7	-	.	rfam-id=MIR408;evalue=1.8e-06;model_end=126;id=1.1260;model_start=1;rfam-acc=RF00690;gc-content=0.36
+Scaffold295	Rfam	similarity	527522	527635	48.7	+	.	rfam-id=MIR397;evalue=6.4e-07;model_end=117;id=1.945;model_start=1;rfam-acc=RF00704;gc-content=0.42
+#unclassified overlap:[RF00742][527539/527539-527623] vs [RF00704][527524/527524-527637]
+Scaffold295	Rfam	similarity	527539	527623	43.2	-	.	rfam-id=MIR162_2;evalue=1.3e-06;model_end=91;id=1.1233;model_start=1;rfam-acc=RF00742;gc-content=0.44
+Scaffold295	Rfam	similarity	527524	527637	49.6	-	.	rfam-id=MIR397;evalue=3.6e-07;model_end=117;id=1.914;model_start=1;rfam-acc=RF00704;gc-content=0.42
+#unclassified overlap:[RF00857][527598/527598-527697] vs [RF00742][527524/527524-527637]
+Scaffold295	Rfam	similarity	527598	527697	40.6	+	.	rfam-id=mir-233;evalue=7e-06;model_end=99;id=1.1388;model_start=1;rfam-acc=RF00857;gc-content=0.38
+Scaffold295	Rfam	similarity	527524	527637	49.6	-	.	rfam-id=MIR397;evalue=3.6e-07;model_end=117;id=1.914;model_start=1;rfam-acc=RF00704;gc-content=0.42
+#unclassified overlap:[RF00896][461574/461574-461663] vs [RF02132][461559/461559-461678]
+Scaffold2996	Rfam	similarity	461559	461678	39.0	-	.	rfam-id=HOXB13-AS1_1;evalue=0.00021;model_end=136;id=1.1505;model_start=1;rfam-acc=RF02132;gc-content=0.37
+Scaffold2996	Rfam	similarity	461574	461663	55.8	-	.	rfam-id=mir-787;evalue=9.2e-11;model_end=92;id=1.720;model_start=1;rfam-acc=RF00896;gc-content=0.37
+#unclassified overlap:[RF00772][147404/147404-147468] vs [RF02095][147402/147402-147472]
+Scaffold3019	Rfam	similarity	147404	147468	36.2	-	.	rfam-id=mir-328;evalue=0.00048;model_end=84;id=1.1718;model_start=1;rfam-acc=RF00772;gc-content=0.58
+Scaffold3019	Rfam	similarity	147402	147472	39.6	+	.	rfam-id=mir-2985-2;evalue=2.4e-05;model_end=81;id=1.1456;model_start=1;rfam-acc=RF02095;gc-content=0.62
+#unclassified overlap:[RF00772][147415/147415-147479] vs [RF00772][147402/147402-147472]
+Scaffold3019	Rfam	similarity	147415	147479	38.2	+	.	rfam-id=mir-328;evalue=0.00013;model_end=84;id=1.1583;model_start=1;rfam-acc=RF00772;gc-content=0.57
+Scaffold3019	Rfam	similarity	147402	147472	39.6	+	.	rfam-id=mir-2985-2;evalue=2.4e-05;model_end=81;id=1.1456;model_start=1;rfam-acc=RF02095;gc-content=0.62
+#unclassified overlap:[RF01005][137327/137327-137477] vs [RF01265][137249/137249-137441]
+Scaffold3142	Rfam	similarity	137249	137441	42.3	+	.	rfam-id=snR42;evalue=1.6e-07;model_end=200;id=1.1273;model_start=21;rfam-acc=RF01265;gc-content=0.35
+Scaffold3142	Rfam	similarity	137327	137477	56.9	-	.	rfam-id=MIR530;evalue=1.4e-09;model_end=172;id=1.699;model_start=1;rfam-acc=RF01005;gc-content=0.30
+#unclassified overlap:[RF02095][32896/32896-32978] vs [RF00690][32874/32874-32999]
+Scaffold3181	Rfam	similarity	32896	32978	37.1	+	.	rfam-id=mir-2985-2;evalue=0.00015;model_end=81;id=1.1646;model_start=1;rfam-acc=RF02095;gc-content=0.48
+Scaffold3181	Rfam	similarity	32874	32999	45.0	-	.	rfam-id=MIR408;evalue=3.8e-07;model_end=126;id=1.1119;model_start=1;rfam-acc=RF00690;gc-content=0.44
+#unclassified overlap:[RF00942][32897/32897-32980] vs [RF02095][32874/32874-32999]
+Scaffold3181	Rfam	similarity	32897	32980	39.9	+	.	rfam-id=mir-1224;evalue=7.5e-05;model_end=86;id=1.1434;model_start=1;rfam-acc=RF00942;gc-content=0.50
+Scaffold3181	Rfam	similarity	32874	32999	45.0	-	.	rfam-id=MIR408;evalue=3.8e-07;model_end=126;id=1.1119;model_start=1;rfam-acc=RF00690;gc-content=0.44
+#unclassified overlap:[RF01017][32899/32899-32978] vs [RF00942][32874/32874-32999]
+Scaffold3181	Rfam	similarity	32899	32978	38.8	+	.	rfam-id=mir-625;evalue=3.8e-05;model_end=86;id=1.1519;model_start=1;rfam-acc=RF01017;gc-content=0.47
+Scaffold3181	Rfam	similarity	32874	32999	45.0	-	.	rfam-id=MIR408;evalue=3.8e-07;model_end=126;id=1.1119;model_start=1;rfam-acc=RF00690;gc-content=0.44
+#unclassified overlap:[RF02095][32900/32900-32981] vs [RF01017][32874/32874-32999]
+Scaffold3181	Rfam	similarity	32900	32981	38.0	-	.	rfam-id=mir-2985-2;evalue=7.4e-05;model_end=81;id=1.1592;model_start=1;rfam-acc=RF02095;gc-content=0.50
+Scaffold3181	Rfam	similarity	32874	32999	45.0	-	.	rfam-id=MIR408;evalue=3.8e-07;model_end=126;id=1.1119;model_start=1;rfam-acc=RF00690;gc-content=0.44
+#unclassified overlap:[RF00870][403304/403304-403379] vs [RF02095][403302/403302-403384]
+Scaffold334	Rfam	similarity	403302	403384	44.3	-	.	rfam-id=mir-2985-2;evalue=9.1e-07;model_end=81;id=1.1170;model_start=1;rfam-acc=RF02095;gc-content=0.31
+Scaffold334	Rfam	similarity	403304	403379	51.8	+	.	rfam-id=mir-423;evalue=4.7e-09;model_end=81;id=1.841;model_start=1;rfam-acc=RF00870;gc-content=0.34
+#unclassified overlap:[RF00857][403344/403344-403425] vs [RF00870][403304/403304-403379]
+Scaffold334	Rfam	similarity	403344	403425	42.1	+	.	rfam-id=mir-233;evalue=2.4e-06;model_end=99;id=1.1287;model_start=1;rfam-acc=RF00857;gc-content=0.34
+Scaffold334	Rfam	similarity	403304	403379	51.8	+	.	rfam-id=mir-423;evalue=4.7e-09;model_end=81;id=1.841;model_start=1;rfam-acc=RF00870;gc-content=0.34
+#unclassified overlap:[undef][17521/17521-17605] vs [RF00446][17518/17518-17604]
+Scaffold3456	Rfam	similarity	17518	17604	58.0	-	.	rfam-id=mir-133;evalue=2.4e-10;model_end=87;id=1.667;model_start=1;rfam-acc=RF00446;gc-content=0.43
+Scaffold3456	.	microRNA	17521	17605	.	+	.	ID=mir-133_1
+#unclassified overlap:[RF00767][924368/924368-924445] vs [RF00736][924362/924362-924451]
+Scaffold354	Rfam	similarity	924362	924451	42.2	+	.	rfam-id=mir-320;evalue=0.00012;model_end=82;id=1.1280;model_start=1;rfam-acc=RF00736;gc-content=0.40
+Scaffold354	Rfam	similarity	924368	924445	52.6	+	.	rfam-id=mir-150;evalue=1e-08;model_end=85;id=1.806;model_start=1;rfam-acc=RF00767;gc-content=0.46
+#unclassified overlap:[RF00834][59762/59762-59856] vs [RF02095][59757/59757-59855]
+Scaffold3588	Rfam	similarity	59762	59856	44.8	-	.	rfam-id=mir-268;evalue=7.5e-06;model_end=96;id=1.1127;model_start=1;rfam-acc=RF00834;gc-content=0.52
+Scaffold3588	Rfam	similarity	59757	59855	46.2	+	.	rfam-id=mir-2985-2;evalue=2.3e-07;model_end=81;id=1.1065;model_start=1;rfam-acc=RF02095;gc-content=0.55
+#unclassified overlap:[RF00879][59764/59764-59857] vs [RF00834][59757/59757-59855]
+Scaffold3588	Rfam	similarity	59764	59857	43.7	-	.	rfam-id=mir-615;evalue=0.00012;model_end=96;id=1.1201;model_start=1;rfam-acc=RF00879;gc-content=0.51
+Scaffold3588	Rfam	similarity	59757	59855	46.2	+	.	rfam-id=mir-2985-2;evalue=2.3e-07;model_end=81;id=1.1065;model_start=1;rfam-acc=RF02095;gc-content=0.55
+#unclassified overlap:[RF00802][59767/59767-59845] vs [RF00879][59757/59757-59855]
+Scaffold3588	Rfam	similarity	59757	59855	46.2	+	.	rfam-id=mir-2985-2;evalue=2.3e-07;model_end=81;id=1.1065;model_start=1;rfam-acc=RF02095;gc-content=0.55
+Scaffold3588	Rfam	similarity	59767	59845	47.8	+	.	rfam-id=mir-207;evalue=2.2e-07;model_end=79;id=1.979;model_start=1;rfam-acc=RF00802;gc-content=0.49
+#unclassified overlap:[RF00942][100998/100998-101068] vs [RF00772][100991/100991-101066]
+Scaffold37	Rfam	similarity	100998	101068	39.2	+	.	rfam-id=mir-1224;evalue=0.00012;model_end=86;id=1.1487;model_start=1;rfam-acc=RF00942;gc-content=0.45
+Scaffold37	Rfam	similarity	100991	101066	41.3	-	.	rfam-id=mir-328;evalue=1.6e-05;model_end=84;id=1.1332;model_start=1;rfam-acc=RF00772;gc-content=0.43
+#unclassified overlap:[RF00802][101000/101000-101068] vs [RF00942][100991/100991-101066]
+Scaffold37	Rfam	similarity	101000	101068	36.8	-	.	rfam-id=mir-207;evalue=0.00038;model_end=79;id=1.1669;model_start=1;rfam-acc=RF00802;gc-content=0.46
+Scaffold37	Rfam	similarity	100991	101066	41.3	-	.	rfam-id=mir-328;evalue=1.6e-05;model_end=84;id=1.1332;model_start=1;rfam-acc=RF00772;gc-content=0.43
+#unclassified overlap:[RF00772][101000/101000-101079] vs [RF00802][100991/100991-101066]
+Scaffold37	Rfam	similarity	100991	101066	41.3	-	.	rfam-id=mir-328;evalue=1.6e-05;model_end=84;id=1.1332;model_start=1;rfam-acc=RF00772;gc-content=0.43
+Scaffold37	Rfam	similarity	101000	101079	44.1	+	.	rfam-id=mir-328;evalue=2.4e-06;model_end=84;id=1.1183;model_start=1;rfam-acc=RF00772;gc-content=0.47
+#unclassified overlap:[RF00802][101002/101002-101064] vs [RF00772][101000/101000-101079]
+Scaffold37	Rfam	similarity	101002	101064	43.2	+	.	rfam-id=mir-207;evalue=5e-06;model_end=79;id=1.1227;model_start=1;rfam-acc=RF00802;gc-content=0.51
+Scaffold37	Rfam	similarity	101000	101079	44.1	+	.	rfam-id=mir-328;evalue=2.4e-06;model_end=84;id=1.1183;model_start=1;rfam-acc=RF00772;gc-content=0.47
+#unclassified overlap:[RF01017][339437/339437-339521] vs [RF00772][339434/339434-339514]
+Scaffold3754	Rfam	similarity	339434	339514	40.3	-	.	rfam-id=mir-328;evalue=3.1e-05;model_end=84;id=1.1408;model_start=1;rfam-acc=RF00772;gc-content=0.60
+Scaffold3754	Rfam	similarity	339437	339521	62.4	+	.	rfam-id=mir-625;evalue=2.9e-12;model_end=86;id=1.566;model_start=1;rfam-acc=RF01017;gc-content=0.59
+#unclassified overlap:[RF00802][339441/339441-339516] vs [RF01017][339437/339437-339521]
+Scaffold3754	Rfam	similarity	339441	339516	47.9	+	.	rfam-id=mir-207;evalue=2.1e-07;model_end=79;id=1.975;model_start=1;rfam-acc=RF00802;gc-content=0.62
+Scaffold3754	Rfam	similarity	339437	339521	62.4	+	.	rfam-id=mir-625;evalue=2.9e-12;model_end=86;id=1.566;model_start=1;rfam-acc=RF01017;gc-content=0.59
+#unclassified overlap:[RF01013][339443/339443-339527] vs [RF00802][339437/339437-339521]
+Scaffold3754	Rfam	similarity	339443	339527	59.6	+	.	rfam-id=mir-577;evalue=3.7e-12;model_end=96;id=1.627;model_start=1;rfam-acc=RF01013;gc-content=0.54
+Scaffold3754	Rfam	similarity	339437	339521	62.4	+	.	rfam-id=mir-625;evalue=2.9e-12;model_end=86;id=1.566;model_start=1;rfam-acc=RF01017;gc-content=0.59
+#unclassified overlap:[RF01017][339444/339444-339515] vs [RF01013][339437/339437-339521]
+Scaffold3754	Rfam	similarity	339444	339515	55.6	-	.	rfam-id=mir-625;evalue=3.2e-10;model_end=86;id=1.724;model_start=1;rfam-acc=RF01017;gc-content=0.61
+Scaffold3754	Rfam	similarity	339437	339521	62.4	+	.	rfam-id=mir-625;evalue=2.9e-12;model_end=86;id=1.566;model_start=1;rfam-acc=RF01017;gc-content=0.59
+#unclassified overlap:[RF00772][339444/339444-339526] vs [RF01017][339437/339437-339521]
+Scaffold3754	Rfam	similarity	339444	339526	42.0	+	.	rfam-id=mir-328;evalue=1e-05;model_end=84;id=1.1294;model_start=1;rfam-acc=RF00772;gc-content=0.54
+Scaffold3754	Rfam	similarity	339437	339521	62.4	+	.	rfam-id=mir-625;evalue=2.9e-12;model_end=86;id=1.566;model_start=1;rfam-acc=RF01017;gc-content=0.59
+#unclassified overlap:[RF00954][339483/339483-339584] vs [RF00772][339437/339437-339521]
+Scaffold3754	Rfam	similarity	339483	339584	56.9	+	.	rfam-id=MIR1446;evalue=8.5e-11;model_end=105;id=1.700;model_start=1;rfam-acc=RF00954;gc-content=0.46
+Scaffold3754	Rfam	similarity	339437	339521	62.4	+	.	rfam-id=mir-625;evalue=2.9e-12;model_end=86;id=1.566;model_start=1;rfam-acc=RF01017;gc-content=0.59
+#unclassified overlap:[RF01064][339486/339486-339581] vs [RF00954][339437/339437-339521]
+Scaffold3754	Rfam	similarity	339486	339581	51.0	+	.	rfam-id=mir-253;evalue=1e-09;model_end=100;id=1.873;model_start=1;rfam-acc=RF01064;gc-content=0.49
+Scaffold3754	Rfam	similarity	339437	339521	62.4	+	.	rfam-id=mir-625;evalue=2.9e-12;model_end=86;id=1.566;model_start=1;rfam-acc=RF01017;gc-content=0.59
+#unclassified overlap:[RF00340][118995/118995-119123] vs [RF00426][118994/118994-119121]
+Scaffold3785	Rfam	similarity	118995	119123	44.6	+	.	rfam-id=SNORA36;evalue=3.9e-05;model_end=132;id=1.1146;model_start=1;rfam-acc=RF00340;gc-content=0.34
+Scaffold3785	Rfam	similarity	118994	119121	47.5	+	.	rfam-id=SCARNA15;evalue=5.7e-06;model_end=127;id=1.996;model_start=1;rfam-acc=RF00426;gc-content=0.34
+#unclassified overlap:[RF01017][225958/225958-226025] vs [RF00772][225957/225957-226036]
+Scaffold380	Rfam	similarity	225957	226036	46.0	+	.	rfam-id=mir-328;evalue=6.7e-07;model_end=84;id=1.1077;model_start=1;rfam-acc=RF00772;gc-content=0.46
+Scaffold380	Rfam	similarity	225958	226025	54.3	+	.	rfam-id=mir-625;evalue=7.9e-10;model_end=86;id=1.758;model_start=1;rfam-acc=RF01017;gc-content=0.53
+#unclassified overlap:[RF00857][226002/226002-226100] vs [RF01017][225958/225958-226025]
+Scaffold380	Rfam	similarity	226002	226100	37.2	+	.	rfam-id=mir-233;evalue=8e-05;model_end=99;id=1.1643;model_start=1;rfam-acc=RF00857;gc-content=0.40
+Scaffold380	Rfam	similarity	225958	226025	54.3	+	.	rfam-id=mir-625;evalue=7.9e-10;model_end=86;id=1.758;model_start=1;rfam-acc=RF01017;gc-content=0.53
+#unclassified overlap:[RF00802][438633/438633-438714] vs [RF00772][438626/438626-438710]
+Scaffold385	Rfam	similarity	438633	438714	38.1	+	.	rfam-id=mir-207;evalue=0.00016;model_end=79;id=1.1588;model_start=1;rfam-acc=RF00802;gc-content=0.71
+Scaffold385	Rfam	similarity	438626	438710	43.2	-	.	rfam-id=mir-328;evalue=4.5e-06;model_end=84;id=1.1232;model_start=1;rfam-acc=RF00772;gc-content=0.71
+#unclassified overlap:[RF00802][438633/438633-438714] vs [RF00802][438626/438626-438710]
+Scaffold385	Rfam	similarity	438633	438714	38.1	-	.	rfam-id=mir-207;evalue=0.00016;model_end=79;id=1.1589;model_start=1;rfam-acc=RF00802;gc-content=0.71
+Scaffold385	Rfam	similarity	438626	438710	43.2	-	.	rfam-id=mir-328;evalue=4.5e-06;model_end=84;id=1.1232;model_start=1;rfam-acc=RF00772;gc-content=0.71
+#unclassified overlap:[RF00772][438637/438637-438721] vs [RF00802][438626/438626-438710]
+Scaffold385	Rfam	similarity	438626	438710	43.2	-	.	rfam-id=mir-328;evalue=4.5e-06;model_end=84;id=1.1232;model_start=1;rfam-acc=RF00772;gc-content=0.71
+Scaffold385	Rfam	similarity	438626	438710	43.2	-	.	rfam-id=mir-328;evalue=4.5e-06;model_end=84;id=1.1232;model_start=1;rfam-acc=RF00772;gc-content=0.71
+#unclassified overlap:[RF01017][1643654/1643654-1643733] vs [RF00772][1643649/1643649-1643732]
+Scaffold389	Rfam	similarity	1643649	1643732	42.5	-	.	rfam-id=mir-328;evalue=7e-06;model_end=84;id=1.1264;model_start=1;rfam-acc=RF00772;gc-content=0.67
+Scaffold389	Rfam	similarity	1643654	1643733	62.5	+	.	rfam-id=mir-625;evalue=2.6e-12;model_end=86;id=1.564;model_start=1;rfam-acc=RF01017;gc-content=0.65
+#unclassified overlap:[RF00772][1643655/1643655-1643743] vs [RF01017][1643654/1643654-1643733]
+Scaffold389	Rfam	similarity	1643655	1643743	53.5	+	.	rfam-id=mir-328;evalue=4.6e-09;model_end=84;id=1.779;model_start=1;rfam-acc=RF00772;gc-content=0.57
+Scaffold389	Rfam	similarity	1643654	1643733	62.5	+	.	rfam-id=mir-625;evalue=2.6e-12;model_end=86;id=1.564;model_start=1;rfam-acc=RF01017;gc-content=0.65
+#unclassified overlap:[RF00802][1643656/1643656-1643729] vs [RF00772][1643654/1643654-1643733]
+Scaffold389	Rfam	similarity	1643656	1643729	46.9	+	.	rfam-id=mir-207;evalue=4.3e-07;model_end=79;id=1.1027;model_start=1;rfam-acc=RF00802;gc-content=0.62
+Scaffold389	Rfam	similarity	1643654	1643733	62.5	+	.	rfam-id=mir-625;evalue=2.6e-12;model_end=86;id=1.564;model_start=1;rfam-acc=RF01017;gc-content=0.65
+#unclassified overlap:[RF00870][1643656/1643656-1643731] vs [RF00802][1643654/1643654-1643733]
+Scaffold389	Rfam	similarity	1643656	1643731	52.5	-	.	rfam-id=mir-423;evalue=2.9e-09;model_end=81;id=1.815;model_start=1;rfam-acc=RF00870;gc-content=0.63
+Scaffold389	Rfam	similarity	1643654	1643733	62.5	+	.	rfam-id=mir-625;evalue=2.6e-12;model_end=86;id=1.564;model_start=1;rfam-acc=RF01017;gc-content=0.65
+#unclassified overlap:[RF00802][1643656/1643656-1643733] vs [RF00870][1643654/1643654-1643733]
+Scaffold389	Rfam	similarity	1643656	1643733	49.1	-	.	rfam-id=mir-207;evalue=9.5e-08;model_end=79;id=1.929;model_start=1;rfam-acc=RF00802;gc-content=0.64
+Scaffold389	Rfam	similarity	1643654	1643733	62.5	+	.	rfam-id=mir-625;evalue=2.6e-12;model_end=86;id=1.564;model_start=1;rfam-acc=RF01017;gc-content=0.65
+#unclassified overlap:[RF00942][1643661/1643661-1643726] vs [RF00802][1643654/1643654-1643733]
+Scaffold389	Rfam	similarity	1643661	1643726	38.5	+	.	rfam-id=mir-1224;evalue=0.00019;model_end=86;id=1.1561;model_start=1;rfam-acc=RF00942;gc-content=0.58
+Scaffold389	Rfam	similarity	1643654	1643733	62.5	+	.	rfam-id=mir-625;evalue=2.6e-12;model_end=86;id=1.564;model_start=1;rfam-acc=RF01017;gc-content=0.65
+#unclassified overlap:[RF01017][971527/971527-971612] vs [RF00879][971525/971525-971616]
+Scaffold3941	Rfam	similarity	971525	971616	44.5	-	.	rfam-id=mir-615;evalue=7.7e-05;model_end=96;id=1.1159;model_start=1;rfam-acc=RF00879;gc-content=0.62
+Scaffold3941	Rfam	similarity	971527	971612	56.3	+	.	rfam-id=mir-625;evalue=2e-10;model_end=86;id=1.712;model_start=1;rfam-acc=RF01017;gc-content=0.60
+#unclassified overlap:[RF00870][971530/971530-971609] vs [RF01017][971527/971527-971612]
+Scaffold3941	Rfam	similarity	971530	971609	43.2	-	.	rfam-id=mir-423;evalue=2e-06;model_end=81;id=1.1235;model_start=1;rfam-acc=RF00870;gc-content=0.59
+Scaffold3941	Rfam	similarity	971527	971612	56.3	+	.	rfam-id=mir-625;evalue=2e-10;model_end=86;id=1.712;model_start=1;rfam-acc=RF01017;gc-content=0.60
+#unclassified overlap:[RF00870][971530/971530-971609] vs [RF00870][971527/971527-971612]
+Scaffold3941	Rfam	similarity	971530	971609	42.2	+	.	rfam-id=mir-423;evalue=4.2e-06;model_end=81;id=1.1282;model_start=1;rfam-acc=RF00870;gc-content=0.59
+Scaffold3941	Rfam	similarity	971527	971612	56.3	+	.	rfam-id=mir-625;evalue=2e-10;model_end=86;id=1.712;model_start=1;rfam-acc=RF01017;gc-content=0.60
+#unclassified overlap:[RF00802][971531/971531-971608] vs [RF00870][971527/971527-971612]
+Scaffold3941	Rfam	similarity	971531	971608	41.1	+	.	rfam-id=mir-207;evalue=2.1e-05;model_end=79;id=1.1357;model_start=1;rfam-acc=RF00802;gc-content=0.58
+Scaffold3941	Rfam	similarity	971527	971612	56.3	+	.	rfam-id=mir-625;evalue=2e-10;model_end=86;id=1.712;model_start=1;rfam-acc=RF01017;gc-content=0.60
+#unclassified overlap:[RF01578][2260266/2260266-2260466] vs [RF01265][2260247/2260247-2260465]
+Scaffold401	Rfam	similarity	2260266	2260466	35.7	-	.	rfam-id=RUF1;evalue=1.8e-05;model_end=264;id=1.1742;model_start=1;rfam-acc=RF01578;gc-content=0.30
+Scaffold401	Rfam	similarity	2260247	2260465	42.1	-	.	rfam-id=snR42;evalue=1.8e-07;model_end=349;id=1.1289;model_start=1;rfam-acc=RF01265;gc-content=0.32
+#unclassified overlap:[RF00834][2260382/2260382-2260480] vs [RF01578][2260247/2260247-2260465]
+Scaffold401	Rfam	similarity	2260382	2260480	39.2	+	.	rfam-id=mir-268;evalue=0.00027;model_end=96;id=1.1493;model_start=1;rfam-acc=RF00834;gc-content=0.30
+Scaffold401	Rfam	similarity	2260247	2260465	42.1	-	.	rfam-id=snR42;evalue=1.8e-07;model_end=349;id=1.1289;model_start=1;rfam-acc=RF01265;gc-content=0.32
+#unclassified overlap:[RF01859][221230/221230-221357] vs [RF01017][221203/221203-221274]
+Scaffold432	Rfam	similarity	221230	221357	49.6	-	.	rfam-id=Phe_leader;evalue=3.3e-07;model_end=126;id=1.913;model_start=1;rfam-acc=RF01859;gc-content=0.48
+Scaffold432	Rfam	similarity	221203	221274	52.4	+	.	rfam-id=mir-625;evalue=2.9e-09;model_end=86;id=1.816;model_start=1;rfam-acc=RF01017;gc-content=0.42
+#unclassified overlap:[RF00870][494489/494489-494560] vs [RF01017][494484/494484-494565]
+Scaffold4349	Rfam	similarity	494489	494560	41.2	+	.	rfam-id=mir-423;evalue=8.3e-06;model_end=81;id=1.1346;model_start=1;rfam-acc=RF00870;gc-content=0.42
+Scaffold4349	Rfam	similarity	494484	494565	52.7	+	.	rfam-id=mir-625;evalue=2.3e-09;model_end=86;id=1.803;model_start=1;rfam-acc=RF01017;gc-content=0.41
+#unclassified overlap:[RF00752][494493/494493-494558] vs [RF00870][494484/494484-494565]
+Scaffold4349	Rfam	similarity	494493	494558	41.2	+	.	rfam-id=mir-14;evalue=9.2e-05;model_end=67;id=1.1347;model_start=1;rfam-acc=RF00752;gc-content=0.39
+Scaffold4349	Rfam	similarity	494484	494565	52.7	+	.	rfam-id=mir-625;evalue=2.3e-09;model_end=86;id=1.803;model_start=1;rfam-acc=RF01017;gc-content=0.41
+#unclassified overlap:[RF02095][342745/342745-342817] vs [RF00772][342742/342742-342812]
+Scaffold440	Rfam	similarity	342745	342817	40.0	+	.	rfam-id=mir-2985-2;evalue=1.9e-05;model_end=81;id=1.1431;model_start=1;rfam-acc=RF02095;gc-content=0.49
+Scaffold440	Rfam	similarity	342742	342812	41.3	-	.	rfam-id=mir-328;evalue=1.6e-05;model_end=84;id=1.1335;model_start=1;rfam-acc=RF00772;gc-content=0.54
+#unclassified overlap:[RF00772][342745/342745-342828] vs [RF02095][342742/342742-342812]
+Scaffold440	Rfam	similarity	342742	342812	41.3	-	.	rfam-id=mir-328;evalue=1.6e-05;model_end=84;id=1.1335;model_start=1;rfam-acc=RF00772;gc-content=0.54
+Scaffold440	Rfam	similarity	342745	342828	44.7	+	.	rfam-id=mir-328;evalue=1.6e-06;model_end=84;id=1.1140;model_start=1;rfam-acc=RF00772;gc-content=0.45
+#unclassified overlap:[RF02095][342746/342746-342821] vs [RF00772][342745/342745-342828]
+Scaffold440	Rfam	similarity	342746	342821	39.3	-	.	rfam-id=mir-2985-2;evalue=3.2e-05;model_end=81;id=1.1479;model_start=1;rfam-acc=RF02095;gc-content=0.49
+Scaffold440	Rfam	similarity	342745	342828	44.7	+	.	rfam-id=mir-328;evalue=1.6e-06;model_end=84;id=1.1140;model_start=1;rfam-acc=RF00772;gc-content=0.45
+#unclassified overlap:[RF00802][342750/342750-342813] vs [RF02095][342745/342745-342828]
+Scaffold440	Rfam	similarity	342745	342828	44.7	+	.	rfam-id=mir-328;evalue=1.6e-06;model_end=84;id=1.1140;model_start=1;rfam-acc=RF00772;gc-content=0.45
+Scaffold440	Rfam	similarity	342750	342813	46.7	+	.	rfam-id=mir-207;evalue=4.9e-07;model_end=79;id=1.1043;model_start=1;rfam-acc=RF00802;gc-content=0.56
+#unclassified overlap:[RF00954][342777/342777-342880] vs [RF00802][342750/342750-342813]
+Scaffold440	Rfam	similarity	342750	342813	46.7	+	.	rfam-id=mir-207;evalue=4.9e-07;model_end=79;id=1.1043;model_start=1;rfam-acc=RF00802;gc-content=0.56
+Scaffold440	Rfam	similarity	342777	342880	52.4	+	.	rfam-id=MIR1446;evalue=2e-09;model_end=105;id=1.819;model_start=1;rfam-acc=RF00954;gc-content=0.40
+#unclassified overlap:[RF01064][1054438/1054438-1054536] vs [RF01043][1054409/1054409-1054558]
+Scaffold454	Rfam	similarity	1054409	1054558	49.0	-	.	rfam-id=MIR1023;evalue=6.5e-08;model_end=173;id=1.934;model_start=1;rfam-acc=RF01043;gc-content=0.53
+Scaffold454	Rfam	similarity	1054438	1054536	50.5	-	.	rfam-id=mir-253;evalue=1.4e-09;model_end=100;id=1.888;model_start=1;rfam-acc=RF01064;gc-content=0.61
+#unclassified overlap:[RF00954][1054441/1054441-1054534] vs [RF01064][1054438/1054438-1054536]
+Scaffold454	Rfam	similarity	1054441	1054534	45.6	-	.	rfam-id=MIR1446;evalue=2.5e-07;model_end=105;id=1.1089;model_start=1;rfam-acc=RF00954;gc-content=0.62
+Scaffold454	Rfam	similarity	1054438	1054536	50.5	-	.	rfam-id=mir-253;evalue=1.4e-09;model_end=100;id=1.888;model_start=1;rfam-acc=RF01064;gc-content=0.61
+#unclassified overlap:[RF01859][687274/687274-687417] vs [RF01017][687259/687259-687342]
+Scaffold491	Rfam	similarity	687274	687417	47.3	-	.	rfam-id=Phe_leader;evalue=1.3e-06;model_end=126;id=1.1006;model_start=1;rfam-acc=RF01859;gc-content=0.34
+Scaffold491	Rfam	similarity	687259	687342	61.2	+	.	rfam-id=mir-625;evalue=6.4e-12;model_end=86;id=1.598;model_start=1;rfam-acc=RF01017;gc-content=0.36
+#unclassified overlap:[RF00925][687302/687302-687419] vs [RF01859][687259/687259-687342]
+Scaffold491	Rfam	similarity	687259	687342	61.2	+	.	rfam-id=mir-625;evalue=6.4e-12;model_end=86;id=1.598;model_start=1;rfam-acc=RF01017;gc-content=0.36
+Scaffold491	Rfam	similarity	687302	687419	61.4	-	.	rfam-id=MIR1027;evalue=1.6e-12;model_end=133;id=1.587;model_start=16;rfam-acc=RF00925;gc-content=0.39
+#unclassified overlap:[RF01859][687310/687310-687453] vs [RF00925][687302/687302-687419]
+Scaffold491	Rfam	similarity	687310	687453	47.3	+	.	rfam-id=Phe_leader;evalue=1.3e-06;model_end=126;id=1.1005;model_start=1;rfam-acc=RF01859;gc-content=0.34
+Scaffold491	Rfam	similarity	687302	687419	61.4	-	.	rfam-id=MIR1027;evalue=1.6e-12;model_end=133;id=1.587;model_start=16;rfam-acc=RF00925;gc-content=0.39
+#unclassified overlap:[RF00954][687313/687313-687414] vs [RF01859][687302/687302-687419]
+Scaffold491	Rfam	similarity	687302	687419	61.4	-	.	rfam-id=MIR1027;evalue=1.6e-12;model_end=133;id=1.587;model_start=16;rfam-acc=RF00925;gc-content=0.39
+Scaffold491	Rfam	similarity	687313	687414	65.3	+	.	rfam-id=MIR1446;evalue=2.2e-13;model_end=105;id=1.492;model_start=1;rfam-acc=RF00954;gc-content=0.43
+#unclassified overlap:[RF00857][687315/687315-687411] vs [RF00954][687313/687313-687414]
+Scaffold491	Rfam	similarity	687315	687411	58.1	+	.	rfam-id=mir-233;evalue=3.2e-11;model_end=99;id=1.665;model_start=1;rfam-acc=RF00857;gc-content=0.41
+Scaffold491	Rfam	similarity	687313	687414	65.3	+	.	rfam-id=MIR1446;evalue=2.2e-13;model_end=105;id=1.492;model_start=1;rfam-acc=RF00954;gc-content=0.43
+#unclassified overlap:[RF01064][687317/687317-687409] vs [RF00857][687313/687313-687414]
+Scaffold491	Rfam	similarity	687317	687409	63.3	-	.	rfam-id=mir-253;evalue=1e-13;model_end=100;id=1.548;model_start=1;rfam-acc=RF01064;gc-content=0.43
+Scaffold491	Rfam	similarity	687313	687414	65.3	+	.	rfam-id=MIR1446;evalue=2.2e-13;model_end=105;id=1.492;model_start=1;rfam-acc=RF00954;gc-content=0.43
+#unclassified overlap:[RF01064][687318/687318-687410] vs [RF01064][687313/687313-687414]
+Scaffold491	Rfam	similarity	687318	687410	63.3	+	.	rfam-id=mir-253;evalue=1e-13;model_end=100;id=1.547;model_start=1;rfam-acc=RF01064;gc-content=0.43
+Scaffold491	Rfam	similarity	687313	687414	65.3	+	.	rfam-id=MIR1446;evalue=2.2e-13;model_end=105;id=1.492;model_start=1;rfam-acc=RF00954;gc-content=0.43
+#unclassified overlap:[RF01017][687385/687385-687468] vs [RF01064][687313/687313-687414]
+Scaffold491	Rfam	similarity	687385	687468	61.2	+	.	rfam-id=mir-625;evalue=6.4e-12;model_end=86;id=1.599;model_start=1;rfam-acc=RF01017;gc-content=0.36
+Scaffold491	Rfam	similarity	687313	687414	65.3	+	.	rfam-id=MIR1446;evalue=2.2e-13;model_end=105;id=1.492;model_start=1;rfam-acc=RF00954;gc-content=0.43
+#unclassified overlap:[RF00857][687441/687441-687537] vs [RF00954][687440/687440-687545]
+Scaffold491	Rfam	similarity	687441	687537	44.7	+	.	rfam-id=mir-233;evalue=3.9e-07;model_end=99;id=1.1144;model_start=1;rfam-acc=RF00857;gc-content=0.46
+Scaffold491	Rfam	similarity	687440	687545	49.0	+	.	rfam-id=MIR1446;evalue=2.4e-08;model_end=105;id=1.932;model_start=1;rfam-acc=RF00954;gc-content=0.45
+#unclassified overlap:[RF01064][687443/687443-687537] vs [RF00857][687440/687440-687545]
+Scaffold491	Rfam	similarity	687440	687545	49.0	+	.	rfam-id=MIR1446;evalue=2.4e-08;model_end=105;id=1.932;model_start=1;rfam-acc=RF00954;gc-content=0.45
+Scaffold491	Rfam	similarity	687443	687537	52.0	+	.	rfam-id=mir-253;evalue=4.8e-10;model_end=100;id=1.830;model_start=1;rfam-acc=RF01064;gc-content=0.47
+#unclassified overlap:[RF00857][687446/687446-687538] vs [RF01064][687443/687443-687537]
+Scaffold491	Rfam	similarity	687446	687538	38.8	-	.	rfam-id=mir-233;evalue=2.5e-05;model_end=99;id=1.1526;model_start=1;rfam-acc=RF00857;gc-content=0.48
+Scaffold491	Rfam	similarity	687443	687537	52.0	+	.	rfam-id=mir-253;evalue=4.8e-10;model_end=100;id=1.830;model_start=1;rfam-acc=RF01064;gc-content=0.47
+#unclassified overlap:[RF01017][106701/106701-106780] vs [RF00771][106701/106701-106779]
+Scaffold5056	Rfam	similarity	106701	106779	43.8	-	.	rfam-id=mir-185;evalue=5.8e-06;model_end=81;id=1.1195;model_start=1;rfam-acc=RF00771;gc-content=0.80
+Scaffold5056	Rfam	similarity	106701	106780	51.8	+	.	rfam-id=mir-625;evalue=4.5e-09;model_end=86;id=1.838;model_start=1;rfam-acc=RF01017;gc-content=0.80
+#unclassified overlap:[RF00772][106703/106703-106789] vs [RF01017][106701/106701-106780]
+Scaffold5056	Rfam	similarity	106703	106789	41.0	+	.	rfam-id=mir-328;evalue=1.9e-05;model_end=84;id=1.1359;model_start=1;rfam-acc=RF00772;gc-content=0.74
+Scaffold5056	Rfam	similarity	106701	106780	51.8	+	.	rfam-id=mir-625;evalue=4.5e-09;model_end=86;id=1.838;model_start=1;rfam-acc=RF01017;gc-content=0.80
+#unclassified overlap:[RF00771][106706/106706-106776] vs [RF00772][106701/106701-106780]
+Scaffold5056	Rfam	similarity	106706	106776	38.4	+	.	rfam-id=mir-185;evalue=0.0002;model_end=81;id=1.1565;model_start=1;rfam-acc=RF00771;gc-content=0.77
+Scaffold5056	Rfam	similarity	106701	106780	51.8	+	.	rfam-id=mir-625;evalue=4.5e-09;model_end=86;id=1.838;model_start=1;rfam-acc=RF01017;gc-content=0.80
+#unclassified overlap:[RF00074][172683/172683-172746] vs [undef][172670/172670-172767]
+Scaffold5544	Rfam	similarity	172683	172746	67.9	+	.	rfam-id=mir-29;evalue=2.4e-12;model_end=71;id=1.457;model_start=1;rfam-acc=RF00074;gc-content=0.41
+Scaffold5544	.	microRNA	172670	172767	.	-	.	ID=mir-3556_1
+#unclassified overlap:[RF00929][31923/31923-31996] vs [RF00911][31906/31906-32004]
+Scaffold5558	Rfam	similarity	31906	32004	41.1	+	.	rfam-id=mir-672;evalue=1.1e-05;model_end=100;id=1.1353;model_start=1;rfam-acc=RF00911;gc-content=0.38
+Scaffold5558	Rfam	similarity	31923	31996	48.9	+	.	rfam-id=mir-574;evalue=4.3e-07;model_end=77;id=1.937;model_start=1;rfam-acc=RF00929;gc-content=0.42
+#unclassified overlap:[RF00796][118091/118091-118202] vs [RF00690][118085/118085-118197]
+Scaffold5588	Rfam	similarity	118085	118197	43.2	-	.	rfam-id=MIR408;evalue=1.3e-06;model_end=126;id=1.1228;model_start=1;rfam-acc=RF00690;gc-content=0.39
+Scaffold5588	Rfam	similarity	118091	118202	52.2	+	.	rfam-id=mir-48;evalue=5.1e-09;model_end=113;id=1.824;model_start=1;rfam-acc=RF00796;gc-content=0.39
+#unclassified overlap:[RF00733][170576/170576-170656] vs [RF02010][170556/170556-170672]
+Scaffold5854	Rfam	similarity	170556	170672	57.1	+	.	rfam-id=mir-3180;evalue=4.8e-10;model_end=114;id=1.692;model_start=1;rfam-acc=RF02010;gc-content=0.46
+Scaffold5854	Rfam	similarity	170576	170656	59.1	+	.	rfam-id=mir-296;evalue=2.1e-10;model_end=80;id=1.638;model_start=1;rfam-acc=RF00733;gc-content=0.53
+#unclassified overlap:[undef][208334/208334-208423] vs [RF00659][208331/208331-208423]
+Scaffold628	Rfam	similarity	208331	208423	39.4	-	.	rfam-id=mir-365;evalue=0.00016;model_end=93;id=1.1470;model_start=1;rfam-acc=RF00659;gc-content=0.43
+Scaffold628	.	microRNA	208334	208423	.	+	.	ID=mir-365_1
+#unclassified overlap:[RF00684][340563/340563-340636] vs [undef][340551/340551-340639]
+Scaffold653	Rfam	similarity	340563	340636	93.8	-	.	rfam-id=mir-122;evalue=3.2e-22;model_end=74;id=1.162;model_start=1;rfam-acc=RF00684;gc-content=0.45
+Scaffold653	.	microRNA	340551	340639	.	+	.	ID=mir-3591_1
+#unclassified overlap:[RF00780][217596/217596-217696] vs [RF00954][217592/217592-217701]
+Scaffold672	Rfam	similarity	217596	217696	44.0	+	.	rfam-id=MIR477;evalue=1.9e-06;model_end=99;id=1.1187;model_start=1;rfam-acc=RF00780;gc-content=0.35
+Scaffold672	Rfam	similarity	217592	217701	58.4	+	.	rfam-id=MIR1446;evalue=3e-11;model_end=105;id=1.658;model_start=1;rfam-acc=RF00954;gc-content=0.37
+#unclassified overlap:[RF00857][217601/217601-217692] vs [RF00780][217592/217592-217701]
+Scaffold672	Rfam	similarity	217601	217692	46.3	+	.	rfam-id=mir-233;evalue=1.3e-07;model_end=99;id=1.1061;model_start=1;rfam-acc=RF00857;gc-content=0.37
+Scaffold672	Rfam	similarity	217592	217701	58.4	+	.	rfam-id=MIR1446;evalue=3e-11;model_end=105;id=1.658;model_start=1;rfam-acc=RF00954;gc-content=0.37
+#unclassified overlap:[RF00780][217604/217604-217690] vs [RF00857][217592/217592-217701]
+Scaffold672	Rfam	similarity	217604	217690	44.0	-	.	rfam-id=MIR477;evalue=1.8e-06;model_end=99;id=1.1188;model_start=1;rfam-acc=RF00780;gc-content=0.39
+Scaffold672	Rfam	similarity	217592	217701	58.4	+	.	rfam-id=MIR1446;evalue=3e-11;model_end=105;id=1.658;model_start=1;rfam-acc=RF00954;gc-content=0.37
+#unclassified overlap:[RF01024][217606/217606-217687] vs [RF00780][217592/217592-217701]
+Scaffold672	Rfam	similarity	217606	217687	57.3	+	.	rfam-id=mir-944;evalue=1.3e-10;model_end=88;id=1.688;model_start=1;rfam-acc=RF01024;gc-content=0.41
+Scaffold672	Rfam	similarity	217592	217701	58.4	+	.	rfam-id=MIR1446;evalue=3e-11;model_end=105;id=1.658;model_start=1;rfam-acc=RF00954;gc-content=0.37
+#unclassified overlap:[RF01017][1265498/1265498-1265577] vs [RF00772][1265485/1265485-1265566]
+Scaffold681	Rfam	similarity	1265485	1265566	38.6	-	.	rfam-id=mir-328;evalue=9.8e-05;model_end=84;id=1.1547;model_start=1;rfam-acc=RF00772;gc-content=0.59
+Scaffold681	Rfam	similarity	1265498	1265577	41.6	-	.	rfam-id=mir-625;evalue=5.5e-06;model_end=86;id=1.1317;model_start=1;rfam-acc=RF01017;gc-content=0.64
+#unclassified overlap:[RF02149][20820/20820-20911] vs [RF01017][20756/20756-20840]
+Scaffold713	Rfam	similarity	20820	20911	34.8	-	.	rfam-id=MESTIT1_2;evalue=5.1e-05;model_end=207;id=1.1798;model_start=106;rfam-acc=RF02149;gc-content=0.40
+Scaffold713	Rfam	similarity	20756	20840	53.7	+	.	rfam-id=mir-625;evalue=1.2e-09;model_end=86;id=1.777;model_start=1;rfam-acc=RF01017;gc-content=0.45
+#unclassified overlap:[RF00772][286090/286090-286173] vs [RF00760][286089/286089-286181]
+Scaffold722	Rfam	similarity	286090	286173	45.2	-	.	rfam-id=mir-328;evalue=1.2e-06;model_end=84;id=1.1107;model_start=1;rfam-acc=RF00772;gc-content=0.48
+Scaffold722	Rfam	similarity	286089	286181	50.2	+	.	rfam-id=mir-342;evalue=1.6e-08;model_end=99;id=1.896;model_start=1;rfam-acc=RF00760;gc-content=0.45
+#unclassified overlap:[RF00879][286092/286092-286176] vs [RF00772][286089/286089-286181]
+Scaffold722	Rfam	similarity	286092	286176	44.2	+	.	rfam-id=mir-615;evalue=9.3e-05;model_end=96;id=1.1173;model_start=1;rfam-acc=RF00879;gc-content=0.49
+Scaffold722	Rfam	similarity	286089	286181	50.2	+	.	rfam-id=mir-342;evalue=1.6e-08;model_end=99;id=1.896;model_start=1;rfam-acc=RF00760;gc-content=0.45
+#unclassified overlap:[RF01017][286095/286095-286177] vs [RF00879][286089/286089-286181]
+Scaffold722	Rfam	similarity	286089	286181	50.2	+	.	rfam-id=mir-342;evalue=1.6e-08;model_end=99;id=1.896;model_start=1;rfam-acc=RF00760;gc-content=0.45
+Scaffold722	Rfam	similarity	286095	286177	58.4	+	.	rfam-id=mir-625;evalue=4.4e-11;model_end=86;id=1.659;model_start=1;rfam-acc=RF01017;gc-content=0.49
+#unclassified overlap:[RF00772][286100/286100-286184] vs [RF01017][286095/286095-286177]
+Scaffold722	Rfam	similarity	286100	286184	48.9	+	.	rfam-id=mir-328;evalue=9.7e-08;model_end=84;id=1.940;model_start=1;rfam-acc=RF00772;gc-content=0.42
+Scaffold722	Rfam	similarity	286095	286177	58.4	+	.	rfam-id=mir-625;evalue=4.4e-11;model_end=86;id=1.659;model_start=1;rfam-acc=RF01017;gc-content=0.49
+#unclassified overlap:[RF00920][27360/27360-27507] vs [RF01043][27280/27280-27382]
+Scaffold723	Rfam	similarity	27280	27382	48.6	-	.	rfam-id=MIR1023;evalue=8.2e-08;model_end=139;id=1.947;model_start=37;rfam-acc=RF01043;gc-content=0.42
+Scaffold723	Rfam	similarity	27360	27507	87.8	+	.	rfam-id=MIR444;evalue=1.4e-19;model_end=151;id=1.202;model_start=1;rfam-acc=RF00920;gc-content=0.47
+#unclassified overlap:[RF01005][171898/171898-172055] vs [RF00742][171837/171837-171925]
+Scaffold757	Rfam	similarity	171898	172055	47.0	-	.	rfam-id=MIR530;evalue=7e-07;model_end=172;id=1.1019;model_start=1;rfam-acc=RF01005;gc-content=0.33
+Scaffold757	Rfam	similarity	171837	171925	50.8	-	.	rfam-id=MIR162_2;evalue=5.8e-09;model_end=91;id=1.881;model_start=1;rfam-acc=RF00742;gc-content=0.42
+#unclassified overlap:[RF01023][2551480/2551480-2551570] vs [RF00659][2551480/2551480-2551566]
+Scaffold833	Rfam	similarity	2551480	2551566	38.3	-	.	rfam-id=mir-365;evalue=0.00033;model_end=93;id=1.1580;model_start=1;rfam-acc=RF00659;gc-content=0.57
+Scaffold833	Rfam	similarity	2551480	2551570	39.1	-	.	rfam-id=mir-940;evalue=0.00029;model_end=94;id=1.1498;model_start=1;rfam-acc=RF01023;gc-content=0.59
+#unclassified overlap:[RF00659][2551480/2551480-2551573] vs [RF01023][2551480/2551480-2551570]
+Scaffold833	Rfam	similarity	2551480	2551570	39.1	-	.	rfam-id=mir-940;evalue=0.00029;model_end=94;id=1.1498;model_start=1;rfam-acc=RF01023;gc-content=0.59
+Scaffold833	Rfam	similarity	2551480	2551573	39.4	+	.	rfam-id=mir-365;evalue=0.00016;model_end=93;id=1.1474;model_start=1;rfam-acc=RF00659;gc-content=0.57
+#unclassified overlap:[RF01017][2551483/2551483-2551567] vs [RF00659][2551480/2551480-2551573]
+Scaffold833	Rfam	similarity	2551480	2551573	39.4	+	.	rfam-id=mir-365;evalue=0.00016;model_end=93;id=1.1474;model_start=1;rfam-acc=RF00659;gc-content=0.57
+Scaffold833	Rfam	similarity	2551483	2551567	47.2	-	.	rfam-id=mir-625;evalue=1.1e-07;model_end=86;id=1.1012;model_start=1;rfam-acc=RF01017;gc-content=0.56
+#unclassified overlap:[RF01023][2551485/2551485-2551565] vs [RF01017][2551483/2551483-2551567]
+Scaffold833	Rfam	similarity	2551483	2551567	47.2	-	.	rfam-id=mir-625;evalue=1.1e-07;model_end=86;id=1.1012;model_start=1;rfam-acc=RF01017;gc-content=0.56
+Scaffold833	Rfam	similarity	2551485	2551565	49.6	+	.	rfam-id=mir-940;evalue=3.5e-07;model_end=94;id=1.916;model_start=1;rfam-acc=RF01023;gc-content=0.56
+#unclassified overlap:[RF00870][2551486/2551486-2551564] vs [RF01023][2551485/2551485-2551565]
+Scaffold833	Rfam	similarity	2551486	2551564	44.6	+	.	rfam-id=mir-423;evalue=7.7e-07;model_end=81;id=1.1152;model_start=1;rfam-acc=RF00870;gc-content=0.57
+Scaffold833	Rfam	similarity	2551485	2551565	49.6	+	.	rfam-id=mir-940;evalue=3.5e-07;model_end=94;id=1.916;model_start=1;rfam-acc=RF01023;gc-content=0.56
+#unclassified overlap:[RF01017][2551486/2551486-2551565] vs [RF00870][2551485/2551485-2551565]
+Scaffold833	Rfam	similarity	2551486	2551565	49.0	+	.	rfam-id=mir-625;evalue=3.2e-08;model_end=86;id=1.935;model_start=1;rfam-acc=RF01017;gc-content=0.56
+Scaffold833	Rfam	similarity	2551485	2551565	49.6	+	.	rfam-id=mir-940;evalue=3.5e-07;model_end=94;id=1.916;model_start=1;rfam-acc=RF01023;gc-content=0.56
+#unclassified overlap:[RF00772][2551491/2551491-2551572] vs [RF01017][2551485/2551485-2551565]
+Scaffold833	Rfam	similarity	2551491	2551572	37.1	+	.	rfam-id=mir-328;evalue=0.00027;model_end=84;id=1.1652;model_start=1;rfam-acc=RF00772;gc-content=0.61
+Scaffold833	Rfam	similarity	2551485	2551565	49.6	+	.	rfam-id=mir-940;evalue=3.5e-07;model_end=94;id=1.916;model_start=1;rfam-acc=RF01023;gc-content=0.56
+#unclassified overlap:[RF02032][2551500/2551500-2551621] vs [RF00772][2551485/2551485-2551565]
+Scaffold833	Rfam	similarity	2551500	2551621	36.1	+	.	rfam-id=GOLLD;evalue=6.2e-06;model_end=408;id=1.1726;model_start=1;rfam-acc=RF02032;gc-content=0.38
+Scaffold833	Rfam	similarity	2551485	2551565	49.6	+	.	rfam-id=mir-940;evalue=3.5e-07;model_end=94;id=1.916;model_start=1;rfam-acc=RF01023;gc-content=0.56
+#unclassified overlap:[RF01013][1100248/1100248-1100325] vs [RF01265][1100226/1100226-1100528]
+Scaffold842	Rfam	similarity	1100226	1100528	39.1	+	.	rfam-id=snR42;evalue=1.4e-06;model_end=349;id=1.1496;model_start=1;rfam-acc=RF01265;gc-content=0.28
+Scaffold842	Rfam	similarity	1100248	1100325	46.4	+	.	rfam-id=mir-577;evalue=5.1e-08;model_end=96;id=1.1058;model_start=1;rfam-acc=RF01013;gc-content=0.36
+#unclassified overlap:[RF01859][253596/253596-253709] vs [RF00620][253585/253585-253721]
+Scaffold868	Rfam	similarity	253596	253709	48.9	+	.	rfam-id=Phe_leader;evalue=5e-07;model_end=126;id=1.939;model_start=1;rfam-acc=RF01859;gc-content=0.56
+Scaffold868	Rfam	similarity	253585	253721	54.4	-	.	rfam-id=HCV_ARF_SL;evalue=2.4e-10;model_end=153;id=1.757;model_start=1;rfam-acc=RF00620;gc-content=0.52
+#unclassified overlap:[RF00239][228080/228080-228160] vs [undef][228075/228075-228162]
+Scaffold884	Rfam	similarity	228080	228160	43.7	-	.	rfam-id=mir-124;evalue=6.5e-06;model_end=81;id=1.1202;model_start=1;rfam-acc=RF00239;gc-content=0.52
+Scaffold884	.	microRNA	228075	228162	.	+	.	ID=mir-124_3
+#unclassified overlap:[undef][959009/959009-959091] vs [RF02095][959009/959009-959091]
+Scaffold95	Rfam	similarity	959009	959091	49.7	+	.	rfam-id=mir-2985-2;evalue=2e-08;model_end=81;id=1.912;model_start=1;rfam-acc=RF02095;gc-content=0.36
+Scaffold95	.	microRNA	959009	959091	.	-	.	ID=mir-2985_3

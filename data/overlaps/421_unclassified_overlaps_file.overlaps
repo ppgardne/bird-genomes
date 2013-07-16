@@ -1,0 +1,52 @@
+#GFFS: [data/rfam/Picoides_pubescens.e0.0005.gff data/trnascan/Picoides_pubescens.scaf.noBacterial_tRNAscan-SE.gff data/mirbase/Picoides_pubescens.gff]
+#unclassified overlap:[RF00456][203/203-286] vs [RF00711][202/202-289]
+C40388187	Rfam	similarity	202	289	48.2	+	.	rfam-id=mir-449;evalue=1.5e-08;model_end=90;id=1.829;model_start=1;rfam-acc=RF00711;gc-content=0.44
+C40388187	Rfam	similarity	203	286	53.7	-	.	rfam-id=mir-34;evalue=7.3e-10;model_end=90;id=1.741;model_start=1;rfam-acc=RF00456;gc-content=0.43
+#unclassified overlap:[RF00684][193209/193209-193282] vs [undef][193197/193197-193284]
+scaffold1508	Rfam	similarity	193209	193282	90.7	-	.	rfam-id=mir-122;evalue=2.8e-21;model_end=74;id=1.202;model_start=1;rfam-acc=RF00684;gc-content=0.46
+scaffold1508	.	microRNA	193197	193284	.	+	.	ID=mir-3591_1
+#unclassified overlap:[undef][4670284/4670284-4670367] vs [RF00053][4670283/4670283-4670372]
+scaffold16	Rfam	similarity	4670283	4670372	75.2	-	.	rfam-id=mir-7;evalue=2.8e-14;model_end=88;id=1.338;model_start=1;rfam-acc=RF00053;gc-content=0.56
+scaffold16	.	microRNA	4670284	4670367	.	+	.	ID=mir-3529_1
+#unclassified overlap:[RF00456][890016/890016-890099] vs [undef][890016/890016-890097]
+scaffold170	Rfam	similarity	890016	890099	53.7	+	.	rfam-id=mir-34;evalue=7.3e-10;model_end=90;id=1.742;model_start=1;rfam-acc=RF00456;gc-content=0.43
+scaffold170	.	microRNA	890016	890097	.	-	.	ID=mir-34_1
+#unclassified overlap:[RF00074][560106/560106-560169] vs [undef][560085/560085-560182]
+scaffold182	Rfam	similarity	560106	560169	67.8	-	.	rfam-id=mir-29;evalue=2.4e-12;model_end=71;id=1.437;model_start=1;rfam-acc=RF00074;gc-content=0.42
+scaffold182	.	microRNA	560085	560182	.	+	.	ID=mir-3556_2
+#unclassified overlap:[RF02094][1202438/1202438-1202523] vs [undef][1202437/1202437-1202524]
+scaffold317	Rfam	similarity	1202438	1202523	59.4	-	.	rfam-id=mir-1803;evalue=9.3e-12;model_end=87;id=1.624;model_start=1;rfam-acc=RF02094;gc-content=0.43
+scaffold317	.	microRNA	1202437	1202524	.	+	.	ID=mir-1620_1
+#unclassified overlap:[undef][3291767/3291767-3291856] vs [RF00659][3291764/3291764-3291856]
+scaffold331	Rfam	similarity	3291764	3291856	39.4	-	.	rfam-id=mir-365;evalue=0.00015;model_end=93;id=1.1028;model_start=1;rfam-acc=RF00659;gc-content=0.43
+scaffold331	.	microRNA	3291767	3291856	.	+	.	ID=mir-365_1
+#unclassified overlap:[RF00258][39605/39605-39688] vs [undef][39604/39604-39687]
+scaffold336	Rfam	similarity	39605	39688	44.5	-	.	rfam-id=mir-130;evalue=5e-06;model_end=83;id=1.900;model_start=1;rfam-acc=RF00258;gc-content=0.43
+scaffold336	.	microRNA	39604	39687	.	+	.	ID=mir-130_1
+#unclassified overlap:[RF00446][559131/559131-559217] vs [undef][559119/559119-559221]
+scaffold349	Rfam	similarity	559131	559217	93.6	-	.	rfam-id=mir-133;evalue=1.1e-20;model_end=87;id=1.179;model_start=1;rfam-acc=RF00446;gc-content=0.41
+scaffold349	.	microRNA	559119	559221	.	+	.	ID=mir-3582_1
+#unclassified overlap:[RF00784][429104/429104-429171] vs [RF00976][429094/429094-429168]
+scaffold375	Rfam	similarity	429104	429171	53.3	+	.	rfam-id=mir-486;evalue=1.1e-09;model_end=68;id=1.751;model_start=1;rfam-acc=RF00784;gc-content=0.59
+scaffold375	Rfam	similarity	429094	429168	54.3	+	.	rfam-id=mir-583;evalue=3.1e-09;model_end=75;id=1.719;model_start=1;rfam-acc=RF00976;gc-content=0.55
+#unclassified overlap:[RF00561][1198602/1198602-1198728] vs [RF00415][1198600/1198600-1198729]
+scaffold387	Rfam	similarity	1198600	1198729	46.3	+	.	rfam-id=SNORA30;evalue=5.7e-06;model_end=129;id=1.874;model_start=1;rfam-acc=RF00415;gc-content=0.45
+scaffold387	Rfam	similarity	1198602	1198728	65.9	+	.	rfam-id=SNORA40;evalue=8.4e-10;model_end=128;id=1.481;model_start=1;rfam-acc=RF00561;gc-content=0.44
+#unclassified overlap:[RF00074][3456534/3456534-3456597] vs [undef][3456520/3456520-3456619]
+scaffold44	Rfam	similarity	3456534	3456597	69.4	+	.	rfam-id=mir-29;evalue=8.5e-13;model_end=71;id=1.410;model_start=1;rfam-acc=RF00074;gc-content=0.33
+scaffold44	.	microRNA	3456520	3456619	.	-	.	ID=mir-3556_1
+#unclassified overlap:[RF00076][1031627/1031627-1031702] vs [undef][1031615/1031615-1031710]
+scaffold536	Rfam	similarity	1031627	1031702	81.0	-	.	rfam-id=mir-181;evalue=6.5e-17;model_end=76;id=1.270;model_start=1;rfam-acc=RF00076;gc-content=0.45
+scaffold536	.	microRNA	1031615	1031710	.	+	.	ID=mir-3570_1
+#unclassified overlap:[RF01059][1160181/1160181-1160273] vs [RF00690][1160172/1160172-1160287]
+scaffold57	Rfam	similarity	1160172	1160287	41.9	-	.	rfam-id=MIR408;evalue=2.9e-06;model_end=126;id=1.948;model_start=1;rfam-acc=RF00690;gc-content=0.45
+scaffold57	Rfam	similarity	1160181	1160273	51.2	+	.	rfam-id=mir-598;evalue=7.3e-08;model_end=97;id=1.786;model_start=1;rfam-acc=RF01059;gc-content=0.47
+#unclassified overlap:[RF00690][1160186/1160186-1160276] vs [RF01059][1160184/1160184-1160282]
+scaffold57	Rfam	similarity	1160186	1160276	38.4	+	.	rfam-id=MIR408;evalue=3.2e-05;model_end=126;id=1.1058;model_start=1;rfam-acc=RF00690;gc-content=0.46
+scaffold57	Rfam	similarity	1160184	1160282	57.0	-	.	rfam-id=mir-598;evalue=1.8e-09;model_end=97;id=1.683;model_start=1;rfam-acc=RF01059;gc-content=0.45
+#unclassified overlap:[RF00446][1865904/1865904-1865990] vs [undef][1865903/1865903-1865987]
+scaffold690	Rfam	similarity	1865904	1865990	58.0	+	.	rfam-id=mir-133;evalue=2.2e-10;model_end=87;id=1.651;model_start=1;rfam-acc=RF00446;gc-content=0.43
+scaffold690	.	microRNA	1865903	1865987	.	-	.	ID=mir-133_3
+#unclassified overlap:[RF00027][1211240/1211240-1211316] vs [undef][1211238/1211238-1211319]
+scaffold845	Rfam	similarity	1211240	1211316	36.3	+	.	rfam-id=let-7;evalue=0.00016;model_end=84;id=1.1120;model_start=1;rfam-acc=RF00027;gc-content=0.43
+scaffold845	.	microRNA	1211238	1211319	.	-	.	ID=let-7_10
