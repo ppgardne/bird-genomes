@@ -131,113 +131,120 @@ foreach my $f (@gffs){
 #WHERE IS ANTROSTOMUS (CHUCK WILLS WIDOW) & MELOPSITTACUS (BUDGIE)?!!!
 #THIS IS CALLED Caprimugus_Carolinensis BELOW FOR SOME REASON?!
 #####renamed to Antrostomus_carolinensis
-my @speciesPhyloOrder = qw(
-Homo_sapiens
-Alligator_mississippiensis
-Chelonia_mydas
-Struthio_camelus
-Tinamus_guttatus
-Anas_platyrhynchos
-Meleagris_gallopavo
-Gallus_gallus
-Antrostomus_carolinensis
-Chaetura_pelagica
-Calypte_anna
-Columba_livia
-Cuculus_canorus
-Mesitornis_unicolor
-Pterocles_guturalis
-Tauraco_erythrolophus
-Chlamydotis_undulata
-Opisthocomus_hoazin
-Charadrius_vociferus
-Balearica_regulorum
-Podiceps_cristatus
-Phoenicopterus_ruber
-Eurypyga_helias
-Phaethon_lepturus
-Gavia_stellata
-Egretta_garzetta
-Nipponia_nippon
-Pelecanus_crispus
-Phalacrocorax_carbo
-Fulmarus_glacialis
-Pygoscelis_adeliae
-Aptenodytes_forsteri
-Cariama_cristata
-Tyto_alba
-Cathartes_aura
-Haliaeetus_albicilla
-Haliaeetus_leucocephalus
-Colius_striatus
-Leptosomus_discolor
-Apaloderma_vittatum
-Buceros_rhinoceros
-Merops_nubicus
-Picoides_pubescens
-Falco_peregrinus
-Nestor_notabilis
-Melopsittacus_undulatus
-Acanthisitta_chloris
-Manacus_vitellinus
-Corvus_brachyrhynchos
-Taeniopygia_guttata
-Geospiza_fortis
-);
+my (@speciesPhyloOrder,@speciesCommonPhyloOrder); 
 
-my @speciesCommonPhyloOrder = qw(
-human
-alligator
-turtle
-ostrich_85X
-tinamou_100X
-duck_50X
-turkey
-chicken
-nightjar_30X
-swift_106X
-hummingbird_110X
-pigeon_64X
-cuckoo_100X
-mesite_29X
-sandgrouse_25X
-turaco_30X
-bustard_27X
-hoatzin_100X
-plover_100X
-crane_33X
-grebe_30X
-flamingo_33X
-sunbittern_33X
-tropicbird_39X
-loon_33X
-egret_74X
-ibis_105X
-pelican_34X
-cormorant_24X
-fulmar_33X
-adelie_penquin_60X
-emperor_penquin_60X
-seriema_24X
-owl_27X
-vulture_25X
-white_tailed_eagle_26X
-bald_eagle
-mousebird_27X
-cuckoo_roller_32X
-trogon_28X
-hornbill_35X
-bee_eater_37X
-woodpecker_105X
-falcon_105X
-kea_32X
-budgerigar
-rifleman_29X
-manakin_110X
-crow_90X
-zebrafinch
-ground_finch_115X
-);
+open(SPC, "< data/species_list-phyloOrder.txt");
+while(my $s=<SPC>){
+    
+}
+close(SPC); 
+
+# = qw(
+# Homo_sapiens
+# Alligator_mississippiensis
+# Chelonia_mydas
+# Struthio_camelus
+# Tinamus_guttatus
+# Anas_platyrhynchos
+# Meleagris_gallopavo
+# Gallus_gallus
+# Antrostomus_carolinensis
+# Chaetura_pelagica
+# Calypte_anna
+# Columba_livia
+# Cuculus_canorus
+# Mesitornis_unicolor
+# Pterocles_guturalis
+# Tauraco_erythrolophus
+# Chlamydotis_undulata
+# Opisthocomus_hoazin
+# Charadrius_vociferus
+# Balearica_regulorum
+# Podiceps_cristatus
+# Phoenicopterus_ruber
+# Eurypyga_helias
+# Phaethon_lepturus
+# Gavia_stellata
+# Egretta_garzetta
+# Nipponia_nippon
+# Pelecanus_crispus
+# Phalacrocorax_carbo
+# Fulmarus_glacialis
+# Pygoscelis_adeliae
+# Aptenodytes_forsteri
+# Cariama_cristata
+# Tyto_alba
+# Cathartes_aura
+# Haliaeetus_albicilla
+# Haliaeetus_leucocephalus
+# Colius_striatus
+# Leptosomus_discolor
+# Apaloderma_vittatum
+# Buceros_rhinoceros
+# Merops_nubicus
+# Picoides_pubescens
+# Falco_peregrinus
+# Nestor_notabilis
+# Melopsittacus_undulatus
+# Acanthisitta_chloris
+# Manacus_vitellinus
+# Corvus_brachyrhynchos
+# Taeniopygia_guttata
+# Geospiza_fortis
+# );
+#  = qw(
+# human
+# alligator
+# turtle
+# ostrich_85X
+# tinamou_100X
+# duck_50X
+# turkey
+# chicken
+# nightjar_30X
+# swift_106X
+# hummingbird_110X
+# pigeon_64X
+# cuckoo_100X
+# mesite_29X
+# sandgrouse_25X
+# turaco_30X
+# bustard_27X
+# hoatzin_100X
+# plover_100X
+# crane_33X
+# grebe_30X
+# flamingo_33X
+# sunbittern_33X
+# tropicbird_39X
+# loon_33X
+# egret_74X
+# ibis_105X
+# pelican_34X
+# cormorant_24X
+# fulmar_33X
+# adelie_penquin_60X
+# emperor_penquin_60X
+# seriema_24X
+# owl_27X
+# vulture_25X
+# white_tailed_eagle_26X
+# bald_eagle
+# mousebird_27X
+# cuckoo_roller_32X
+# trogon_28X
+# hornbill_35X
+# bee_eater_37X
+# woodpecker_105X
+# falcon_105X
+# kea_32X
+# budgerigar
+# rifleman_29X
+# manakin_110X
+# crow_90X
+# zebrafinch
+# ground_finch_115X
+# );
 
 print "Printing R-dat headers\n" if (defined($verbose));
 foreach my $ut (("$rDir/snoRNA.dat", "$rDir/miRNA.dat", "$rDir/RNA.dat", "$rDir/allRNA.dat", "$rDir/tRNA.dat", "$rDir/lncRNA.dat")){
