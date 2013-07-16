@@ -1,0 +1,1 @@
+pdflatex manuscript.tex && bibtex manuscript && pdflatex manuscript.tex && pdflatex manuscript.tex && rm manuscript.log manuscript.aux manuscript.bbl manuscript.blg 
