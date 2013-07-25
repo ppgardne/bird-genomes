@@ -36,6 +36,7 @@ cd bird-genomes
 ls data/rfam/*gff > /tmp/blah1 && 
 ls data/trnascan/*gff > /tmp/blah2 && 
 ls data/mirbase/*gff > /tmp/blah3 && 
+#CHECK: paste /tmp/blah1 /tmp/blah2 /tmp/blah3
 paste /tmp/blah1 /tmp/blah2 /tmp/blah3 | perl -lane 'if(/mirbase\/(\S+).gff/){print "scripts/compete_clans.pl -g $F[0] -g $F[1] -g $F[2] -cl data/clan_info.txt -od data/overlaps/ > data/merged-annotations/$1.gff"}' | sh
 
 #generate the count matrices (in data/R) and run the R-code that generates the figures: 
