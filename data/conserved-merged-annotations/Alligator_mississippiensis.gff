@@ -835,8 +835,6 @@ scaffold-123963	tRNAscan-SE	tRNA	145347	145428	71.96	+	.	number=2;type=Ser;antic
 scaffold-123963	tRNAscan-SE	tRNA	158219	158291	71.15	-	.	number=3;type=Lys;anticodon=CTT;
 scaffold-124020	Rfam	similarity	19093	19267	38.7	+	.	rfam-id=uc_338;evalue=3.6e-05;model_end=180;id=1.5294;model_start=1;rfam-acc=RF02271;gc-content=0.50
 scaffold-124060	Rfam	similarity	113343	113483	36.1	-	.	rfam-id=uc_338;evalue=0.0002;model_end=180;id=1.6421;model_start=1;rfam-acc=RF02271;gc-content=0.49
-scaffold-124060	Rfam	similarity	188875	188955	42.8	+	.	rfam-id=mir-290;evalue=5.1e-06;model_end=82;id=1.3751;model_start=1;rfam-acc=RF00665;gc-content=0.48
-scaffold-124060	Rfam	similarity	190008	190088	42.8	+	.	rfam-id=mir-290;evalue=5.1e-06;model_end=82;id=1.3752;model_start=1;rfam-acc=RF00665;gc-content=0.48
 scaffold-124060	.	microRNA	423278	423368	.	+	.	ID=mir-219_2
 scaffold-124060	tRNAscan-SE	tRNA	475286	475378	54.25	+	.	number=1;type=Arg;anticodon=TCT;intron_boundary=(475323,475342);
 scaffold-12409	Rfam	similarity	89515	89677	40.5	+	.	rfam-id=uc_338;evalue=1.1e-05;model_end=180;id=1.4542;model_start=1;rfam-acc=RF02271;gc-content=0.51
@@ -1099,7 +1097,6 @@ scaffold-134184	Rfam	similarity	250248	250334	35.9	+	.	rfam-id=mir-1803;evalue=0
 scaffold-134184	tRNAscan-SE	tRNA	435473	435540	25.83	+	.	number=1;type=Pseudo;anticodon=GCC;
 scaffold-134282	.	microRNA	3834	3907	.	+	.	ID=mir-1788_1
 scaffold-134302	tRNAscan-SE	tRNA	54767	54838	62.29	-	.	number=1;type=Met;anticodon=CAT;
-scaffold-134384	Rfam	similarity	25106	25185	43.9	-	.	rfam-id=mir-290;evalue=2.4e-06;model_end=82;id=1.3394;model_start=1;rfam-acc=RF00665;gc-content=0.44
 scaffold-134449	tRNAscan-SE	tRNA	20739	20808	22.96	+	.	number=1;type=Pseudo;anticodon=GCC;
 scaffold-134503	tRNAscan-SE	tRNA	4478	4548	64.80	+	.	number=1;type=Gly;anticodon=GCC;
 scaffold-134580	Rfam	similarity	320	365	34.6	+	.	rfam-id=Histone3;evalue=0.00024;model_end=46;id=1.6735;model_start=1;rfam-acc=RF00032;gc-content=0.59
@@ -1622,7 +1619,6 @@ scaffold-16291	tRNAscan-SE	tRNA	53194	53264	70.69	-	.	number=1;type=Gly;anticodo
 scaffold-16291	Rfam	similarity	158509	158639	68.9	-	.	rfam-id=SNORA15;evalue=2.5e-10;model_end=137;id=1.620;model_start=1;rfam-acc=RF00398;gc-content=0.36
 scaffold-16291	Rfam	similarity	161624	161755	57.3	-	.	rfam-id=SNORA15;evalue=1.4e-07;model_end=137;id=1.1221;model_start=1;rfam-acc=RF00398;gc-content=0.43
 scaffold-16291	Rfam	similarity	163190	163321	110.6	-	.	rfam-id=SNORA22;evalue=1.9e-22;model_end=134;id=1.111;model_start=1;rfam-acc=RF00414;gc-content=0.40
-scaffold-16347	Rfam	similarity	64617	64705	58.6	-	.	rfam-id=mir-616;evalue=1.9e-10;model_end=97;id=1.1115;model_start=1;rfam-acc=RF00995;gc-content=0.46
 scaffold-16347	tRNAscan-SE	tRNA	123764	123835	34.69	-	.	number=1;type=Asp;anticodon=GTC;
 scaffold-16350	Rfam	similarity	10005	10062	50.8	+	.	rfam-id=U5;evalue=2.5e-05;model_end=67;id=1.1944;model_start=10;rfam-acc=RF00020;gc-content=0.33
 scaffold-16362	Rfam	similarity	22276	22444	36.2	+	.	rfam-id=uc_338;evalue=0.00018;model_end=180;id=1.6342;model_start=1;rfam-acc=RF02271;gc-content=0.43
@@ -1822,7 +1818,6 @@ scaffold-20464	Rfam	similarity	45002	45088	37.8	+	.	rfam-id=mir-1803;evalue=8.7e
 scaffold-20483	Rfam	similarity	55792	55956	51.1	+	.	rfam-id=uc_338;evalue=1.2e-08;model_end=180;id=1.1898;model_start=1;rfam-acc=RF02271;gc-content=0.43
 scaffold-20494	Rfam	similarity	7423	7609	46.0	+	.	rfam-id=U1;evalue=1.8e-08;model_end=165;id=1.2836;model_start=1;rfam-acc=RF00003;gc-content=0.49
 scaffold-20537	tRNAscan-SE	tRNA	31	103	30.58	-	.	number=1;type=Pseudo;anticodon=AGT;
-scaffold-20543	Rfam	similarity	2423	2487	38.1	+	.	rfam-id=mir-290;evalue=0.00014;model_end=82;id=1.5549;model_start=1;rfam-acc=RF00665;gc-content=0.38
 scaffold-20564	Rfam	similarity	51541	51608	44.5	+	.	rfam-id=mir-574;evalue=1.3e-05;model_end=77;id=1.3229;model_start=1;rfam-acc=RF00929;gc-content=0.46
 scaffold-20643	tRNAscan-SE	tRNA	138178	138249	67.82	-	.	number=4;type=Gln;anticodon=CTG;
 scaffold-20643	tRNAscan-SE	tRNA	138367	138438	31.09	-	.	number=3;type=Met;anticodon=CAT;
@@ -2264,7 +2259,6 @@ scaffold-30221	Rfam	similarity	59301	59412	52.2	-	.	rfam-id=U6atac;evalue=1.2e-0
 scaffold-3026	Rfam	similarity	2639	2708	39.5	+	.	rfam-id=mir-574;evalue=0.00032;model_end=77;id=1.4946;model_start=1;rfam-acc=RF00929;gc-content=0.54
 scaffold-30311	tRNAscan-SE	tRNA	39104	39175	64.22	+	.	number=1;type=Gln;anticodon=TTG;
 scaffold-30363	tRNAscan-SE	tRNA	169495	169604	22.05	+	.	number=1;type=Pseudo;anticodon=TGC;intron_boundary=(169533,169558);
-scaffold-30380	Rfam	similarity	391439	391518	39.1	-	.	rfam-id=mir-290;evalue=6.8e-05;model_end=82;id=1.5172;model_start=1;rfam-acc=RF00665;gc-content=0.47
 scaffold-30404	Rfam	similarity	414946	415110	96.6	-	.	rfam-id=U1;evalue=6e-24;model_end=165;id=1.200;model_start=1;rfam-acc=RF00003;gc-content=0.51
 scaffold-30491	Rfam	similarity	40657	40740	36.9	+	.	rfam-id=mir-1803;evalue=0.00017;model_end=87;id=1.6056;model_start=1;rfam-acc=RF02094;gc-content=0.42
 scaffold-30499	.	microRNA	23755	23815	.	+	.	ID=mir-148_2
@@ -2349,7 +2343,6 @@ scaffold-32012	Rfam	similarity	4042	4112	39.0	-	.	rfam-id=mir-574;evalue=0.00045
 scaffold-32020	Rfam	similarity	6658	6753	39.8	-	.	rfam-id=mir-186;evalue=0.00035;model_end=93;id=1.4806;model_start=1;rfam-acc=RF00697;gc-content=0.35
 scaffold-32044	tRNAscan-SE	tRNA	58435	58508	46.54	-	.	number=1;type=Asn;anticodon=GTT;
 scaffold-32044	Rfam	similarity	126876	126961	37.6	-	.	rfam-id=mir-1803;evalue=0.0001;model_end=87;id=1.5752;model_start=1;rfam-acc=RF02094;gc-content=0.35
-scaffold-32053	Rfam	similarity	4320	4402	39.1	+	.	rfam-id=mir-616;evalue=0.00011;model_end=86;id=1.5130;model_start=5;rfam-acc=RF00995;gc-content=0.69
 scaffold-32128	Rfam	similarity	18985	19119	49.0	+	.	rfam-id=MIR167_1;evalue=1.8e-08;model_end=112;id=1.2265;model_start=1;rfam-acc=RF00640;gc-content=0.45
 scaffold-32136	tRNAscan-SE	tRNA	2096	2168	76.89	-	.	number=1;type=Val;anticodon=TAC;
 scaffold-32139	Rfam	similarity	98142	98290	43.6	+	.	rfam-id=uc_338;evalue=1.5e-06;model_end=180;id=1.3491;model_start=1;rfam-acc=RF02271;gc-content=0.56
@@ -2957,7 +2950,6 @@ scaffold-44841	Rfam	similarity	48908	49079	39.6	+	.	rfam-id=uc_338;evalue=2e-05;
 scaffold-44894	Rfam	similarity	37387	37470	53.7	+	.	rfam-id=mir-1803;evalue=1e-09;model_end=87;id=1.1565;model_start=1;rfam-acc=RF02094;gc-content=0.43
 scaffold-44919	Rfam	similarity	339847	339920	60.5	+	.	rfam-id=mir-574;evalue=4.3e-10;model_end=77;id=1.1015;model_start=1;rfam-acc=RF00929;gc-content=0.47
 scaffold-44954	tRNAscan-SE	tRNA	16106	16178	45.26	-	.	number=1;type=Pseudo;anticodon=TAT;
-scaffold-44980	Rfam	similarity	273657	273735	39.5	+	.	rfam-id=mir-290;evalue=5.1e-05;model_end=82;id=1.4980;model_start=1;rfam-acc=RF00665;gc-content=0.39
 scaffold-44999	Rfam	similarity	125	196	58.5	-	.	rfam-id=mir-574;evalue=1.6e-09;model_end=77;id=1.1118;model_start=1;rfam-acc=RF00929;gc-content=0.39
 scaffold-45004	Rfam	similarity	33694	33795	55.4	-	.	rfam-id=5S_rRNA;evalue=8.3e-08;model_end=109;id=1.1381;model_start=11;rfam-acc=RF00001;gc-content=0.60
 scaffold-45012	Rfam	similarity	1648	1821	39.1	+	.	rfam-id=uc_338;evalue=2.9e-05;model_end=180;id=1.5127;model_start=1;rfam-acc=RF02271;gc-content=0.38
@@ -3714,7 +3706,6 @@ scaffold-61922	Rfam	similarity	40392	40477	45.9	-	.	rfam-id=mir-1803;evalue=2.7e
 scaffold-61950	Rfam	similarity	34816	34915	36.0	-	.	rfam-id=U1;evalue=2.2e-05;model_end=118;id=1.6446;model_start=16;rfam-acc=RF00003;gc-content=0.54
 scaffold-61969	Rfam	similarity	32962	33037	51.3	-	.	rfam-id=mir-574;evalue=1.6e-07;model_end=77;id=1.1869;model_start=1;rfam-acc=RF00929;gc-content=0.51
 scaffold-62045	Rfam	similarity	109146	109220	52.1	+	.	rfam-id=mir-574;evalue=9.7e-08;model_end=77;id=1.1763;model_start=1;rfam-acc=RF00929;gc-content=0.41
-scaffold-62077	Rfam	similarity	974	1108	58.5	+	.	rfam-id=SNORA51;evalue=9.4e-09;model_end=133;id=1.1119;model_start=1;rfam-acc=RF00432;gc-content=0.63
 scaffold-62077	Rfam	similarity	3302	3372	51.7	+	.	rfam-id=SNORD56;evalue=8.1e-07;model_end=71;id=1.1812;model_start=1;rfam-acc=RF00275;gc-content=0.49
 scaffold-62077	Rfam	similarity	3545	3612	57.1	+	.	rfam-id=SNORD57;evalue=6.6e-09;model_end=72;id=1.1233;model_start=1;rfam-acc=RF00274;gc-content=0.51
 scaffold-62091	tRNAscan-SE	tRNA	75741	75802	30.49	+	.	number=1;type=Pseudo;anticodon=ACC;

@@ -39,7 +39,6 @@ Scaffold52509	.	microRNA	5372	5473	.	-	.	ID=mir-703_1
 Scaffold52680	Rfam	similarity	975	1021	40.0	-	.	rfam-id=Histone3;evalue=2.4e-06;model_end=46;id=1.811;model_start=1;rfam-acc=RF00032;gc-content=0.40
 Scaffold53412	.	microRNA	1461	1498	.	-	.	ID=mir-1788_1
 Scaffold53494	.	microRNA	17660	17745	.	-	.	ID=let-7_7
-Scaffold53582	Rfam	similarity	2822	2886	59.5	-	.	rfam-id=snoU54;evalue=4.2e-09;model_end=67;id=1.470;model_start=1;rfam-acc=RF01277;gc-content=0.42
 Scaffold53800	.	microRNA	3698	3777	.	-	.	ID=mir-147_1
 Scaffold54449	Rfam	similarity	12500	12578	42.8	-	.	rfam-id=mir-1803;evalue=1.3e-06;model_end=87;id=1.735;model_start=1;rfam-acc=RF02094;gc-content=0.53
 Scaffold54751	Rfam	similarity	1337	1454	75.6	+	.	rfam-id=SNORA26;evalue=2.7e-12;model_end=122;id=1.252;model_start=1;rfam-acc=RF00568;gc-content=0.46
@@ -59,7 +58,6 @@ scaffold10111	Rfam	similarity	3285	3359	44.1	+	.	rfam-id=mir-1803;evalue=5e-07;m
 scaffold10157	.	microRNA	162920	162999	.	+	.	ID=mir-100_1
 scaffold10157	.	microRNA	172211	172292	.	+	.	ID=let-7_12
 scaffold10160	Rfam	similarity	98650	98732	42.2	-	.	rfam-id=mir-1803;evalue=2e-06;model_end=87;id=1.753;model_start=1;rfam-acc=RF02094;gc-content=0.41
-scaffold1026	Rfam	similarity	40096	40242	118.3	-	.	rfam-id=snoU109;evalue=1.5e-21;model_end=134;id=1.53;model_start=1;rfam-acc=RF01233;gc-content=0.38
 scaffold10290	.	microRNA	2819	2905	.	-	.	ID=mir-9_3
 scaffold10321	Rfam	similarity	3542	3834	78.9	+	.	rfam-id=Metazoa_SRP;evalue=6.2e-10;model_end=298;id=1.223;model_start=1;rfam-acc=RF00017;gc-content=0.55
 scaffold10389	.	microRNA	36064	36137	.	+	.	ID=mir-194_1
@@ -92,7 +90,6 @@ scaffold1131	Rfam	similarity	1613	1747	153.1	+	.	rfam-id=HOTAIRM1_2;evalue=1.6e-
 scaffold11341	Rfam	similarity	37946	38107	34.7	+	.	rfam-id=uc_338;evalue=0.00025;model_end=180;id=1.1007;model_start=1;rfam-acc=RF02271;gc-content=0.43
 scaffold11434	Rfam	similarity	32510	32595	34.5	+	.	rfam-id=mir-1803;evalue=0.00049;model_end=87;id=1.1016;model_start=1;rfam-acc=RF02094;gc-content=0.45
 scaffold11442	Rfam	similarity	13926	14115	81.1	+	.	rfam-id=U2;evalue=7.2e-21;model_end=192;id=1.205;model_start=1;rfam-acc=RF00004;gc-content=0.38
-scaffold11530	Rfam	similarity	20772	20937	130.6	-	.	rfam-id=SCARNA1;evalue=6.9e-27;model_end=166;id=1.41;model_start=1;rfam-acc=RF00553;gc-content=0.45
 scaffold11585	Rfam	similarity	72158	72327	34.1	-	.	rfam-id=uc_338;evalue=0.00037;model_end=180;id=1.1029;model_start=1;rfam-acc=RF02271;gc-content=0.47
 scaffold11593	.	microRNA	31924	32028	.	+	.	ID=mir-6665_1
 scaffold11707	.	microRNA	2199	2274	.	+	.	ID=mir-2985_2
@@ -108,7 +105,6 @@ scaffold12088	Rfam	similarity	74726	74810	41.3	+	.	rfam-id=mir-1803;evalue=3.7e-
 scaffold12156	.	microRNA	141884	141956	.	-	.	ID=mir-1597_1
 scaffold12156	Rfam	similarity	161910	161995	54.7	+	.	rfam-id=mir-1803;evalue=2.5e-10;model_end=87;id=1.537;model_start=1;rfam-acc=RF02094;gc-content=0.43
 scaffold12158	.	microRNA	58684	58756	.	-	.	ID=mir-1244_1
-scaffold12164	Rfam	similarity	57911	58041	61.9	+	.	rfam-id=SCARNA23;evalue=8.5e-10;model_end=125;id=1.441;model_start=1;rfam-acc=RF00427;gc-content=0.49
 scaffold12255	Rfam	similarity	6777	7070	37.6	-	.	rfam-id=RSV_RNA;evalue=1.8e-06;model_end=289;id=1.900;model_start=1;rfam-acc=RF01417;gc-content=0.38
 scaffold12285	Rfam	similarity	3067	3256	69.9	-	.	rfam-id=U2;evalue=2.9e-17;model_end=192;id=1.318;model_start=1;rfam-acc=RF00004;gc-content=0.49
 scaffold12289	.	microRNA	4416	4507	.	-	.	ID=let-7_10
@@ -202,7 +198,6 @@ scaffold15998	Rfam	similarity	60198	60375	34.6	+	.	rfam-id=uc_338;evalue=0.00027
 scaffold16019	tRNAscan-SE	tRNA	39064	39136	76.64	-	.	number=1;type=Thr;anticodon=AGT;
 scaffold16047	Rfam	similarity	39368	39468	38.0	+	.	rfam-id=U12;evalue=2.2e-05;model_end=150;id=1.885;model_start=1;rfam-acc=RF00007;gc-content=0.38
 scaffold16057	Rfam	similarity	10681	10862	89.2	+	.	rfam-id=uc_338;evalue=9.6e-20;model_end=180;id=1.158;model_start=1;rfam-acc=RF02271;gc-content=0.51
-scaffold16139	Rfam	similarity	5237	5334	92.8	-	.	rfam-id=snoZ30;evalue=5.5e-18;model_end=97;id=1.133;model_start=1;rfam-acc=RF00288;gc-content=0.46
 scaffold16362	tRNAscan-SE	tRNA	72	144	72.49	+	.	number=1;type=Arg;anticodon=CCT;
 scaffold16362	tRNAscan-SE	tRNA	1000	1072	71.93	-	.	number=2;type=Arg;anticodon=TCT;
 scaffold16415	Rfam	similarity	105190	105375	52.8	-	.	rfam-id=U2;evalue=1e-11;model_end=192;id=1.565;model_start=1;rfam-acc=RF00004;gc-content=0.48
@@ -244,7 +239,6 @@ scaffold17496	.	microRNA	7277	7360	.	-	.	ID=mir-301_1
 scaffold17496	.	microRNA	8518	8596	.	-	.	ID=mir-130_1
 scaffold17535	.	microRNA	19700	19772	.	+	.	ID=mir-383_1
 scaffold17697	Rfam	similarity	98196	98309	100.4	-	.	rfam-id=K_chan_RES;evalue=5.4e-21;model_end=114;id=1.100;model_start=1;rfam-acc=RF00485;gc-content=0.57
-scaffold17766	tRNAscan-SE	tRNA	18532	18604	51.39	+	.	number=1;type=Lys;anticodon=CTT;
 scaffold17814	Rfam	similarity	2725	2838	104.5	+	.	rfam-id=K_chan_RES;evalue=4.2e-22;model_end=114;id=1.86;model_start=1;rfam-acc=RF00485;gc-content=0.53
 scaffold17827	Rfam	similarity	64	121	36.5	-	.	rfam-id=7SK;evalue=3.4e-06;model_end=331;id=1.930;model_start=274;rfam-acc=RF00100;gc-content=0.53
 scaffold17834	Rfam	similarity	2540	2708	33.8	-	.	rfam-id=uc_338;evalue=0.00044;model_end=180;id=1.1032;model_start=1;rfam-acc=RF02271;gc-content=0.43
@@ -257,12 +251,9 @@ scaffold1803	.	microRNA	25542	25649	.	-	.	ID=mir-719_1
 scaffold18084	Rfam	similarity	41914	42079	69.4	+	.	rfam-id=uc_338;evalue=3.8e-14;model_end=180;id=1.328;model_start=1;rfam-acc=RF02271;gc-content=0.55
 scaffold18118	tRNAscan-SE	tRNA	112	201	64.61	+	.	number=1;type=Tyr;anticodon=GTA;intron_boundary=(149,165);
 scaffold18142	tRNAscan-SE	tRNA	9217	9287	59.43	-	.	number=1;type=Gly;anticodon=CCC;
-scaffold18150	tRNAscan-SE	tRNA	311	383	41.37	-	.	number=1;type=Lys;anticodon=CTT;
-scaffold18168	tRNAscan-SE	tRNA	504	576	42.84	-	.	number=1;type=Lys;anticodon=CTT;
 scaffold18181	.	microRNA	67999	68078	.	-	.	ID=mir-429_1
 scaffold18181	.	microRNA	70858	70941	.	-	.	ID=mir-200_1
 scaffold18181	.	microRNA	73077	73153	.	-	.	ID=mir-200_2
-scaffold1819	tRNAscan-SE	tRNA	6443	6515	47.56	+	.	number=1;type=Lys;anticodon=CTT;
 scaffold18190	Rfam	similarity	43891	44045	38.5	+	.	rfam-id=uc_338;evalue=2.1e-05;model_end=180;id=1.867;model_start=1;rfam-acc=RF02271;gc-content=0.45
 scaffold18252	.	microRNA	19720	19808	.	-	.	ID=mir-1698_1
 scaffold18320	.	microRNA	32659	32757	.	-	.	ID=mir-1708_1
@@ -466,7 +457,6 @@ scaffold27307	Rfam	similarity	62740	62793	36.5	-	.	rfam-id=mir-1803;evalue=0.000
 scaffold27459	Rfam	similarity	1326	1409	40.8	-	.	rfam-id=let-7;evalue=5.9e-06;model_end=84;id=1.785;model_start=1;rfam-acc=RF00027;gc-content=0.29
 scaffold27598	tRNAscan-SE	tRNA	212	284	73.04	-	.	number=4;type=Val;anticodon=CAC;
 scaffold27598	tRNAscan-SE	tRNA	1472	1544	73.05	-	.	number=3;type=Val;anticodon=CAC;
-scaffold27598	tRNAscan-SE	tRNA	1987	2059	71.16	+	.	number=1;type=Lys;anticodon=CTT;
 scaffold27598	tRNAscan-SE	tRNA	2739	2811	73.05	+	.	number=2;type=Val;anticodon=CAC;
 scaffold27630	Rfam	similarity	2021	2111	73.2	+	.	rfam-id=SNORD14;evalue=4.8e-14;model_end=116;id=1.278;model_start=1;rfam-acc=RF00016;gc-content=0.46
 scaffold27630	Rfam	similarity	2528	2624	72.2	+	.	rfam-id=SNORD14;evalue=9.2e-14;model_end=116;id=1.295;model_start=1;rfam-acc=RF00016;gc-content=0.47
@@ -493,7 +483,6 @@ scaffold28348	Rfam	similarity	36905	37040	150.4	-	.	rfam-id=SNORA50;evalue=3.2e-
 scaffold28405	Rfam	similarity	373	577	181.9	+	.	rfam-id=SNORA73;evalue=5e-50;model_end=218;id=1.14;model_start=1;rfam-acc=RF00045;gc-content=0.62
 scaffold28487	Rfam	similarity	8314	8487	46.6	+	.	rfam-id=uc_338;evalue=1e-07;model_end=180;id=1.662;model_start=1;rfam-acc=RF02271;gc-content=0.48
 scaffold28561	tRNAscan-SE	tRNA	32268	32341	75.64	-	.	number=1;type=Asn;anticodon=GTT;
-scaffold28563	tRNAscan-SE	tRNA	7627	7699	71.92	+	.	number=1;type=Met;anticodon=CAT;
 scaffold28584	tRNAscan-SE	tRNA	89	161	77.25	+	.	number=1;type=Phe;anticodon=GAA;
 scaffold28811	Rfam	similarity	22509	22583	49.4	-	.	rfam-id=mir-598;evalue=2.1e-07;model_end=97;id=1.610;model_start=1;rfam-acc=RF01059;gc-content=0.40
 scaffold28903	tRNAscan-SE	tRNA	1753	1824	62.29	+	.	number=1;type=Met;anticodon=CAT;
@@ -530,7 +519,6 @@ scaffold30367	Rfam	similarity	1245	1317	67.9	+	.	rfam-id=CAESAR;evalue=1.5e-10;m
 scaffold30483	Rfam	similarity	25767	25852	42.8	+	.	rfam-id=mir-1803;evalue=1.3e-06;model_end=87;id=1.736;model_start=1;rfam-acc=RF02094;gc-content=0.48
 scaffold30669	.	microRNA	13147	13238	.	+	.	ID=mir-1707_1
 scaffold30704	.	microRNA	3320	3411	.	+	.	ID=mir-126_1
-scaffold30726	tRNAscan-SE	tRNA	42	114	57.83	-	.	number=1;type=Asn;anticodon=GTT;
 scaffold30781	.	microRNA	53831	53940	.	+	.	ID=mir-3666_1
 scaffold30862	Rfam	similarity	1960	2018	82.0	+	.	rfam-id=Antizyme_FSE;evalue=5.1e-18;model_end=59;id=1.198;model_start=1;rfam-acc=RF00381;gc-content=0.59
 scaffold30868	.	microRNA	34025	34131	.	+	.	ID=mir-6673_1
@@ -580,7 +568,6 @@ scaffold326	.	microRNA	633	717	.	+	.	ID=mir-3529_1
 scaffold32669	.	microRNA	560	639	.	+	.	ID=mir-1905_2
 scaffold32688	.	microRNA	1	61	.	+	.	ID=mir-2404_1
 scaffold32688	Rfam	similarity	535	666	94.6	+	.	rfam-id=SNORA1;evalue=8.6e-15;model_end=135;id=1.122;model_start=1;rfam-acc=RF00408;gc-content=0.44
-scaffold32688	Rfam	similarity	1387	1459	69.3	+	.	rfam-id=snoZ40;evalue=9.5e-13;model_end=73;id=1.329;model_start=1;rfam-acc=RF00342;gc-content=0.36
 scaffold32688	Rfam	similarity	2231	2363	110.2	+	.	rfam-id=SNORA18;evalue=2.4e-23;model_end=132;id=1.67;model_start=1;rfam-acc=RF00425;gc-content=0.45
 scaffold32688	.	microRNA	3143	3207	.	+	.	ID=mir-2404_2
 scaffold32688	Rfam	similarity	3928	4050	56.8	+	.	rfam-id=SNORA32;evalue=2.4e-07;model_end=121;id=1.508;model_start=1;rfam-acc=RF00421;gc-content=0.47
@@ -608,7 +595,6 @@ scaffold33783	tRNAscan-SE	tRNA	14265	14336	62.29	-	.	number=1;type=Met;anticodon
 scaffold33802	Rfam	similarity	912	1070	60.6	-	.	rfam-id=SNORA7;evalue=4.3e-10;model_end=140;id=1.456;model_start=1;rfam-acc=RF00409;gc-content=0.64
 scaffold33807	.	microRNA	9020	9107	.	-	.	ID=mir-31_1
 scaffold33829	Rfam	similarity	31944	32027	63.7	+	.	rfam-id=snoU2_19;evalue=8.6e-10;model_end=80;id=1.412;model_start=1;rfam-acc=RF00494;gc-content=0.43
-scaffold33829	Rfam	similarity	32130	32198	51.5	+	.	rfam-id=snoU2-30;evalue=1.1e-06;model_end=70;id=1.580;model_start=1;rfam-acc=RF00493;gc-content=0.42
 scaffold3385	Rfam	similarity	10666	10798	50.2	-	.	rfam-id=SNORA77;evalue=6.3e-07;model_end=125;id=1.597;model_start=1;rfam-acc=RF00599;gc-content=0.49
 scaffold3409	.	microRNA	26932	26998	.	-	.	ID=mir-3084_1
 scaffold3409	Rfam	similarity	27708	27831	74.1	-	.	rfam-id=SNORA19;evalue=2e-11;model_end=132;id=1.269;model_start=1;rfam-acc=RF00413;gc-content=0.36
@@ -652,12 +638,10 @@ scaffold36170	.	microRNA	5683	5789	.	+	.	ID=mir-6604_1
 scaffold3621	Rfam	similarity	19002	19272	37.4	-	.	rfam-id=SCARNA7;evalue=2.8e-05;model_end=330;id=1.904;model_start=1;rfam-acc=RF01295;gc-content=0.41
 scaffold36245	.	microRNA	8677	8759	.	-	.	ID=mir-1722_1
 scaffold36370	.	microRNA	473	558	.	+	.	ID=mir-125_1
-scaffold3639	tRNAscan-SE	tRNA	53015	53087	71.16	+	.	number=1;type=Lys;anticodon=CTT;
 scaffold3640	Rfam	similarity	1013	1096	45.7	+	.	rfam-id=mir-1803;evalue=1.6e-07;model_end=87;id=1.678;model_start=1;rfam-acc=RF02094;gc-content=0.54
 scaffold36458	tRNAscan-SE	tRNA	32679	32751	77.25	-	.	number=1;type=Phe;anticodon=GAA;
 scaffold3650	Rfam	similarity	159691	159843	41.6	+	.	rfam-id=uc_338;evalue=2.7e-06;model_end=180;id=1.768;model_start=1;rfam-acc=RF02271;gc-content=0.45
 scaffold3652	Rfam	similarity	2561	2852	39.2	+	.	rfam-id=RSV_RNA;evalue=5.9e-07;model_end=289;id=1.844;model_start=1;rfam-acc=RF01417;gc-content=0.37
-scaffold36589	Rfam	similarity	132	212	62.2	+	.	rfam-id=snoMBII-202;evalue=1.1e-10;model_end=84;id=1.436;model_start=1;rfam-acc=RF00324;gc-content=0.48
 scaffold36597	tRNAscan-SE	tRNA	8524	8597	69.50	+	.	number=1;type=Ile;anticodon=AAT;
 scaffold36706	.	microRNA	37040	37129	.	-	.	ID=mir-1787_1
 scaffold3674	.	microRNA	36137	36220	.	-	.	ID=mir-456_1
@@ -719,7 +703,6 @@ scaffold40105	Rfam	similarity	2812	2884	55.7	+	.	rfam-id=SNORD66;evalue=1.5e-09;
 scaffold40179	Rfam	similarity	19329	19417	43.5	+	.	rfam-id=mir-599;evalue=1.6e-06;model_end=95;id=1.721;model_start=1;rfam-acc=RF00991;gc-content=0.42
 scaffold40242	.	microRNA	891	977	.	+	.	ID=mir-216_1
 scaffold40242	.	microRNA	3977	4074	.	+	.	ID=mir-217_1
-scaffold4038	tRNAscan-SE	tRNA	591	663	71.76	+	.	number=1;type=Lys;anticodon=CTT;
 scaffold40575	.	microRNA	3899	3964	.	-	.	ID=mir-3064_1
 scaffold40575	.	microRNA	4327	4434	.	-	.	ID=mir-5047_1
 scaffold40671	.	microRNA	7014	7107	.	+	.	ID=let-7_4
@@ -727,7 +710,6 @@ scaffold40818	Rfam	similarity	1988	2032	38.0	-	.	rfam-id=Histone3;evalue=1e-05;m
 scaffold40919	.	microRNA	13997	14074	.	-	.	ID=mir-1905_4
 scaffold40927	.	microRNA	9	82	.	+	.	ID=mir-4683_1
 scaffold40931	Rfam	similarity	7026	7265	187.8	+	.	rfam-id=SNORA53;evalue=1.3e-50;model_end=248;id=1.11;model_start=1;rfam-acc=RF00563;gc-content=0.41
-scaffold40985	Rfam	similarity	386	460	53.3	+	.	rfam-id=snoR38;evalue=6.3e-07;model_end=89;id=1.556;model_start=1;rfam-acc=RF00213;gc-content=0.43
 scaffold41075	.	microRNA	29196	29258	.	-	.	ID=mir-1843_1
 scaffold41112	Rfam	similarity	13752	13838	34.6	-	.	rfam-id=mir-1803;evalue=0.00044;model_end=87;id=1.1011;model_start=1;rfam-acc=RF02094;gc-content=0.60
 scaffold41122	Rfam	similarity	24504	24617	114.0	-	.	rfam-id=K_chan_RES;evalue=1.2e-24;model_end=114;id=1.61;model_start=1;rfam-acc=RF00485;gc-content=0.61
@@ -736,7 +718,6 @@ scaffold41597	.	microRNA	1769	1866	.	+	.	ID=mir-10_3
 scaffold4197	.	microRNA	15172	15261	.	+	.	ID=mir-7_1
 scaffold41991	Rfam	similarity	577	708	82.3	+	.	rfam-id=SNORA13;evalue=4.2e-15;model_end=134;id=1.193;model_start=1;rfam-acc=RF00396;gc-content=0.40
 scaffold42016	.	microRNA	2509	2606	.	+	.	ID=mir-6550_1
-scaffold42017	Rfam	similarity	16028	16167	69.6	+	.	rfam-id=SCARNA11;evalue=2.8e-11;model_end=140;id=1.324;model_start=1;rfam-acc=RF00564;gc-content=0.59
 scaffold42046	.	microRNA	6270	6371	.	+	.	ID=mir-10_2
 scaffold4210	tRNAscan-SE	tRNA	10872	10940	35.12	+	.	number=1;type=Undet;anticodon=???;
 scaffold4221	Rfam	similarity	36118	36282	41.3	+	.	rfam-id=uc_338;evalue=3.3e-06;model_end=180;id=1.775;model_start=1;rfam-acc=RF02271;gc-content=0.52
@@ -760,7 +741,6 @@ scaffold42966	tRNAscan-SE	tRNA	670	741	70.65	-	.	number=1;type=Gln;anticodon=CTG
 scaffold43000	Rfam	similarity	2675	2750	40.3	+	.	rfam-id=mir-1;evalue=0.00012;model_end=77;id=1.803;model_start=1;rfam-acc=RF00103;gc-content=0.53
 scaffold43016	tRNAscan-SE	tRNA	11272	11342	67.89	-	.	number=1;type=Gly;anticodon=CCC;
 scaffold43065	Rfam	similarity	28827	28907	38.2	-	.	rfam-id=mir-1803;evalue=3.3e-05;model_end=87;id=1.879;model_start=1;rfam-acc=RF02094;gc-content=0.44
-scaffold4307	tRNAscan-SE	tRNA	460	532	75.96	-	.	number=1;type=Lys;anticodon=TTT;
 scaffold43080	.	microRNA	13149	13230	.	-	.	ID=mir-103_2
 scaffold43131	.	microRNA	15173	15260	.	-	.	ID=mir-1703_1
 scaffold43168	Rfam	similarity	5036	5105	42.2	-	.	rfam-id=SNORD45;evalue=3.7e-05;model_end=72;id=1.752;model_start=1;rfam-acc=RF00279;gc-content=0.51
@@ -820,8 +800,6 @@ scaffold46703	.	microRNA	6382	6470	.	-	.	ID=mir-3662_1
 scaffold46765	.	microRNA	41538	41632	.	-	.	ID=mir-218_2
 scaffold46870	.	microRNA	673	737	.	-	.	ID=mir-133_2
 scaffold46870	.	microRNA	824	883	.	-	.	ID=mir-1_1
-scaffold46969	Rfam	similarity	11511	11782	122.3	+	.	rfam-id=SCARNA6;evalue=7.8e-31;model_end=264;id=1.49;model_start=1;rfam-acc=RF00478;gc-content=0.46
-scaffold46969	Rfam	similarity	14536	14799	91.0	+	.	rfam-id=SCARNA6;evalue=1.1e-21;model_end=264;id=1.147;model_start=1;rfam-acc=RF00478;gc-content=0.46
 scaffold470	.	microRNA	35	100	.	+	.	ID=mir-129_1
 scaffold47227	Rfam	similarity	8360	8473	94.1	-	.	rfam-id=K_chan_RES;evalue=2.8e-19;model_end=114;id=1.125;model_start=1;rfam-acc=RF00485;gc-content=0.61
 scaffold47290	Rfam	similarity	7281	7452	38.0	-	.	rfam-id=uc_338;evalue=2.8e-05;model_end=180;id=1.884;model_start=1;rfam-acc=RF02271;gc-content=0.50
@@ -834,7 +812,6 @@ scaffold47587	Rfam	similarity	10467	10547	36.6	-	.	rfam-id=mir-1803;evalue=0.000
 scaffold4761	tRNAscan-SE	tRNA	54665	54737	74.70	+	.	number=1;type=Phe;anticodon=GAA;
 scaffold47735	.	microRNA	30685	30775	.	-	.	ID=mir-6565_1
 scaffold4778	Rfam	similarity	4727	5010	47.0	+	.	rfam-id=RSV_RNA;evalue=2.3e-09;model_end=289;id=1.656;model_start=1;rfam-acc=RF01417;gc-content=0.40
-scaffold47805	Rfam	similarity	30565	30886	123.9	-	.	rfam-id=snoU85;evalue=3.1e-32;model_end=330;id=1.47;model_start=1;rfam-acc=RF01296;gc-content=0.52
 scaffold4794	Rfam	similarity	43882	43935	62.6	-	.	rfam-id=GABA3;evalue=9.8e-12;model_end=54;id=1.431;model_start=1;rfam-acc=RF01803;gc-content=0.35
 scaffold48041	Rfam	similarity	25107	25279	39.7	+	.	rfam-id=uc_338;evalue=9.5e-06;model_end=180;id=1.826;model_start=1;rfam-acc=RF02271;gc-content=0.50
 scaffold48152	.	microRNA	4005	4087	.	+	.	ID=mir-460_1
@@ -892,10 +869,8 @@ scaffold53529	tRNAscan-SE	tRNA	619	690	68.62	+	.	number=1;type=Gln;anticodon=CTG
 scaffold5371	.	microRNA	3494	3582	.	+	.	ID=mir-146_2
 scaffold53741	Rfam	similarity	66	111	37.8	+	.	rfam-id=Histone3;evalue=1.1e-05;model_end=46;id=1.891;model_start=1;rfam-acc=RF00032;gc-content=0.43
 scaffold53741	Rfam	similarity	592	637	41.7	-	.	rfam-id=Histone3;evalue=6.6e-07;model_end=46;id=1.761;model_start=1;rfam-acc=RF00032;gc-content=0.43
-scaffold5386	Rfam	similarity	18786	18915	129.2	+	.	rfam-id=SCARNA8;evalue=8.5e-28;model_end=131;id=1.42;model_start=1;rfam-acc=RF00286;gc-content=0.48
 scaffold53866	Rfam	similarity	83	380	34.7	-	.	rfam-id=RSV_RNA;evalue=1.4e-05;model_end=289;id=1.1002;model_start=1;rfam-acc=RF01417;gc-content=0.43
 scaffold53941	.	microRNA	18140	18236	.	+	.	ID=mir-1700_1
-scaffold53971	tRNAscan-SE	tRNA	6522	6594	54.09	+	.	number=1;type=Lys;anticodon=CTT;
 scaffold5398	Rfam	similarity	50096	50256	63.7	+	.	rfam-id=U1;evalue=3.6e-14;model_end=165;id=1.413;model_start=1;rfam-acc=RF00003;gc-content=0.45
 scaffold54141	Rfam	similarity	1831	1988	103.0	+	.	rfam-id=U2;evalue=5.8e-28;model_end=192;id=1.91;model_start=1;rfam-acc=RF00004;gc-content=0.43
 scaffold5426	Rfam	similarity	34879	35090	155.9	-	.	rfam-id=U3;evalue=8.9e-35;model_end=218;id=1.20;model_start=1;rfam-acc=RF00012;gc-content=0.61
@@ -913,7 +888,6 @@ scaffold55325	Rfam	similarity	1860	1939	53.1	+	.	rfam-id=SNORD51;evalue=2e-07;mo
 scaffold55325	Rfam	similarity	2381	2514	97.5	+	.	rfam-id=SNORA41;evalue=8.5e-19;model_end=133;id=1.108;model_start=1;rfam-acc=RF00403;gc-content=0.42
 scaffold55471	.	microRNA	1043	1128	.	+	.	ID=mir-142_1
 scaffold5553	Rfam	similarity	109144	109229	35.9	-	.	rfam-id=mir-1803;evalue=0.00018;model_end=87;id=1.960;model_start=1;rfam-acc=RF02094;gc-content=0.43
-scaffold5562	Rfam	similarity	5915	6051	118.4	+	.	rfam-id=SCARNA14;evalue=2.2e-23;model_end=136;id=1.52;model_start=1;rfam-acc=RF00582;gc-content=0.50
 scaffold5580	Rfam	similarity	29853	29936	41.2	-	.	rfam-id=mir-1803;evalue=4.1e-06;model_end=87;id=1.778;model_start=1;rfam-acc=RF02094;gc-content=0.45
 scaffold55851	.	microRNA	11986	12070	.	+	.	ID=mir-1416_1
 scaffold5613	.	microRNA	13698	13807	.	+	.	ID=mir-6626_1
@@ -1017,8 +991,6 @@ scaffold8518	Rfam	similarity	20742	20842	38.2	-	.	rfam-id=U6;evalue=9.3e-06;mode
 scaffold8589	Rfam	similarity	16346	16421	47.5	-	.	rfam-id=SNORD81;evalue=8.1e-06;model_end=77;id=1.646;model_start=1;rfam-acc=RF00136;gc-content=0.41
 scaffold8589	Rfam	similarity	16569	16644	48.7	-	.	rfam-id=SNORD47;evalue=1.9e-06;model_end=77;id=1.620;model_start=1;rfam-acc=RF00281;gc-content=0.41
 scaffold8589	Rfam	similarity	17771	17849	68.8	-	.	rfam-id=SNORD79;evalue=7.3e-11;model_end=83;id=1.337;model_start=1;rfam-acc=RF00152;gc-content=0.42
-scaffold8589	Rfam	similarity	20127	20212	50.8	-	.	rfam-id=snosnR60_Z15;evalue=2.3e-06;model_end=98;id=1.588;model_start=1;rfam-acc=RF00309;gc-content=0.52
-scaffold8589	Rfam	similarity	20380	20460	64.3	-	.	rfam-id=snosnR60_Z15;evalue=8.6e-10;model_end=98;id=1.400;model_start=1;rfam-acc=RF00309;gc-content=0.38
 scaffold8589	Rfam	similarity	20826	20907	42.7	-	.	rfam-id=SNORD24;evalue=0.00018;model_end=76;id=1.739;model_start=1;rfam-acc=RF00069;gc-content=0.43
 scaffold8589	Rfam	similarity	21144	21205	73.0	-	.	rfam-id=SNORD75;evalue=7.5e-18;model_end=62;id=1.281;model_start=1;rfam-acc=RF00612;gc-content=0.42
 scaffold8589	.	microRNA	21978	22056	.	-	.	ID=mir-2989_1

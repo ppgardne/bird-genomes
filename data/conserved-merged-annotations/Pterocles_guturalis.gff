@@ -1017,6 +1017,7 @@ scaffold8944	tRNAscan-SE	tRNA	59247	59318	61.15	-	.	number=2;type=Glu;anticodon=
 scaffold8981	.	microRNA	65573	65649	.	+	.	ID=mir-138_1
 scaffold8981	.	microRNA	65762	65865	.	+	.	ID=mir-2972_1
 scaffold9043	Rfam	similarity	31689	31773	44.6	+	.	rfam-id=mir-1803;evalue=3.5e-07;model_end=87;id=1.693;model_start=1;rfam-acc=RF02094;gc-content=0.49
+scaffold9081	Rfam	similarity	80748	80818	30.9	-	.	rfam-id=DLG2-AS1_2;evalue=0.00013;model_end=215;id=1.1012;model_start=1;rfam-acc=RF02113;gc-content=0.31
 scaffold9124	Rfam	similarity	51122	51280	39.7	-	.	rfam-id=uc_338;evalue=9.3e-06;model_end=180;id=1.814;model_start=1;rfam-acc=RF02271;gc-content=0.45
 scaffold9129	.	microRNA	10713	10794	.	+	.	ID=mir-26_1
 scaffold9188	.	microRNA	116498	116579	.	+	.	ID=mir-29_2

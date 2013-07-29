@@ -899,6 +899,7 @@ scaffold41054	.	microRNA	19398	19454	.	-	.	ID=mir-2978_1
 scaffold41093	Rfam	similarity	9124	9196	72.7	-	.	rfam-id=CAESAR;evalue=9.7e-12;model_end=80;id=1.305;model_start=1;rfam-acc=RF00172;gc-content=0.41
 scaffold41137	tRNAscan-SE	tRNA	550	620	70.69	+	.	number=1;type=Gly;anticodon=GCC;
 scaffold41167	tRNAscan-SE	tRNA	2649	2721	71.93	+	.	number=1;type=Arg;anticodon=TCT;
+scaffold41255	Rfam	similarity	27245	27322	31.6	+	.	rfam-id=DLG2-AS1_2;evalue=9e-05;model_end=215;id=1.1167;model_start=1;rfam-acc=RF02113;gc-content=0.47
 scaffold41281	Rfam	similarity	1534	1647	111.2	-	.	rfam-id=K_chan_RES;evalue=7.1e-24;model_end=114;id=1.71;model_start=1;rfam-acc=RF00485;gc-content=0.61
 scaffold4134	.	microRNA	25003	25101	.	-	.	ID=mir-1397_1
 scaffold41378	tRNAscan-SE	tRNA	169	242	69.08	-	.	number=1;type=Ile;anticodon=AAT;

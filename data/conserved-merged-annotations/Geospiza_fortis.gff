@@ -1224,6 +1224,7 @@ scaffold874	.	microRNA	1594173	1594248	.	+	.	ID=mir-19_1
 scaffold874	.	microRNA	1594368	1594445	.	+	.	ID=mir-92_1
 scaffold874	.	microRNA	1594506	1594592	.	+	.	ID=mir-363_1
 scaffold897	Rfam	similarity	558327	558458	80.2	-	.	rfam-id=SNORA84;evalue=4e-15;model_end=134;id=1.237;model_start=1;rfam-acc=RF01229;gc-content=0.66
+scaffold900	Rfam	similarity	409341	409493	29.2	-	.	rfam-id=DLG2-AS1_2;evalue=0.00045;model_end=215;id=1.1112;model_start=1;rfam-acc=RF02113;gc-content=0.46
 scaffold917	tRNAscan-SE	tRNA	8267	8348	63.52	-	.	number=1;type=Leu;anticodon=AAG;
 scaffold94	tRNAscan-SE	tRNA	732889	732961	52.70	-	.	number=1;type=Ser;anticodon=TGA;
 scaffold94	.	microRNA	1598757	1598837	.	-	.	ID=mir-30_6

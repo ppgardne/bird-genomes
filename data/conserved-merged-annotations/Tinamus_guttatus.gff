@@ -1158,7 +1158,6 @@ scaffold7222	tRNAscan-SE	tRNA	18875	18947	63.52	-	.	number=3;type=Ala;anticodon=
 scaffold7222	tRNAscan-SE	tRNA	21935	22007	63.52	+	.	number=1;type=Ala;anticodon=AGC;
 scaffold7222	tRNAscan-SE	tRNA	22943	23015	63.52	-	.	number=2;type=Ala;anticodon=AGC;
 scaffold7224	.	microRNA	48185	48263	.	+	.	ID=mir-1709_1
-scaffold724	Rfam	similarity	131732	131811	38.9	-	.	rfam-id=mir-290;evalue=3.8e-05;model_end=82;id=1.1194;model_start=1;rfam-acc=RF00665;gc-content=0.44
 scaffold7277	Rfam	similarity	35044	35104	43.4	-	.	rfam-id=SNORD93;evalue=0.00022;model_end=74;id=1.1034;model_start=1;rfam-acc=RF00606;gc-content=0.41
 scaffold730	Rfam	similarity	157787	157955	37.2	+	.	rfam-id=uc_338;evalue=4.5e-05;model_end=180;id=1.1270;model_start=1;rfam-acc=RF02271;gc-content=0.47
 scaffold733	Rfam	similarity	462685	462798	43.0	-	.	rfam-id=K_chan_RES;evalue=2e-05;model_end=114;id=1.1044;model_start=1;rfam-acc=RF00485;gc-content=0.46

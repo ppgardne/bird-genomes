@@ -334,7 +334,6 @@ scaffold16355	.	microRNA	55376	55464	.	+	.	ID=mir-6574_1
 scaffold16359	tRNAscan-SE	tRNA	42254	42346	48.93	+	.	number=1;type=Thr;anticodon=GGT;intron_boundary=(42292,42310);
 scaffold16400	Rfam	similarity	651	753	52.8	-	.	rfam-id=U6;evalue=4e-10;model_end=106;id=1.559;model_start=1;rfam-acc=RF00026;gc-content=0.40
 scaffold16452	Rfam	similarity	27692	27849	38.1	-	.	rfam-id=uc_338;evalue=3e-05;model_end=180;id=1.956;model_start=1;rfam-acc=RF02271;gc-content=0.46
-scaffold16621	Rfam	similarity	1	219	144.7	-	.	rfam-id=Metazoa_SRP;evalue=1.6e-19;model_end=219;id=1.25;model_start=1;rfam-acc=RF00017;gc-content=0.69
 scaffold16716	tRNAscan-SE	tRNA	306	378	71.16	+	.	number=1;type=Lys;anticodon=CTT;
 scaffold16716	tRNAscan-SE	tRNA	1535	1607	71.16	+	.	number=2;type=Lys;anticodon=CTT;
 scaffold16778	Rfam	similarity	50835	50982	35.2	-	.	rfam-id=U1;evalue=2.1e-05;model_end=165;id=1.1116;model_start=1;rfam-acc=RF00003;gc-content=0.51

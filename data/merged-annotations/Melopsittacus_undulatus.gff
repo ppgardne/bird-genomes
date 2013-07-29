@@ -1,8 +1,10 @@
 Adam_Phillippy_v6_sli_scf900160252026	Rfam	similarity	17736	17899	161.9	+	.	rfam-id=U1;evalue=3e-44;model_end=165;id=1.44;model_start=1;rfam-acc=RF00003;gc-content=0.58
+Adam_Phillippy_v6_sli_scf900160252755	SNOSTRIP	CD-snoRNA	768	852	103	-	.	SNORD62
 Adam_Phillippy_v6_sli_scf900160253176	Rfam	similarity	67	180	51.1	+	.	rfam-id=SNORD90;evalue=9.9e-07;model_end=111;id=1.730;model_start=1;rfam-acc=RF00579;gc-content=0.37
 Adam_Phillippy_v6_sli_scf900160253273	tRNAscan-SE	tRNA	2598	2679	60.84	-	.	number=1;type=Ser;anticodon=GCT;
 Adam_Phillippy_v6_sli_scf900160254282	Rfam	similarity	36310	36438	70.2	-	.	rfam-id=SCARNA4;evalue=1.8e-11;model_end=129;id=1.401;model_start=1;rfam-acc=RF00423;gc-content=0.54
 Adam_Phillippy_v6_sli_scf900160254588	tRNAscan-SE	tRNA	23409	23480	66.46	+	.	number=1;type=Gln;anticodon=CTG;
+Adam_Phillippy_v6_sli_scf900160254747	SNOSTRIP	HACA-snoRNA	127	261	139	-	.	GGgACA21
 Adam_Phillippy_v6_sli_scf900160254828	Rfam	similarity	976	1079	71.2	-	.	rfam-id=RNAI;evalue=1.3e-12;model_end=102;id=1.390;model_start=1;rfam-acc=RF00106;gc-content=0.48
 Adam_Phillippy_v6_sli_scf900160256611	tRNAscan-SE	tRNA	98	169	58.81	+	.	number=1;type=Trp;anticodon=CCA;
 Adam_Phillippy_v6_sli_scf900160256628	Rfam	similarity	1	56	73.7	-	.	rfam-id=U2;evalue=1.9e-18;model_end=56;id=1.366;model_start=1;rfam-acc=RF00004;gc-content=0.39
@@ -11,6 +13,7 @@ Adam_Phillippy_v6_sli_scf900160256759	.	microRNA	255040	255126	.	+	.	ID=mir-9_3
 Adam_Phillippy_v6_sli_scf900160257219	.	microRNA	1949	2035	.	+	.	ID=mir-199_1
 Adam_Phillippy_v6_sli_scf900160257504	tRNAscan-SE	tRNA	887	958	62.56	+	.	number=1;type=Pro;anticodon=TGG;
 Adam_Phillippy_v6_sli_scf900160257742	.	microRNA	1431	1510	.	+	.	ID=mir-129_2
+Adam_Phillippy_v6_sli_scf900160258626	SNOSTRIP	HACA-snoRNA	548	681	179	-	.	SNORA64
 Adam_Phillippy_v6_sli_scf900160258832	tRNAscan-SE	tRNA	995	1067	73.05	-	.	number=5;type=Val;anticodon=CAC;
 Adam_Phillippy_v6_sli_scf900160258832	tRNAscan-SE	tRNA	1431	1538	61.36	-	.	number=4;type=Leu;anticodon=CAA;intron_boundary=(1500,1477);
 Adam_Phillippy_v6_sli_scf900160258832	tRNAscan-SE	tRNA	1682	1754	71.16	-	.	number=3;type=Lys;anticodon=CTT;
@@ -73,10 +76,12 @@ Adam_Phillippy_v6_sli_scf900160271521	tRNAscan-SE	tRNA	28026	28099	71.17	-	.	num
 Adam_Phillippy_v6_sli_scf900160271912	.	microRNA	638	724	.	+	.	ID=mir-143_1
 Adam_Phillippy_v6_sli_scf900160271912	.	microRNA	936	1017	.	+	.	ID=mir-145_1
 Adam_Phillippy_v6_sli_scf900160272044	Rfam	similarity	1	129	51.4	+	.	rfam-id=SNORA36;evalue=7.1e-07;model_end=132;id=1.726;model_start=7;rfam-acc=RF00340;gc-content=0.47
+Adam_Phillippy_v6_sli_scf900160272469	SNOSTRIP	CD-snoRNA	9390	9485	108	+	.	GGoCD9
 Adam_Phillippy_v6_sli_scf900160273185	tRNAscan-SE	tRNA	169	240	62.56	-	.	number=1;type=Pro;anticodon=TGG;
 Adam_Phillippy_v6_sli_scf900160274129	Rfam	similarity	888	1073	163.7	+	.	rfam-id=uc_338;evalue=8.7e-41;model_end=180;id=1.40;model_start=1;rfam-acc=RF02271;gc-content=0.59
 Adam_Phillippy_v6_sli_scf900160274463	Rfam	similarity	473	608	64.2	+	.	rfam-id=SNORA17;evalue=4.2e-11;model_end=132;id=1.511;model_start=1;rfam-acc=RF00560;gc-content=0.60
 Adam_Phillippy_v6_sli_scf900160274463	.	microRNA	1023	1111	.	+	.	ID=mir-3528_2
+Adam_Phillippy_v6_sli_scf900160274507	SNOSTRIP	CD-snoRNA	808	884	62.5	+	.	SNORD110
 Adam_Phillippy_v6_sli_scf900160274507	Rfam	similarity	1420	1491	48.3	+	.	rfam-id=SNORD56;evalue=3.5e-06;model_end=71;id=1.758;model_start=1;rfam-acc=RF00275;gc-content=0.60
 Adam_Phillippy_v6_sli_scf900160274507	Rfam	similarity	1704	1771	51.5	+	.	rfam-id=SNORD57;evalue=1.3e-07;model_end=72;id=1.725;model_start=1;rfam-acc=RF00274;gc-content=0.51
 Adam_Phillippy_v6_sli_scf900160274851	Rfam	similarity	555	600	38.9	-	.	rfam-id=Histone3;evalue=5.3e-06;model_end=46;id=1.959;model_start=1;rfam-acc=RF00032;gc-content=0.52
@@ -96,6 +101,9 @@ Adam_Phillippy_v6_sli_scf900160276200	.	microRNA	22915	22996	.	+	.	ID=mir-103_2
 Adam_Phillippy_v6_sli_scf900160276318	Rfam	similarity	714	860	32.8	-	.	rfam-id=U1;evalue=0.00011;model_end=165;id=1.1113;model_start=1;rfam-acc=RF00003;gc-content=0.49
 Adam_Phillippy_v6_sli_scf900160276333	.	microRNA	8475	8525	.	-	.	ID=mir-6087_1
 Adam_Phillippy_v6_sli_scf900160276333	Rfam	similarity	11927	12078	135.4	-	.	rfam-id=5_8S_rRNA;evalue=5.9e-34;model_end=154;id=1.64;model_start=1;rfam-acc=RF00002;gc-content=0.57
+Adam_Phillippy_v6_sli_scf900160276337	SNOSTRIP	CD-snoRNA	36856	36929	74	-	.	GGgCD25
+Adam_Phillippy_v6_sli_scf900160276337	SNOSTRIP	CD-snoRNA	38560	38632	92.5	-	.	GGgCD25
+Adam_Phillippy_v6_sli_scf900160276337	SNOSTRIP	CD-snoRNA	40212	40291	108	-	.	GGgCD25
 Adam_Phillippy_v6_sli_scf900160276345	Rfam	similarity	1842	2046	167.9	-	.	rfam-id=SNORA73;evalue=9e-46;model_end=218;id=1.37;model_start=1;rfam-acc=RF00045;gc-content=0.62
 Adam_Phillippy_v6_sli_scf900160276345	Rfam	similarity	2899	3103	162.9	-	.	rfam-id=SNORA73;evalue=2.9e-44;model_end=218;id=1.41;model_start=1;rfam-acc=RF00045;gc-content=0.62
 Adam_Phillippy_v6_sli_scf900160276348	.	microRNA	41332	41431	.	-	.	ID=mir-1640_1
@@ -109,12 +117,14 @@ Adam_Phillippy_v6_sli_scf900160276390	.	microRNA	81452	81527	.	+	.	ID=mir-338_1
 Adam_Phillippy_v6_sli_scf900160276403	Rfam	similarity	772	931	64.1	+	.	rfam-id=U1;evalue=2.7e-14;model_end=165;id=1.514;model_start=1;rfam-acc=RF00003;gc-content=0.47
 Adam_Phillippy_v6_sli_scf900160276444	tRNAscan-SE	tRNA	63744	63815	76.77	+	.	number=1;type=Cys;anticodon=GCA;
 Adam_Phillippy_v6_sli_scf900160276444	tRNAscan-SE	tRNA	65077	65148	79.42	+	.	number=2;type=Cys;anticodon=GCA;
+Adam_Phillippy_v6_sli_scf900160276444	SNOSTRIP	HACA-snoRNA	65923	66053	78.3	+	.	SNORA21
 Adam_Phillippy_v6_sli_scf900160276444	Rfam	similarity	66342	66472	85.9	+	.	rfam-id=SNORA21;evalue=5.9e-16;model_end=136;id=1.238;model_start=1;rfam-acc=RF00412;gc-content=0.55
 Adam_Phillippy_v6_sli_scf900160276444	tRNAscan-SE	tRNA	68995	69066	75.38	+	.	number=3;type=Cys;anticodon=GCA;
 Adam_Phillippy_v6_sli_scf900160276444	tRNAscan-SE	tRNA	69332	69403	76.94	+	.	number=4;type=Cys;anticodon=GCA;
 Adam_Phillippy_v6_sli_scf900160276444	tRNAscan-SE	tRNA	70574	70645	77.59	+	.	number=5;type=Cys;anticodon=GCA;
 Adam_Phillippy_v6_sli_scf900160276484	.	microRNA	23	113	.	-	.	ID=mir-10_3
 Adam_Phillippy_v6_sli_scf900160276512	Rfam	similarity	278437	278736	246.2	+	.	rfam-id=Metazoa_SRP;evalue=2.3e-34;model_end=298;id=1.12;model_start=1;rfam-acc=RF00017;gc-content=0.67
+Adam_Phillippy_v6_sli_scf900160276512	SNOSTRIP	HACA-snoRNA	410245	410371	88.3	+	.	SNORA17
 Adam_Phillippy_v6_sli_scf900160276512	Rfam	similarity	414743	415041	242.3	-	.	rfam-id=Metazoa_SRP;evalue=8.2e-34;model_end=298;id=1.15;model_start=1;rfam-acc=RF00017;gc-content=0.63
 Adam_Phillippy_v6_sli_scf900160276512	.	microRNA	764315	764396	.	+	.	ID=mir-1703_3
 Adam_Phillippy_v6_sli_scf900160276521	Rfam	similarity	266800	266959	120.8	-	.	rfam-id=U1;evalue=1.2e-31;model_end=165;id=1.83;model_start=1;rfam-acc=RF00003;gc-content=0.50
@@ -124,6 +134,7 @@ Adam_Phillippy_v6_sli_scf900160276522	Rfam	similarity	460895	460980	45.7	+	.	rfa
 Adam_Phillippy_v6_sli_scf900160276523	.	microRNA	118531	118624	.	+	.	ID=mir-218_1
 Adam_Phillippy_v6_sli_scf900160276525	.	microRNA	50940	51022	.	+	.	ID=mir-9_1
 Adam_Phillippy_v6_sli_scf900160276547	.	microRNA	178366	178437	.	-	.	ID=mir-122_1
+Adam_Phillippy_v6_sli_scf900160276549	SNOSTRIP	HACA-snoRNA	21051	21191	152	-	.	SNORA58
 Adam_Phillippy_v6_sli_scf900160276549	.	microRNA	25745	25819	.	-	.	ID=mir-3536_1
 Adam_Phillippy_v6_sli_scf900160276559	Rfam	similarity	133950	134056	114.0	-	.	rfam-id=U6;evalue=1.2e-28;model_end=106;id=1.97;model_start=1;rfam-acc=RF00026;gc-content=0.47
 Adam_Phillippy_v6_sli_scf900160276578	.	microRNA	265225	265317	.	-	.	ID=mir-2984_1
@@ -195,7 +206,9 @@ Adam_Phillippy_v6_sli_scf900160276867	.	microRNA	385868	385953	.	-	.	ID=let-7_6
 Adam_Phillippy_v6_sli_scf900160276867	.	microRNA	386070	386153	.	-	.	ID=let-7_3
 Adam_Phillippy_v6_sli_scf900160276870	.	microRNA	292655	292733	.	-	.	ID=mir-1572_1
 Adam_Phillippy_v6_sli_scf900160276870	tRNAscan-SE	tRNA	910377	910459	71.68	+	.	number=1;type=Leu;anticodon=TAA;
+Adam_Phillippy_v6_sli_scf900160276872	SNOSTRIP	CD-snoRNA	548109	548183	98.3	-	.	SNORD19
 Adam_Phillippy_v6_sli_scf900160276872	.	microRNA	548720	548787	.	-	.	ID=mir-1563_1
+Adam_Phillippy_v6_sli_scf900160276872	SNOSTRIP	CD-snoRNA	549217	549289	98.3	-	.	SNORD19
 Adam_Phillippy_v6_sli_scf900160276872	Rfam	similarity	551874	551949	49.2	-	.	rfam-id=SNORD19;evalue=6.6e-07;model_end=77;id=1.748;model_start=1;rfam-acc=RF00569;gc-content=0.38
 Adam_Phillippy_v6_sli_scf900160276872	.	microRNA	1289445	1289537	.	-	.	ID=let-7_4
 Adam_Phillippy_v6_sli_scf900160276872	.	microRNA	1313427	1313503	.	-	.	ID=mir-135_1
@@ -224,6 +237,7 @@ Adam_Phillippy_v6_sli_scf900160276888	Rfam	similarity	388782	388854	76.5	-	.	rfa
 Adam_Phillippy_v6_sli_scf900160276888	Rfam	similarity	389290	389366	67.6	-	.	rfam-id=SNORD36;evalue=2.6e-11;model_end=76;id=1.433;model_start=1;rfam-acc=RF00049;gc-content=0.34
 Adam_Phillippy_v6_sli_scf900160276888	Rfam	similarity	390626	390698	75.9	-	.	rfam-id=SNORD24;evalue=3e-13;model_end=76;id=1.333;model_start=1;rfam-acc=RF00069;gc-content=0.38
 Adam_Phillippy_v6_sli_scf900160276889	Rfam	similarity	199010	199134	65.8	+	.	rfam-id=SNORA71;evalue=3.4e-10;model_end=134;id=1.461;model_start=1;rfam-acc=RF00056;gc-content=0.72
+Adam_Phillippy_v6_sli_scf900160276889	SNOSTRIP	HACA-snoRNA	199644	199781	133	+	.	SNORA39
 Adam_Phillippy_v6_sli_scf900160276889	.	microRNA	381707	381813	.	+	.	ID=mir-6692_1
 Adam_Phillippy_v6_sli_scf900160276889	Rfam	similarity	480008	480063	69.7	-	.	rfam-id=Antizyme_FSE;evalue=2.6e-14;model_end=59;id=1.408;model_start=1;rfam-acc=RF00381;gc-content=0.66
 Adam_Phillippy_v6_sli_scf900160276889	tRNAscan-SE	tRNA	888423	888494	67.36	-	.	number=5;type=Gln;anticodon=CTG;
@@ -277,6 +291,7 @@ Adam_Phillippy_v6_sli_scf900160276913	Rfam	similarity	2153318	2153557	196.2	+	.	
 Adam_Phillippy_v6_sli_scf900160276914	Rfam	similarity	356049	356131	44.6	+	.	rfam-id=SNORD121A;evalue=5.4e-05;model_end=83;id=1.824;model_start=1;rfam-acc=RF01191;gc-content=0.36
 Adam_Phillippy_v6_sli_scf900160276915	.	microRNA	907733	907819	.	-	.	ID=mir-3531_1
 Adam_Phillippy_v6_sli_scf900160276915	Rfam	similarity	937500	937576	41.9	-	.	rfam-id=SNORD103;evalue=0.00013;model_end=83;id=1.884;model_start=1;rfam-acc=RF00188;gc-content=0.55
+Adam_Phillippy_v6_sli_scf900160276915	SNOSTRIP	CD-snoRNA	951341	951425	121	-	.	SNORD85
 Adam_Phillippy_v6_sli_scf900160276915	Rfam	similarity	957104	957187	75.7	-	.	rfam-id=SNORD103;evalue=1.1e-13;model_end=83;id=1.339;model_start=1;rfam-acc=RF00188;gc-content=0.49
 Adam_Phillippy_v6_sli_scf900160276916	.	microRNA	368341	368426	.	-	.	ID=mir-205_1
 Adam_Phillippy_v6_sli_scf900160276916	.	microRNA	867771	867851	.	+	.	ID=mir-29_1
@@ -319,6 +334,7 @@ Adam_Phillippy_v6_sli_scf900160276936	tRNAscan-SE	tRNA	1482455	1482526	66.33	+	.
 Adam_Phillippy_v6_sli_scf900160276936	Rfam	similarity	1482550	1482696	36.5	+	.	rfam-id=U1;evalue=7.8e-06;model_end=165;id=1.1032;model_start=1;rfam-acc=RF00003;gc-content=0.48
 Adam_Phillippy_v6_sli_scf900160276937	Rfam	similarity	1239837	1239913	37.7	-	.	rfam-id=mir-1803;evalue=5.1e-05;model_end=87;id=1.990;model_start=1;rfam-acc=RF02094;gc-content=0.42
 Adam_Phillippy_v6_sli_scf900160276937	.	microRNA	1379842	1379926	.	+	.	ID=mir-460_1
+Adam_Phillippy_v6_sli_scf900160276937	SNOSTRIP	HACA-snoRNA	1755415	1755549	119	+	.	SNORA5
 Adam_Phillippy_v6_sli_scf900160276937	Rfam	similarity	1758817	1758953	81.8	+	.	rfam-id=SNORA5;evalue=1.9e-15;model_end=134;id=1.275;model_start=1;rfam-acc=RF00392;gc-content=0.58
 Adam_Phillippy_v6_sli_scf900160276937	Rfam	similarity	1764091	1764229	63.0	+	.	rfam-id=SNORA5;evalue=1.4e-10;model_end=134;id=1.532;model_start=1;rfam-acc=RF00392;gc-content=0.58
 Adam_Phillippy_v6_sli_scf900160276937	Rfam	similarity	1765049	1765187	62.5	+	.	rfam-id=SNORA5;evalue=1.9e-10;model_end=134;id=1.539;model_start=1;rfam-acc=RF00392;gc-content=0.54
@@ -355,6 +371,7 @@ Adam_Phillippy_v6_sli_scf900160276943	tRNAscan-SE	tRNA	3081927	3081999	72.49	+	.
 Adam_Phillippy_v6_sli_scf900160276943	tRNAscan-SE	tRNA	3084480	3084552	72.49	+	.	number=3;type=Arg;anticodon=CCT;
 Adam_Phillippy_v6_sli_scf900160276943	tRNAscan-SE	tRNA	3085280	3085352	71.93	-	.	number=8;type=Arg;anticodon=TCT;
 Adam_Phillippy_v6_sli_scf900160276943	tRNAscan-SE	tRNA	3393506	3393587	73.79	-	.	number=7;type=Ser;anticodon=GCT;
+Adam_Phillippy_v6_sli_scf900160276943	SNOSTRIP	CD-snoRNA	4004129	4004198	75.4	-	.	SNORD1
 Adam_Phillippy_v6_sli_scf900160276943	Rfam	similarity	4005616	4005691	52.0	-	.	rfam-id=snoR38;evalue=1.4e-06;model_end=89;id=1.720;model_start=1;rfam-acc=RF00213;gc-content=0.42
 Adam_Phillippy_v6_sli_scf900160276943	tRNAscan-SE	tRNA	4376288	4376369	56.81	-	.	number=6;type=Ser;anticodon=GCT;
 Adam_Phillippy_v6_sli_scf900160276943	tRNAscan-SE	tRNA	4378706	4378787	75.17	-	.	number=5;type=Ser;anticodon=GCT;
@@ -380,6 +397,7 @@ Adam_Phillippy_v6_sli_scf900160276948	Rfam	similarity	797673	797757	46.9	+	.	rfa
 Adam_Phillippy_v6_sli_scf900160276950	.	microRNA	36312	36437	.	+	.	ID=mir-6542_1
 Adam_Phillippy_v6_sli_scf900160276950	Rfam	similarity	807439	807711	204.9	+	.	rfam-id=Six3os1_5;evalue=4.8e-61;model_end=272;id=1.22;model_start=1;rfam-acc=RF02250;gc-content=0.46
 Adam_Phillippy_v6_sli_scf900160276950	Rfam	similarity	811164	811353	186.9	+	.	rfam-id=Six3os1_7;evalue=1.6e-50;model_end=194;id=1.28;model_start=1;rfam-acc=RF02252;gc-content=0.41
+Adam_Phillippy_v6_sli_scf900160276950	SNOSTRIP	HACA-snoRNA	1801130	1801263	146	+	.	SNORA17
 Adam_Phillippy_v6_sli_scf900160276950	.	microRNA	2328604	2328702	.	-	.	ID=mir-6580_1
 Adam_Phillippy_v6_sli_scf900160276953	tRNAscan-SE	tRNA	1164838	1164909	45.47	-	.	number=1;type=Lys;anticodon=CTT;
 Adam_Phillippy_v6_sli_scf900160276953	Rfam	similarity	1907451	1907535	51.3	-	.	rfam-id=mir-1803;evalue=2.9e-09;model_end=87;id=1.728;model_start=1;rfam-acc=RF02094;gc-content=0.54
@@ -391,6 +409,7 @@ Adam_Phillippy_v6_sli_scf900160276958	Rfam	similarity	401870	401955	74.4	+	.	rfa
 Adam_Phillippy_v6_sli_scf900160276958	.	microRNA	784560	784633	.	+	.	ID=mir-4683_1
 Adam_Phillippy_v6_sli_scf900160276958	Rfam	similarity	1274184	1274317	93.6	-	.	rfam-id=SNORA41;evalue=8.3e-18;model_end=133;id=1.188;model_start=1;rfam-acc=RF00403;gc-content=0.42
 Adam_Phillippy_v6_sli_scf900160276958	Rfam	similarity	1274739	1274819	53.8	-	.	rfam-id=SNORD51;evalue=1.3e-07;model_end=79;id=1.683;model_start=1;rfam-acc=RF00280;gc-content=0.37
+Adam_Phillippy_v6_sli_scf900160276958	SNOSTRIP	HACA-snoRNA	1328824	1328972	189	+	.	SNORA57
 Adam_Phillippy_v6_sli_scf900160276961	.	microRNA	79202	79301	.	-	.	ID=mir-146_1
 Adam_Phillippy_v6_sli_scf900160276980	tRNAscan-SE	tRNA	855930	856002	77.25	+	.	number=1;type=Phe;anticodon=GAA;
 Adam_Phillippy_v6_sli_scf900160276980	Rfam	similarity	1128836	1129003	47.7	-	.	rfam-id=U2;evalue=4.6e-10;model_end=192;id=1.772;model_start=1;rfam-acc=RF00004;gc-content=0.39
@@ -427,6 +446,7 @@ Adam_Phillippy_v6_sli_scf900160277006	tRNAscan-SE	tRNA	1392517	1392588	60.58	+	.
 Adam_Phillippy_v6_sli_scf900160277006	tRNAscan-SE	tRNA	1392820	1392891	71.30	+	.	number=4;type=Ala;anticodon=TGC;
 Adam_Phillippy_v6_sli_scf900160277006	.	microRNA	2890012	2890123	.	+	.	ID=mir-1764_1
 Adam_Phillippy_v6_sli_scf900160277008	Rfam	similarity	2921752	2922069	221.0	-	.	rfam-id=7SK;evalue=2.5e-63;model_end=331;id=1.18;model_start=1;rfam-acc=RF00100;gc-content=0.50
+Adam_Phillippy_v6_sli_scf900160277009	SNOSTRIP	CD-snoRNA	3449725	3449872	153	-	.	GGgCD76
 Adam_Phillippy_v6_sli_scf900160277009	.	microRNA	3732608	3732682	.	-	.	ID=mir-338_2
 Adam_Phillippy_v6_sli_scf900160277010	Rfam	similarity	314254	314538	43.4	+	.	rfam-id=RSV_RNA;evalue=3e-08;model_end=289;id=1.853;model_start=1;rfam-acc=RF01417;gc-content=0.42
 Adam_Phillippy_v6_sli_scf900160277010	Rfam	similarity	926778	927069	42.1	+	.	rfam-id=RSV_RNA;evalue=7.5e-08;model_end=289;id=1.878;model_start=1;rfam-acc=RF01417;gc-content=0.38
@@ -493,6 +513,7 @@ Adam_Phillippy_v6_sli_scf900160277025	.	microRNA	53539	53638	.	+	.	ID=mir-219_1
 Adam_Phillippy_v6_sli_scf900160277025	tRNAscan-SE	tRNA	88103	88193	63.85	+	.	number=1;type=Arg;anticodon=TCT;intron_boundary=(88140,88157);
 Adam_Phillippy_v6_sli_scf900160277025	.	microRNA	146084	146171	.	+	.	ID=mir-199_2
 Adam_Phillippy_v6_sli_scf900160277025	Rfam	similarity	623225	623305	35.8	+	.	rfam-id=mir-1803;evalue=0.00019;model_end=87;id=1.1057;model_start=1;rfam-acc=RF02094;gc-content=0.44
+Adam_Phillippy_v6_sli_scf900160277025	SNOSTRIP	CD-snoRNA	1421104	1421188	74	+	.	SNORD62
 Adam_Phillippy_v6_sli_scf900160277025	Rfam	similarity	2516088	2516459	352.7	+	.	rfam-id=NRON;evalue=1.2e-110;model_end=370;id=1.1;model_start=1;rfam-acc=RF00636;gc-content=0.38
 Adam_Phillippy_v6_sli_scf900160277025	.	microRNA	3082383	3082466	.	-	.	ID=mir-181_3
 Adam_Phillippy_v6_sli_scf900160277025	.	microRNA	3084091	3084173	.	-	.	ID=mir-181_2
@@ -594,6 +615,7 @@ Adam_Phillippy_v6_sli_scf900160277039	Rfam	similarity	6499753	6499893	121.1	+	.	
 Adam_Phillippy_v6_sli_scf900160277039	Rfam	similarity	6500546	6500686	125.4	+	.	rfam-id=U4;evalue=1.7e-27;model_end=138;id=1.75;model_start=1;rfam-acc=RF00015;gc-content=0.45
 Adam_Phillippy_v6_sli_scf900160277039	Rfam	similarity	6543354	6543504	42.9	+	.	rfam-id=uc_338;evalue=1.2e-06;model_end=180;id=1.863;model_start=1;rfam-acc=RF02271;gc-content=0.51
 Adam_Phillippy_v6_sli_scf900160277040	Rfam	similarity	1272032	1272145	83.7	-	.	rfam-id=K_chan_RES;evalue=1.9e-16;model_end=114;id=1.257;model_start=1;rfam-acc=RF00485;gc-content=0.57
+Adam_Phillippy_v6_sli_scf900160277040	SNOSTRIP	HACA-snoRNA	5947072	5947201	119	+	.	SNORA61
 Adam_Phillippy_v6_sli_scf900160277040	Rfam	similarity	9126829	9126959	60.4	+	.	rfam-id=SNORA24;evalue=2.4e-09;model_end=131;id=1.571;model_start=1;rfam-acc=RF00399;gc-content=0.55
 Adam_Phillippy_v6_sli_scf900160277041	Rfam	similarity	553301	553414	119.5	+	.	rfam-id=K_chan_RES;evalue=3.9e-26;model_end=114;id=1.89;model_start=1;rfam-acc=RF00485;gc-content=0.56
 Adam_Phillippy_v6_sli_scf900160277041	Rfam	similarity	643274	643387	123.2	+	.	rfam-id=K_chan_RES;evalue=3.8e-27;model_end=114;id=1.81;model_start=1;rfam-acc=RF00485;gc-content=0.54
@@ -625,6 +647,7 @@ Adam_Phillippy_v6_sli_scf900160277045	.	microRNA	187148	187233	.	+	.	ID=mir-20_1
 Adam_Phillippy_v6_sli_scf900160277045	.	microRNA	187280	187355	.	+	.	ID=mir-19_1
 Adam_Phillippy_v6_sli_scf900160277045	.	microRNA	187447	187524	.	+	.	ID=mir-92_2
 Adam_Phillippy_v6_sli_scf900160277045	.	microRNA	187584	187670	.	+	.	ID=mir-363_1
+Adam_Phillippy_v6_sli_scf900160277045	SNOSTRIP	HACA-snoRNA	1385499	1385652	158	+	.	GGgACA52
 Adam_Phillippy_v6_sli_scf900160277045	.	microRNA	1502754	1502835	.	-	.	ID=mir-460_2
 Adam_Phillippy_v6_sli_scf900160277045	.	microRNA	2208608	2208707	.	-	.	ID=mir-223_1
 Adam_Phillippy_v6_sli_scf900160277045	Rfam	similarity	2607163	2607236	69.5	-	.	rfam-id=SNORD61;evalue=1.4e-10;model_end=72;id=1.412;model_start=1;rfam-acc=RF00270;gc-content=0.43
@@ -685,6 +708,7 @@ Adam_Phillippy_v6_sli_scf900160277051	Rfam	similarity	1326327	1326591	133.4	+	.	
 Adam_Phillippy_v6_sli_scf900160277051	.	microRNA	5425830	5425902	.	+	.	ID=mir-383_1
 Adam_Phillippy_v6_sli_scf900160277051	tRNAscan-SE	tRNA	6152214	6152286	59.35	-	.	number=2;type=Lys;anticodon=CTT;
 Adam_Phillippy_v6_sli_scf900160277051	Rfam	similarity	7637180	7637297	86.8	-	.	rfam-id=SNORA26;evalue=5.9e-15;model_end=122;id=1.226;model_start=1;rfam-acc=RF00568;gc-content=0.43
+Adam_Phillippy_v6_sli_scf900160277051	SNOSTRIP	HACA-snoRNA	7638630	7638751	151	-	.	SNORA26
 Adam_Phillippy_v6_sli_scf900160277051	Rfam	similarity	8756082	8756135	66.8	+	.	rfam-id=GABA3;evalue=5.6e-13;model_end=54;id=1.445;model_start=1;rfam-acc=RF01803;gc-content=0.44
 Adam_Phillippy_v6_sli_scf900160277051	Rfam	similarity	8939927	8939980	64.5	+	.	rfam-id=GABA3;evalue=2.7e-12;model_end=54;id=1.508;model_start=1;rfam-acc=RF01803;gc-content=0.33
 Adam_Phillippy_v6_sli_scf900160277051	.	microRNA	9607192	9607297	.	-	.	ID=mir-2968_1
@@ -703,6 +727,7 @@ Adam_Phillippy_v6_sli_scf900160277052	Rfam	similarity	10006320	10006495	37.7	-	.
 Adam_Phillippy_v6_sli_scf900160277052	Rfam	similarity	10007926	10008044	98.3	-	.	rfam-id=5S_rRNA;evalue=4.1e-19;model_end=119;id=1.159;model_start=1;rfam-acc=RF00001;gc-content=0.61
 Adam_Phillippy_v6_sli_scf900160277052	Rfam	similarity	10596883	10596942	57.7	-	.	rfam-id=U6atac;evalue=1.5e-11;model_end=126;id=1.619;model_start=1;rfam-acc=RF00619;gc-content=0.48
 Adam_Phillippy_v6_sli_scf900160277052	Rfam	similarity	12799800	12799979	65.3	+	.	rfam-id=uc_338;evalue=5.6e-13;model_end=180;id=1.474;model_start=1;rfam-acc=RF02271;gc-content=0.52
+Adam_Phillippy_v6_sli_scf900160277052	SNOSTRIP	HACA-snoRNA	13625432	13625558	171	-	.	GGoACA7
 Adam_Phillippy_v6_sli_scf900160277053	.	microRNA	1011342	1011427	.	+	.	ID=let-7_1
 Adam_Phillippy_v6_sli_scf900160277053	.	microRNA	1011793	1011882	.	+	.	ID=let-7_2
 Adam_Phillippy_v6_sli_scf900160277053	.	microRNA	1012821	1012912	.	+	.	ID=let-7_9
@@ -715,6 +740,7 @@ Adam_Phillippy_v6_sli_scf900160277053	Rfam	similarity	8450800	8450965	47.4	+	.	r
 Adam_Phillippy_v6_sli_scf900160277053	Rfam	similarity	11399222	11399307	36.7	-	.	rfam-id=mir-1803;evalue=0.0001;model_end=87;id=1.1028;model_start=1;rfam-acc=RF02094;gc-content=0.41
 Adam_Phillippy_v6_sli_scf900160277053	Rfam	similarity	12335820	12336186	258.6	+	.	rfam-id=EGOT;evalue=2.5e-78;model_end=351;id=1.8;model_start=1;rfam-acc=RF01958;gc-content=0.46
 Adam_Phillippy_v6_sli_scf900160277054	Rfam	similarity	879157	879263	77.5	-	.	rfam-id=U6;evalue=1.3e-17;model_end=106;id=1.312;model_start=1;rfam-acc=RF00026;gc-content=0.43
+Adam_Phillippy_v6_sli_scf900160277054	SNOSTRIP	HACA-snoRNA	1720404	1720544	155	+	.	GGgACA48
 Adam_Phillippy_v6_sli_scf900160277054	Rfam	similarity	2877144	2877306	76.3	+	.	rfam-id=uc_338;evalue=4.4e-16;model_end=180;id=1.331;model_start=1;rfam-acc=RF02271;gc-content=0.48
 Adam_Phillippy_v6_sli_scf900160277054	Rfam	similarity	3800848	3801118	205.9	-	.	rfam-id=SCARNA13;evalue=1.7e-58;model_end=275;id=1.20;model_start=1;rfam-acc=RF00231;gc-content=0.42
 Adam_Phillippy_v6_sli_scf900160277054	Rfam	similarity	7346654	7346735	39.0	+	.	rfam-id=mir-1803;evalue=1.9e-05;model_end=87;id=1.958;model_start=1;rfam-acc=RF02094;gc-content=0.37
@@ -771,6 +797,7 @@ Adam_Phillippy_v6_sli_scf900160277057	.	microRNA	4550772	4550864	.	+	.	ID=mir-65
 Adam_Phillippy_v6_sli_scf900160277057	Rfam	similarity	9927380	9927565	37.8	+	.	rfam-id=uc_338;evalue=3.4e-05;model_end=180;id=1.988;model_start=1;rfam-acc=RF02271;gc-content=0.45
 Adam_Phillippy_v6_sli_scf900160277057	tRNAscan-SE	tRNA	12288878	12288948	70.69	+	.	number=1;type=Gly;anticodon=GCC;
 Adam_Phillippy_v6_sli_scf900160277057	tRNAscan-SE	tRNA	14712748	14712830	80.01	-	.	number=2;type=Leu;anticodon=TAA;
+Adam_Phillippy_v6_sli_scf900160277057	SNOSTRIP	HACA-snoRNA	15050515	15050651	119	-	.	SNORA20
 Adam_Phillippy_v6_sli_scf900160277057	Rfam	similarity	15055953	15056088	106.5	-	.	rfam-id=SNORA29;evalue=2.9e-20;model_end=140;id=1.116;model_start=1;rfam-acc=RF00429;gc-content=0.38
 Adam_Phillippy_v6_sli_scf900160277057	Rfam	similarity	17510709	17510795	41.9	-	.	rfam-id=mir-1803;evalue=2.5e-06;model_end=87;id=1.885;model_start=1;rfam-acc=RF02094;gc-content=0.40
 Adam_Phillippy_v6_sli_scf900160277057	.	microRNA	17632465	17632560	.	-	.	ID=mir-2960_1
@@ -778,11 +805,14 @@ Adam_Phillippy_v6_sli_scf900160277058	.	microRNA	170366	170466	.	-	.	ID=mir-1655
 Adam_Phillippy_v6_sli_scf900160277058	Rfam	similarity	286590	286665	50.7	-	.	rfam-id=SNORD81;evalue=1.1e-06;model_end=77;id=1.736;model_start=1;rfam-acc=RF00136;gc-content=0.39
 Adam_Phillippy_v6_sli_scf900160277058	Rfam	similarity	286807	286883	57.5	-	.	rfam-id=SNORD47;evalue=8.4e-09;model_end=77;id=1.620;model_start=1;rfam-acc=RF00281;gc-content=0.39
 Adam_Phillippy_v6_sli_scf900160277058	Rfam	similarity	288033	288111	70.2	-	.	rfam-id=SNORD79;evalue=3.4e-11;model_end=83;id=1.402;model_start=1;rfam-acc=RF00152;gc-content=0.39
+Adam_Phillippy_v6_sli_scf900160277058	SNOSTRIP	CD-snoRNA	288951	289025	103	-	.	SNORD44
 Adam_Phillippy_v6_sli_scf900160277058	Rfam	similarity	290250	290335	50.8	-	.	rfam-id=snosnR60_Z15;evalue=2.3e-06;model_end=98;id=1.734;model_start=1;rfam-acc=RF00309;gc-content=0.49
 Adam_Phillippy_v6_sli_scf900160277058	Rfam	similarity	290503	290583	55.1	-	.	rfam-id=snosnR60_Z15;evalue=1.9e-07;model_end=98;id=1.661;model_start=1;rfam-acc=RF00309;gc-content=0.43
+Adam_Phillippy_v6_sli_scf900160277058	SNOSTRIP	CD-snoRNA	290912	290997	113	-	.	SNORD76
 Adam_Phillippy_v6_sli_scf900160277058	Rfam	similarity	291222	291288	60.5	-	.	rfam-id=SNORD75;evalue=1.5e-13;model_end=62;id=1.568;model_start=1;rfam-acc=RF00612;gc-content=0.42
 Adam_Phillippy_v6_sli_scf900160277058	.	microRNA	291991	292070	.	-	.	ID=mir-2989_1
 Adam_Phillippy_v6_sli_scf900160277058	.	microRNA	849930	849994	.	-	.	ID=mir-1843_1
+Adam_Phillippy_v6_sli_scf900160277058	SNOSTRIP	HACA-snoRNA	893488	893630	178	-	.	SNORA36
 Adam_Phillippy_v6_sli_scf900160277058	Rfam	similarity	1268435	1268756	167.7	+	.	rfam-id=RNaseP_nuc;evalue=1.3e-52;model_end=305;id=1.38;model_start=1;rfam-acc=RF00009;gc-content=0.71
 Adam_Phillippy_v6_sli_scf900160277058	Rfam	similarity	4624846	4624931	48.5	-	.	rfam-id=mir-1803;evalue=2.1e-08;model_end=87;id=1.755;model_start=1;rfam-acc=RF02094;gc-content=0.30
 Adam_Phillippy_v6_sli_scf900160277058	Rfam	similarity	5190377	5190462	37.0	-	.	rfam-id=mir-1803;evalue=8.1e-05;model_end=87;id=1.1018;model_start=1;rfam-acc=RF02094;gc-content=0.48
@@ -820,6 +850,7 @@ Adam_Phillippy_v6_sli_scf900160277058	tRNAscan-SE	tRNA	9431957	9432029	69.80	+	.
 Adam_Phillippy_v6_sli_scf900160277058	Rfam	similarity	9505213	9505361	142.6	-	.	rfam-id=U12;evalue=4.8e-35;model_end=150;id=1.56;model_start=1;rfam-acc=RF00007;gc-content=0.58
 Adam_Phillippy_v6_sli_scf900160277058	.	microRNA	9885222	9885290	.	-	.	ID=mir-33_1
 Adam_Phillippy_v6_sli_scf900160277058	.	microRNA	10350084	10350176	.	-	.	ID=mir-1683_1
+Adam_Phillippy_v6_sli_scf900160277058	SNOSTRIP	CD-snoRNA	11271584	11271676	136	+	.	SNORD43
 Adam_Phillippy_v6_sli_scf900160277058	.	microRNA	11273850	11273921	.	+	.	ID=mir-3538_1
 Adam_Phillippy_v6_sli_scf900160277058	tRNAscan-SE	tRNA	14960039	14960110	68.58	+	.	number=3;type=Gly;anticodon=TCC;
 Adam_Phillippy_v6_sli_scf900160277058	tRNAscan-SE	tRNA	14967102	14967173	68.58	+	.	number=4;type=Gly;anticodon=TCC;
@@ -868,6 +899,7 @@ Adam_Phillippy_v6_sli_scf900160277061	Rfam	similarity	7505372	7505486	103.4	-	.	
 Adam_Phillippy_v6_sli_scf900160277061	Rfam	similarity	7506313	7506427	103.4	-	.	rfam-id=U5;evalue=7.9e-18;model_end=117;id=1.131;model_start=1;rfam-acc=RF00020;gc-content=0.41
 Adam_Phillippy_v6_sli_scf900160277061	Rfam	similarity	7506765	7506880	86.3	-	.	rfam-id=U5;evalue=7.2e-14;model_end=117;id=1.234;model_start=1;rfam-acc=RF00020;gc-content=0.41
 Adam_Phillippy_v6_sli_scf900160277061	Rfam	similarity	7508752	7508836	64.6	+	.	rfam-id=SNORD39;evalue=1.2e-11;model_end=80;id=1.507;model_start=1;rfam-acc=RF00157;gc-content=0.49
+Adam_Phillippy_v6_sli_scf900160277061	SNOSTRIP	CD-snoRNA	7509192	7509306	166	+	.	SNORD46
 Adam_Phillippy_v6_sli_scf900160277061	Rfam	similarity	7511181	7511251	48.0	+	.	rfam-id=SNORD38;evalue=2.2e-06;model_end=70;id=1.764;model_start=1;rfam-acc=RF00212;gc-content=0.46
 Adam_Phillippy_v6_sli_scf900160277061	Rfam	similarity	7512440	7512509	44.2	+	.	rfam-id=SNORD38;evalue=2.6e-05;model_end=70;id=1.840;model_start=1;rfam-acc=RF00212;gc-content=0.46
 Adam_Phillippy_v6_sli_scf900160277061	Rfam	similarity	7513300	7513429	91.1	+	.	rfam-id=SNORA35;evalue=4.3e-17;model_end=128;id=1.208;model_start=1;rfam-acc=RF00566;gc-content=0.54
@@ -943,6 +975,7 @@ Adam_Phillippy_v6_sli_scf900160277063	Rfam	similarity	19726567	19726650	52.9	+	.
 Adam_Phillippy_v6_sli_scf900160277063	.	microRNA	21364322	21364412	.	+	.	ID=mir-490_1
 Adam_Phillippy_v6_sli_scf900160277063	tRNAscan-SE	tRNA	21939842	21939913	68.58	-	.	number=4;type=Gly;anticodon=TCC;
 Adam_Phillippy_v6_sli_scf900160277063	Rfam	similarity	23077078	23077265	32.7	+	.	rfam-id=ZFAT-AS1_2;evalue=0.00016;model_end=205;id=1.1115;model_start=1;rfam-acc=RF02212;gc-content=0.43
+Adam_Phillippy_v6_sli_scf900160277063	SNOSTRIP	HACA-snoRNA	23462668	23462797	105	-	.	SNORA17
 Adam_Phillippy_v6_sli_scf900160277064	Rfam	similarity	3417471	3417548	67.1	+	.	rfam-id=SNORD53_SNORD92;evalue=1.8e-11;model_end=78;id=1.440;model_start=1;rfam-acc=RF00325;gc-content=0.53
 Adam_Phillippy_v6_sli_scf900160277064	Rfam	similarity	3420244	3420327	58.1	+	.	rfam-id=SNORD53_SNORD92;evalue=5.1e-09;model_end=78;id=1.612;model_start=1;rfam-acc=RF00325;gc-content=0.40
 Adam_Phillippy_v6_sli_scf900160277064	Rfam	similarity	3426590	3426668	82.6	+	.	rfam-id=SNORD53_SNORD92;evalue=1.2e-15;model_end=78;id=1.272;model_start=1;rfam-acc=RF00325;gc-content=0.43
@@ -1025,6 +1058,7 @@ Adam_Phillippy_v6_sli_scf900160277067	Rfam	similarity	25414322	25414440	60.7	-	.
 Adam_Phillippy_v6_sli_scf900160277067	Rfam	similarity	27979596	27979681	47.7	-	.	rfam-id=mir-1803;evalue=3.9e-08;model_end=87;id=1.773;model_start=1;rfam-acc=RF02094;gc-content=0.48
 Adam_Phillippy_v6_sli_scf900160277068	.	microRNA	1265971	1266071	.	+	.	ID=mir-1451_1
 Adam_Phillippy_v6_sli_scf900160277068	Rfam	similarity	2080970	2081051	38.4	+	.	rfam-id=mir-1803;evalue=2.9e-05;model_end=87;id=1.973;model_start=1;rfam-acc=RF02094;gc-content=0.43
+Adam_Phillippy_v6_sli_scf900160277068	SNOSTRIP	CD-snoRNA	2163397	2163476	86.8	+	.	SNORD50
 Adam_Phillippy_v6_sli_scf900160277068	Rfam	similarity	2165277	2165347	77.0	+	.	rfam-id=SNORD50;evalue=2.6e-15;model_end=72;id=1.316;model_start=1;rfam-acc=RF00278;gc-content=0.41
 Adam_Phillippy_v6_sli_scf900160277068	Rfam	similarity	4086184	4086510	245.6	+	.	rfam-id=7SK;evalue=6.1e-71;model_end=331;id=1.13;model_start=1;rfam-acc=RF00100;gc-content=0.53
 Adam_Phillippy_v6_sli_scf900160277068	Rfam	similarity	4128328	4128413	52.2	-	.	rfam-id=mir-1803;evalue=1.5e-09;model_end=87;id=1.711;model_start=1;rfam-acc=RF02094;gc-content=0.40
@@ -1036,6 +1070,7 @@ Adam_Phillippy_v6_sli_scf900160277068	Rfam	similarity	7024253	7024306	41.4	-	.	r
 Adam_Phillippy_v6_sli_scf900160277068	.	microRNA	7097761	7097862	.	+	.	ID=mir-703_1
 Adam_Phillippy_v6_sli_scf900160277068	.	microRNA	7951726	7951801	.	+	.	ID=mir-30_2
 Adam_Phillippy_v6_sli_scf900160277068	.	microRNA	7975488	7975568	.	+	.	ID=mir-30_1
+Adam_Phillippy_v6_sli_scf900160277068	SNOSTRIP	HACA-snoRNA	8811268	8811389	92.5	-	.	SNORA17
 Adam_Phillippy_v6_sli_scf900160277068	Rfam	similarity	10504559	10504675	60.2	-	.	rfam-id=5S_rRNA;evalue=2.4e-09;model_end=119;id=1.578;model_start=1;rfam-acc=RF00001;gc-content=0.54
 Adam_Phillippy_v6_sli_scf900160277068	Rfam	similarity	14419608	14419936	352.7	-	.	rfam-id=7SK;evalue=4.2e-104;model_end=331;id=1.2;model_start=1;rfam-acc=RF00100;gc-content=0.60
 Adam_Phillippy_v6_sli_scf900160277068	Rfam	similarity	14420509	14420837	349.3	+	.	rfam-id=7SK;evalue=4.6e-103;model_end=331;id=1.3;model_start=1;rfam-acc=RF00100;gc-content=0.59
@@ -1103,6 +1138,7 @@ Adam_Phillippy_v6_sli_scf900160277078	Rfam	similarity	244097	244384	60.3	+	.	rfa
 Adam_Phillippy_v6_sli_scf900160277078	.	microRNA	2847073	2847182	.	-	.	ID=mir-3666_1
 Adam_Phillippy_v6_sli_scf900160277078	tRNAscan-SE	tRNA	3155212	3155283	27.77	-	.	number=1;type=Pseudo;anticodon=AGG;
 Adam_Phillippy_v6_sli_scf900160277078	Rfam	similarity	4840510	4840784	155.0	-	.	rfam-id=7SK;evalue=7e-43;model_end=331;id=1.48;model_start=1;rfam-acc=RF00100;gc-content=0.50
+Adam_Phillippy_v6_sli_scf900160277080	SNOSTRIP	HACA-snoRNA	194862	194997	145	+	.	GGgACA21
 Adam_Phillippy_v6_sli_scf900160277080	Rfam	similarity	206184	206281	97.2	-	.	rfam-id=snoZ30;evalue=4e-19;model_end=97;id=1.161;model_start=1;rfam-acc=RF00288;gc-content=0.45
 Adam_Phillippy_v6_sli_scf900160277080	Rfam	similarity	720330	720461	115.0	+	.	rfam-id=SNORA22;evalue=7.4e-24;model_end=134;id=1.95;model_start=1;rfam-acc=RF00414;gc-content=0.40
 Adam_Phillippy_v6_sli_scf900160277080	Rfam	similarity	721284	721415	69.6	+	.	rfam-id=SNORA15;evalue=8.6e-11;model_end=137;id=1.410;model_start=1;rfam-acc=RF00398;gc-content=0.42
@@ -1124,6 +1160,7 @@ Adam_Phillippy_v6_sli_scf900160277081	.	microRNA	2770788	2770854	.	+	.	ID=mir-30
 Adam_Phillippy_v6_sli_scf900160277081	Rfam	similarity	3591447	3591532	50.0	+	.	rfam-id=mir-1803;evalue=7.2e-09;model_end=87;id=1.739;model_start=1;rfam-acc=RF02094;gc-content=0.48
 Adam_Phillippy_v6_sli_scf900160277081	Rfam	similarity	7396088	7396250	115.1	-	.	rfam-id=U1;evalue=6.6e-30;model_end=165;id=1.94;model_start=1;rfam-acc=RF00003;gc-content=0.52
 Adam_Phillippy_v6_sli_scf900160277081	Rfam	similarity	10099123	10099193	73.0	-	.	rfam-id=U6;evalue=3.1e-16;model_end=106;id=1.376;model_start=1;rfam-acc=RF00026;gc-content=0.46
+Adam_Phillippy_v6_sli_scf900160277081	SNOSTRIP	HACA-snoRNA	10657189	10657328	188	+	.	SNORA30
 Adam_Phillippy_v6_sli_scf900160277081	.	microRNA	10712458	10712545	.	-	.	ID=mir-146_2
 Adam_Phillippy_v6_sli_scf900160277081	Rfam	similarity	11836620	11836715	47.4	+	.	rfam-id=mir-598;evalue=8e-07;model_end=97;id=1.779;model_start=1;rfam-acc=RF01059;gc-content=0.67
 Adam_Phillippy_v6_sli_scf900160277081	.	microRNA	12105153	12105260	.	-	.	ID=mir-6659_1

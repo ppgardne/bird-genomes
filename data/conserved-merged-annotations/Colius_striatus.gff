@@ -222,6 +222,7 @@ scaffold17057	Rfam	similarity	1577	1859	71.0	-	.	rfam-id=RSV_RNA;evalue=1e-16;mo
 scaffold17069	Rfam	similarity	27555	27637	34.9	+	.	rfam-id=mir-1803;evalue=0.00037;model_end=87;id=1.986;model_start=1;rfam-acc=RF02094;gc-content=0.41
 scaffold171	Rfam	similarity	3181	3357	38.5	-	.	rfam-id=uc_338;evalue=2.1e-05;model_end=180;id=1.897;model_start=1;rfam-acc=RF02271;gc-content=0.44
 scaffold17109	.	microRNA	2005	2087	.	-	.	ID=mir-184_1
+scaffold17221	Rfam	similarity	18164	18224	35.5	+	.	rfam-id=DLG2-AS1_2;evalue=5.1e-06;model_end=215;id=1.975;model_start=1;rfam-acc=RF02113;gc-content=0.38
 scaffold17308	.	microRNA	15819	15893	.	-	.	ID=mir-338_1
 scaffold17342	Rfam	similarity	3176	3289	96.6	+	.	rfam-id=K_chan_RES;evalue=5.9e-20;model_end=114;id=1.122;model_start=1;rfam-acc=RF00485;gc-content=0.64
 scaffold17382	Rfam	similarity	61082	61251	42.7	+	.	rfam-id=uc_338;evalue=1.3e-06;model_end=180;id=1.795;model_start=1;rfam-acc=RF02271;gc-content=0.44

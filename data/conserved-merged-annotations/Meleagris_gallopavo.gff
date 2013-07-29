@@ -964,7 +964,6 @@ GL425786.1	.	microRNA	22132	22211	.	+	.	ID=mir-1905_2
 GL425908.1	.	microRNA	408	505	.	+	.	ID=mir-10_1
 GL426165.1	Rfam	similarity	711	1012	53.0	-	.	rfam-id=RSV_RNA;evalue=3.4e-11;model_end=289;id=1.621;model_start=1;rfam-acc=RF01417;gc-content=0.41
 GL426346.1	Rfam	similarity	576	865	36.7	+	.	rfam-id=RSV_RNA;evalue=3.2e-06;model_end=289;id=1.906;model_start=1;rfam-acc=RF01417;gc-content=0.46
-GL426384.1	Rfam	similarity	448	580	43.9	+	.	rfam-id=SNORA51;evalue=2.3e-05;model_end=133;id=1.743;model_start=1;rfam-acc=RF00432;gc-content=0.74
 GL426557.1	Rfam	similarity	416	590	152.9	-	.	rfam-id=uc_338;evalue=9.7e-38;model_end=180;id=1.28;model_start=1;rfam-acc=RF02271;gc-content=0.58
 GL426648.1	Rfam	similarity	95	279	108.4	+	.	rfam-id=HOXA11-AS1_5;evalue=1.4e-26;model_end=203;id=1.90;model_start=1;rfam-acc=RF02141;gc-content=0.64
 GL426685.1	Rfam	similarity	510	588	39.4	+	.	rfam-id=mir-2985-2;evalue=2.4e-05;model_end=81;id=1.845;model_start=1;rfam-acc=RF02095;gc-content=0.43
