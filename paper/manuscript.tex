@@ -123,15 +123,14 @@ patterns within the avian ncRNA cohort.
 %% 1.     Although the majority of classical eukaryotic ncRNAs are conserved in birds, several notable classical ncRNAs are not. Homology searches in associated genes indicate these apparent "losses" are most likely due to divergence.
 %% 2.     Of the 59 snoRNA conserved between humans and yeast, we find 45 are conserved in birds. Homology searches in associated genes for the remaining non-conserved snoRNAs indicate these apparent losses are indeed due to multiple losses in several bird lineages.
 %% 3.     We find that 3 families of broadly conserved vertebrate microRNA families are lost in the avian lineage.  We also annotate a number of bird-specific microRNAs.
+%% 4.     Several well-characterised lncRNA families of known function are conserved between mammals and birds.
+%% 5.     We discuss the conservation of HOX associated lncRNAs and several lncRNAs that have been implicated in processes associated with cancer.
  
 %% %% Draft Abstract
-%% Here we present the results of a large-scale bioinformatic annotation of non-coding RNAs in 48 avian genomes. Our approach uses probabilistic models of hand-curated families from the Rfam database to infer conserved RNA families within each avian genome. We supplement these annotations with predictions from the tRNA annotation tool, tRNAscan-SE and microRNAs from miRBase. Although we show extensive conservation of classical ncRNAs (e.g., tRNAs and rRNAs) and more recently discovered ncRNAs (e.g., snoRNAs and miRNAs) in birds, we also demonstrate apparent ``losses'' in several RNA families. These include the divergence of some classical ncRNAs and the loss of several snoRNAs and microRNAs. These combined results illustrate the utility of applying homology based methods for annotating vertebrate genomes and illustrate many complex evolutionary patterns within the avian ncRNA cohort.
+%% We present the results of a large-scale bioinformatic annotation of non-coding RNAs in 48 avian genomes. We use probabilistic models of hand-curated families from the Rfam database to infer conserved RNA families within each avian genome. We supplement these annotations with predictions from the tRNA annotation tool, tRNAscan-SE, microRNAs from miRBase and selected sequences from analyses of the chicken transcriptome. Although we show extensive conservation of classical ncRNAs (e.g., tRNAs and rRNAs) and more recently discovered ncRNAs (e.g., snoRNAs and miRNAs) in birds, we also demonstrate apparent ``losses'' in several RNA families. These include the divergence of some classical ncRNAs and the genuine loss of several snoRNAs and microRNAs. In contrast, we show a signicant number of lncRNAs are surprisingly well conserved between birds and mammals including several intriguing cases where the reported mammalian lncRNA function is not conserved in birds. These combined results illustrate the utility of applying homology based methods for annotating vertebrate genomes and illustrate many complex evolutionary patterns within the avian ncRNA cohort.
 
 %% LNCRNA:
 
-%% 3.     Several well-characterised lncRNA families of known function are conserved between mammals and birds.
-%% 4.     We discuss the conservation of HOX associated lncRNAs and several lncRNAs that have been implicated in processes associated with cancer.
-%% In contrast, we show a signi_cant number of lncRNAs are surprisingly well conserved between birds and mammals including several intriguing cases where the reported mammalian lncRNA function is not conserved in birds. 
 
 \ifthenelse{\boolean{publ}}{\begin{multicols}{2}}{}
 
@@ -267,12 +266,13 @@ of each in all of the bird genomes \cite{Rosenblad:2006} (data not
 shown). This suggests that the bird RNase P and MRP RNAs may have
 diverged slightly from the canonical models.
 
-The 5.8S component of the ribosome in the turtle, turkey bustard,
+The 5.8 S component of the ribosome in the turtle, turkey bustard,
 hoatzin, flamingo, tropicbird, seriema, owl, cuckoo roller, trogon,
 bee eater and falcon appears to have been lost (See
-Figure~\ref{fig:1}). However, the genomes for these species are also
-low-coverage. Therefore gaps in these families are more likely to be
-due to incomplete genome assemblies.
+Figure~\ref{fig:1}). The rRNA repeats are frequently not assembled,
+consequently it is not surprising to see ``losses'' in these \cite{Floutsakou:2013}.
+Furthermore, the genomes for these species are also
+low-coverage. 
 
 
 \subsection*{Small nucleolar RNAs}
@@ -564,20 +564,19 @@ complex, this is one of the largest particles found in the vertebrate
 cell; In fact, it is larger than the ribosome \cite{Kong:1999}. As yet
 not much is known about the function of Vault. The Vault RNA has been
 shown to be broadly conserved in metazoans
-\cite{Stadler:2009}. However, in the bird lineages 
-
-
+\cite{Stadler:2009}. However, in the bird lineages it appears to have
+either been lost or diversified. 
 
 % Vault, 7SK, HAR1A
 
 \subsection*{Pseudogenes}
 
-The human genome is littered with decaying, pseudogenised copies of
-ncRNAs. The Dfam database of human repeats estimates that
-approximately $54\%$ of the human genome is composed of repeat
-elements \cite{Wheeler:2013}. Of these annotations XXX\% are derived
-from ncRNAs, including the large Alu family of repeats, which is
-derived from a retransposed SRP RNA pseudogene \cite{}. 
+The human genome is littered with pseudogenised copies of ncRNAs. The
+Dfam database of human repeats estimates that approximately $54\%$ of
+the human genome is composed of repeat elements
+\cite{Wheeler:2013}. Of these annotations XXX\% are derived from
+ncRNAs, including the large Alu family of repeats, which is derived
+from a retransposed SRP RNA pseudogene \cite{}. 
 
 tRNA, RSV RNA, 
  \cite{International_Chicken_Genome_Sequencing_Consortium:2004}
@@ -674,13 +673,17 @@ Erich Jarvis, Guojie Zhang and Tom Gilbert. Magnus Alm Rosenblad.
 \begin{figure}[ht]
   \includegraphics[height=0.95\textheight]{figures/miRNA.pdf}
   \includegraphics[height=0.95\textheight]{figures/snoRNA.pdf}
-  \caption[]{.}\label{fig:3}
+  \caption[]{Heatmaps showing the prescence/abscence and approximate
+    copy number of {\bf miRNA} families on the right and {\bf snoRNA} families on
+    the left.}\label{fig:3}
 \end{figure}
 
 \begin{figure}[ht]
   \includegraphics[width=0.45\textwidth]{figures/lncRNA.pdf}
   \includegraphics[width=0.45\textwidth]{figures/tRNA.pdf}
-  \caption[]{.}\label{fig:5}
+  \caption[]{Heatmaps showing the prescence/abscence and approximate
+    copy number of {\bf lncRNA} families on the right and {\bf tRNA}
+    families on the left.}\label{fig:5}
 \end{figure}
 
 
