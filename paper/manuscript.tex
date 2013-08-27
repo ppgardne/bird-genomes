@@ -1,18 +1,19 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\documentclass[10pt]{bmc_article}    
+\documentclass[10pt]{bmc_article}
 
 
 % Load packages
 %\usepackage{hyperref}
 \usepackage{cite} % Make references as [1-4], not [1,2,3,4]
-\usepackage{url}  % Formatting web addresses  
-\usepackage{ifthen}  % Conditional 
-\usepackage{multicol}   %Columns
+\usepackage{url} % Formatting web addresses
+\usepackage{ifthen} % Conditional
+\usepackage{multicol} %Columns
 \usepackage{xspace}
-%\usepackage[utf8]{inputenc} %unicode support
+\usepackage[utf8]{inputenc} %unicode support
 %\usepackage[applemac]{inputenc} %applemac support if unicode package fails
-\usepackage[latin1]{inputenc} %UNIX support if unicode package fails
+%\usepackage[latin1]{inputenc} %UNIX support if unicode package fails
 \urlstyle{rm}
+\usepackage[OT1]{fontenc} 
 
 \usepackage{rotating}
 \usepackage{colortbl}
@@ -23,19 +24,19 @@
 
 \newcommand {\pg}[1]{\textcolor{blue}{#1}}
 \newcommand {\ppg}[1]{\textcolor{blue}{#1}}
+\newcommand {\new}[1]{\textcolor{green}{#1}}
 
 \newcommand{\minitab}[2][l]{\begin{tabular}{#1}#2\end{tabular}}
 
 
-%\newcommand{}   {\mbox{}\xspace}
-
+%\newcommand{} {\mbox{}\xspace}
 
 \def\squeezetable{\def\tabular@font{\tiny}}%
 
-% Change useable area of a page to be slightly larger 
+% Change useable area of a page to be slightly larger
 \setlength{\topmargin}{0.0cm}
 \setlength{\textheight}{21.5cm}
-\setlength{\oddsidemargin}{0cm} 
+\setlength{\oddsidemargin}{0cm}
 \setlength{\textwidth}{16.5cm}
 \setlength{\columnsep}{0.6cm}
 
@@ -82,17 +83,12 @@ Peter Stadler\correspondingauthor$^5$
 \iid(2) Biomolecular Interaction Centre, University of Canterbury, Private Bag 4800, Christchurch, New Zealand.
 \iid(3) European Molecular Biology Laboratory, European Bioinformatics Institute, Hinxton, Cambridge, CB10 1SD, UK.
 \iid(4) Faculty of Life Sciences, University of Manchester, Manchester, United Kingdom.
-\iid(5) Bioinformatics Group, Department of Computer Science; and Interdisciplinary Center for Bioinformatics, University of Leipzig, Härtelstrasse 16-18, D-04107 Leipzig, Germany
+\iid(5) Bioinformatics Group, Department of Computer Science; and Interdisciplinary Center for Bioinformatics, University of Leipzig, H{\"a}rtelstrasse 16-18, D-04107 Leipzig, Germany
 }
 
 \maketitle
 
 \begin{abstract}
-        % Do not use inserted blank lines (ie \\) until main body of text.
-        %% \paragraph*{Background:} Text for this section of the abstract.       
-        %% \paragraph*{Results:} Text for this section of the abstract \ldots
-        %% \paragraph*{Conclusions:} Text for this section of the abstract \ldots
-
 Here we present the results of a large-scale bioinformatic annotation
 of non-coding RNAs in 48 avian genomes. Our approach uses
 probabilistic models of hand-curated families from the Rfam database
@@ -112,19 +108,18 @@ annotating vertebrate genomes and illustrate many complex evolutionary
 patterns within the avian ncRNA cohort.
 \end{abstract}
 
-
 %% Non-coding RNAs in bird genomes
 
 %% Paul P. Gardner1,2, Sarah W. Burge3, Jana Hertel5, Maria Ninova4, Stephanie Kehr5, Anne Nitsche5, Mario Fasold5, Tammy E. Steeves1, Sam Griffiths-Jones4, Peter Stadler5
 
-%% 1 School of Biological Sciences, University of Canterbury, Private Bag 4800, Christchurch, New Zealand. 2 Biomolecular Interaction Centre, University of Canterbury, Private Bag 4800, Christchurch, New Zealand. 3 European Molecular Biology Laboratory, European Bioinformatics Institute, Hinxton, Cambridge, CB10 1SD, UK. 4Faculty of Life Sciences, University of Manchester, Manchester, United Kingdom. 5 Bioinformatics Group, Department of Computer Science; and Interdisciplinary Center for Bioinformatics, University of Leipzig, Härtelstrasse 16-18, D-04107 Leipzig, Germany
+%% 1 School of Biological Sciences, University of Canterbury, Private Bag 4800, Christchurch, New Zealand. 2 Biomolecular Interaction Centre, University of Canterbury, Private Bag 4800, Christchurch, New Zealand. 3 European Molecular Biology Laboratory, European Bioinformatics Institute, Hinxton, Cambridge, CB10 1SD, UK. 4Faculty of Life Sciences, University of Manchester, Manchester, United Kingdom. 5 Bioinformatics Group, Department of Computer Science; and Interdisciplinary Center for Bioinformatics, University of Leipzig, Hartelstrasse 16-18, D-04107 Leipzig, Germany
  
 %% Talking points:
-%% 1.     Although the majority of classical eukaryotic ncRNAs are conserved in birds, several notable classical ncRNAs are not. Homology searches in associated genes indicate these apparent "losses" are most likely due to divergence.
-%% 2.     Of the 59 snoRNA conserved between humans and yeast, we find 45 are conserved in birds. Homology searches in associated genes for the remaining non-conserved snoRNAs indicate these apparent losses are indeed due to multiple losses in several bird lineages.
-%% 3.     We find that 3 families of broadly conserved vertebrate microRNA families are lost in the avian lineage.  We also annotate a number of bird-specific microRNAs.
-%% 4.     Several well-characterised lncRNA families of known function are conserved between mammals and birds.
-%% 5.     We discuss the conservation of HOX associated lncRNAs and several lncRNAs that have been implicated in processes associated with cancer.
+%% 1. Although the majority of classical eukaryotic ncRNAs are conserved in birds, several notable classical ncRNAs are not. Homology searches in associated genes indicate these apparent "losses" are most likely due to divergence.
+%% 2. Of the 59 snoRNA conserved between humans and yeast, we find 45 are conserved in birds. Homology searches in associated genes for the remaining non-conserved snoRNAs indicate these apparent losses are indeed due to multiple losses in several bird lineages.
+%% 3. We find that 3 families of broadly conserved vertebrate microRNA families are lost in the avian lineage. We also annotate a number of bird-specific microRNAs.
+%% 4. Several well-characterised lncRNA families of known function are conserved between mammals and birds.
+%% 5. We discuss the conservation of HOX associated lncRNAs and several lncRNAs that have been implicated in processes associated with cancer.
  
 %% %% Draft Abstract
 %% We present the results of a large-scale bioinformatic annotation of non-coding RNAs in 48 avian genomes. We use probabilistic models of hand-curated families from the Rfam database to infer conserved RNA families within each avian genome. We supplement these annotations with predictions from the tRNA annotation tool, tRNAscan-SE, microRNAs from miRBase and selected sequences from analyses of the chicken transcriptome. Although we show extensive conservation of classical ncRNAs (e.g., tRNAs and rRNAs) and more recently discovered ncRNAs (e.g., snoRNAs and miRNAs) in birds, we also demonstrate apparent ``losses'' in several RNA families. These include the divergence of some classical ncRNAs and the genuine loss of several snoRNAs and microRNAs. In contrast, we show a signicant number of lncRNAs are surprisingly well conserved between birds and mammals including several intriguing cases where the reported mammalian lncRNA function is not conserved in birds. These combined results illustrate the utility of applying homology based methods for annotating vertebrate genomes and illustrate many complex evolutionary patterns within the avian ncRNA cohort.
@@ -140,7 +135,7 @@ Non-coding RNAs (ncRNAs) are an important class of genes. However,
 they pose serious research challenges, particularly for the field of
 genomics. They lack the strong statistical signals associated with
 protein coding genes, e.g. open reading frames, G+C content and
-codon-usage biases \cite{Rivas:2000}. 
+codon-usage biases \cite{Rivas:2000}.
 
 Non-coding RNAs are classified into hierarchical groupings by the Rfam
 database. The basic units are ``families'' which are groups of
@@ -152,7 +147,7 @@ biological functions e.g. spliceosomal RNAs, miRNAs and snoRNAs
 The major RNA families include the classical, highly conserved RNAs,
 sometimes called ``molecular fossils'', such as the transfer RNAs,
 ribosomal RNAs, RNA components of RNase P and the signal recognition
-particle \cite{Jeffares:1998}.  Other classes appear to have have
+particle \cite{Jeffares:1998}. Other classes appear to have have
 evolved more recently, e.g. the small nucleolar RNAs (snoRNAs),
 microRNAs (miRNAs) and the long non-coding RNAs (lncRNAs)
 \cite{Hoeppner:2012}. The publication of avian genomes provides
@@ -192,19 +187,18 @@ analogous to the ``domains'' housed within protein sequences
 \cite{Burge:2013}. The functions determined to date for lncRNAs
 range from regulating chromatin status to chromosomal inactivation
 \cite{Rinn:2007,Chow:2005}. Yet functional characterisation of these
-genes is a lengthy and expensive process \cite{Guttman:2009}. 
+genes is a lengthy and expensive process \cite{Guttman:2009}.
 
 %Still needs a {\bf what have we done} paragraph!
 
 \section*{Results}
-
 In the following we explore the conservation patterns of the major
 classes of ncRNA in further detail. The collection of ncRNA sequences
 is generally biased towards model organisms
 \cite{Gardner:2010,Hoeppner:2012}. Consequently the bulk of the
 families discussed below are either conserved across the vertebrates
 or have been apparently lost or diversified in the avian
-lineage(s). 
+lineage(s).
 
 \subsection*{Classic RNAs: LUCA and LECA}
 
@@ -272,7 +266,7 @@ bee eater and falcon appears to have been lost (See
 Figure~\ref{fig:1}). The rRNA repeats are frequently not assembled,
 consequently it is not surprising to see ``losses'' in these \cite{Floutsakou:2013}.
 Furthermore, the genomes for these species are also
-low-coverage. 
+low-coverage.
 
 
 \subsection*{Small nucleolar RNAs}
@@ -282,15 +276,14 @@ in the maturation of other functional RNAs \cite{Gardner:2010}. The
 bulk of the characterised snoRNAs guide either methylation or
 pseudouridylation modifications, primarily of rRNAs but also
 spliceosomal RNAs. The two types of modifications are guided by two
-different types of RNA, the C/D and the H/ACA box snoRNAs respectively,
-each with a characteristic cohort of motifs and secondary structures
-\cite{Marz:2011}.
+different types of RNA, the box C/D and the H/ACA snoRNAs
+respectively, each with a characteristic cohort of motifs and
+secondary structures \cite{Marz:2011}.
 
 There are 66 ribosomal modification sites, guided by 59 snoRNA
 families, that are preserved between \emph{H. sapiens} and
 \emph{S. cerevisiae} \cite{Lestrade:2006}. Of these, 45 snoRNA
 families are conserved in the bird dataset.
-
 Over a third of the apparent losses of the yeast-human conserved
 snoRNA families appear to cluster on 2 locii of the ancestral
 vertebrate genome. We investigated these losses further.
@@ -305,11 +298,13 @@ alligator and turtle genomes within a 3-4 KB locus, yet these have
 largely been lost in the birds. Notable exceptions are five of the
 eight are located in the tinamou genome, these are located on the same
 scaffold and are within 2 KB of each other. Implying that SNHG1 is
-conserved in the tinamou. Three of the eight are located in the
-ostrich and zebrafinch genomes, again within 2 KB of each other on the
-same scaffolds. This complex pattern of loss could be attributed to
-many different models, e.g. multiple losses in birds, poor homology
-modelling or incomplete genome sequences.
+conserved in the tinamou. Loci with four of the eight snoRNAs can be
+found in zebrafinch, ground-finch, and bald eagle. Still, three of the
+eight are located in the ostrich, crow, and cockoo genomes, again
+within 2 KB of each other on the same scaffolds. This complex pattern
+of loss could be attributed to many different models, e.g. multiple
+losses in birds, poor homology modelling or incomplete genome
+sequences.
 
 %Furthermore our results contradict the text in the paper. We find
 %SNORD26 stated to be lost in sauropsids in the 5 species:
@@ -325,34 +320,33 @@ within a 1 KB genomic region. The turtle and alligator genomes retain
 the two copies of SNORD33 yet don't have an obvious SNORD34 gene on
 the same scaffold. Within the bird genomes, the crow and rifleman each
 retain a single SNORD33 and SNORD34 gene on the same scaffold. While
-the ground-finch and zebrafinch retain a single SNORD33 and the bald
-eagle and seriema retain a single SNORD34 (See Figure~\ref{fig:3}).
-In human these snoRNAs are intronic to the host gene, ribosomal
-protein L13a (RPL13A). Based on BLASTP (version 2.2.18) homology
-searches for the RPL13A gene, the protein is conserved in the human
-and turtle genomes and in the bald eagle, crow, rifleman and
-zebrafinch avian genomes (data not shown). Therefore the conservation
-patterns of the RPL13A host gene and corresponding intronic snoRNAs
-largely mimic each other, each independently supports a pattern of
-loss of the RPL13A gene and the intronic snoRNAs that it hosts in the
-bird genomes.
+the ground-finch and bald eagle retain a single SNORD33 and the
+zebrafinch and seriema retain a single SNORD34 (See
+Figure~\ref{fig:3}).  In human these snoRNAs are intronic to the host
+gene, ribosomal protein L13a (RPL13A). Based on BLASTP (version
+2.2.18) homology searches for the RPL13A gene, the protein is
+conserved in the human and turtle genomes and in the bald eagle, crow,
+rifleman and zebrafinch avian genomes (data not shown). Therefore the
+conservation patterns of the RPL13A host gene and corresponding
+intronic snoRNAs largely mimic each other, each independently supports
+a pattern of loss of the RPL13A gene and the intronic snoRNAs that it
+hosts in the bird genomes.
 
 
 \subsection*{MicroRNAs}
-
 MicroRNAs are an important class of non-coding RNA. They have been
 found in the genomes of Chromalveolata \cite{Cock:2010,Huang:2011},
 Metazoa \cite{Lee:1993,Lau:2001,Hertel:2006}, Mycetozoa
 \cite{Hinas:2007,Avesson:2012}, Viridiplantae
 \cite{Reinhart:2002,Fattash:2007,Axtell:2007,Molnar:2007} and Viruses
-\cite{Pfeffer:2004,Ouellet:2008,Pfeffer:2005,Landgraf:2007}.  The
+\cite{Pfeffer:2004,Ouellet:2008,Pfeffer:2005,Landgraf:2007}. The
 miRNAs have been shown to regulate the expression of large numbers of
 messenger RNAs \cite{Lim:2005}. The mature miRNA product is generally
 22 nucleotides long which is usually processed from a larger RNA that
-is characterised by a stable hairpin-shaped secondary structure. 
+is characterised by a stable hairpin-shaped secondary structure.
 
 Chicken and zebrafinch are the only birds with previously annotated
-microRNAs.  We searched for homologs of these and other vertebrate
+microRNAs. We searched for homologs of these and other vertebrate
 microRNAs in the genomes of the 48 birds, American alligator and green
 turtle. Overall, we annotate a total of 16617 putative microRNA loci,
 homologous to 543 known microRNA genes, of which 487 are annotated in
@@ -360,13 +354,13 @@ chicken and/or zebra finch, while 56 have been so far known only in
 non-avian vertebrates. The numbers of annotated loci in the individual
 species are approximately equal - 300-400 per species, except for the
 turkey (Meleagris gallopavo) where we identified 543 sequences
-homologous to known microRNAs. 
+homologous to known microRNAs.
 
 Nearly all the microRNAs that are broadly conserved in fish,
 amphibians and mammals are also conserved in the birds. Nevertheless,
 there are obvious instances of microRNAs lost in all birds. For
 example, mammalian, amphibian and fish genomes contain three loci of
-clustered microRNAs from the mir-17 and mir-92 families.  One of these
+clustered microRNAs from the mir-17 and mir-92 families. One of these
 clusters (mir-93~25) was not found in turtles, crocodiles and
 birds. In addition, we can confidently identify a further 3 microRNA
 families that are present in mammals, and turtle and/or crocodile, but
@@ -374,7 +368,7 @@ not in any avian genome (mir-150, mir-208, mir-590). This suggests
 that these sequences were lost in the last common ancestor of
 archosaurs or birds. There are also a number of microRNAs that are
 predicted to be present in turtles and/or crocodiles, and only a small
-number of bird genomes.  Indeed, there are many missing annotations,
+number of bird genomes. Indeed, there are many missing annotations,
 species-specific and otherwise, that are not consistent with the
 consensus phylogeny, and could be due to either incomplete genomes or
 widespread microRNA loss.
@@ -383,7 +377,7 @@ The turkey genome contains a high number (190) of microRNAs so far
 found only in chicken, which account for the higher number of
 annotated sequences in this genome compared with other birds. This is
 consistent with its phylogenetic position as the closest chicken
-relative among the examined birds.  However, 101 chicken microRNAs
+relative among the examined birds. However, 101 chicken microRNAs
 have no homolog in the turkey or other bird genomes, suggesting that
 these genes are chicken-specific. This is consistent with previous
 reports of large number of speciesspecific microRNAs in all animals,
@@ -392,12 +386,12 @@ evolution.
 
 \subsection*{Long non-coding RNAs}
 
-{\bf MAY BE MOVED INTO THE lncRNA PAPER!}
+%%{\bf MAY BE MOVED INTO THE lncRNA PAPER!}
 
 As mentioned in the introduction, lncRNAs are a diverse group of RNAs
 that have been implicated in a multitude of functional processes
 \cite{Rinn:2007,Chow:2005,Guttman:2009}. These RNAs have mainly been
-characterised in mammalian species, particularly human and mouse. 
+characterised in mammalian species, particularly human and mouse.
 
 In general Rfam cannot include the entire length of any large, spliced
 RNAs. This is a limitation of the covariance-models used for the
@@ -425,7 +419,6 @@ each supporting an ancestral gene order of HOTAIRM1 $\rightarrow$
 HOXA11-AS1 $\rightarrow$ HOTTIP. In the birds, where two or more of
 the HOX cluster lncRNA RNA-domains were predicted on the same
 scaffold, this gene order was preserved.
-
 %egrep 'HOXA11-AS1|HOTAIR|HOTTIP' clans_competed/*gff | perl -lane 'if(/\/(\S+?)\-.*gff:(\S+).*\-id=(\S+);eval/ or /\/(\S+?)\-.*gff:(\S+).*Alias=(\S+);Not/){print "$1\t$2\t$3\t$F[6]"}'
 %egrep 'PCA3' clans_competed/*gff | perl -lane 'if(/\/(\S+?)\-.*gff:(\S+).*\-id=(\S+);eval/ or /\/(\S+?)\-.*gff:(\S+).*Alias=(\S+);Not/){print "$1\t$2\t$3\t$F[6]"}'
 %egrep 'RMST' clans_competed/*gff | perl -lane 'if(/\/(\S+?)\-.*gff:(\S+).*\-id=(\S+);eval/ or /\/(\S+?)\-.*gff:(\S+).*Alias=(\S+);Not/){print "$1\t$2\t$3\t$F[6]"}'
@@ -441,7 +434,7 @@ turtle an additional RNA-domain was predicted in each, these were
 RNA-domains 2 and 4 respectively, again the ordering of the domains
 was consistent with human. This suggests that the RMAST lncRNA is
 highly conserved. However, little is known about the function of this
-RNA.  It was originally identified in a screen for differentially
+RNA. It was originally identified in a screen for differentially
 expressed genes in two Rhabdomyosarcoma tumor types \cite{Chan:2002}.
 
 In addition, the lncRNA DLEU2, is well conserved conserved across the
@@ -460,13 +453,12 @@ research on BRCA1 has shown that it is involved in DNA repair
 across the vertebrates certainly implies a function (See
 Figure~\ref{fig:5}).
 
-%(neighbor of BRCA1 gene 2) 
+%(neighbor of BRCA1 gene 2)
 %MHM results!!!!
-
 %% Another of the functions associated with lncRNAs is chromosomal dosage
 %% compensation. In mammals this is carried out by the lncRNAs Xist and
 %% Tsix \cite{}. In birds it has been proposed that the lncRNA MHM might
-%% play a related role \cite{}. 
+%% play a related role \cite{}.
 
 %DLEU2, frequently deleted in malignancy, functions as a critical host
 %gene of the cell cycle inhibitory microRNAs miR-15a and miR-16-1
@@ -503,12 +495,12 @@ Figure~\ref{fig:5}).
 
 \subsection*{Cis-regulatory elements}
 %% Histone3, IRE, IRES, K chan RES, SECIS, Antizyme FSE, Vimentin3, GABA3,
-%% CAESAR, 
+%% CAESAR,
 
 The cis-regulatory RNAs are a group of RNA structures encoded on
 mRNAs. Generally they are involved in regulating the expression of the
 mRNA they are encoded within. Others may recode the translated protein
-product into an alternate sequence. 
+product into an alternate sequence.
 
 This group includes the iron response element (IRE) \cite{Stevens:}
 and the histone $3^\prime$ UTR (histone3)
@@ -539,10 +531,10 @@ Their functions are diverse and many have not yet been characterised.
 
 An example of an uncharacterised RNA is the ultraconserved element,
 uc.338 (also known as TUC338)
-\cite{Bejerano:2004,Bejerano:2006,Braconi:2011}.  The uc.338 element
+\cite{Bejerano:2004,Bejerano:2006,Braconi:2011}. The uc.338 element
 is derived from a short interspersed element (SINE) called the
 lobe-finned fishes SINE (LF-SINE) as it is conserved between the
-coelacanth and mammals \cite{Bejerano:2006}.  Analysis of the
+coelacanth and mammals \cite{Bejerano:2006}. Analysis of the
 expression of uc.338 implies that it plays a role in the progression
 of hepatocellular carcinoma, possibly by influencing cell growth
 \cite{Braconi:2011}. This RNA is conserved in the birds and appears to
@@ -552,7 +544,7 @@ The Y RNA is an enigmatic ncRNA where we know very little about the
 function. It was discovered in the 1980s in ribonucleoprotein
 complexes \cite{Lerner:1981}. The function of the Y RNAs remain
 unknown, but evidence is emerging that they may be associated with DNA
-replication \cite{Christov:2006}.  There are 4 functional Y RNAs
+replication \cite{Christov:2006}. There are 4 functional Y RNAs
 encoded in the human genome, Y1, Y3, Y4 and Y5. However, there are
 hundreds of pseudogenised copies of the Y RNA scattered throughout the
 human genome \cite{Mosig:2007}. In the birds and other lizards, we
@@ -565,23 +557,23 @@ cell; In fact, it is larger than the ribosome \cite{Kong:1999}. As yet
 not much is known about the function of Vault. The Vault RNA has been
 shown to be broadly conserved in metazoans
 \cite{Stadler:2009}. However, in the bird lineages it appears to have
-either been lost or diversified. 
+either been lost or diversified.
 
 % Vault, 7SK, HAR1A
 
-\subsection*{Pseudogenes}
+%% \subsection*{Pseudogenes}
 
-The human genome is littered with pseudogenised copies of ncRNAs. The
-Dfam database of human repeats estimates that approximately $54\%$ of
-the human genome is composed of repeat elements
-\cite{Wheeler:2013}. Of these annotations XXX\% are derived from
-ncRNAs, including the large Alu family of repeats, which is derived
-from a retransposed SRP RNA pseudogene \cite{}. 
+%% The human genome is littered with pseudogenised copies of ncRNAs. The
+%% Dfam database of human repeats estimates that approximately $54\%$ of
+%% the human genome is composed of repeat elements
+%% \cite{Wheeler:2013}. Of these annotations XXX\% are derived from
+%% ncRNAs, including the large Alu family of repeats, which is derived
+%% from a retransposed SRP RNA pseudogene \cite{}.
 
-tRNA, RSV RNA, 
- \cite{International_Chicken_Genome_Sequencing_Consortium:2004}
+%% tRNA, RSV RNA,
+%%  \cite{International_Chicken_Genome_Sequencing_Consortium:2004}
 
-\emph{Endogenous retroviruses:} RSV RNA, Alfamo CPB
+%% \emph{Endogenous retroviruses:} RSV RNA, Alfamo CPB
 
 \subsection*{Contamination}
 
@@ -591,7 +583,7 @@ are likely to be the result of contamination from non-avian sources.
 
 \section*{Conclusions}
 
-%Talking points: 
+%Talking points:
 %1. several classical RNAs (e.g. spliceosomal, telomerase, RNase MRP
 %RNAs) have diversified in birds relative to other Eukaryotes.
 %2. several lncRNA families are conserved between mammals and
@@ -622,29 +614,35 @@ vertebrate, were retrieved from miRBase (v19). Individual sequences or
 multiple sequence alignments were used to build covariance models with
 INFERNAL (v1.1rc3), and these models were searched against the 48 bird
 genomes, and the genomes of the american alligator and the green
-turtle as outgroups.  Hits with e-value <10 realigned with the query
+turtle as outgroups. Hits with e-value <10 realigned with the query
 sequences and the resultant multiple sequence alignments manually
 inspected and edited using RALEE.
 
+An additonal snoRNA homology search was performed with snoStrip
+\cite{Bartschat:2013}. As initial queries we used deutorostomian
+snoRNA families from human \cite{Lestrade:2006}, platypus
+\cite{Schmitz:2008}, and chicken \cite{Shao:2009}.
+
+SnoRNA annotations overlapping miRNAs annotations where manually
+inspected \ppg{and?...}.
 
 
 \section*{Acknowledgements}
 
 Erich Jarvis, Guojie Zhang and Tom Gilbert. Magnus Alm Rosenblad. 
-
 %%%%%%%%%%%%%%%%%%%%%%
 %% The Bibliography %%
 %%
 %% ---------------------------------
 %% BioMedCentral bibtex .BST file will be used to
 %% create a .BBL file which includes the BMC XML.
-%% Note that the displayed Bibliography will not be 
+%% Note that the displayed Bibliography will not be
 %% exactly as specified in the online Instructions for Authors
 
 
 {\ifthenelse{\boolean{publ}}{\footnotesize}{\small}
-\bibliographystyle{bmc_article}  % Style BST file
- \bibliography{bird} }     % Bibliography file (usually '*.bib' ) 
+\bibliographystyle{bmc_article} % Style BST file
+ \bibliography{bird} } % Bibliography file (usually '*.bib' )
 
 %%%%%%%%%%%
 
@@ -652,7 +650,7 @@ Erich Jarvis, Guojie Zhang and Tom Gilbert. Magnus Alm Rosenblad.
 \newpage
 
 \begin{figure}[ht]
-  \includegraphics[width=0.4\textwidth]{figures/RNA.pdf}  
+  \includegraphics[width=0.4\textwidth]{figures/RNA.pdf}
   \includegraphics[width=0.1\textwidth]{figures/key2.pdf}
   \includegraphics[width=0.4\textwidth]{figures/snoRNA-human-yeast-correspondences.pdf}
   \caption[]{This figure illustrates the number of copies of Rfam and
@@ -665,11 +663,9 @@ Erich Jarvis, Guojie Zhang and Tom Gilbert. Magnus Alm Rosenblad.
 
 
 %% \begin{figure}[ht]
-%%   \includegraphics[width=0.65\textwidth]{figures/snoRNA-human-yeast-correspondences.pdf}
-%%   \caption[]{.}\label{fig:2}
+%% \includegraphics[width=0.65\textwidth]{figures/snoRNA-human-yeast-correspondences.pdf}
+%% \caption[]{.}\label{fig:2}
 %% \end{figure}
-
-
 \begin{figure}[ht]
   \includegraphics[height=0.95\textheight]{figures/miRNA.pdf}
   \includegraphics[height=0.95\textheight]{figures/snoRNA.pdf}
@@ -691,8 +687,7 @@ Erich Jarvis, Guojie Zhang and Tom Gilbert. Magnus Alm Rosenblad.
 \end{bmcformat}
 \end{document}
 
-%%% Local Variables: 
+%%% Local Variables:
 %%% mode: latex
 %%% TeX-master: t
 %%% End: 
-

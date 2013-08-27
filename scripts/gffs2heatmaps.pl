@@ -50,7 +50,7 @@ if (-s "$rDir/allRNA.dat"){
     }
     close(W);
 }
-
+$whitelist{'SNORD34'}=1;
 #replace with a family2type hash:
 my %lncRNAlist;
 if (-s "data/rfam11_lncRNAs.txt"){
@@ -217,6 +217,7 @@ my @tRNAfamily = sort {
 }(keys %tRNAfamilies);
 
 print "Printing R-dat files\n" if (defined($verbose));
+my %exceptions = (SNORD34 => 1);
 foreach my $family ( @family ) {
     
     #print "$family\n";# if ($family=~/Pseudo/i);
@@ -227,7 +228,7 @@ foreach my $family ( @family ) {
     next if(defined($blacklist{$family}));
     open(AL, ">> $rDir/allRNA.dat");
     if ($family=~/^sno/i or $family=~/^SCA/ or $family=~/^ACA/){
-	next if( ($familiesSpeciesCounts{$family}/scalar(@speciesPhyloOrder)) < 0.10 or $familiesTotalCounts{$family}<5);
+	next if( (($familiesSpeciesCounts{$family}/scalar(@speciesPhyloOrder)) < 0.10 or $familiesTotalCounts{$family}<5) and not defined($exceptions{$family}) );
 	open(UT, ">> $rDir/snoRNA.dat");
     }
     elsif ($family=~/^mir/i or $family=~/^let-7/ or $family=~/^lin-4/ ){
