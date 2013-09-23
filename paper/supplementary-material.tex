@@ -88,41 +88,269 @@ Peter Stadler\correspondingauthor$^5$
 
 \maketitle
 
-\begin{abstract}
-...
-\end{abstract}
-
-%% Non-coding RNAs in bird genomes
-
-%% Paul P. Gardner1,2, Sarah W. Burge3, Jana Hertel5, Maria Ninova4, Stephanie Kehr5, Anne Nitsche5, Mario Fasold5, Tammy E. Steeves1, Sam Griffiths-Jones4, Peter Stadler5
-
-%% 1 School of Biological Sciences, University of Canterbury, Private Bag 4800, Christchurch, New Zealand. 2 Biomolecular Interaction Centre, University of Canterbury, Private Bag 4800, Christchurch, New Zealand. 3 European Molecular Biology Laboratory, European Bioinformatics Institute, Hinxton, Cambridge, CB10 1SD, UK. 4Faculty of Life Sciences, University of Manchester, Manchester, United Kingdom. 5 Bioinformatics Group, Department of Computer Science; and Interdisciplinary Center for Bioinformatics, University of Leipzig, Hartelstrasse 16-18, D-04107 Leipzig, Germany
- 
-%% Talking points:
-%% 1. Although the majority of classical eukaryotic ncRNAs are conserved in birds, several notable classical ncRNAs are not. Homology searches in associated genes indicate these apparent "losses" are most likely due to divergence.
-%% 2. Of the 59 snoRNA conserved between humans and yeast, we find 45 are conserved in birds. Homology searches in associated genes for the remaining non-conserved snoRNAs indicate these apparent losses are indeed due to multiple losses in several bird lineages.
-%% 3. We find that 3 families of broadly conserved vertebrate microRNA families are lost in the avian lineage. We also annotate a number of bird-specific microRNAs.
-%% 4. Several well-characterised lncRNA families of known function are conserved between mammals and birds.
-%% 5. We discuss the conservation of HOX associated lncRNAs and several lncRNAs that have been implicated in processes associated with cancer.
- 
-%% %% Draft Abstract
-%% We present the results of a large-scale bioinformatic annotation of non-coding RNAs in 48 avian genomes. We use probabilistic models of hand-curated families from the Rfam database to infer conserved RNA families within each avian genome. We supplement these annotations with predictions from the tRNA annotation tool, tRNAscan-SE, microRNAs from miRBase and selected sequences from analyses of the chicken transcriptome. Although we show extensive conservation of classical ncRNAs (e.g., tRNAs and rRNAs) and more recently discovered ncRNAs (e.g., snoRNAs and miRNAs) in birds, we also demonstrate apparent ``losses'' in several RNA families. These include the divergence of some classical ncRNAs and the genuine loss of several snoRNAs and microRNAs. In contrast, we show a signicant number of lncRNAs are surprisingly well conserved between birds and mammals including several intriguing cases where the reported mammalian lncRNA function is not conserved in birds. These combined results illustrate the utility of applying homology based methods for annotating vertebrate genomes and illustrate many complex evolutionary patterns within the avian ncRNA cohort.
-
-%% LNCRNA:
+%\begin{abstract}
+%...
+%\end{abstract}
 
 
 \ifthenelse{\boolean{publ}}{\begin{multicols}{2}}{}
 
-\section*{Supplementary introduction}
-...
+%\section*{Supplementary introduction}
+%...
 
 \section*{Supplementary results}
-In the following we explore ...
+
+In the following we explore in further detail the results that were
+not discussed in the main manuscript. 
+
+\subsection*{Classic RNAs: LUCA and LECA}
+
+Many RNA families constitute the most evolutionarily conserved genes
+across all life on this planet \cite{Jeffares:1998}. Examples of RNAs
+derived from the Last Universal Common Ancestor (LUCA) include, the
+transfer RNAs (tRNA), ribosomal RNAs (rRNA), RNA components of RNase P
+(RNase P RNA), RNase MRP (RNase MRP RNA) and the signal recognition
+particle (SRP RNA). Other classes of RNA are likely to have been
+components of the Last Eukaryotic Common Ancestor (LECA) include the
+telomerase RNA, major spliceosomal RNAs (U1, U2, U4, U5, and U6) and
+the minor spliceosomal RNAs (U11, U12, U4atac, and U6atac)
+\cite{Hoeppner:2012}.
+
+Unsurprisingly, the bulk of these classes of RNAs are well represented
+across the bird genomes (See Figure~\ref{fig:1}). However, there
+appear to have been ``losses'' of a few of these RNAs in certain bird
+species. Some of these may be due to sequence divergence, of which
+there are several notable examples e.g.
+\cite{Leonardi:2008,Webb:2008,Mao:,Lai:2010,Chan:2011}. Other losses
+may be due to incomplete genome coverage.
+
+A number of the classic RNAs are incorporated into RNA-protein
+complexes (RNPs) involved in core cellular processes. An example of
+this are the spliceosomal RNAs. Based upon the presence/absence
+patterns of the major spliceosomal RNAs they are all well represented
+in these genome sequences. Except for the U4 RNA in cormorant and the
+U5 RNA in the bee eater. Again these two genomes are low coverage
+suggesting these genes weren't captured in the current assembly. The
+minor spliceosomal RNAs are more interesting, the U4atac and U11
+snRNAs show widespread patterns of loss, even in some of the high
+coverage genomes. These RNAs are frequently missed in bioinformatic
+screens. Indicating either frequent loss \cite{Davila_Lopez:2008} or
+sequences that have diverged beyond the ability of detection by
+covariance models \cite{Marz:2008}.
+
+The telomerase RNA is also largely missing from the avian
+annotations. This RNA acts as a template for the telomerase enzyme
+that extends the telomeres found on chromosome ends. It is only found
+in the chicken, bald eagle, kea, budgerigar, crow and
+zebrafinch. Homology searches searches with the telomerase reverse
+transcriptase (TERT) protein show that the protein component of the
+telomerase RNP is conserved across all the bird genomes (data not
+shown). This pattern of presumably divergent telomerase RNA and
+conserved telomerase protein has been noted previously, most notably
+in the fungi \cite{Leonardi:2008,Webb:2008}.
+
+The the RNA components of RNase P and RNase MRP also appear to have
+undergone dramatic losses within the bird lineage. RNase P is required
+for the maturation of tRNA, the paralogous enzyme, RNase MRP is
+required for the maturation of rRNA. Each RNP cleaves smaller RNAs
+from larger transcripts \cite{Lopez:2009}. It is unlikely that the
+these genes have been lost in any of the birds. Homology searches with
+the RNase associated protein coding genes (POP1, POP4, POP5, POP7,
+RPP1, RPP14, RPP25, RPP38, RPP40 and RPR2), identified viable homologs
+of each in all of the bird genomes \cite{Rosenblad:2006} (data not
+shown). This suggests that the bird RNase P and MRP RNAs may have
+diverged slightly from the canonical models.
+
+The 5.8 S component of the ribosome in the turtle, turkey bustard,
+hoatzin, flamingo, tropicbird, seriema, owl, cuckoo roller, trogon,
+bee eater and falcon appears to have been lost (See
+Figure~\ref{fig:1}). The rRNA repeats are frequently not assembled,
+consequently it is not surprising to see ``losses'' in these \cite{Floutsakou:2013}.
+Furthermore, the genomes for these species are also
+low-coverage.
 
 
-\section*{Supplementary methods}
-...
+\subsection*{Small nucleolar RNAs}
 
+Small nucleolar RNAs (snoRNAs) are important ncRNAs that participate
+in the maturation of other functional RNAs \cite{Gardner:2010}. The
+bulk of the characterised snoRNAs guide either methylation or
+pseudouridylation modifications, primarily of rRNAs but also
+spliceosomal RNAs. The two types of modifications are guided by two
+different types of RNA, the box C/D and the H/ACA snoRNAs
+respectively, each with a characteristic cohort of motifs and
+secondary structures \cite{Marz:2011}.
+
+There are 66 ribosomal modification sites, guided by 59 snoRNA
+families, that are preserved between \emph{H. sapiens} and
+\emph{S. cerevisiae} \cite{Lestrade:2006}. Of these, 45 snoRNA
+families are conserved in the bird dataset.
+Over a third of the apparent losses of the yeast-human conserved
+snoRNA families appear to cluster on 2 locii of the ancestral
+vertebrate genome. We investigated these losses further.
+
+The first cluster is found at chr11:62620797-62622484 on the human
+genome (hg19) and contains SNORD27, SNORD29 and SNORD31 of the
+human-yeast conserved snoRNAs. These snoRNAs are located in the
+inside-out gene SNHG1 which hosts a total of eight C/D box snoRNAs:
+SNORD25, SNORD26, SNORD27, SNORD28, SNORD29, SNORD22, SNORD30 and
+SNORD31 \cite{Tycowski:1996}. Each of which are also found in the
+alligator and turtle genomes within a 3-4 KB locus, yet these have
+largely been lost in the birds. Notable exceptions are five of the
+eight are located in the tinamou genome, these are located on the same
+scaffold and are within 2 KB of each other. Implying that SNHG1 is
+conserved in the tinamou. Loci with four of the eight snoRNAs can be
+found in zebrafinch, ground-finch, and bald eagle. Still, three of the
+eight are located in the ostrich, crow, and cockoo genomes, again
+within 2 KB of each other on the same scaffolds. This complex pattern
+of loss could be attributed to many different models, e.g. multiple
+losses in birds, poor homology modelling or incomplete genome
+sequences.
+
+
+The second cluster is located at chr19:49993222-49994231 on the human
+genome (hg19) and contains two copies of SNORD33 and one SNORD34 all
+within a 1 KB genomic region. The turtle and alligator genomes retain
+the two copies of SNORD33 yet don't have an obvious SNORD34 gene on
+the same scaffold. Within the bird genomes, the crow and rifleman each
+retain a single SNORD33 and SNORD34 gene on the same scaffold. While
+the ground-finch and bald eagle retain a single SNORD33 and the
+zebrafinch and seriema retain a single SNORD34 (See
+Figure~\ref{fig:3}).  In human these snoRNAs are intronic to the host
+gene, ribosomal protein L13a (RPL13A). Based on BLASTP (version
+2.2.18) homology searches for the RPL13A gene, the protein is
+conserved in the human and turtle genomes and in the bald eagle, crow,
+rifleman and zebrafinch avian genomes (data not shown). Therefore the
+conservation patterns of the RPL13A host gene and corresponding
+intronic snoRNAs largely mimic each other, each independently supports
+a pattern of loss of the RPL13A gene and the intronic snoRNAs that it
+hosts in the bird genomes.
+
+
+\subsection*{MicroRNAs}
+MicroRNAs are an important class of non-coding RNA. They have been
+found in the genomes of Chromalveolata \cite{Cock:2010,Huang:2011},
+Metazoa \cite{Lee:1993,Lau:2001,Hertel:2006}, Mycetozoa
+\cite{Hinas:2007,Avesson:2012}, Viridiplantae
+\cite{Reinhart:2002,Fattash:2007,Axtell:2007,Molnar:2007} and Viruses
+\cite{Pfeffer:2004,Ouellet:2008,Pfeffer:2005,Landgraf:2007}. The
+miRNAs have been shown to regulate the expression of large numbers of
+messenger RNAs \cite{Lim:2005}. The mature miRNA product is generally
+22 nucleotides long which is usually processed from a larger RNA that
+is characterised by a stable hairpin-shaped secondary structure.
+
+Chicken and zebrafinch are the only birds with previously annotated
+microRNAs. We searched for homologs of these and other vertebrate
+microRNAs in the genomes of the 48 birds, American alligator and green
+turtle. Overall, we annotate a total of 16617 putative microRNA loci,
+homologous to 543 known microRNA genes, of which 487 are annotated in
+chicken and/or zebra finch, while 56 have been so far known only in
+non-avian vertebrates. The numbers of annotated loci in the individual
+species are approximately equal - 300-400 per species, except for the
+turkey (Meleagris gallopavo) where we identified 543 sequences
+homologous to known microRNAs.
+
+Nearly all the microRNAs that are broadly conserved in fish,
+amphibians and mammals are also conserved in the birds. Nevertheless,
+there are obvious instances of microRNAs lost in all birds. For
+example, mammalian, amphibian and fish genomes contain three loci of
+clustered microRNAs from the mir-17 and mir-92 families. One of these
+clusters (mir-93~25) was not found in turtles, crocodiles and
+birds. In addition, we can confidently identify a further 3 microRNA
+families that are present in mammals, and turtle and/or crocodile, but
+not in any avian genome (mir-150, mir-208, mir-590). This suggests
+that these sequences were lost in the last common ancestor of
+archosaurs or birds. There are also a number of microRNAs that are
+predicted to be present in turtles and/or crocodiles, and only a small
+number of bird genomes. Indeed, there are many missing annotations,
+species-specific and otherwise, that are not consistent with the
+consensus phylogeny, and could be due to either incomplete genomes or
+widespread microRNA loss.
+
+The turkey genome contains a high number (190) of microRNAs so far
+found only in chicken, which account for the higher number of
+annotated sequences in this genome compared with other birds. This is
+consistent with its phylogenetic position as the closest chicken
+relative among the examined birds. However, 101 chicken microRNAs
+have no homolog in the turkey or other bird genomes, suggesting that
+these genes are chicken-specific. This is consistent with previous
+reports of large number of speciesspecific microRNAs in all animals,
+and supports the view of fast microRNA turnover during animal
+evolution.
+
+\subsection*{Cis-regulatory elements}
+%% Histone3, IRE, IRES, K chan RES, SECIS, Antizyme FSE, Vimentin3, GABA3,
+%% CAESAR,
+
+The cis-regulatory RNAs are a group of RNA structures encoded on
+mRNAs. Generally they are involved in regulating the expression of the
+mRNA they are encoded within. Others may recode the translated protein
+product into an alternate sequence.
+
+This group includes the iron response element (IRE) \cite{Stevens:}
+and the histone $3^\prime$ UTR (histone3)
+\cite{Davila_Lopez:2008a}. These are structured motifs bound by
+regulatory proteins. The selenocysteine insertion sequence (SECIS) is
+a structured motif that recodes UGA stop codons to selenocysteines
+\cite{Lambert:2002} and the GABRA3 stem-loop is a structure recognised
+by the ADAR enzyme family. This enzyme edits adenine nucleotides to
+inosine, in this case recoding an isoleucine codon to methionine in
+exon 9 of the GABRA3 gene \cite{Ohlson:2007}.
+
+These regulatory elements and others, including an internal ribosome
+entry site (IRES), potassium channel RNA editing signal (K chan RES),
+Antizyme RNA frameshifting stimulation element (Antizyme FSE),
+vimentin $3^\prime$ UTR protein-binding region (Vimentin3) and a
+connective tissue growth factor (CTGF) $3^\prime$ UTR element (CAESAR)
+are conserved across a diverse group of vertebrates, including the
+bird lineages explored here (See Figure~\ref{fig:1}).
+
+\subsection*{Exceptional RNAs}
+
+%Background to this group...
+
+A number of other ncRNAs can also be found in Eukaryotic
+genomes. These do not fit into the main classes of RNA but still
+perform vital roles in the function and evolution of Eukaryotes.
+Their functions are diverse and many have not yet been characterised.
+
+An example of an uncharacterised RNA is the ultraconserved element,
+uc.338 (also known as TUC338)
+\cite{Bejerano:2004,Bejerano:2006,Braconi:2011}. The uc.338 element
+is derived from a short interspersed element (SINE) called the
+lobe-finned fishes SINE (LF-SINE) as it is conserved between the
+coelacanth and mammals \cite{Bejerano:2006}. Analysis of the
+expression of uc.338 implies that it plays a role in the progression
+of hepatocellular carcinoma, possibly by influencing cell growth
+\cite{Braconi:2011}. This RNA is conserved in the birds and appears to
+have been duplicated in several lineages.
+
+The Y RNA is an enigmatic ncRNA where we know very little about the
+function. It was discovered in the 1980s in ribonucleoprotein
+complexes \cite{Lerner:1981}. The function of the Y RNAs remain
+unknown, but evidence is emerging that they may be associated with DNA
+replication \cite{Christov:2006}. There are 4 functional Y RNAs
+encoded in the human genome, Y1, Y3, Y4 and Y5. However, there are
+hundreds of pseudogenised copies of the Y RNA scattered throughout the
+human genome \cite{Mosig:2007}. In the birds and other lizards, we
+identify between two and seven Y RNA paralogs (See
+Figure~\ref{fig:1}).
+
+The Vault RNA forms a major component of the vault ribonucleoprotein
+complex, this is one of the largest particles found in the vertebrate
+cell; In fact, it is larger than the ribosome \cite{Kong:1999}. As yet
+not much is known about the function of Vault. The Vault RNA has been
+shown to be broadly conserved in metazoans
+\cite{Stadler:2009}. However, in the bird lineages it appears to have
+either been lost or diversified.
+
+
+\subsection*{Contamination}
+
+Bacterial families can be used to identify problematic sequences that
+are likely to be the result of contamination from non-avian sources.
+
+%{\bf WRITE MORE HERE!}
 
 
 {\ifthenelse{\boolean{publ}}{\footnotesize}{\small}
@@ -135,6 +363,18 @@ In the following we explore ...
 \newpage
 
 \begin{figure}[ht]
+  \includegraphics[width=0.4\textwidth]{figures/RNA.pdf}
+  \includegraphics[width=0.1\textwidth]{figures/key2.pdf}
+  \includegraphics[width=0.4\textwidth]{figures/snoRNA-human-yeast-correspondences.pdf}
+  \caption[]{This figure illustrates the number of copies of Rfam and
+    tRNAscan annotations for each RNA family in each avian species and
+    outgroups. The families are ordered alphabetically vertically and
+    the species are in phylogenetic order horizontally. Darker shades
+    indicate high copy numbers, lighter shades indicate fewer, white
+    indicates no predictions were made.}\label{fig:1}
+\end{figure}
+
+\begin{figure}[ht]
   \includegraphics[height=0.95\textheight]{figures/miRNA.pdf}
   \includegraphics[height=0.95\textheight]{figures/snoRNA.pdf}
   \caption[]{Heatmaps showing the prescence/abscence and approximate
@@ -143,11 +383,9 @@ In the following we explore ...
 \end{figure}
 
 \begin{figure}[ht]
-  \includegraphics[width=0.45\textwidth]{figures/lncRNA.pdf}
   \includegraphics[width=0.45\textwidth]{figures/tRNA.pdf}
   \caption[]{Heatmaps showing the prescence/abscence and approximate
-    copy number of {\bf lncRNA} families on the right and {\bf tRNA}
-    families on the left.}\label{fig:5}
+    copy number of {\bf tRNA} families.}\label{fig:5}
 \end{figure}
 
 \begin{figure}[ht]
