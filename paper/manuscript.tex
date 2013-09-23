@@ -254,7 +254,7 @@ and turtle genomes five and six of the HOX RNA-domains are conserved,
 each supporting an ancestral gene order of HOTAIRM1 $\rightarrow$
 HOXA11-AS1 $\rightarrow$ HOTTIP. In the birds, where two or more of
 the HOX cluster lncRNA RNA-domains were predicted on the same
-scaffold, this gene order was preserved.
+scaffold, this gene order was also preserved.
 %egrep 'HOXA11-AS1|HOTAIR|HOTTIP' clans_competed/*gff | perl -lane 'if(/\/(\S+?)\-.*gff:(\S+).*\-id=(\S+);eval/ or /\/(\S+?)\-.*gff:(\S+).*Alias=(\S+);Not/){print "$1\t$2\t$3\t$F[6]"}'
 %egrep 'PCA3' clans_competed/*gff | perl -lane 'if(/\/(\S+?)\-.*gff:(\S+).*\-id=(\S+);eval/ or /\/(\S+?)\-.*gff:(\S+).*Alias=(\S+);Not/){print "$1\t$2\t$3\t$F[6]"}'
 %egrep 'RMST' clans_competed/*gff | perl -lane 'if(/\/(\S+?)\-.*gff:(\S+).*\-id=(\S+);eval/ or /\/(\S+?)\-.*gff:(\S+).*Alias=(\S+);Not/){print "$1\t$2\t$3\t$F[6]"}'
