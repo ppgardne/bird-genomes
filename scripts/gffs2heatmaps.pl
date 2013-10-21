@@ -50,7 +50,15 @@ if (-s "$rDir/allRNA.dat"){
     }
     close(W);
 }
-$whitelist{'SNORD34'}=1;
+my @whiteList=qw(SNORD34
+DLEU2_1 DLEU2_2 DLEU2_3 DLEU2_4 DLEU2_5 DLEU2_6 HOXA11-AS1_1 HOXA11-AS1_2 HOXA11-AS1_3 HOXA11-AS1_4 HOXA11-AS1_5 HOXA11-AS1_6 mir-15_1 mir-15_2 mir-15_3 mir-16_1 mir-16_2 mir-16_3 NBR2 PCA3_1 PCA3_2 RMST_1 RMST_10 RMST_2 RMST_3 RMST_4 RMST_5 RMST_6 RMST_7 RMST_8 RMST_9 Six3os1_1 Six3os1_2 Six3os1_3 Six3os1_4 Six3os1_5 Six3os1_6 Six3os1_7 SNORD93 SOX2OT_exon1 SOX2OT_exon2 SOX2OT_exon3 SOX2OT_exon4 ST7-OT3_1 ST7-OT3_2 ST7-OT3_3 ST7-OT3_4
+Metazoa_SRP RNase_MRP RNaseP_nuc Telomerase-vert U1 U11 U12 U2 U4 U4atac U5 U6 U6atac Vault
+); 
+
+foreach my $wl (@whiteList){
+    $whitelist{$wl}=1;
+}
+
 #replace with a family2type hash:
 my %lncRNAlist;
 if (-s "data/rfam11_lncRNAs.txt"){
@@ -123,7 +131,7 @@ foreach my $f (@gffs){
 	$familiesTotalCounts{$family}=0 if (not defined($familiesTotalCounts{$family}));
 	$familiesTotalCounts{$family}++;
 	$HoHspeciesRfamCount{$species}{$family}++;
-	print OUT "$g\n" if defined($whitelist{$family});
+	print OUT "$g\n" if (defined($whitelist{$family}));
     }
     close(GFF);
     close(OUT);
@@ -224,7 +232,7 @@ foreach my $family ( @family ) {
     
     #Family must be found in >10% of all species
     #printf "$family: $familiesSpeciesCounts{$family}/%d %0.2f\n", scalar(@speciesPhyloOrder), $familiesSpeciesCounts{$family}/scalar(@family) if($family=~/RNase_MRP/);
-    next if( ($familiesSpeciesCounts{$family}/scalar(@speciesPhyloOrder)) < 0.1);
+    next if( ($familiesSpeciesCounts{$family}/scalar(@speciesPhyloOrder)) < 0.1 and not defined($whitelist{$family}));
     next if(defined($blacklist{$family}));
     open(AL, ">> $rDir/allRNA.dat");
     if ($family=~/^sno/i or $family=~/^SCA/ or $family=~/^ACA/){
@@ -281,8 +289,19 @@ print "System calls: creating [$rDir/snoRNA-human-yeast-correspondences.dat] & r
 #GAS5 snoRNAs: \|SNORD81\$\|SNORD47\$\|SNORD80\$\|SNORD79\$\|SNORD78\$\|SNORD44\$\|SNORD77\$\|SNORD76\$\|SNORD75\$\|SNORD74\$
 #DAMN THIS IS NASTY!
 system("egrep \47^human\|snoR38\$\|SNORA13\$\|SNORA16\$\|SNORA2\$\|SNORA21\$\|SNORA26\$\|SNORA27\$\|SNORA28\$\|SNORA3\$\|SNORA36\$\|SNORA4\$\|SNORA44\$\|SNORA48\$\|SNORA5\$\|SNORA50\$\|SNORA52\$\|SNORA56\$\|SNORA58\$\|SNORA62\$\|SNORA64\$\|SNORA65\$\|SNORA66\$\|SNORA69\$\|SNORA7\$\|SNORA74\$\|SNORA76\$\|SNORA8\$\|SNORA9\$\|SNORD12\$\|SNORD14\$\|SNORD15\$\|SNORD16\$\|SNORD17\$\|SNORD18\$\|SNORD2\$\|SNORD24\$\|SNORD27\$\|SNORD29\$\|SNORD31\$\|SNORD33\$\|SNORD34\$\|SNORD35\$\|SNORD36\$\|SNORD38\$\|SNORD41\$\|SNORD43\$\|SNORD46\$\|SNORD51\$\|SNORD52\$\|SNORD57\$\|SNORD59\$\|SNORD60\$\|SNORD62\$\|SNORD65\$\|SNORD74\$\|SNORD77\$\|SNORD88\$\|SNORND104\$\|snosnR60_Z15\$\47 $rDir/snoRNA.dat > $rDir/snoRNA-human-yeast-correspondences.dat");
-#$rDir/allRNA.dat
-#egrep -i '^human|HOXA11-AS1|PCA3|RMST|Six3os1|SOX2OT|ST7-OT3|HOTAIRM1|HOTTIP|RMST|DLEU2|NBR2|SNORD93|miR-15$|miR-16$' ../data/R/allRNA.dat
+
+my @divFams = qw(Metazoa_SRP RNase_MRP RNaseP_nuc Telomerase-vert U1 U2 U4 U5 U6 U11 U12 U4atac U6atac Vault);
+system("head -n 1 $rDir/allRNA.dat | perl -lane \47" .  's/_\d+X\t/\t/g; print' . "\47 > $rDir/diverged.dat");
+foreach my $fm7 ( @divFams ){
+    system("egrep \47$fm7\$\47 $rDir/allRNA.dat >> $rDir/diverged.dat")
+}
+system("egrep \47SeC\47 $rDir/tRNA.dat >> $rDir/diverged.dat");
+
+my @unConFams = qw(DLEU2_1 DLEU2_2 DLEU2_3 DLEU2_4 DLEU2_5 DLEU2_6 HOXA11-AS1_1 HOXA11-AS1_2 HOXA11-AS1_3 HOXA11-AS1_4 HOXA11-AS1_5 HOXA11-AS1_6 mir-15 mir-16 NBR2 PCA3_1 PCA3_2 RMST_1 RMST_10 RMST_2 RMST_3 RMST_4 RMST_5 RMST_6 RMST_7 RMST_8 RMST_9 Six3os1_1 Six3os1_2 Six3os1_3 Six3os1_4 Six3os1_5 Six3os1_6 Six3os1_7 SNORD93 SOX2OT_exon1 SOX2OT_exon2 SOX2OT_exon3 SOX2OT_exon4 ST7-OT3_1 ST7-OT3_2 ST7-OT3_3 ST7-OT3_4);
+system("head -n 1 $rDir/allRNA.dat | perl -lane \47" .  's/_\d+X\t/\t/g; print' . "\47 > $rDir/unusual-conserved.dat");
+foreach my $fm8 (@unConFams){
+    system("egrep \47$fm8\$\47 $rDir/allRNA.dat >> $rDir/unusual-conserved.dat")
+}
 
 system("R CMD BATCH --no-save scripts/heatmaps.R");
 

@@ -57,7 +57,7 @@
 
 %\title{Non-coding RNAs of bird genomes}
 %\title{Wins and losses: Non-coding RNAs of bird genomes}
-\title{Fly away Peter, come back Paul: the gains and losses of avian Non-coding RNAs}
+\title{Fly away Peter, come back Paul: the conservation and losses of avian non-coding RNAs}
 
 \author{
 Paul P. Gardner\correspondingauthor$^{1,2}$
@@ -96,15 +96,15 @@ of non-coding RNAs in 48 avian genomes. Our approach uses
 probabilistic models of hand-curated families from the Rfam database
 to infer conserved RNA families within each avian genome. We
 supplement these annotations with predictions from the tRNA annotation
-tool, tRNAscan-SE and microRNAs from miRBase. Although we show
-extensive conservation of classical ncRNAs (e.g., tRNAs and rRNAs) and
-more recently discovered ncRNAs (e.g., snoRNAs and miRNAs) in birds,
-we also demonstrate apparent ``losses'' in several RNA families. These
-include the divergence of some classical ncRNAs and the loss of
-several snoRNAs and microRNAs. In contrast, we show a significant
-number of lncRNAs are surprisingly well conserved between birds and
-mammals including several intriguing cases where the reported
-mammalian lncRNA function is not conserved in birds. These combined
+tool, tRNAscan-SE and microRNAs from miRBase.  Although we show a
+significant number of lncRNAs are surprisingly well conserved between
+birds and mammals including several intriguing cases where the
+reported mammalian lncRNA function is not conserved in birds.  In
+contrast, we show extensive conservation of classical ncRNAs (e.g.,
+tRNAs and rRNAs) and more recently discovered ncRNAs (e.g., snoRNAs
+and miRNAs) in birds, we also demonstrate apparent ``losses'' in
+several RNA families. These include the divergence of some classical
+ncRNAs and the loss of several snoRNAs and microRNAs.  These combined
 results illustrate the utility of applying homology based methods for
 annotating vertebrate genomes and illustrate many complex evolutionary
 patterns within the avian ncRNA cohort.
@@ -135,9 +135,9 @@ patterns within the avian ncRNA cohort.
 
 Non-coding RNAs (ncRNAs) are an important class of genes. However,
 they pose serious research challenges, particularly for the field of
-genomics. They lack the strong statistical signals associated with
-protein coding genes, e.g. open reading frames, G+C content and
-codon-usage biases \cite{Rivas:2000}.
+genomics. For example, they lack the strong statistical signals
+associated with protein coding genes, e.g. open reading frames, G+C
+content and codon-usage biases \cite{Rivas:2000}.
 
 Non-coding RNAs are classified into hierarchical groupings by the Rfam
 database. The basic units are ``families'' which are groups of
@@ -152,12 +152,16 @@ ribosomal RNAs, RNA components of RNase P and the signal recognition
 particle \cite{Jeffares:1998}. Other classes appear to have have
 evolved more recently, e.g. the small nucleolar RNAs (snoRNAs),
 microRNAs (miRNAs) and the long non-coding RNAs (lncRNAs)
-\cite{Hoeppner:2012}. The publication of avian genomes provides
-exciting opportunities to to explore ncRNA conservation in
-unprecedented detail.
+\cite{Hoeppner:2012}. The publication of 48 avian genomes, including
+the previously published chicken
+\cite{International_Chicken_Genome_Sequencing_Consortium:2004}, zebra
+finch \cite{Warren:2010} and turkey \cite{Dalloul:2010} with the newly
+published 45 avian genomes \cite{}, provides exciting opportunities to
+to explore ncRNA conservation in unprecedented detail.
+
 
 Despite promising techniques such as RNA-seq \cite{Croucher:2010},
-homology based methods namely covariance models (CMs) are state of the
+homology based methods namely covariance models (CMs) remain state of the
 art for ncRNA analyses \cite{Sakakibara:1994,Eddy:1994,Nawrocki:2009}.
 The CM based approach for annotating ncRNAs in genomes requires
 reliable alignments and consensus secondary structures of
@@ -191,30 +195,28 @@ range from regulating chromatin status to chromosomal inactivation
 \cite{Rinn:2007,Chow:2005}. Yet functional characterisation of these
 genes is a lengthy and expensive process \cite{Guttman:2009}.
 
-%Still needs a {\bf what have we done} paragraph!
+In the following we explore the conservation patterns of the major
+classes of avian ncRNA in further detail. The collection of ncRNA
+sequences is generally biased towards model organisms
+\cite{Gardner:2010,Hoeppner:2012}. We focus our report on the unusual
+results within the avian lineages. These are either unexpectedly
+well-conserved RNAs or unexpectedly poorly-conserved RNAs. The former
+are RNAs we would not have expected to be conserved between the birds
+and the organisms these genes were initially identified in; Usually,
+this hypothesis is based upon the function of the RNA which is not
+conserved in avian species. The latter are apparent losses of RNA
+genes that were expected to be conserved; Usually, this hypothesis is
+based upon the conservation of these RNAs in other vertebrate species.
+We use three models of ``loss'' that explain the data: Firstly, these
+could be genuine cases of an ancestral gene-loss along the avian
+lineage. Secondly, this could be a case of ``divergence'' where a RNA
+gene has undergone significant sequence and structural alterations, so
+much so, that our homology search tools can no longer detect a
+relationship between vertebrate exemplars and the avian
+varieties. Thirdly, we consider the possibility that the available
+genome assemblies have independently failed to capture these genes.
 
 \section*{Results}
-In the following we explore the conservation patterns of the major
-classes of ncRNA in further detail. The collection of ncRNA sequences
-is generally biased towards model organisms
-\cite{Gardner:2010,Hoeppner:2012}. We focus our analysis on the
-unusual results within the avian lineages. These are either
-unexpectedly well-conserved RNAs or unexpectedly poorly-conserved
-RNAs. The former are RNAs we would not have expected to be conserved
-between the birds and the organisms these genes were initially
-identified in; Usually, this hypothesis is based upon the function of
-the RNA which is not conserved in avian species. The latter are
-apparent losses of RNA genes that were expected to be conserved;
-Usually, this hypothesis is based upon the conservation of these RNAs
-in other vertebrate species. We have three models of ``loss'' that we
-use to explain the data: Firstly, these could be genuine cases of an
-ancestral gene-loss along the avian lineage. Secondly, this could be a
-case of ``divergence'' where a RNA gene has undergone significant
-sequence and structural alterations, so much so, that our homology
-search tools can no longer detect a relationship between vertebrate
-exemplars and the avian varieties. Thirdly, we consider the
-possibility that the available genome assemblies have independently
-failed to capture these genes.
 
 
 \subsection*{Unusually, well conserved RNAs}
@@ -224,11 +226,12 @@ non-coding RNA (lncRNA) group.  The lncRNAs are a diverse group of
 RNAs that have been implicated in a multitude of functional processes
 \cite{Rinn:2007,Chow:2005,Guttman:2009}. These RNAs have largely been
 characterised in mammalian species, particularly human and
-mouse. Consequently, generally do not expect these to be conserved
+mouse. Consequently, we generally do not expect these to be conserved
 outside of mammalia. Notable examples include Xist \cite{Duret:2006}
-and H19 \cite{Smits:2008}.
+and H19 \cite{Smits:2008}. Some of the main results of this group are
+discussed in the comparative analysis of avian genomes article \cite{}. 
 
-In general Rfam cannot include the entire length of any large, spliced
+In general, Rfam cannot include the entire length of any large, spliced
 RNAs. This is a limitation of the covariance-models used for the
 homology-searches Rfam runs \cite{Nawrocki:2009}. Consequently, only
 short, well-conserved regions with evolutionarily conserved secondary
@@ -247,7 +250,7 @@ Figure~\ref{fig:5}).
 The HOX cluster lncRNAs, HOTAIRM1, HOTTIP and HOXA11-AS1, are
 remarkably well conserved. In the human genome the corresponding
 RNA-domains are located at chr7:27135743-27245922 (hg19) and are
-modelled by 15 RNA-domains in total, the % (5, 4 and 6 respectively)
+modelled by 15 RNA-domains in total, the 
 lncRNAs are ordered HOTAIRM1 (5 RNA-domains) $\rightarrow$ HOXA11-AS1
 (6 RNA-domains) $\rightarrow$ HOTTIP (4 RNA-domains). In the alligator
 and turtle genomes five and six of the HOX RNA-domains are conserved,
@@ -280,9 +283,6 @@ Supplemental Figure~2). DLEU2 is thought to be a tumor-suppressor gene
 as it is frequently deleted in malignant tumours
 \cite{Lerner:2009,Klein:2010}.
 
-%(MIR1251 is in the same locus)
-%PCA3 RNA-domains inverted relative to human...
-
 The NBR2 lncRNA and BRCA1 gene share a bidirectional promotor
 \cite{Xu:1997}. Both are expressed in a broad ranch of
 tissues. Extensive research on BRCA1 has shown that it is involved in
@@ -290,67 +290,12 @@ DNA repair \cite{Moynahan:1999}. The function of NBR2 remains unknown,
 yet its conservation across the vertebrates certainly implies a
 function (See Figure~\ref{fig:5}).
 
-
-{\bf more detail on the prostate lncRNAs?}
-
 Of the other classes of RNAs, none showed an unexpected degree of
 conservation or expansion within the avian lineage. The only exception
 being the snoRNA SNORD93 which we show has 92 copies in the tinamou
 genome, whereas it only has 1-2 copies in all the other vertebrate
 genomes. 
 
-%(neighbor of BRCA1 gene 2)
-%MHM results!!!!
-%% Another of the functions associated with lncRNAs is chromosomal dosage
-%% compensation. In mammals this is carried out by the lncRNAs Xist and
-%% Tsix \cite{}. In birds it has been proposed that the lncRNA MHM might
-%% play a related role \cite{}.
-
-%DLEU2, frequently deleted in malignancy, functions as a critical host
-%gene of the cell cycle inhibitory microRNAs miR-15a and miR-16-1
-
-%% TUMOR-SUPPRESSOR:
-%% DLEU2, part of a tumor-suppressor cluster (with two microRNAs), most recent refs here:
-%% http://www.ncbi.nlm.nih.gov/pubmed/19591824
-%% http://www.ncbi.nlm.nih.gov/pubmed/20060366
-%% SMAD5, tumor suppressor candidate:
-%% http://www.ncbi.nlm.nih.gov/pubmed/10049768?dopt=Abstract
-
-%% DEVELOPMENT:
-%% HOXA11, most complete reference list here:
-%% http://www.lncrnadb.org/Detail.aspx?TKeyID=171
-%% Six3OS, retinal development:
-%% http://www.ncbi.nlm.nih.gov/pubmed/21936910
-%% ZEB2, brain development:
-%% http://www.ncbi.nlm.nih.gov/pubmed/18347095?dopt=Abstract
-
-%% MAT2A:
-%% http://www.ncbi.nlm.nih.gov/pubmed/1426236%2C9703951?dopt=Abstract
-
-%% RMST, doesn't look we know it does (also shows up in review paper at top):
-%% http://www.ncbi.nlm.nih.gov/pubmed/20062813
-
-%% ST7-OT, another candidate:
-%% http://www.ncbi.nlm.nih.gov/pubmed/12213198?dopt=Abstract
-
-%% PART1, meant to be human prostate-specific, birds don't even have a prostate:
-%% http://www.ncbi.nlm.nih.gov/pubmed/10706094?dopt=Abstract
-%% PCA3, prostate/androgen receptor signalling (curious there's heaps of it in male and female birds? same for PART1?):
-%% http://www.ncbi.nlm.nih.gov/pubmed/?term=ferreira+and+pca3
-
-
-%% Also, it would be good to check regarding the HOTAIRM/HOTTIP/HOXA11AS
-%% etc lncRNA elements that their syntenic location relativ to the HOXA genes
-%% (similar for SOXAS...) is correct. Mario checked for HOTAIRM and HOXA1/HOXA2
-%% and this is fine, it would be good for my piece of mind though it is
-%% at least OK in chicken, turkey, duck, zebrafinch. Also a word of caution
-%% of the Rfam models: if you look at HOTAIRM1_2, there's basically no
-%% covariation, looks pretty much like an ultraconserved element, so
-%% technically we don't really know whether this is an RNA element or,
-%% say, a TF binding site cluster that is functional at DNA level. Hence any
-%% evidence that we have indeed a transcript would be nice to have. We
-%% checked for HOTAIRM1 and it looks good in chicken. For the rest, it would be
-%% nice to have seen transcription it at least one bird :)
 
 \subsection*{RNA Losses, divergence or missing data?}
 
@@ -403,9 +348,9 @@ sequence divergence rather then true losses.
 
 \subsection*{Y RNA clusters} 
 
-Vertrebrate Y RNAs typically form a cluster comprising four
+Vertebrate Y RNAs typically form a cluster comprising four
 well-defined paralog groups Y1, Y3, Y4, and Y5. In line with
-\emph{Mosig:07a} we find that the Y5 paralog family is absent from all
+\cite{Mosig:07a} we find that the Y5 paralog family is absent from all
 bird genomes, while it is still present in both alligator and turtle,
 see Supplemental Figure~4. Within bird, we find an the conserved
 Y4-Y3-Y1 cluster. Apparently, broken-up clusters are in most cases
@@ -420,7 +365,7 @@ indication that any of these additional copies is evolutionarily
 conserved over longer time scales. We therefore suggest that most or
 all of these interspersed copies are in fact pseudogenes.
 
-\subsection*{MicroRNA Clusters} 
+\subsection*{MicroRNA clusters} 
 
 Nearly all microRNAs that are broadly conserved in fish, amphibians and
 mammals are also conserved in the birds. Nevertheless, there are obvious
@@ -435,7 +380,7 @@ paralogs in human. These genes also localize in 7 genomic clusters,
 together with mir-100 and mir-125 miRNA families (see previous study on the
 evolution of the let-7 miRNA cluster in \cite{Hertel:2012}). In Sauropsids
 we observed that cluster A - that is strongly conserved in vertebrates has
-been completely lost in the avian lineage. Another obious lost in birds is
+been completely lost in the avian lineage. Another obvious loss in birds is
 cluster F, containing two let-7 microRNA paralogs. Cluster H, on the other
 hand has been retained in all oviparous animals and completely lost later,
 after the split of Theria. See Supplemental Figure~7 for details.
@@ -453,6 +398,23 @@ after the split of Theria. See Supplemental Figure~7 for details.
 %3. several regulatory RNAs, snoRNAs and microRNAs, have been lost
 %since the birds diverged from the other vertebrates. Indicating many
 %avian-specific alterations in gene regulation.
+
+In this work we have summarised the main results after carefully
+annotating non-coding RNAs in genome sequences. We have identified
+previously unrecognised conservation of ncRNAs in avian genomes as
+well as some surprising ``losses'' of otherwise well conserved
+ncRNAs. We suspect many of these losses are due to a combination of
+limitations in the homology search tools that we use for annotation
+and the ability of ncRNAs to tolerate large amounts of sequence
+variation while remaining functional, rather than \emph{bona fide}
+gene loss. In some cases these losses could be due to missing data
+from the genome assemblies, but this unlikely to be the case for
+multiple independant assemblies.
+
+These results indicate we are still in the very early phases of
+determining the functions of many RNA families. This is illustrated by
+the fact that the reported functions of some ncRNAs are
+mammal-specific, yet some are also found in bird genomes. 
 
 
 \section*{Methods}

@@ -100,5 +100,30 @@ heatmap.2(as.matrix(allrna),trace="none",col=gray(lb:0/lb),
           )
 dev.off()
 
+allrna<-read.table("data/R/diverged.dat",header = T, sep = "\t",row.names=52)
+pdf(file="paper/figures/diverged.pdf",width=8, height=15)
+heatmap.2(as.matrix(allrna),trace="none",col=gray(lb:0/lb),
+          dendrogram = "none", scale = "none",
+          breaks=breaks,
+          sepcolor="black", Rowv=F, Colv=F, key = F,
+          lmat=lmat, lwid=lwid, lhei=lhei,
+          cexCol=1.1, cexRow=1.1
+          )
+dev.off()
+
+allrna<-read.table("data/R/unusual-conserved.dat",header = T, sep = "\t",row.names=52)
+pdf(file="paper/figures/unusual-conserved.pdf",width=8, height=15)
+heatmap.2(as.matrix(allrna),trace="none",col=gray(lb:0/lb),
+          dendrogram = "none", scale = "none",
+          breaks=breaks,
+          sepcolor="black", Rowv=F, Colv=F, key = F,
+          lmat=lmat, lwid=lwid, lhei=lhei,
+          cexCol=1.1, cexRow=1.1
+          )
+dev.off()
+
+
+
+
 
 
