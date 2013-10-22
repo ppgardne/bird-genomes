@@ -1007,6 +1007,7 @@ scaffold5865	Rfam	similarity	5940	6025	44.4	-	.	rfam-id=mir-1803;evalue=4.4e-07;
 scaffold5939	Rfam	similarity	6217	6273	40.1	+	.	rfam-id=IRES_APC;evalue=0.00012;model_end=53;id=1.823;model_start=1;rfam-acc=RF00462;gc-content=0.42
 scaffold5979	Rfam	similarity	3190	3296	47.2	+	.	rfam-id=U6;evalue=1.9e-08;model_end=106;id=1.635;model_start=1;rfam-acc=RF00026;gc-content=0.53
 scaffold5997	Rfam	similarity	26370	26455	35.0	-	.	rfam-id=mir-1803;evalue=0.00035;model_end=87;id=1.1060;model_start=1;rfam-acc=RF02094;gc-content=0.51
+scaffold6000	Rfam	similarity	1619	1743	38.4	-	.	rfam-id=PART1_3;evalue=0.00013;model_end=131;id=1.899;model_start=1;rfam-acc=RF02161;gc-content=0.44
 scaffold6028	Rfam	similarity	73168	73253	43.9	-	.	rfam-id=mir-1803;evalue=6e-07;model_end=87;id=1.720;model_start=1;rfam-acc=RF02094;gc-content=0.41
 scaffold6078	Rfam	similarity	44920	45003	48.7	+	.	rfam-id=mir-1803;evalue=2e-08;model_end=87;id=1.602;model_start=1;rfam-acc=RF02094;gc-content=0.44
 scaffold6126	Rfam	similarity	66406	66561	53.0	+	.	rfam-id=U1;evalue=6.9e-11;model_end=165;id=1.539;model_start=1;rfam-acc=RF00003;gc-content=0.42

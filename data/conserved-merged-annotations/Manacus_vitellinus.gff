@@ -976,6 +976,7 @@ scaffold308	Rfam	similarity	491985	492098	123.9	+	.	rfam-id=K_chan_RES;evalue=2.
 scaffold308	Rfam	similarity	592718	592831	111.0	+	.	rfam-id=K_chan_RES;evalue=7.7e-24;model_end=114;id=1.74;model_start=1;rfam-acc=RF00485;gc-content=0.61
 scaffold309	tRNAscan-SE	tRNA	33305	33376	55.24	+	.	number=1;type=Glu;anticodon=CTC;
 scaffold309	tRNAscan-SE	tRNA	134437	134509	20.76	+	.	number=2;type=Pseudo;anticodon=AAT;
+scaffold309	Rfam	similarity	194378	194469	31.4	-	.	rfam-id=Six3os1_2;evalue=0.00014;model_end=217;id=1.1134;model_start=1;rfam-acc=RF02247;gc-content=0.47
 scaffold309	tRNAscan-SE	tRNA	1546446	1546515	22.41	-	.	number=3;type=Pseudo;anticodon=CTC;
 scaffold31	.	microRNA	170832	170921	.	+	.	ID=mir-199_2
 scaffold31	.	microRNA	176737	176844	.	+	.	ID=mir-214_1

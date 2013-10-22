@@ -1,51 +1,51 @@
 Homo_sapiens	human
 Alligator_mississippiensis	alligator
 Chelonia_mydas	turtle
-Struthio_camelus	ostrich_85X
-Tinamus_guttatus	tinamou_100X
-Anas_platyrhynchos	duck_50X
-Meleagris_gallopavo	turkey
-Gallus_gallus	chicken
-Antrostomus_carolinensis	nightjar_30X
-Chaetura_pelagica	swift_106X
-Calypte_anna	hummingbird_110X
-Columba_livia	pigeon_64X
-Cuculus_canorus	cuckoo_100X
-Mesitornis_unicolor	mesite_29X
-Pterocles_guturalis	sandgrouse_25X
-Tauraco_erythrolophus	turaco_30X
-Chlamydotis_undulata	bustard_27X
-Opisthocomus_hoazin	hoatzin_100X
-Charadrius_vociferus	plover_100X
-Balearica_regulorum	crane_33X
-Podiceps_cristatus	grebe_30X
-Phoenicopterus_ruber	flamingo_33X
-Eurypyga_helias	sunbittern_33X
-Phaethon_lepturus	tropicbird_39X
-Gavia_stellata	loon_33X
-Egretta_garzetta	egret_74X
-Nipponia_nippon	ibis_105X
-Pelecanus_crispus	pelican_34X
-Phalacrocorax_carbo	cormorant_24X
-Fulmarus_glacialis	fulmar_33X
-Pygoscelis_adeliae	adelie_penquin_60X
-Aptenodytes_forsteri	emperor_penquin_60X
-Cariama_cristata	seriema_24X
-Tyto_alba	owl_27X
-Cathartes_aura	vulture_25X
-Haliaeetus_albicilla	white_tailed_eagle_26X
-Haliaeetus_leucocephalus	bald_eagle
-Colius_striatus	mousebird_27X
-Leptosomus_discolor	cuckoo_roller_32X
-Apaloderma_vittatum	trogon_28X
-Buceros_rhinoceros	hornbill_35X
-Merops_nubicus	bee_eater_37X
-Picoides_pubescens	woodpecker_105X
-Falco_peregrinus	falcon_105X
-Nestor_notabilis	kea_32X
-Melopsittacus_undulatus	budgerigar
-Acanthisitta_chloris	rifleman_29X
-Manacus_vitellinus	manakin_110X
-Corvus_brachyrhynchos	crow_90X
-Taeniopygia_guttata	zebrafinch
-Geospiza_fortis	ground_finch_115X
+Tinamus_guttatus	tinamou_100X	TINMA
+Struthio_camelus	ostrich_85X	STRCA
+Anas_platyrhynchos	duck_50X	ANAPL
+Meleagris_gallopavo	turkey		MELGA
+Gallus_gallus	chicken	GALGA
+Podiceps_cristatus	grebe_30X	PODCR
+Phoenicopterus_ruber	flamingo_33X	PHORU
+Columba_livia	pigeon_64X		COLLI
+Pterocles_guturalis	sandgrouse_25X	PTEGU
+Mesitornis_unicolor	mesite_29X	MESUN
+Antrostomus_carolinensis	nightjar_30X	CAPCA
+Chaetura_pelagica	swift_106X		CHAPE
+Calypte_anna	hummingbird_110X		CALAN
+Cuculus_canorus	cuckoo_100X			CUCCA
+Tauraco_erythrolophus	turaco_30X		TAUER
+Chlamydotis_undulata	bustard_27X		CHLUN
+Opisthocomus_hoazin	hoatzin_100X		OPHHO
+Charadrius_vociferus	plover_100X		CHAVO
+Balearica_regulorum	crane_33X		BALRE
+Phaethon_lepturus	tropicbird_39X		PHALE
+Eurypyga_helias	sunbittern_33X			EURHE
+Gavia_stellata	loon_33X			GAVST
+Fulmarus_glacialis	fulmar_33X		FULGL
+Pygoscelis_adeliae	adelie_penquin_60X	PYGAD
+Aptenodytes_forsteri	emperor_penquin_60X	APTFO
+Phalacrocorax_carbo	cormorant_24X		PHACA
+Nipponia_nippon	ibis_105X			NIPNI
+Pelecanus_crispus	pelican_34X		PELCR
+Egretta_garzetta	egret_74X		EGRGA
+Cariama_cristata	seriema_24X		CARCR
+Falco_peregrinus	falcon_105X		FALPE
+Nestor_notabilis	kea_32X			NESNO
+Melopsittacus_undulatus	budgerigar		MELUN
+Acanthisitta_chloris	rifleman_29X		ACACH
+Manacus_vitellinus	manakin_110X		MANVI
+Corvus_brachyrhynchos	crow_90X		CORBR
+Taeniopygia_guttata	zebrafinch		TAEGU
+Geospiza_fortis	ground_finch_115X		GEOFO
+Cathartes_aura	vulture_25X			CATAU
+Haliaeetus_leucocephalus	bald_eagle	HALLE
+Haliaeetus_albicilla	white_tailed_eagle_26X	HALAL
+Tyto_alba	owl_27X	TYTAL
+Colius_striatus	mousebird_27X	COLST
+Leptosomus_discolor	cuckoo_roller_32X	LEPDI
+Apaloderma_vittatum	trogon_28X		APAVI
+Buceros_rhinoceros	hornbill_35X		BUCRH
+Picoides_pubescens	woodpecker_105X		PICPU
+Merops_nubicus	bee_eater_37X			MERNU

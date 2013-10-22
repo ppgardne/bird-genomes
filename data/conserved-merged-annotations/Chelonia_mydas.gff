@@ -22135,6 +22135,7 @@ scaffold69	Rfam	similarity	1516326	1516518	213.2	-	.	rfam-id=RMST_9;evalue=3.3e-
 scaffold69	Rfam	similarity	1516625	1516785	166.6	-	.	rfam-id=RMST_8;evalue=7.3e-36;model_end=166;id=1.33;model_start=1;rfam-acc=RF01969;gc-content=0.42
 scaffold69	Rfam	similarity	1541207	1541470	216.1	-	.	rfam-id=RMST_7;evalue=3.7e-62;model_end=268;id=1.11;model_start=1;rfam-acc=RF01968;gc-content=0.30
 scaffold69	Rfam	similarity	1543319	1543520	163.9	-	.	rfam-id=RMST_6;evalue=6.5e-45;model_end=203;id=1.38;model_start=1;rfam-acc=RF01967;gc-content=0.41
+scaffold69	Rfam	similarity	1574514	1574618	49.3	-	.	rfam-id=RMST_4;evalue=9.5e-06;model_end=108;id=1.8895;model_start=1;rfam-acc=RF01965;gc-content=0.36
 scaffold69	Rfam	similarity	1793598	1793684	39.3	-	.	rfam-id=mir-1803;evalue=3.1e-05;model_end=87;id=1.24278;model_start=1;rfam-acc=RF02094;gc-content=0.40
 scaffold69	Rfam	similarity	1921168	1921251	37.4	-	.	rfam-id=mir-1803;evalue=0.00012;model_end=87;id=1.28663;model_start=1;rfam-acc=RF02094;gc-content=0.48
 scaffold69	Rfam	similarity	1960859	1960944	46.2	-	.	rfam-id=mir-1803;evalue=2.3e-07;model_end=87;id=1.12358;model_start=1;rfam-acc=RF02094;gc-content=0.45

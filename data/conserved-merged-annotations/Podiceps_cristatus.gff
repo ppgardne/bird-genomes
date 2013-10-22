@@ -1083,6 +1083,7 @@ scaffold850	Rfam	similarity	6290	6595	208.0	+	.	rfam-id=7SK;evalue=2.7e-59;model
 scaffold8570	Rfam	similarity	2073	2179	96.1	-	.	rfam-id=U6;evalue=3.4e-23;model_end=106;id=1.129;model_start=1;rfam-acc=RF00026;gc-content=0.41
 scaffold8615	.	microRNA	15663	15746	.	+	.	ID=mir-456_1
 scaffold8636	Rfam	similarity	60474	60566	71.7	+	.	rfam-id=mir-186;evalue=2.6e-13;model_end=93;id=1.323;model_start=1;rfam-acc=RF00697;gc-content=0.34
+scaffold8692	Rfam	similarity	4767	4900	35.6	+	.	rfam-id=DLEU2_6;evalue=0.00022;model_end=135;id=1.984;model_start=1;rfam-acc=RF02110;gc-content=0.41
 scaffold8765	Rfam	similarity	6092	6260	42.6	-	.	rfam-id=uc_338;evalue=1.5e-06;model_end=180;id=1.747;model_start=1;rfam-acc=RF02271;gc-content=0.42
 scaffold8797	Rfam	similarity	11388	11708	169.8	-	.	rfam-id=SCARNA7;evalue=2.4e-40;model_end=330;id=1.23;model_start=1;rfam-acc=RF01295;gc-content=0.45
 scaffold888	Rfam	similarity	5011	5286	46.8	+	.	rfam-id=RSV_RNA;evalue=2.8e-09;model_end=289;id=1.639;model_start=1;rfam-acc=RF01417;gc-content=0.42
