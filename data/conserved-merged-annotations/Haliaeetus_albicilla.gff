@@ -849,7 +849,6 @@ scaffold45011	SNOSTRIP	HACA-snoRNA	2450	2584	195	-	.	SNORA64
 scaffold4503	Rfam	similarity	79063	79145	38.4	+	.	rfam-id=mir-1803;evalue=3e-05;model_end=87;id=1.873;model_start=1;rfam-acc=RF02094;gc-content=0.41
 scaffold45049	Rfam	similarity	3843	3927	35.2	+	.	rfam-id=mir-1803;evalue=0.00031;model_end=87;id=1.1029;model_start=1;rfam-acc=RF02094;gc-content=0.42
 scaffold45049	tRNAscan-SE	tRNA	38379	38453	35.83	+	.	number=1;type=Pseudo;anticodon=CTT;
-scaffold45052	Rfam	similarity	3592	3670	37.8	+	.	rfam-id=mir-16;evalue=2.7e-05;model_end=81;id=1.896;model_start=1;rfam-acc=RF00254;gc-content=0.32
 scaffold45100	tRNAscan-SE	tRNA	182	253	62.29	+	.	number=1;type=Met;anticodon=CAT;
 scaffold45150	Rfam	similarity	16505	16673	35.1	+	.	rfam-id=uc_338;evalue=0.0002;model_end=180;id=1.1036;model_start=1;rfam-acc=RF02271;gc-content=0.47
 scaffold45245	.	microRNA	74629	74720	.	+	.	ID=mir-6574_1

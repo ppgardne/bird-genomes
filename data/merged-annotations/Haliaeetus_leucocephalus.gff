@@ -1610,7 +1610,6 @@ Scaffold849	Rfam	similarity	654592	654730	40.2	+	.	rfam-id=MIR408;evalue=1e-05;m
 Scaffold85	Rfam	similarity	255312	255417	59.5	+	.	rfam-id=Phe_leader;evalue=8.1e-10;model_end=126;id=1.630;model_start=1;rfam-acc=RF01859;gc-content=0.32
 Scaffold85	SNOSTRIP	HACA-snoRNA	571894	572033	151	-	.	GGgACA48
 Scaffold85	Rfam	similarity	774413	774501	41.4	+	.	rfam-id=mir-282;evalue=6.3e-06;model_end=95;id=1.1330;model_start=1;rfam-acc=RF00724;gc-content=0.29
-Scaffold850	Rfam	similarity	36458	36536	37.8	-	.	rfam-id=mir-16;evalue=3e-05;model_end=81;id=1.1601;model_start=1;rfam-acc=RF00254;gc-content=0.32
 Scaffold8500	.	microRNA	3329	3419	.	+	.	ID=mir-183_1
 Scaffold8500	.	microRNA	3452	3538	.	+	.	ID=mir-96_1
 Scaffold8500	.	microRNA	3964	4033	.	+	.	ID=mir-182_1

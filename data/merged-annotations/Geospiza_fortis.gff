@@ -644,7 +644,6 @@ scaffold231	tRNAscan-SE	tRNA	2846993	2847063	23.38	-	.	number=2;type=Pseudo;anti
 scaffold231	.	microRNA	4275765	4275860	.	-	.	ID=mir-1622_1
 scaffold231	.	microRNA	4816784	4816887	.	-	.	ID=mir-2972_1
 scaffold231	.	microRNA	4816978	4817055	.	-	.	ID=mir-138_2
-scaffold231	Rfam	similarity	5083214	5083297	36.6	-	.	rfam-id=mir-16;evalue=6e-05;model_end=81;id=1.1038;model_start=1;rfam-acc=RF00254;gc-content=0.33
 scaffold237	.	microRNA	436723	436806	.	+	.	ID=mir-3533_1
 scaffold237	.	microRNA	1406025	1406116	.	+	.	ID=mir-1781_1
 scaffold237	SNOSTRIP	CD-snoRNA	3700174	3700326	158	-	.	GGgCD76

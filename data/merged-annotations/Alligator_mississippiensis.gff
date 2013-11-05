@@ -4409,7 +4409,6 @@ scaffold-56246	tRNAscan-SE	tRNA	17101	17173	44.30	+	.	number=6;type=Pseudo;antic
 scaffold-56254	Rfam	similarity	85086	85149	75.1	+	.	rfam-id=SNORD98;evalue=1.3e-14;model_end=65;id=1.480;model_start=1;rfam-acc=RF00607;gc-content=0.33
 scaffold-56260	tRNAscan-SE	tRNA	47550	47631	25.73	-	.	number=1;type=Pseudo;anticodon=AAG;intron_boundary=(47593,47585);
 scaffold-56262	Rfam	similarity	50448	50527	37.2	+	.	rfam-id=CPEB3_ribozyme;evalue=0.00015;model_end=78;id=1.5924;model_start=1;rfam-acc=RF00622;gc-content=0.50
-scaffold-56272	Rfam	similarity	313	384	47.7	+	.	rfam-id=mir-16;evalue=4e-08;model_end=81;id=1.2485;model_start=1;rfam-acc=RF00254;gc-content=0.57
 scaffold-56344	Rfam	similarity	4146	4228	46.7	-	.	rfam-id=mir-1803;evalue=1.5e-07;model_end=87;id=1.2682;model_start=1;rfam-acc=RF02094;gc-content=0.43
 scaffold-56364	Rfam	similarity	46089	46191	40.6	-	.	rfam-id=mir-217;evalue=7e-05;model_end=106;id=1.4488;model_start=1;rfam-acc=RF00673;gc-content=0.42
 scaffold-56396	Rfam	similarity	6400	6483	45.9	-	.	rfam-id=mir-1803;evalue=2.7e-07;model_end=87;id=1.2867;model_start=1;rfam-acc=RF02094;gc-content=0.40

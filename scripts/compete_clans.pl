@@ -45,6 +45,12 @@ else{
     print "WARNING: no Clan information! (which annotations should be merged?)\n"
 }
 
+#rethreshold some problematic families
+my %rethreshold=(
+    'RF00254'=>70, #mir-16
+    'RF00606'=>50 #SNORD93
+    );
+
 my $fh = IO::File->new();
 # sort features so they can be merged in coordinate
 # order
@@ -65,6 +71,10 @@ while($cur = <$fh>) {
 	$rfid="undef";	
 	if($cur[8]=~/rfam-acc=(RF\d+)/){
 	    $rfid=$1;
+	    if( defined($rethreshold{$rfid})  && ($cur[5] < $rethreshold{$rfid})  ){
+		printf STDERR "skipping [$gffs[0]] {[$cur[5]] > [$rethreshold{$rfid}]} [$cur]\n";
+		next;
+	    }
 	}
 	
 	if ($cur[0] ne $prev[0]){#not the same sequence

@@ -75,6 +75,7 @@ my %blacklist=(
     mraW=>1,    
     );
 
+
 print "Reading GFFs\n" if (defined($verbose));
 my (%HoHspeciesRfamCount, %familiesSpeciesCounts, %familiesTotalCounts, %statistics, @bitscores, %tRNA, %tRNAfamilies); 
 foreach my $f (@gffs){
@@ -97,7 +98,8 @@ foreach my $f (@gffs){
 	my $family; 
 	if($g[8]=~/rfam-id=(\S+);evalue/ or $g[8]=~/Alias=(\S+);Note/){#Rfam
 	    $family=$1;
-	    #push(@bitscores, $g[5]) if (defined($whitelist{$family}) && $g[5]=~/^\d+\.\d+$/); 
+	    
+#push(@bitscores, $g[5]) if (defined($whitelist{$family}) && $g[5]=~/^\d+\.\d+$/); 
 	}
 	elsif($g[8]=~/ID=(\S+)\_\d+/){#miRBase
 	    $family=$1;

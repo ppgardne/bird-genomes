@@ -531,7 +531,6 @@ scaffold32320	Rfam	similarity	31445	31708	223.6	+	.	rfam-id=RMST_7;evalue=8.4e-6
 scaffold32320	Rfam	similarity	51783	51944	158.7	+	.	rfam-id=RMST_8;evalue=3.5e-34;model_end=166;id=1.21;model_start=1;rfam-acc=RF01969;gc-content=0.44
 scaffold32320	Rfam	similarity	52046	52238	215.4	+	.	rfam-id=RMST_9;evalue=3.2e-63;model_end=193;id=1.7;model_start=1;rfam-acc=RF01970;gc-content=0.43
 scaffold32320	.	microRNA	54853	54943	.	+	.	ID=mir-135_2
-scaffold3244	Rfam	similarity	24874	24962	47.3	-	.	rfam-id=SNORD93;evalue=2.4e-05;model_end=74;id=1.559;model_start=1;rfam-acc=RF00606;gc-content=0.35
 scaffold3264	Rfam	similarity	3499	3564	39.9	-	.	rfam-id=mir-574;evalue=0.00013;model_end=77;id=1.750;model_start=1;rfam-acc=RF00929;gc-content=0.33
 scaffold3274	.	microRNA	39970	40059	.	-	.	ID=mir-3591_1
 scaffold32801	Rfam	similarity	13950	14043	44.4	+	.	rfam-id=mir-186;evalue=9.4e-06;model_end=93;id=1.628;model_start=1;rfam-acc=RF00697;gc-content=0.32
@@ -713,7 +712,6 @@ scaffold43613	.	microRNA	5575	5653	.	+	.	ID=mir-101_1
 scaffold4368	Rfam	similarity	108800	108962	35.4	-	.	rfam-id=uc_338;evalue=0.00016;model_end=180;id=1.918;model_start=1;rfam-acc=RF02271;gc-content=0.45
 scaffold4379	Rfam	similarity	23059	23240	128.1	+	.	rfam-id=SNORA23;evalue=1e-29;model_end=184;id=1.37;model_start=1;rfam-acc=RF00319;gc-content=0.45
 scaffold43796	Rfam	similarity	2475	2553	47.2	+	.	rfam-id=SNORD87;evalue=2.7e-06;model_end=85;id=1.561;model_start=1;rfam-acc=RF00439;gc-content=0.38
-scaffold43901	Rfam	similarity	56151	56229	37.4	+	.	rfam-id=mir-16;evalue=3.6e-05;model_end=81;id=1.842;model_start=1;rfam-acc=RF00254;gc-content=0.42
 scaffold43990	Rfam	similarity	35327	35497	36.9	-	.	rfam-id=uc_338;evalue=5.9e-05;model_end=180;id=1.860;model_start=1;rfam-acc=RF02271;gc-content=0.46
 scaffold4400	Rfam	similarity	51155	51232	34.8	+	.	rfam-id=mir-1803;evalue=0.0004;model_end=87;id=1.949;model_start=1;rfam-acc=RF02094;gc-content=0.44
 scaffold44069	Rfam	similarity	6176	6353	36.9	+	.	rfam-id=uc_338;evalue=6.2e-05;model_end=180;id=1.858;model_start=1;rfam-acc=RF02271;gc-content=0.44
