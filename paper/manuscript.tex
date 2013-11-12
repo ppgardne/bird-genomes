@@ -9,6 +9,7 @@
 \usepackage{ifthen} % Conditional
 \usepackage{multicol} %Columns
 \usepackage{xspace}
+\usepackage{hyperref}
 \usepackage[utf8]{inputenc} %unicode support
 %\usepackage[applemac]{inputenc} %applemac support if unicode package fails
 %\usepackage[latin1]{inputenc} %UNIX support if unicode package fails
@@ -62,12 +63,12 @@
 \author{
 Paul P.\ Gardner\correspondingauthor$^{1,2}$
 \email{Paul P.\ Gardner\correspondingauthor - paul.gardner@canterbury.ac.nz},
-Jana Hertel$^5$
-\email{Jana Hertel\correspondingauthor - jana@bioinf.uni-leipzig.de},
 Sarah W.\ Burge$^3$
 \email{swb@ebi.ac.uk},
 Maria Ninova$^4$
 \email{Maria.Ninova@postgrad.manchester.ac.uk},
+Jana Hertel$^5$
+\email{Jana Hertel\correspondingauthor - jana@bioinf.uni-leipzig.de},
 Stephanie Kehr$^5$
 \email{steffi@bierdepot.bioinf.uni-leipzig.de},
 Mario Fasold$^5$
@@ -433,8 +434,7 @@ multiple independant assemblies.
 These results indicate we are still in the very early phases of
 determining the functions of many RNA families. This is illustrated by
 the fact that the reported functions of some ncRNAs are
-mammal-specific, yet some are also found in bird genomes. CITE DAVE
-BURT ET AL AND THE COMPARATIVE ARTICLE?
+mammal-specific, yet are also found in bird genomes.
 
 \section*{Methods}
 
@@ -486,7 +486,11 @@ snoRNA families from human \cite{Lestrade:2006}, platypus
 %SnoRNA annotations overlapping miRNAs annotations where manually
 %inspected \ppg{and?...}.
 
-
+Our diverse sets of genome annotations were combined. We collapsed the
+overlapping annotations into a single annotation. We also generated
+heatmaps for different groups of ncRNA genes (see Figure~\ref{fig:5}
+and Sup. Figs. 1-3). All the scripts and annotations presented here
+are available from Github \cite{gitrepo}.
 
 Chicken snoRNA and miRNA annotations were validated using small
 RNA-seq data comprising 27 samples from 14 diferent tissues. Since not
