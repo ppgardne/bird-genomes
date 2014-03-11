@@ -69,7 +69,7 @@ while($cur = <$fh>) {
 	my @prev = split(/\t/, $prev);
 	next if (not defined $cur[3] || not defined $cur[4] || not defined $cur[6]); #not a GFF
 	$rfid="undef";	
-	if($cur[8]=~/rfam-acc=(RF\d+)/){
+	if($cur[8]=~/rfam-acc=(RF\d+)/ or $cur[8]=~/Name=(RF\d+);Alias/){
 	    $rfid=$1;
 	    if( defined($rethreshold{$rfid})  && ($cur[5] < $rethreshold{$rfid})  ){
 		printf STDERR "skipping [$gffs[0]] {[$cur[5]] > [$rethreshold{$rfid}]} [$cur]\n";
@@ -111,6 +111,16 @@ while($cur = <$fh>) {
 		$prev = $cur; 
 		print "#COMPETE miRBase >> RFAM (2) [$cnt] [$cur[8]]\n" if(defined $verbose);
 	    }
+	    elsif($sameStrand  && ($cur[1] eq "MFASTA") && ($prev[1] eq "Rfam")){#MERGE: Stadler snoRNAs & Rfam (1)
+		$cur = mergeGff(\@cur,\@prev); 
+		$cur = join("\t", @{$cur}); 
+		print "#COMPETE MFASTA >> RFAM (1) [$cnt] [$cur[8]]\n" if(defined $verbose);
+	    }
+	    elsif($sameStrand  && ($cur[1] eq "Rfam") && ($prev[1] eq "MFASTA")){#MERGE: Stadler snoRNAs & Rfam (2)
+		$cur = mergeGff(\@cur,\@prev); 
+		$cur = join("\t", @{$cur}); 
+		print "#COMPETE MFASTA >> RFAM (2) [$cnt] [$cur[8]]\n" if(defined $verbose);
+	    }
 	    elsif($sameStrand  && defined($prfid) && defined($clans{$rfid}) && defined($clans{$prfid}) && ($clans{$prfid} eq $clans{$rfid})){#COMPETE IF IN THE SAME CLAN AND ON THE SAME STRAND
 		my $curp  = compete(\@cur, \@prev);
 		$cur = join("\t", @{$curp}); 
@@ -124,7 +134,7 @@ while($cur = <$fh>) {
 	    else{#An unclassified overlap, print lowest scoring one to an overlaps file
 		
 		my $curp  = anticompete(\@cur, \@prev);
-		my $overlow = join("\t", @{$curp}); 
+		my $overlow = join("\t", @{$curp});
 		print "#UNCLASSIFIED OVERLAP [$prfid] != [$rfid] [$cnt]\ncur[$cur]\nprv[$prev]\n" if(defined $verbose);
 		$curp  = compete(\@cur, \@prev);
 		$cur = join("\t", @{$curp}); 
@@ -146,6 +156,26 @@ close(OV);
 print $prev . "\n";
 
 exit(0);
+
+######################################################################
+#mergeGff: return a merged GFF entry
+sub mergeGff {
+    my ($gff1, $gff2)=@_;
+    no warnings 'qw';
+    my @merged = (
+	"$gff1->[0]", 
+	"$gff1->[1]:$gff2->[1]", 
+	"$gff1->[2]:$gff2->[2]", 
+	min($gff1->[3],$gff2->[3]), 
+	max($gff1->[4],$gff2->[4]), 
+	"$gff1->[5]", 
+	"$gff1->[6]", 
+	"$gff1->[7]", 
+	"$gff1->[8];$gff2->[8];score=$gff2->[5]"
+	); 
+    return \@merged;
+}
+
 ######################################################################
 #compete: return the winner (highest scoring) 
 sub compete {

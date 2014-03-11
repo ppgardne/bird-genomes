@@ -143,10 +143,18 @@ RNAs, RNA components of RNase P and the signal recognition particle
 recently, e.g. the small nucleolar RNAs (snoRNAs), microRNAs (miRNAs)
 and the long non-coding RNAs (lncRNAs) \cite{Hoeppner:2012}.
 
+
 The ncRNAs pose serious research challenges, particularly for the
 field of genomics. For example, they lack the strong statistical
 signals associated with protein coding genes, e.g. open reading
-frames, G+C content and codon-usage biases \cite{Rivas:2000}. Despite
+frames, G+C content and codon-usage biases \cite{Rivas:2000}. 
+
+{\bf Say something about the promise of RNA-seq... but requires many
+  tissues, developmental stages, fractions(e.g. poly-A, small, ...)
+  and the FPR is unknown.}
+
+
+Despite
 promising techniques such as RNA-seq \cite{Croucher:2010}, homology
 based methods, namely covariance models (CMs) remain state of the art
 for ncRNA analyses \cite{Sakakibara:1994,Eddy:1994,Nawrocki:2009}.
@@ -169,6 +177,8 @@ that the CM approaches dramatically out-perform alternative methods
 rapidly evolving families such as vault RNAs or telomerase RNA
 \cite{Menzel:09a}.
 
+
+{\bf REDUCE?}
 The CM based approach works well for almost all classes of ncRNA, but
 the long non-coding RNAs (lncRNAs) are a particular challenge
 \cite{Guttman:2009}. Recent technological advances have led to
@@ -189,29 +199,37 @@ published chicken
 \cite{International_Chicken_Genome_Sequencing_Consortium:2004}, zebra
 finch \cite{Warren:2010} and turkey \cite{Dalloul:2010} with the newly
 published 45 avian genomes \cite{birds:14,birds:14a}, provides
-exciting opportunities to to explore ncRNA conservation in
-unprecedented detail.
+exciting opportunities to explore ncRNA conservation in
+unprecedented detail. {\bf MORE ON BIRD GENOMES. ESP. MACRO \& MICRO
+  CHROMOSOMES.}
 
 In the following we explore the conservation patterns of the major
 classes of avian ncRNA in further detail. The collection of ncRNA
 sequences is generally biased towards model organisms
-\cite{Gardner:2010,Hoeppner:2012}. We focus our report on the unusual
-results within the avian lineages. These are either unexpectedly
-well-conserved RNAs or unexpectedly poorly-conserved RNAs. The former
-are RNAs we would not have expected to be conserved between the birds
-and the organisms these genes were initially identified in; Usually,
-this hypothesis is based upon the function of the RNA which is not
-conserved in avian species. The latter are apparent losses of RNA
-genes that were expected to be conserved; usually, this hypothesis is
-based upon the conservation of these RNAs in other vertebrate species.
-We use three models of ``loss'' that explain the data: Firstly, these
-could be genuine cases of an ancestral gene-loss along the avian
-lineage. Secondly, this could be a case of ``divergence'' where a RNA
-gene has undergone significant sequence and structural alterations, so
-much so, that our homology search tools can no longer detect a
-relationship between vertebrate exemplars and the avian
-varieties. Thirdly, we consider the possibility that the available
-genome assemblies have independently failed to capture these genes.
+\cite{Gardner:2010,Hoeppner:2012}.  {\bf Using accurate homology
+  search tools and evolutionary constraints, we produce an accurate
+  set of genome annotations for 48 bird species for ncRNAs that are
+  conserved across the avian species. This conservative set of
+  annotations is expected to contain the core avian ncRNAs.}
+We focus our
+report on the unusual results within the avian lineages. These are
+either unexpectedly well-conserved RNAs or unexpectedly
+poorly-conserved RNAs. The former are RNAs we would not have expected
+to be conserved between the birds and the organisms these genes were
+initially identified in; Usually, this hypothesis is based upon the
+function of the RNA which is not conserved in avian species. The
+latter are apparent losses of RNA genes that were expected to be
+conserved; usually, this hypothesis is based upon the conservation of
+these RNAs in other vertebrate species.  {\bf REWRITE: We use three
+  models of ``loss'' that explain the data: Firstly, these could be
+  genuine cases of an ancestral gene-loss along the avian
+  lineage. Secondly, this could be a case of ``divergence'' where a
+  RNA gene has undergone significant sequence and structural
+  alterations, so much so, that our homology search tools can no
+  longer detect a relationship between vertebrate exemplars and the
+  avian varieties. Thirdly, we consider the possibility that the
+  available genome assemblies have independently failed to capture
+  these genes.}
 
 \section*{Results}
 
@@ -232,12 +250,14 @@ function of these lncRNAs remains largely unknown. Here, we show the
 conservation of several well-characterised lncRNAs of known function
 in humans. 
 
-In general, Rfam cannot include the entire length of any large, spliced
-RNAs. This is a limitation of the covariance-models used for the
-homology-searches Rfam runs \cite{Nawrocki:2009}. Consequently, only
-short, well-conserved regions with evolutionarily conserved secondary
-structures are included in Rfam. By analogy to protein-domains, we
-refer to these as RNA-domains \cite{Burge:2013}.
+In general, Rfam cannot include the entire length of any large,
+spliced RNAs. This is a limitation of the covariance-models used for
+the homology-searches Rfam runs \cite{Nawrocki:2009}. Consequently,
+only short, well-conserved regions with evolutionarily conserved
+secondary structures are included in Rfam. By analogy to
+protein-domains, we refer to these as RNA-domains
+\cite{Burge:2013}. {\bf SOME OF THESE MAY BE DNA ELEMENTS RATHER THAN
+  LNCRNA ELEMENTS!!!!}
 
 When analysing the RNA-domain annotations it is striking that many of
 the lncRNAs with multiple RNA-domains are consistently preserved in
@@ -246,7 +266,7 @@ region, in the same order as in the mammalian homologs. Thus they
 support a high degree of evolutionary conservation for the entire
 lncRNA. In particular the HOXA11-AS1, PART1, PCA3, RMST, Six3os1, SOX2OT and
 ST7-OT3 lncRNAs have multiple, well conserved RNA-domains (See
-Figure~\ref{fig:5}).
+Figure~\ref{fig:1}).
 
 The conservation of these ``human'' lncRNAs among birds suggests they may 
 also be functional in birds but what these
@@ -306,41 +326,78 @@ The NBR2 lncRNA and BRCA1 gene share a bidirectional promotor
 tissues. Extensive research on BRCA1 has shown that it is involved in
 DNA repair \cite{Moynahan:1999}. The function of NBR2 remains unknown,
 yet its conservation across the vertebrates certainly implies a
-function (See Figure~\ref{fig:5}).
+function (See Figure~\ref{fig:1}).
 
 Of the other classes of RNAs, none showed an unexpected degree of
 conservation or expansion within the avian lineage. The only exception
-being the snoRNA SNORD93 which we show has 92 copies in the tinamou
+being the snoRNA SNORD93 which has 92 copies in the tinamou
 genome, whereas it only has 1-2 copies in all the other vertebrate
 genomes. 
 
-\subsection*{RNA Losses, divergence or missing data?}
-
+\subsection*{RNA losses, divergence or missing data?}
 Much of the number of apparent losses and reduction in genomic
 sequence has been extensively discussed elsewhere
 \cite{Organ:2007}. Unsurprisingly, this reduction is reflected in the
 copy-number of RNA genes. Some of the most dramatic examples are the
-transfer RNAs and pseudogenes which average $\approx 900$ and $\approx
-580$ copies in the human, turtle and alligator genomes, the average
-copies numbers of these drop to $\approx 280$ and $\approx 100$ copies
-in the avian genomes. 
+transfer RNAs and pseudogenes which average $\sim900$ and $\sim580$
+copies in the human, turtle and alligator genomes, the average copies
+numbers of these drop to $\sim280$ and $\sim100$ copies in the avian
+genomes.
 
-The absence of several well-conserved ncRNA families from many or even most
-bird genomes is unlikely to represent true gene losses. This concerns in
-particular the telomerase RNA, the RNA components of RNase P and MRP, the
-minor spliceosomal snRNAs U4atac and U11, the selenocystein tRNA (tRNA-Sec)
-as well as the vault RNAs. In order to get an idea to what extent the
-absence of these RNAs from the \texttt{infernal-based} annotation is caused 
-by sequence divergence beyond the thresholds of the Rfam CMs and/or 
-missing or incomplete data, we complemented our analysis by dedicated
-searches for a few of these RNA groups. 
+The absence of seven well-conserved ncRNA families from many or even
+most bird genomes is unlikely to represent true gene losses. This
+concerns in particular the telomerase RNA, the RNA components of RNase
+P and MRP, the minor spliceosomal snRNAs U4atac and U11, the
+selenocystein tRNA (tRNA-Sec) as well as the vault RNAs (See
+Figure~\ref{fig:1}). 
+
+{\bf Microchromosome background...}
+
+
+We propose three possible models of ``loss'' to explain the data:
+Firstly, these could be genuine cases of an ancestral gene-loss along
+the avian lineage. Secondly, this could be a case of ``divergence''
+where a RNA gene has undergone significant sequence and structural
+alterations, so much so, that homology search tools no longer
+detect a relationship between vertebrate exemplars and the avian
+varieties. Thirdly, we consider the possibility that the available
+genome assemblies have independently failed to capture these genes.
+
+The third model of loss is the most likely explanation. These families
+range in conservation level, from being ubiquitous to cellular-life
+(RNase P RNA and tRNA-Sec), to present in the majority of eukaryotes
+(RNase MRP, U4atac and U11) to present in most Bilateria
+(Vault). Therefore, the loss or even diversification of these families
+in the avian lineage is unlikely.
+
+One defining feature of the avian genomes is the presence of
+``microchromosomes''. As mentioned above, these are often difficult to
+assemble. The most complete available avian genomes are the chicken
+\cite{International_Chicken_Genome_Sequencing_Consortium:2004} and the
+zebrafinch \cite{Warren:2010}. The ``lost ncRNAs'' (loncRNAs) were
+found to more prevalent in the more complete genomes 6/7 in chicken
+and 3/7 in the zebrafinch. We examined the distribution of these
+loncRNAs and discovered that only the chicken RNase MRP gene is found
+on a macrochromosome. A Fisher's exact test showed that the loncRNAs
+are significantly enriched within microchromosomes ($P<10^{16}$) in
+both the chicken and the zebrafinch genomes (combined $P<2\times
+10^{31}$).
+
+
+{\bf CUT?}
+
+In order to get an idea to what extent the
+absence of these RNAs from the \texttt{infernal-based} annotation is
+caused by sequence divergence beyond the thresholds of the Rfam CMs
+and/or missing or incomplete data, we complemented our analysis by
+dedicated searches for a few of these RNA groups.
 
 The simplest case are the selenocystein tRNAs. Here, tRNAscan is tuned
 for specificity and thus misses several occurrances that are easily
 found by \texttt{blastn} with $E\le 10^{-30}$. In some cases the
 sequences appear degraded at the ends, which may be explained e.g.\ by
 low sequence quality at the very ends of contigs or scaffolds. A
-\texttt{blastn} search also readily retrieves additional RNAse P and
+\texttt{blastn} search also readily retrieves additional RNase P and
 RNAse MRP RNAs, capturing only the best conserved regions. In many
 cases these additional candidates are incomplete or contain
 undetermined sequence, explaining why they are missed by the
@@ -359,7 +416,7 @@ part. Their identification is one of the well-know difficult problems
 for homology search \cite{Stadler:09b}.
 
 Our ability to find additional homologs for several RNA families that fill
-gaps in the abundance matrices (Figure~\ref{fig:7})
+gaps in the abundance matrices (Figure~\ref{fig:2})
 strongly suggests that conspicuous absences, in particular of LUCA and
 LECA RNAs, are caused by incomplete data in the current assemblies and
 sequence divergence rather then true losses.
@@ -402,6 +459,11 @@ been completely lost in the avian lineage. Another obvious loss in birds is
 cluster F, containing two let-7 microRNA paralogs. Cluster H, on the other
 hand has been retained in all oviparous animals and completely lost later,
 after the split of Theria. See Supplemental Figure~7 for details.
+
+\section*{Pseudogenes}
+
+{\bf Briefly mention the reduction in number of pseudogenes. Pick a
+  few key human ones and compare with the birds. }
 
 \section*{Conclusions}
 
@@ -488,7 +550,7 @@ snoRNA families from human \cite{Lestrade:2006}, platypus
 
 Our diverse sets of genome annotations were combined. We collapsed the
 overlapping annotations into a single annotation. We also generated
-heatmaps for different groups of ncRNA genes (see Figure~\ref{fig:5}
+heatmaps for different groups of ncRNA genes (see Figure~\ref{fig:1}
 and Sup. Figs. 1-3). All the scripts and annotations presented here
 are available from Github \cite{gitrepo}.
 
@@ -512,6 +574,13 @@ Magnus Alm Rosenblad (Univ. of Gothenburg) for useful discussions.
 We thank Fiona McCarthy (Mississippi State University) and Carl
 Schmidt (University of Delaware) for providing the RNA-seq data.
 
+Thanks to @ewanbirney for the following tweet: ``@ctitusbrown
+@BioMickWatson So ... missing orthologs to chicken often mean 'gene
+might be on the microchromosome'''. 
+
+We thank the anonymous referees for providing invaluable suggestions
+that improved this work. 
+
 %%%%%%%%%%%%%%%%%%%%%%
 %% The Bibliography %%
 %%
@@ -531,30 +600,51 @@ Schmidt (University of Delaware) for providing the RNA-seq data.
 \clearpage
 \newpage
 
+\section*{Figures}
+  \subsection*{Figure 1 - Heatmaps}
 
-\begin{figure}[ht]
-  \includegraphics[width=0.45\textwidth]{figures/unusual-conserved.pdf}
-  \includegraphics[width=0.45\textwidth]{figures/diverged.pdf}
-  \includegraphics[width=0.1\textwidth]{figures/key2.pdf}
-  \caption[]{Heatmaps showing the prescence/abscence and approximate
-    genomic copy number of ``unusually, well conserved RNAs''
-    (particularly the lncRNAs) on the left and families that have been
-    identified as surprising RNA Losses, divergence or missing
-    data. In several cases functionally related families have also
-    been included, e.g. the RNA components of the major and minor
-    spliceosomes: U1, U2, U4, U5 and U6; and U11, U12, U4atac, U5 and
-    U6atac, respectively.}\label{fig:5}
-\end{figure}
+Heatmaps showing the prescence/abscence and approximate genomic copy
+number of ``unusually, well conserved RNAs'' (particularly the
+lncRNAs) on the left and families that have been identified as
+surprising RNA Losses, divergence or missing data. In several cases
+functionally related families have also been included, e.g. the RNA
+components of the major and minor spliceosomes: U1, U2, U4, U5 and U6;
+and U11, U12, U4atac, U5 and U6atac, respectively.\label{fig:1}
+
+%% \begin{figure}[ht]
+%%   \includegraphics[width=0.45\textwidth]{figures/unusual-conserved.pdf}
+%%   \includegraphics[width=0.45\textwidth]{figures/diverged.pdf}
+%%   \includegraphics[width=0.1\textwidth]{figures/key2.pdf}
+%%   \caption[]{Heatmaps showing the prescence/abscence and approximate
+%%     genomic copy number of ``unusually, well conserved RNAs''
+%%     (particularly the lncRNAs) on the left and families that have been
+%%     identified as surprising RNA Losses, divergence or missing
+%%     data. In several cases functionally related families have also
+%%     been included, e.g. the RNA components of the major and minor
+%%     spliceosomes: U1, U2, U4, U5 and U6; and U11, U12, U4atac, U5 and
+%%     U6atac, respectively.}\label{fig:1}
+%% \end{figure}
+
+  \subsection*{Figure 2 - Identifying missing RNAs}
+
+Additional homologs of some sparsely represented RNA families were
+discovered using dedicated search strategies combined with highly
+sensitive settings, synteny information, lineage-specific CMs and
+subsequent manual inspection.\label{fig:2}
 
 
-\begin{figure}[ht]
-  \includegraphics[width=0.75\textwidth]{figures/More-cand.pdf}
-  \caption[]{Additional homologs of some sparsely represented RNA
-    families were discovered using dedicated search strategies
-    combined with highly sensitive settings, synteny information,
-    lineage-specific CMs and subsequent manual
-    inspection.}\label{fig:7}
-\end{figure}
+{\bf TABLE ``AVERAGE'' NUMBER OF ncRNAs IN A BIRD GENOME?}
+
+
+
+%% \begin{figure}[ht]
+%%   \includegraphics[width=0.75\textwidth]{figures/More-cand.pdf}
+%%   \caption[]{Additional homologs of some sparsely represented RNA
+%%     families were discovered using dedicated search strategies
+%%     combined with highly sensitive settings, synteny information,
+%%     lineage-specific CMs and subsequent manual
+%%     inspection.}\label{fig:2}
+%% \end{figure}
 
 
 

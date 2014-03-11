@@ -71,6 +71,17 @@ if (-s "data/rfam11_lncRNAs.txt"){
     close(W);
 }
 
+my %rfam2type;
+if (-s "data/rfam2type.txt"){
+    open(W, "< data/rfam2type.txt");    
+    while(my $w=<W>){
+	chomp($w);
+	$rfam2type{$w}=1;
+    }
+    close(W);
+}
+
+
 my %blacklist=(
     mraW=>1,    
     );
@@ -103,6 +114,9 @@ foreach my $f (@gffs){
 	}
 	elsif($g[8]=~/ID=(\S+)\_\d+/){#miRBase
 	    $family=$1;
+	}
+	elsif($g[1]=~/MFASTA/){#Stadler snoRNAs
+	    $family="$g[8]";
 	}
 	elsif($g[8]=~/type=Pseudo;/){#tRNAscan
 	    $family="tRNA-pseudogene";

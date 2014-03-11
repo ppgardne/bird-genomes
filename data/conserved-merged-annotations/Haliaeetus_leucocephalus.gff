@@ -1476,6 +1476,7 @@ Scaffold7942	Rfam	similarity	51048	51116	52.7	-	.	rfam-id=SNORD57;evalue=6.4e-08
 Scaffold7942	Rfam	similarity	51347	51417	58.0	-	.	rfam-id=SNORD56;evalue=1e-08;model_end=71;id=1.668;model_start=1;rfam-acc=RF00275;gc-content=0.48
 Scaffold7942	SNOSTRIP	CD-snoRNA	51969	52074	102	-	.	GGgCD55
 Scaffold7942	SNOSTRIP	CD-snoRNA	52262	52347	95.4	-	.	SNORD110
+Scaffold7942	Rfam	similarity	52905	53038	41.2	-	.	rfam-id=SNORA51;evalue=0.00013;model_end=133;id=1.1340;model_start=1;rfam-acc=RF00432;gc-content=0.66
 Scaffold7957	Rfam	similarity	5391	5663	205.2	+	.	rfam-id=Six3os1_5;evalue=4.1e-61;model_end=272;id=1.10;model_start=1;rfam-acc=RF02250;gc-content=0.45
 Scaffold7957	Rfam	similarity	9543	9732	179.5	+	.	rfam-id=Six3os1_7;evalue=2.8e-48;model_end=194;id=1.17;model_start=1;rfam-acc=RF02252;gc-content=0.40
 Scaffold7963	Rfam	similarity	7563	7622	38.3	+	.	rfam-id=mascRNA-menRNA;evalue=3.1e-05;model_end=57;id=1.1570;model_start=1;rfam-acc=RF01684;gc-content=0.88

@@ -190,6 +190,7 @@ scaffold1391	Rfam	similarity	9982	10114	124.5	-	.	rfam-id=SNORA55;evalue=7e-27;m
 scaffold1391	Rfam	similarity	11273	11405	113.0	-	.	rfam-id=SNORA55;evalue=7.2e-24;model_end=135;id=1.74;model_start=1;rfam-acc=RF00431;gc-content=0.47
 scaffold1391	Rfam	similarity	11944	12076	108.5	-	.	rfam-id=SNORA55;evalue=1.1e-22;model_end=135;id=1.87;model_start=1;rfam-acc=RF00431;gc-content=0.53
 scaffold1392	Rfam	similarity	93	157	47.9	-	.	rfam-id=SNORD29;evalue=6.2e-06;model_end=65;id=1.770;model_start=1;rfam-acc=RF00070;gc-content=0.42
+scaffold1392	Rfam	similarity	1282	1351	48.6	-	.	rfam-id=SNORD27;evalue=7.3e-07;model_end=77;id=1.752;model_start=1;rfam-acc=RF00086;gc-content=0.43
 scaffold1392	Rfam	similarity	1837	1911	58.9	-	.	rfam-id=SNORD26;evalue=2.7e-09;model_end=76;id=1.553;model_start=1;rfam-acc=RF00087;gc-content=0.44
 scaffold142	Rfam	similarity	4482522	4482635	85.3	+	.	rfam-id=K_chan_RES;evalue=7.8e-17;model_end=114;id=1.199;model_start=1;rfam-acc=RF00485;gc-content=0.57
 scaffold143	.	microRNA	2141777	2141876	.	-	.	ID=mir-1655_1

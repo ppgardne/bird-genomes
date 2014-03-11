@@ -1,4 +1,4 @@
-#R CMD BATCH --no-save heatmaps.R
+#R CMD BATCH --no-save scripts/heatmaps.R
 
 library(gplots)
 breaks<-c(-1000,0,1,5,10,50,100,500,1000)
@@ -109,6 +109,15 @@ heatmap.2(as.matrix(allrna),trace="none",col=gray(lb:0/lb),
           lmat=lmat, lwid=lwid, lhei=lhei,
           cexCol=3.0, cexRow=3.0, margins=c(15, 5)
           )
+par(mar=c(21, 0, 0, 18) + 0.1, oma=c(0,0,0,0))
+#xvals<-c(8.9,10.6,  58.5,60.2,  65.4,67.1)
+xvals<-c(8.9,10.6,  65.4,67.1)
+for (x in xvals){
+    lines(c(x,x)/100, c(0,2), lwd=5)
+}
+box("plot", col="black",lwd=3)  
+
+
 dev.off()
 
 allrna<-read.table("data/R/unusual-conserved.dat",header = T, sep = "\t",row.names=52)

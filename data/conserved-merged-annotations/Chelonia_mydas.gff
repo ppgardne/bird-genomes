@@ -4865,6 +4865,7 @@ scaffold154	Rfam	similarity	3540670	3540754	39.8	-	.	rfam-id=mir-1803;evalue=2.2
 scaffold154	Rfam	similarity	3578367	3578534	36.5	-	.	rfam-id=uc_338;evalue=0.00015;model_end=180;id=1.30961;model_start=1;rfam-acc=RF02271;gc-content=0.43
 scaffold154	Rfam	similarity	3638262	3638421	55.1	-	.	rfam-id=uc_338;evalue=8.6e-10;model_end=180;id=1.4607;model_start=1;rfam-acc=RF02271;gc-content=0.42
 scaffold154	Rfam	similarity	3725498	3725571	42.0	-	.	rfam-id=SNORD19;evalue=0.00012;model_end=77;id=1.18869;model_start=1;rfam-acc=RF00569;gc-content=0.36
+scaffold154	Rfam	similarity	3726200	3726278	63.6	-	.	rfam-id=SNORD69;evalue=7.9e-10;model_end=77;id=1.1885;model_start=1;rfam-acc=RF00574;gc-content=0.41
 scaffold154	Rfam	similarity	3727637	3727710	47.7	-	.	rfam-id=SNORD19;evalue=3.5e-06;model_end=77;id=1.10593;model_start=1;rfam-acc=RF00569;gc-content=0.39
 scaffold154	Rfam	similarity	3729975	3730049	51.8	-	.	rfam-id=SNORD19;evalue=2.7e-07;model_end=77;id=1.6750;model_start=1;rfam-acc=RF00569;gc-content=0.45
 scaffold154	Rfam	similarity	3781333	3781490	41.8	-	.	rfam-id=uc_338;evalue=5e-06;model_end=180;id=1.19209;model_start=1;rfam-acc=RF02271;gc-content=0.40
@@ -8382,6 +8383,7 @@ scaffold214	Rfam	similarity	4122303	4122389	49.6	+	.	rfam-id=mir-1803;evalue=2e-
 scaffold214	Rfam	similarity	4236932	4237017	57.8	+	.	rfam-id=mir-1803;evalue=5.7e-11;model_end=87;id=1.3418;model_start=1;rfam-acc=RF02094;gc-content=0.50
 scaffold214	Rfam	similarity	4261878	4261963	35.9	-	.	rfam-id=mir-1803;evalue=0.00037;model_end=87;id=1.32623;model_start=1;rfam-acc=RF02094;gc-content=0.44
 scaffold214	Rfam	similarity	4376636	4376715	39.2	-	.	rfam-id=mir-1803;evalue=3.4e-05;model_end=87;id=1.24571;model_start=1;rfam-acc=RF02094;gc-content=0.45
+scaffold2149	Rfam	similarity	5087	5165	63.6	+	.	rfam-id=SNORD69;evalue=7.9e-10;model_end=77;id=1.1877;model_start=1;rfam-acc=RF00574;gc-content=0.41
 scaffold2149	Rfam	similarity	5794	5867	42.0	+	.	rfam-id=SNORD19;evalue=0.00012;model_end=77;id=1.18726;model_start=1;rfam-acc=RF00569;gc-content=0.36
 scaffold215	Rfam	similarity	19898	19992	40.4	-	.	rfam-id=mir-672;evalue=3.3e-05;model_end=100;id=1.21855;model_start=1;rfam-acc=RF00911;gc-content=0.31
 scaffold215	Rfam	similarity	27930	28102	89.2	+	.	rfam-id=uc_338;evalue=2e-19;model_end=180;id=1.382;model_start=1;rfam-acc=RF02271;gc-content=0.47
@@ -8794,6 +8796,7 @@ scaffold223	Rfam	similarity	592970	593109	47.5	+	.	rfam-id=uc_338;evalue=1.2e-07
 scaffold223	Rfam	similarity	768240	768325	35.7	+	.	rfam-id=mir-1803;evalue=0.00041;model_end=87;id=1.33020;model_start=1;rfam-acc=RF02094;gc-content=0.49
 scaffold223	Rfam	similarity	809869	810050	40.4	-	.	rfam-id=uc_338;evalue=1.2e-05;model_end=180;id=1.21895;model_start=1;rfam-acc=RF02271;gc-content=0.51
 scaffold223	Rfam	similarity	855114	855209	38.5	+	.	rfam-id=mir-172;evalue=5.2e-05;model_end=114;id=1.26023;model_start=1;rfam-acc=RF00452;gc-content=0.34
+scaffold223	Rfam	similarity	941030	941169	54.6	-	.	rfam-id=SNORA64;evalue=2.5e-07;model_end=133;id=1.4848;model_start=1;rfam-acc=RF00264;gc-content=0.44
 scaffold223	Rfam	similarity	948807	948889	54.4	+	.	rfam-id=mir-324;evalue=4e-08;model_end=84;id=1.4993;model_start=1;rfam-acc=RF01063;gc-content=0.58
 scaffold223	Rfam	similarity	949122	949251	88.3	+	.	rfam-id=ACA64;evalue=4.4e-16;model_end=128;id=1.396;model_start=1;rfam-acc=RF01225;gc-content=0.48
 scaffold223	Rfam	similarity	1045204	1045372	47.3	-	.	rfam-id=uc_338;evalue=1.4e-07;model_end=180;id=1.10999;model_start=1;rfam-acc=RF02271;gc-content=0.56
@@ -17190,6 +17193,7 @@ scaffold428	Rfam	similarity	549097	549271	41.9	+	.	rfam-id=uc_338;evalue=4.7e-06
 scaffold428	Rfam	similarity	554412	554494	39.5	-	.	rfam-id=mir-1803;evalue=2.8e-05;model_end=87;id=1.23799;model_start=1;rfam-acc=RF02094;gc-content=0.52
 scaffold428	Rfam	similarity	566976	567044	52.5	-	.	rfam-id=SNORD57;evalue=1.3e-07;model_end=72;id=1.6168;model_start=1;rfam-acc=RF00274;gc-content=0.46
 scaffold428	SNOSTRIP	CD-snoRNA	568221	568326	89.7	-	.	GGgCD55
+scaffold428	Rfam	similarity	571274	571407	66.1	-	.	rfam-id=SNORA51;evalue=1.2e-10;model_end=133;id=1.1468;model_start=1;rfam-acc=RF00432;gc-content=0.63
 scaffold429	Rfam	similarity	52680	52763	40.6	+	.	rfam-id=mir-1803;evalue=1.2e-05;model_end=87;id=1.21447;model_start=1;rfam-acc=RF02094;gc-content=0.44
 scaffold429	Rfam	similarity	337923	338058	45.2	-	.	rfam-id=uc_338;evalue=5.4e-07;model_end=180;id=1.13698;model_start=1;rfam-acc=RF02271;gc-content=0.47
 scaffold429	Rfam	similarity	545680	545765	36.6	-	.	rfam-id=mir-1803;evalue=0.00022;model_end=87;id=1.30553;model_start=1;rfam-acc=RF02094;gc-content=0.41
@@ -22705,6 +22709,7 @@ scaffold725	Rfam	similarity	138383	138554	56.6	+	.	rfam-id=uc_338;evalue=3.2e-10
 scaffold725	Rfam	similarity	288381	288464	38.4	-	.	rfam-id=mir-1803;evalue=6.1e-05;model_end=87;id=1.26201;model_start=1;rfam-acc=RF02094;gc-content=0.45
 scaffold725	Rfam	similarity	403599	403672	36.0	-	.	rfam-id=mir-1803;evalue=0.00034;model_end=87;id=1.32149;model_start=1;rfam-acc=RF02094;gc-content=0.45
 scaffold726	tRNAscan-SE	tRNA	31893	31963	22.30	-	.	number=1;type=Pseudo;anticodon=GGG;
+scaffold726	Rfam	similarity	94683	94816	65.1	+	.	rfam-id=SNORA30;evalue=1.9e-10;model_end=129;id=1.1628;model_start=1;rfam-acc=RF00415;gc-content=0.57
 scaffold726	Rfam	similarity	321287	321360	40.0	+	.	rfam-id=mir-324;evalue=0.00038;model_end=84;id=1.22709;model_start=1;rfam-acc=RF01063;gc-content=0.53
 scaffold727	tRNAscan-SE	tRNA	236944	237011	20.07	-	.	number=1;type=Pseudo;anticodon=GCC;
 scaffold728	Rfam	similarity	105829	105908	39.7	+	.	rfam-id=mir-1803;evalue=2.4e-05;model_end=87;id=1.23340;model_start=1;rfam-acc=RF02094;gc-content=0.46
@@ -23360,6 +23365,7 @@ scaffold79	Rfam	similarity	3106403	3106527	89.4	-	.	rfam-id=SNORD22;evalue=4.2e-
 scaffold79	Rfam	similarity	3106787	3106853	56.4	-	.	rfam-id=SNORD31;evalue=1.7e-09;model_end=69;id=1.3986;model_start=1;rfam-acc=RF00089;gc-content=0.61
 scaffold79	Rfam	similarity	3107097	3107167	50.6	-	.	rfam-id=SNORD29;evalue=2.1e-06;model_end=65;id=1.7671;model_start=1;rfam-acc=RF00070;gc-content=0.27
 scaffold79	Rfam	similarity	3107981	3108106	100.4	-	.	rfam-id=SNORD22;evalue=5.4e-20;model_end=126;id=1.244;model_start=1;rfam-acc=RF00099;gc-content=0.52
+scaffold79	Rfam	similarity	3108826	3108894	49.8	-	.	rfam-id=SNORD27;evalue=6e-07;model_end=77;id=1.8380;model_start=1;rfam-acc=RF00086;gc-content=0.45
 scaffold79	Rfam	similarity	3109770	3109845	65.7	-	.	rfam-id=SNORD26;evalue=7e-11;model_end=76;id=1.1535;model_start=1;rfam-acc=RF00087;gc-content=0.41
 scaffold790	Rfam	similarity	259118	259203	36.0	+	.	rfam-id=mir-1803;evalue=0.00034;model_end=87;id=1.32134;model_start=1;rfam-acc=RF02094;gc-content=0.37
 scaffold792	Rfam	similarity	80071	80157	46.2	-	.	rfam-id=mir-1803;evalue=2.3e-07;model_end=87;id=1.12301;model_start=1;rfam-acc=RF02094;gc-content=0.48
