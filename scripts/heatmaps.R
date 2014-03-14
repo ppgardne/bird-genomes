@@ -133,7 +133,11 @@ heatmap.2(as.matrix(allrna),trace="none",col=gray(lb:0/lb),
 dev.off()
 
 
-
+######################################################################
+rnaExp<-read.table("data/RNA-seq/summed-vals.dat",header = F, sep = "\t")
+pdf(file="paper/figures/expression-distribution.pdf",width=25, height=25)
+hist(log10(rnaExp$V3),breaks=1000)
+dev.off()
 
 
 

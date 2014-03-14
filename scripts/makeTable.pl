@@ -25,7 +25,7 @@ if (-s "data/rfam2type.txt"){
 	elsif($w=~/rRNA/){
 	    $rfam2type{$w[1]}='Ribosomal RNA';
 	}
-	elsif($w=~/miRNA/){
+	elsif($w=~/miRNA/ or $w=~/mir-\d+/){
 	    $rfam2type{$w[1]}='microRNA';
 	}
 	elsif($w=~/lncRNA/){
@@ -58,13 +58,18 @@ if (-s "data/rfam2type.txt"){
 	elsif($w=~/Vault/){
 	    $rfam2type{$w[1]}='Vault RNA';
 	}
+#	else {
+#	    print "UNCLASSIFIED: [$w]\n";
+#	}
 	
     }
     close(W);
-    $rfam2type{'tRNA−pseudogene'}='Transfer RNA pseudogene';
+    $rfam2type{'tRNA-pseudogene'}='Transfer RNA pseudogene';
+    $rfam2type{'CD-snoRNA'}      ='C/D box snoRNA';
+    $rfam2type{'HACA-snoRNA'}    ='H/ACA box snoRNA';
 }
 
-my (@species, @families, %countsTot, %countsFams); 
+my (@species, @families, %countsTot, %countsSpecies, %countsArray, %countsFams, %expressedChicken); 
 if (-s "data/R/allRNA.dat"){
     open(W, "< data/R/allRNA.dat");
     while(my $w=<W>){
@@ -72,10 +77,14 @@ if (-s "data/R/allRNA.dat"){
 	my @w=split(/\t/, $w);
 	my $w=pop(@w);
 	
-	if($w=~/human/){
+	if($w=~/family/){
 	    @species=@w;
 	}
 	else{
+	    
+	    if(not defined($rfam2type{$w}) and $w=~/^mir-\d+$/){
+		$rfam2type{$w}='microRNA';
+	    }
 	    
 	    if(defined($rfam2type{$w})){
 		
@@ -85,17 +94,22 @@ if (-s "data/R/allRNA.dat"){
 		$countsTot{"chicken"}{$rfam2type{$w}}=0 if(not defined($countsTot{"chicken"}{$rfam2type{$w}}));
 		$countsTot{"chicken"}{$rfam2type{$w}}+=$w[7];
 		
+		$expressedChicken{$rfam2type{$w}}+=expressedInChicken($w); 
+		
+		#print "$w:\t$rfam2type{$w}\n";
 		$countsTot{"all-birds"}{$rfam2type{$w}}=0 if(not defined($countsTot{"all-birds"}{$rfam2type{$w}}));
-
+		
 		for (my $i=3; $i<scalar(@w); $i++){
 		    $countsTot{"all-birds"}{$rfam2type{$w}}+=$w[$i];
+		    #print "[$species[$i]]\t";
+		    $countsSpecies{$species[$i]}{$rfam2type{$w}}+=$w[$i];
 		}
-		
-		
+		#print "\n";
 	    }
-	    
+#	    else {
+#		print "What the hell is this? [$w] not in rfam2type\n";
+#	    }
 	}
-	
     }
     close(W);
 }
@@ -114,18 +128,97 @@ Telomerase RNA,
 Vault RNA,
 Y RNA,
 Transfer RNA,
+Transfer RNA pseudogene,
 SRP RNA,
 Ribosomal RNA,
 RNase P/MRP RNA');
 
-print "human\tave(bird)\tchicken\tRNA-seq\tRNA type\n";
+print '
+\begin{tabular}{|r|r|r|r|l|}
+\hline 
+\multicolumn{5}{|l|}{{\bf ncRNA genes in human, chicken and all bird genomes}}\\\\
+\hline 
+Number in human & median(48 birds) & Number in chicken & Number in chicken  & RNA type\\\\
+                &            &                   & confirmed with RNA-seq & \\\\
+\hline
+';
 
 #foreach my $k (keys %{$countsTot{"all-birds"}}){
 foreach my $k (@printNames){
-     
-    printf "%d\t%0.1f\t%d\t\t??\t$k\n", $countsTot{"human"}{$k}, $countsTot{"all-birds"}{$k}/48, $countsTot{"chicken"}{$k};
-    
+    my @allBirds; 
+    for (my $i=3; $i<scalar(@species); $i++){
+	push(@allBirds, $countsSpecies{$species[$i]}{$k});
+    }
+#    printf "%d&%0.1f&%d&%d (%0.0f)&$k\\\\ \n", $countsTot{"human"}{$k}, $countsTot{"all-birds"}{$k}/48, $countsTot{"chicken"}{$k}, $expressedChicken{$k}, 100*$expressedChicken{$k}/$countsTot{"chicken"}{$k};    
+    printf "%d&%0.1f&%d&%d (%0.1f\\%%)&$k\\\\ \n", $countsTot{"human"}{$k}, median(@allBirds), $countsTot{"chicken"}{$k}, $expressedChicken{$k}, 100*$expressedChicken{$k}/$countsTot{"chicken"}{$k};    
 }
 
+print '\hline
+  \end{tabular}
+';
 
+######################################################################
+sub expressedInChicken {
+    
+    my $rnaId=shift; 
+    
+    my $gff = "";
+    if ($rnaId=~/^mir/ or $rnaId=~/^let/){
+	$gff = `grep \'ID=$rnaId\_[0-9]\\+\$\' data/conserved-merged-annotations/Gallus_gallus.gff`;
+    }
+    elsif($rnaId eq "tRNA"){
+	$gff = `grep "tRNAscan-SE" data/conserved-merged-annotations/Gallus_gallus.gff | grep -v Pseudo`; 
+    }
+    elsif($rnaId eq "tRNA-pseudogene"){
+	$gff = `grep "tRNAscan-SE" data/conserved-merged-annotations/Gallus_gallus.gff | grep    Pseudo`; 
+    }
+    else {	
+	$gff = `grep "Alias=$rnaId;Note" data/conserved-merged-annotations/Gallus_gallus.gff`; 
+    }
+    
+    return 0 if (length($gff)==0);
+    #print "gff:[$gff]\n";
+    my @gff = split(/\n/, $gff);
+    my $numExp=0;
+    foreach my $g (@gff){
+	
+	#print "g:  [$g]\n";
 
+	my @g = split(/\t/, $g);
+	
+	next if (scalar(@g) != 9); 
+	my $ex=`grep "$g[0]_$g[3]" data/RNA-seq/*dat`; 
+	
+	$ex=~s/\,/\./g; #De-Germanify the numbers
+	my @ex = split(/[\n;]/, $ex);
+	
+	my $sumEx=0;
+	foreach my $ex (@ex){
+	    
+	    next if $ex=~/^data/;
+	    $sumEx+=$ex; 
+	}
+	
+	#print "$rnaId\t$g[0]/$g[3]-$g[4]\t$sumEx\n";
+	$numExp++ if ($sumEx>10); 
+	
+    }    
+
+    return $numExp; 
+}
+
+######################################################################
+#http://www.perlmonks.org/?node_id=474564
+sub median
+{
+    my @vals = sort {$a <=> $b} @_;
+    my $len = @vals;
+    if($len%2) #odd
+    {
+        return $vals[int($len/2)];
+    }
+    else #even
+    {
+        return ($vals[int($len/2)-1] + $vals[int($len/2)])/2;
+    }
+}
