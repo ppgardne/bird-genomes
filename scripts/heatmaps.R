@@ -134,10 +134,38 @@ dev.off()
 
 
 ######################################################################
-rnaExp<-read.table("data/RNA-seq/summed-vals.dat",header = F, sep = "\t")
-pdf(file="paper/figures/expression-distribution.pdf",width=25, height=25)
-hist(log10(rnaExp$V3),breaks=1000)
+rnaExp   <-read.table("data/RNA-seq/summed-vals.dat",header = F, sep = "\t")
+rnaExpIndMc<-read.csv2("data/RNA-seq/mccarthy_expression_tissue.dat")
+rnaExpIndUl<-read.csv2("data/RNA-seq/ulitsky_expression_tissue.dat")
+
+len<-0;
+c<-0; 
+tf<-(rnaExpIndMc[,2]>2)
+thresh<-0.25
+for (i in 2:16) {
+    c<-c(c,as.numeric(rnaExpIndMc[,i]))
+    len<-len+length(rnaExpIndMc[rnaExpIndMc[,i]>thresh,i])
+    tf<-(tf | rnaExpIndMc[,i]>thresh)
+}
+for (i in 2:7 ) {
+    c<-c(c,as.numeric(rnaExpIndUl[,i]))
+    tf<-(tf | rnaExpIndMc[,i]>thresh)
+}
+length(rnaExpIndMc[tf,1])/length(rnaExpIndMc[,1])
+length(rnaExp$V3[rnaExp$V3>10])/length(rnaExp$V3)
+
+breaks<- seq(0, max(log10(rnaExp$V3+1)), length.out=200)
+
+
+pdf(file="paper/figures/expression-distribution.pdf",width=5, height=5)
+par(mfcol=c(2,1))
+hist(log10(rnaExp$V3+1),breaks=breaks,xaxt = "n",xlab="log10(sum(RNA)+1)", main="Summed RNA over all tissues")
+axis(1, 0:6, 10^(0:6))
+hist(log10(c+1),        breaks=breaks,xaxt = "n",xlab="log10(RNA+1)",      main="RNA over all tissues")
+axis(1, 0:6, 10^(0:6))
 dev.off()
+
+length(rnaExp$V3[rnaExp$V3>10])
 
 
 

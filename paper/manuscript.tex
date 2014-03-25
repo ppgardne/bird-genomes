@@ -63,6 +63,8 @@
 \author{
 Paul P.\ Gardner\correspondingauthor$^{1,2}$
 \email{Paul P.\ Gardner\correspondingauthor - paul.gardner@canterbury.ac.nz},
+Mario Fasold$^5$
+\email{mario@bierdepot.bioinf.uni-leipzig.de},
 Sarah W.\ Burge$^3$
 \email{swb@ebi.ac.uk},
 Maria Ninova$^4$
@@ -71,8 +73,6 @@ Jana Hertel$^5$
 \email{Jana Hertel\correspondingauthor - jana@bioinf.uni-leipzig.de},
 Stephanie Kehr$^5$
 \email{steffi@bierdepot.bioinf.uni-leipzig.de},
-Mario Fasold$^5$
-\email{mario@bierdepot.bioinf.uni-leipzig.de},
 Tammy E.\ Steeves$^1$
 \email{tammy.steeves@canterbury.ac.nz},
 Sam Griffiths-Jones$^4$
@@ -104,11 +104,12 @@ mammalian lncRNA function is not conserved in birds.  We also
 demonstrate extensive conservation of classical ncRNAs (e.g., tRNAs)
 and more recently discovered ncRNAs (e.g., snoRNAs and miRNAs) in
 birds. Furthermore, we have discovered apparent ``losses'' in several
-RNA families, these include the divergence of some classical ncRNAs
-and the loss of several snoRNAs and microRNAs.  These combined results
-illustrate the utility of applying homology based methods for
-annotating vertebrate genomes and illustrate many complex evolutionary
-patterns within the avian ncRNA cohort.
+RNA families, these illustrate the complexity of bird genomes. In
+particular, issues with assembling microchromosomes using
+next-generation sequencing methods. These combined results illustrate
+the utility of applying homology based methods for annotating
+vertebrate genomes and illustrate many complex evolutionary patterns
+within the avian ncRNA cohort.
 \end{abstract}
 
 %% Non-coding RNAs in bird genomes
@@ -149,15 +150,17 @@ field of genomics. For example, they lack the strong statistical
 signals associated with protein coding genes, e.g. open reading
 frames, G+C content and codon-usage biases \cite{Rivas:2000}. 
 
-{\bf Say something about the promise of RNA-seq... but requires many
-  tissues, developmental stages, fractions(e.g. poly-A, small, ...)
-  and the FPR is unknown.}
-
-
-Despite
-promising techniques such as RNA-seq \cite{Croucher:2010}, homology
-based methods, namely covariance models (CMs) remain state of the art
-for ncRNA analyses \cite{Sakakibara:1994,Eddy:1994,Nawrocki:2009}.
+{\bf needs work:} New sequencing technologies have dramatically
+expanded the rate at which ncRNAs are discovered and their functions
+are determined \cite{}. However, in order to determine the full range
+of ncRNAs across multiple species we would require multiple RNA
+fractions (e.g. long and short), in multiple species, in multiple
+developmental stages and tissues types. The costs of this approach are
+still prohibitive. Consequently, for this work we have concentrated on
+bioinformatic approaches. Primarily, homology based methods, namely
+covariance models (CMs). These remain state of the art for ncRNA
+analyses \cite{Sakakibara:1994,Eddy:1994,Nawrocki:2009} and have well
+established sensitivity and specificity rates \cite{Freyhult:2007}.
 The CM based approach for annotating ncRNAs in genomes requires
 reliable alignments and consensus secondary structures of
 representative sequences of RNA families. These are used to train
@@ -178,7 +181,7 @@ rapidly evolving families such as vault RNAs or telomerase RNA
 \cite{Menzel:09a}.
 
 
-{\bf REDUCE?}
+{\bf REDUCE? too much talking about what it can't to compared to what it can do...}
 The CM based approach works well for almost all classes of ncRNA, but
 the long non-coding RNAs (lncRNAs) are a particular challenge
 \cite{Guttman:2009}. Recent technological advances have led to
@@ -197,11 +200,12 @@ genes is a lengthy and expensive process \cite{Guttman:2009}.
 The publication of 48 avian genomes, including the previously
 published chicken
 \cite{International_Chicken_Genome_Sequencing_Consortium:2004}, zebra
-finch \cite{Warren:2010} and turkey \cite{Dalloul:2010} with the newly
-published 45 avian genomes \cite{birds:14,birds:14a}, provides
+finch \cite{Warren:2010} and turkey \cite{Dalloul:2010} with the recently
+published 45 avian genomes \cite{birds:14,birds:14a,Huang:2013,Zhan:2013,Shapiro:2013,Howard:2013,Li:2014}, provides
 exciting opportunities to explore ncRNA conservation in
-unprecedented detail. {\bf MORE ON BIRD GENOMES. ESP. MACRO \& MICRO
-  CHROMOSOMES.}
+unprecedented detail. 
+%{\bf MORE ON BIRD GENOMES. ESP. MACRO \& MICRO
+%  CHROMOSOMES.}
 
 In the following we explore the conservation patterns of the major
 classes of avian ncRNA in further detail. The collection of ncRNA
@@ -220,16 +224,35 @@ initially identified in; Usually, this hypothesis is based upon the
 function of the RNA which is not conserved in avian species. The
 latter are apparent losses of RNA genes that were expected to be
 conserved; usually, this hypothesis is based upon the conservation of
-these RNAs in other vertebrate species.  {\bf REWRITE: We use three
-  models of ``loss'' that explain the data: Firstly, these could be
-  genuine cases of an ancestral gene-loss along the avian
-  lineage. Secondly, this could be a case of ``divergence'' where a
-  RNA gene has undergone significant sequence and structural
-  alterations, so much so, that our homology search tools can no
-  longer detect a relationship between vertebrate exemplars and the
-  avian varieties. Thirdly, we consider the possibility that the
-  available genome assemblies have independently failed to capture
-  these genes.}
+these RNAs in other vertebrate species.  
+
+Here, we consider three categories of apparent loss: First, genuine
+gene losses in the avian lineage. Second, ``divergence'' where RNA genes
+have undergone such significant sequence and structural alternations
+that homology search tools can no longer detect a relationship between
+other vertebrate exemplars and avian varieties. Third, ``missing'' genes
+that failed to be captured in the available, largely
+fragmented, avian genomes. We postulate that the latter
+category is likely to be prevalent in comparative avian genome studies
+given the distinctive organisation of the avian genome. Namely, the
+avian karyotype is characterised by a large number of chromosomes
+(average $2n \approx 80$) generally consisting of a few larger
+``macrochromosomes'' and many smaller ``microchromosomes'' \cite{Griffin:2007}. This 'so many, so small' pattern presents significant
+assembly challenges \cite{Ellegren:2005}. Indeed, of the 48 published avian
+genomes, 20 of which are high-coverage ($>50X$), only two are
+chromosomally assembled (chicken and zebra finch; \cite{birds:14}).
+
+
+%% {\bf REWRITE: We use three
+%%   models of ``loss'' that explain the data: Firstly, these could be
+%%   genuine cases of an ancestral gene-loss along the avian
+%%   lineage. Secondly, this could be a case of ``divergence'' where a
+%%   RNA gene has undergone significant sequence and structural
+%%   alterations, so much so, that our homology search tools can no
+%%   longer detect a relationship between vertebrate exemplars and the
+%%   avian varieties. Thirdly, we consider the possibility that the
+%%   available genome assemblies have independently failed to capture
+%%   these genes.}
 
 \section*{Results}
 
@@ -578,6 +601,9 @@ Thanks to @ewanbirney for the following tweet: ``@ctitusbrown
 @BioMickWatson So ... missing orthologs to chicken often mean 'gene
 might be on the microchromosome'''. 
 
+We thank Matt Schwatz (Harvard) and Igor Ulitsky (Weizmann Institute
+of Science) for access to the RNA-seq data. 
+
 We thank the anonymous referees for providing invaluable suggestions
 that improved this work. 
 
@@ -628,9 +654,6 @@ subsequent manual inspection.\label{fig:2}
    \includegraphics[width=0.5\textwidth]{figures/figure2.pdf}
  \end{figure}
 
-
-
-
   \subsection*{Table 1 - A summary of ncRNA genes in human, chicken and all bird genomes}
 
 This table contains the total number of annotated ncRNAs from
@@ -641,35 +664,38 @@ expression is also indicated (the percentage is given in parentheses).
 \clearpage
 \newpage
 
+False positive rate less the 10\%:
+
 \begin{tabular}{|r|r|r|r|l|}
 \hline 
 \multicolumn{5}{|l|}{{\bf ncRNA genes in human, chicken and all bird genomes}}\\
 \hline 
-Number in human & median(48 birds) & Number in chicken & Number in chicken  & RNA type\\
-                &            &                   & confirmed with RNA-seq & \\
+                &                  &                   & \multicolumn{1}{|l|}{Chicken ncRNAs } & \\
+                &                  &                   & \multicolumn{1}{|l|}{confirmed with RNA-seq} & \\
 \hline
-62&25.0&34&18 (52.9\%)&Long non-coding RNA\\ 
-356&499.5&427&323 (75.6\%)&microRNA\\ 
-281&120.0&106&91 (85.8\%)&C/D box snoRNA\\ 
-336&85.5&68&49 (72.1\%)&H/ACA box snoRNA\\ 
-34&13.0&12&12 (100.0\%)&Small cajal body RNA\\ 
-1754&48.5&71&37 (52.1\%)&Major spliceosomal RNA\\ 
-58&3.0&6&4 (66.7\%)&Minor spliceosomal RNA\\ 
-525&82.0&122&107 (87.7\%)&Cis-regulatory element\\ 
-316&6.5&9&5 (55.6\%)&7SK RNA\\ 
-1&0.0&2&0 (0.0\%)&Telomerase RNA\\ 
-9&0.0&2&1 (50.0\%)&Vault RNA\\ 
-892&3.0&3&2 (66.7\%)&Y RNA\\ 
-1084&173.5&300&291 (97.0\%)&Transfer RNA\\ 
-80&9.5&4&4 (100.0\%)&Transfer RNA pseudogene\\ 
-941&3.0&4&4 (100.0\%)&SRP RNA\\ 
-607&7.0&22&12 (54.5\%)&Ribosomal RNA\\ 
-4&1.0&2&2 (100.0\%)&RNase P/MRP RNA\\ 
+Number in human & median(48 birds) & Number in chicken & max(RNA$_i$)$>13.0$ & RNA type\\
+\hline
+62&25.0&34&12 (35.3\%) &Long non-coding RNA\\ 
+356&499.5&427&272 (63.7\%) &microRNA\\ 
+281&120.0&106&88 (83.0\%) &C/D box snoRNA\\ 
+336&85.5&68&46 (67.6\%) &H/ACA box snoRNA\\ 
+34&13.0&12&11 (91.7\%) &Small cajal body RNA\\ 
+1754&48.5&71&29 (40.8\%) &Major spliceosomal RNA\\ 
+58&3.0&6&2 (33.3\%) &Minor spliceosomal RNA\\ 
+525&82.0&122&79 (64.8\%) &Cis-regulatory element\\ 
+316&6.5&9&3 (33.3\%) &7SK RNA\\ 
+1&0.0&2&0 (0.0\%) &Telomerase RNA\\ 
+9&0.0&2&1 (50.0\%) &Vault RNA\\ 
+892&3.0&3&2 (66.7\%) &Y RNA\\ 
+1084&173.5&300&256 (85.3\%) &Transfer RNA\\ 
+80&9.5&4&2 (50.0\%) &Transfer RNA pseudogene\\ 
+941&3.0&4&2 (50.0\%) &SRP RNA\\ 
+607&7.0&22&10 (45.5\%) &Ribosomal RNA\\ 
+4&1.0&2&2 (100.0\%) &RNase P/MRP RNA\\ 
+\hline
+7340&1080.0&1194&817 (68.4\%) &Total\\ 
 \hline
 \end{tabular}
-
-
-
 
 
 
@@ -680,3 +706,4 @@ Number in human & median(48 birds) & Number in chicken & Number in chicken  & RN
 %%% mode: latex
 %%% TeX-master: t
 %%% End: 
+

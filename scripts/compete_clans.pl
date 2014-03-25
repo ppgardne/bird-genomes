@@ -58,7 +58,7 @@ $fh->open( "sortGffs.pl $gffs | uniq | " );
 print "#running [sortGffs.pl $gffs |]\n" if(defined $verbose);
 #$gffs = join('_', @gffs);
 open(OV, "> $overlapDir/$$\_unclassified_overlaps_file.overlaps");
-print OV "#GFFS: [$gffs]\n"; 
+print OV "#GFFS: [$gffs]\n";
 my ($cur, $prev, $ext, $rfid, $prfid, %uniq);
 my $cnt=0;
 while($cur = <$fh>) {
