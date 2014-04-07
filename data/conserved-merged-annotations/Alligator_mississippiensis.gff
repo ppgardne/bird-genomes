@@ -4979,7 +4979,6 @@ scaffold-90695	Rfam	similarity	95818	96002	91.2	+	.	rfam-id=U2;evalue=7.9e-24;mo
 scaffold-90699	tRNAscan-SE	tRNA	140637	140709	59.96	+	.	number=1;type=Arg;anticodon=TCG;
 scaffold-90699	tRNAscan-SE	tRNA	209362	209433	33.24	-	.	number=2;type=Gly;anticodon=ACC;
 scaffold-907	SNOSTRIP	CD-snoRNA	25112	25180	71.1	-	.	SNORD19
-scaffold-907	Rfam	similarity	25724	25802	69.9	-	.	rfam-id=SNORD69;evalue=1.7e-11;model_end=77;id=1.584;model_start=1;rfam-acc=RF00574;gc-content=0.37
 scaffold-907	Rfam	similarity	30776	30849	49.6	-	.	rfam-id=SNORD19;evalue=9.9e-07;model_end=77;id=1.2139;model_start=1;rfam-acc=RF00569;gc-content=0.38
 scaffold-90708	tRNAscan-SE	tRNA	65267	65338	58.44	+	.	number=1;type=Glu;anticodon=TTC;
 scaffold-90708	Rfam	similarity	85281	85366	52.6	+	.	rfam-id=mir-1803;evalue=2.2e-09;model_end=87;id=1.1711;model_start=1;rfam-acc=RF02094;gc-content=0.45

@@ -60,16 +60,16 @@
 \author{
 Paul P. Gardner\correspondingauthor$^{1,2}$
 \email{Paul P. Gardner\correspondingauthor - paul.gardner@canterbury.ac.nz},
-Jana Hertel$^5$
-\email{Jana Hertel\correspondingauthor - jana@bioinf.uni-leipzig.de},
+Mario Fasold$^5$
+\email{mario@bierdepot.bioinf.uni-leipzig.de},
 Sarah W. Burge$^3$
 \email{sb30@sanger.ac.uk},
+Jana Hertel$^5$
+\email{Jana Hertel\correspondingauthor - jana@bioinf.uni-leipzig.de},
 Maria Ninova$^4$
 \email{Maria.Ninova@postgrad.manchester.ac.uk},
 Stephanie Kehr$^5$
 \email{steffi@bierdepot.bioinf.uni-leipzig.de},
-Mario Fasold$^5$
-\email{mario@bierdepot.bioinf.uni-leipzig.de},
 Tammy E. Steeves$^1$
 \email{tammy.steeves@canterbury.ac.nz},
 Sam Griffiths-Jones$^4$
@@ -298,6 +298,54 @@ vimentin $3^\prime$ UTR protein-binding region (Vimentin3) and a
 connective tissue growth factor (CTGF) $3^\prime$ UTR element (CAESAR)
 are conserved across a diverse group of vertebrates, including the
 bird lineages explored here (See Figure~\ref{fig:1}).
+
+\subsection*{Unexpectedly poorly conserved  ncRNAs: testing divergence}
+
+In order to get an idea to what extent the
+absence of these RNAs from the \texttt{infernal-based} annotation is
+caused by sequence divergence beyond the thresholds of the Rfam CMs
+and/or missing or incomplete data, we complemented our analysis by
+dedicated searches for a few of these RNA groups.
+
+The simplest case are the selenocystein tRNAs. Here, tRNAscan is tuned
+for specificity and thus misses several occurrances that are easily
+found by \texttt{blastn} with $E\le 10^{-30}$. In some cases the
+sequences appear degraded at the ends, which may be explained e.g.\ by
+low sequence quality at the very ends of contigs or scaffolds. A
+\texttt{blastn} search also readily retrieves additional RNase P and
+RNAse MRP RNAs, capturing only the best conserved regions. In many
+cases these additional candidates are incomplete or contain
+undetermined sequence, explaining why they are missed by the
+CMs. Overall, we identify tRNA-Sec in most and RNAse P and MRP RNAs in
+the majority of the genomes. An additional candidate could also be
+retrieved for telomerase RNA. Telomerase is well known to exhibit very
+poor sequence conservation and rapid variations in size that make it
+notoriously hard to identify by homology search \cite{Xie:08a}. The
+poor return thus does not come as a surprise. Since \texttt{blastn}
+searches remained unsuccessfull we constructed a sauropsid-specific CM
+for the vault RNA. In addition to the hits identified by the Rfam
+model we obtained three additional homologs. Vault RNAs, with a size
+of about 100 nt, exhibit conserved sequence patterns only at their
+ends, with essentially unconstrained sequence in the central
+part. Their identification is one of the well-know difficult problems
+for homology search \cite{Stadler:09b,Kolbe:2009}.
+
+Our ability to find additional homologs for several RNA families that fill
+gaps in the abundance matrices (Figure~\ref{fig:2})
+strongly suggests that conspicuous absences, in particular of LUCA and
+LECA RNAs, are caused by incomplete data in the current assemblies and
+sequence divergence rather then true losses.
+
+
+
+ \begin{figure}[ht]
+   \includegraphics[width=0.5\textwidth]{figures/figure2.pdf}
+\caption{Additional homologs of some sparsely represented RNA families were
+discovered using dedicated search strategies combined with highly
+sensitive settings, synteny information, lineage-specific CMs and
+subsequent manual inspection.}\label{fig:2}
+ \end{figure}
+
 
 \subsection*{Exceptional RNAs}
 

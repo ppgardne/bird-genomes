@@ -183,6 +183,8 @@ print '\hline
 \end{tabular}
 ';
 
+print "\n\n\n\n totalExpressed[$totalExpressedChickenMario] totalNegControlsExpressed[$totalExpressedChickenMarioRand] totalGenes[$totalChicken]\n";
+
 # print '
 # \begin{tabular}{|r|r|r|r|r|l|}
 # \hline 

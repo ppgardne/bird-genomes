@@ -142,7 +142,6 @@ scaffold114	.	microRNA	332425	332509	.	+	.	ID=mir-135_1
 scaffold114	.	microRNA	356553	356645	.	+	.	ID=let-7_8
 scaffold114	Rfam	similarity	1039596	1039668	50.9	+	.	rfam-id=SNORD19;evalue=2.4e-07;model_end=77;id=1.695;model_start=1;rfam-acc=RF00569;gc-content=0.40
 scaffold114	SNOSTRIP	CD-snoRNA	1041762	1041834	106	+	.	SNORD19
-scaffold114	Rfam	similarity	1042209	1042283	60.8	+	.	rfam-id=SNORD69;evalue=2.1e-09;model_end=77;id=1.517;model_start=1;rfam-acc=RF00574;gc-content=0.37
 scaffold114	SNOSTRIP	CD-snoRNA	1042842	1042918	101	+	.	SNORD19
 scaffold115	Rfam	similarity	745171	745300	83.4	+	.	rfam-id=SNORA31;evalue=4.1e-15;model_end=130;id=1.216;model_start=1;rfam-acc=RF00322;gc-content=0.48
 scaffold115	Rfam	similarity	746328	746464	46.8	+	.	rfam-id=SNORA31;evalue=6.2e-06;model_end=130;id=1.775;model_start=1;rfam-acc=RF00322;gc-content=0.48
