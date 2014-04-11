@@ -92,7 +92,7 @@ if (-s "data/R/allRNA.dat"){
 		$countsTot{"human"}{$rfam2type{$w}}+=$w[0];
 		
 		$countsTot{"chicken"}{$rfam2type{$w}}=0 if(not defined($countsTot{"chicken"}{$rfam2type{$w}}));
-		$countsTot{"chicken"}{$rfam2type{$w}}+=$w[7];
+		$countsTot{"chicken"}{$rfam2type{$w}}+=$w[5];
 		
 		if(not defined($expressedChickenPaul{$rfam2type{$w}})){
 		    $expressedChickenPaul{$rfam2type{$w}}=0;
@@ -149,8 +149,8 @@ print '
 \hline 
 \multicolumn{5}{|l|}{{\bf ncRNA genes in human, chicken and all bird genomes}}\\\\
 \hline 
-                &                  &                   & \multicolumn{1}{|l|}{Chicken ncRNAs } & \\\\
-                &                  &                   & \multicolumn{1}{|l|}{confirmed with RNA-seq} & \\\\
+                &                  &                   & Chicken ncRNAs & \\\\
+                &                  &                   & confirmed with RNA-seq & \\\\
 \hline
 Number in human & median(48 birds) & Number in chicken & max(RNA$_i$)$>13.0$ & RNA type\\\\
 \hline
@@ -165,8 +165,9 @@ foreach my $k (@printNames){
     }
 #    printf "%d&%0.1f&%d&%d (%0.0f)&$k\\\\ \n", $countsTot{"human"}{$k}, $countsTot{"all-birds"}{$k}/48, $countsTot{"chicken"}{$k}, $expressedChicken{$k}, 100*$expressedChicken{$k}/$countsTot{"chicken"}{$k};
     my $medBirds=median(@allBirds);
+    $countsTot{"chicken"}{$k} = 1 if (not defined($countsTot{"chicken"}{$k}) or $countsTot{"chicken"}{$k} == 0);
     printf "%d&%0.1f&%d&%d (%0.1f\\%%) &$k\\\\ \n", $countsTot{"human"}{$k}, $medBirds, $countsTot{"chicken"}{$k}, 
-    $expressedChickenMario{$k}, 100*$expressedChickenMario{$k}/$countsTot{"chicken"}{$k};    
+    $expressedChickenMario{$k}, 100*$expressedChickenMario{$k}/$countsTot{"chicken"}{$k};
 
     $totalHuman+=$countsTot{"human"}{$k};
     $totalMedianBird+=$medBirds; 
@@ -183,7 +184,7 @@ print '\hline
 \end{tabular}
 ';
 
-print "\n\n\n\n totalExpressed[$totalExpressedChickenMario] totalNegControlsExpressed[$totalExpressedChickenMarioRand] totalGenes[$totalChicken]\n";
+printf "\n\n\n\n totalExpressed[$totalExpressedChickenMario] totalNegControlsExpressed[$totalExpressedChickenMarioRand] totalGenes[$totalChicken] FPR[%0.1f]\n", 100*$totalExpressedChickenMarioRand/$totalChicken;
 
 # print '
 # \begin{tabular}{|r|r|r|r|r|l|}
@@ -251,8 +252,8 @@ sub expressedInChicken {
     return (0,0,0,0) if (length($gff)==0);
     #print "gff:[$gff]\n";
     
-    my ($numExp,    $numExpMario)    =numExpressed($gff,     "data/RNA-seq/mccarthy_expression_tissue.dat            data/RNA-seq/ulitsky_expression_tissue.dat");
-    my ($numExpRand,$numExpMarioRand)=numExpressed($gffRand, "data/RNA-seq/mccarthy_expression_tissue.randomized.dat data/RNA-seq/ulitsky_expression_tissue.randomized.dat");
+    my ($numExp,    $numExpMario)    =numExpressed($gff,     0);
+    my ($numExpRand,$numExpMarioRand)=numExpressed($gffRand, 1);
 
     return ($numExp,$numExpMario,$numExpRand,$numExpMarioRand); 
 }
@@ -261,41 +262,57 @@ sub expressedInChicken {
 #numExpressed: input is a string of gff formatted coordinates, return the number of "expressed" regions
 sub numExpressed {
     
-    my ($gff, $databases) = @_; 
+    my ($gff, $randomDBs) = @_; 
     my @gff = split(/\n/, $gff);
     my ($numExp,$numExpMario) =(0,0);
     my @expArray=(); 
+    my @databases = qw(data/RNA-seq/mccarthy_expression_tissue.dat            data/RNA-seq/ulitsky_expression_tissue.dat); 
+    my @thresholds = (5, 12); 
+    @databases = qw(data/RNA-seq/mccarthy_expression_tissue.randomized.dat data/RNA-seq/ulitsky_expression_tissue.randomized.dat) if ($randomDBs);
+    
+    
+    
     foreach my $g (@gff){
-	
-	#print "g:  [$g]\n";
-
-	my @g = split(/\t/, $g);
-	
-	next if (scalar(@g) != 9); 
-	my $ex=`grep "$g[0]_$g[3]" $databases`;
-	
-	$ex=~s/\,/\./g; #De-Germanify the numbers
-	my @ex = split(/[\n;]/, $ex);
-	
-	@expArray=(); 
-	my $sumEx=0;
-	foreach my $ex (@ex){
+	my $seen=0;
+	for (my $i=0; $i<2; $i++){
+	    my $databases = $databases[$i];
 	    
-	    next if $ex=~/^data/;
-	    $sumEx+=$ex;
-	    push(@expArray, $ex);
+	    #print "g:  [$g]\n";
+	    
+	    my @g = split(/\t/, $g);
+	    
+	    next if (scalar(@g) != 9); 
+	    my $ex=`grep "$g[0]_$g[3]" $databases`;
+	    
+	    $ex=~s/\,/\./g; #De-Germanify the numbers
+	    my @ex = split(/[\n;]/, $ex);
+	    
+	    @expArray=(); 
+	    my $sumEx=0;
+	    foreach my $ex (@ex){
+		
+		#next if $ex=~/^data/;
+		next if (not isNumeric($ex)); 
+		
+		$sumEx+=$ex;
+		push(@expArray, $ex);
+	    }
+	
+	
+	    my $maxExp = 0;
+	    $maxExp = maxA(@expArray) if (scalar(@expArray)); 
+	    
+	    #print "$rnaId\t$g[0]/$g[3]-$g[4]\t$sumEx\n";
+	    $numExp++      if ($sumEx>10); 
+	    if ($maxExp>$thresholds[$i] and not $seen){
+		$numExpMario++;
+		$seen++;
+	    }
 	}
-	
-	my $maxExp = 0;
-	$maxExp = maxA(@expArray) if (scalar(@expArray)); 
-	
-	#print "$rnaId\t$g[0]/$g[3]-$g[4]\t$sumEx\n";
-	$numExp++      if ($sumEx>10); 
-	$numExpMario++ if ($maxExp>13);
-	
 	#print "$rnaId: mario [cnt [$numExpMario] ($maxExp>5)] paul [cnt [$numExp] ($sumEx>10)]   [$g[0]_$g[3]]\n";
 	
-    }    
+	
+    }
     
     return ($numExp,$numExpMario); 
     
