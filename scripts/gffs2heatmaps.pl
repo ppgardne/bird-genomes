@@ -313,7 +313,7 @@ Metazoa_SRP RNase_MRP RNaseP_nuc Telomerase-vert U1 U2 U4 U5 U6 U11 U12 U4atac U
 tRNA-pseudogene tRNA);
 system("head -n 1 $rDir/allRNA.dat | perl -lane \47" .  's/_\d+X\t/\t/g; print' . "\47 > $rDir/diverged.dat");
 foreach my $fm7 ( @divFams ){
-    system("egrep \47$fm7\$\47 $rDir/allRNA.dat >> $rDir/diverged.dat")
+    system("egrep \47$fm7\$\47 $rDir/allRNA.dat >> $rDir/diverged.dat");
 }
 system("egrep \47SeC\47 $rDir/tRNA.dat >> $rDir/diverged.dat");
 
@@ -324,8 +324,24 @@ system("egrep \47SeC\47 $rDir/tRNA.dat >> $rDir/diverged.dat");
 my @unConFams = qw(DLEU2_5 DLEU2_6 HOXA11-AS1_1 HOXA11-AS1_2 HOXA11-AS1_3 HOXA11-AS1_4 HOXA11-AS1_5 HOXA11-AS1_6 mir-15 mir-16 NBR2 PART1_1 PART1_2 PART1_3 PCA3_1 PCA3_2 RMST_6 RMST_7 RMST_8 RMST_9 Six3os1_5 Six3os1_6 Six3os1_7 SNORD93 SOX2OT_exon1 SOX2OT_exon2 SOX2OT_exon3 SOX2OT_exon4 ST7-OT3_2);
 system("head -n 1 $rDir/allRNA.dat | perl -lane \47" .  's/_\d+X\t/\t/g; print' . "\47 > $rDir/unusual-conserved.dat");
 foreach my $fm8 (@unConFams){
-    system("egrep \47$fm8\$\47 $rDir/allRNA.dat >> $rDir/unusual-conserved.dat")
+    system("egrep \47$fm8\$\47 $rDir/allRNA.dat >> $rDir/unusual-conserved.dat");
 }
+
+#grep human data/R/allRNA.dat && cat blah* | cut -f 1 | sort -d | uniq -c | sort -nr | nl | head -n 31 | awk '{print $3}' | sort -d | perl -lane 'print "grep $_\$ data/R/allRNA.dat"' | sh
+my @hiCopyFams = qw(5S_rRNA 7SK Histone3 let-7 Metazoa_SRP mir-130 mir-133 mir-135 mir-146 mir-15 mir-16 mir-181 mir-19 mir-196 mir-204 mir-2985 mir-30 mir-302 mir-34 mir-449 mir-9 RSV_RNA tRNA U1 U4 U5 U6 U6atac U7 uc_338 Y_RNA);
+system("head -n 1 $rDir/allRNA.dat | perl -lane \47" .  's/_\d+X\t/\t/g; print' . "\47 > $rDir/high-copy-numbers.dat");
+foreach my $fm9 (@unConFams){
+    system("egrep \47$fm9\$\47 $rDir/allRNA.dat >> $rDir/high-copy-numbers.dat");
+}
+
+system("grep \47Alias=U6;Note\47 $outDir/Homo_sapiens.gff | cut -f 6 | sort -nr > $rDir/U6-human-bitscores.dat");
+system("grep \47Alias=U6;Note\47 $outDir/Gallus_gallus.gff | cut -f 6 | sort -nr > $rDir/U6-chicken-bitscores.dat");
+system("grep \47Alias=Metazoa_SRP;Note\47 $outDir/Homo_sapiens.gff | cut -f 6 | sort -nr > $rDir/SRP-human-bitscores.dat");
+system("grep \47Alias=Metazoa_SRP;Note\47 $outDir/Gallus_gallus.gff | cut -f 6 | sort -nr > $rDir/SRP-chicken-bitscores.dat");
+system("grep \47Alias=Y_RNA;Note\47 $outDir/Homo_sapiens.gff | cut -f 6 | sort -nr > $rDir/Y_RNA-human-bitscores.dat");
+system("grep \47Alias=Y_RNA;Note\47 $outDir/Gallus_gallus.gff | cut -f 6 | sort -nr > $rDir/Y_RNA-chicken-bitscores.dat");
+
+
 
 system("R CMD BATCH --no-save scripts/heatmaps.R");
 

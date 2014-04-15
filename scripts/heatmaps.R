@@ -132,6 +132,65 @@ heatmap.2(as.matrix(allrna),trace="none",col=gray(lb:0/lb),
           )
 dev.off()
 
+######################################################################
+
+allrna<-read.table("data/R/high-copy-numbers.dat",header = T, sep = "\t",row.names=52)
+pdf(file="paper/figures/high-copy-numbers.pdf",width=8, height=10)
+op<-par(las=2,mar=c(7, 4, 4, 2) + 0.1,cex=1.5); #bottom, left, top, right
+plot(log10(allrna$human), pch=1, yaxt="n", xaxt="n", ylab="Genomic copy number", xlab="", main="Genomic copy numbers for high-copy ncRNAs"); 
+axis(2,0:3, 10^(0:3)); 
+axis(1,1:(length(rownames(allrna))), rownames(allrna)); 
+points(log10(allrna$chicken), pch=2, col="red"); 
+points(log10(allrna$alligator), pch=3); 
+points(log10(allrna$turtle), pch=4);  
+points(log10(allrna$zebrafinch), pch=6, col="red"); 
+points(log10(allrna$budgerigar), pch=7, col="red"); 
+points(log10(rowMeans(allrna[,4:51])),col="red",pch=5); 
+legend("topright", c("Human", "Alligator", "Turtle", "Chicken", "Zebrafinch", "Budgerigar", "mean.48.Birds"), pch=c(1,3,4,2,6,7,5), col=c("black","black","black","red","red","red","red"))
+dev.off()
+
+humU6<-read.table("data/R/U6-human-bitscores.dat",header = F, sep = "\t")
+chickU6<-read.table("data/R/U6-chicken-bitscores.dat",header = F, sep = "\t")
+humSRP<-read.table("data/R/SRP-human-bitscores.dat",header = F, sep = "\t")
+chickSRP<-read.table("data/R/SRP-chicken-bitscores.dat",header = F, sep = "\t")
+humY<-read.table("data/R/Y_RNA-human-bitscores.dat",header = F, sep = "\t")
+chickY<-read.table("data/R/Y_RNA-chicken-bitscores.dat",header = F, sep = "\t")
+
+allU6<-c(humU6$V1,chickU6$V1)
+breaks<-seq(floor(min(allU6)),ceiling(max(allU6)), len=40)
+hU6<-hist(humU6$V1,plot=F,breaks=breaks)
+cU6<-hist(chickU6$V1,plot=F,breaks=breaks)
+
+allSRP<-c(humSRP$V1,chickSRP$V1)
+breaks<-seq(floor(min(allSRP)),ceiling(max(allSRP)), len=40)
+hSRP<-hist(humSRP$V1,plot=F,breaks=breaks)
+cSRP<-hist(chickSRP$V1,plot=F,breaks=breaks)
+
+allY<-c(humY$V1,chickY$V1)
+breaks<-seq(floor(min(allY)),ceiling(max(allY)), len=40)
+hY<-hist(humY$V1,plot=F,breaks=breaks)
+cY<-hist(chickY$V1,plot=F,breaks=breaks)
+
+pdf(file="paper/figures/high-copy-numbers-U6-SRP.pdf",width=8, height=10)
+op<-par(las=1,cex=1.5,mfcol=c(3,1))
+plot(hU6$mids[hU6$counts>0],hU6$counts[hU6$counts>0],ylim=c(0,max(hU6$counts[hU6$counts>0])),col="black",pch=1,main="U6 bitscore distributions",xlab="bit-score",ylab="Freq.")
+lines(hU6$mids[hU6$counts>0],hU6$counts[hU6$counts>0],col="black")
+points(cU6$mids[cU6$counts>0],cU6$counts[cU6$counts>0],col="red",pch=2)
+lines(cU6$mids[cU6$counts>0],cU6$counts[cU6$counts>0],col="red")
+
+plot(hSRP$mids[hSRP$counts>0],hSRP$counts[hSRP$counts>0],col="black",pch=1,main="SRP bitscore distributions",xlab="bit-score",ylab="Freq.")
+lines(hSRP$mids[hSRP$counts>0],hSRP$counts[hSRP$counts>0],col="black")
+points(cSRP$mids[cSRP$counts>0],cSRP$counts[cSRP$counts>0],col="red",pch=2)
+lines(cSRP$mids[cSRP$counts>0],cSRP$counts[cSRP$counts>0],col="red")
+legend("topright", c("Human", "Chicken"), pch=c(1,2), col=c("black","red"))
+
+plot(hY$mids[hY$counts>0],hY$counts[hY$counts>0],col="black",pch=1,main="Y RNA bitscore distributions",xlab="bit-score",ylab="Freq.")
+lines(hY$mids[hY$counts>0],hY$counts[hY$counts>0],col="black")
+points(cY$mids[cY$counts>0],cY$counts[cY$counts>0],col="red",pch=2)
+lines(cY$mids[cY$counts>0],cY$counts[cY$counts>0],col="red")
+legend("topright", c("Human", "Chicken"), pch=c(1,2), col=c("black","red"))
+
+dev.off()
 
 ######################################################################
 rnaExp   <-read.table("data/RNA-seq/summed-vals.dat",header = F, sep = "\t")

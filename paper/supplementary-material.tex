@@ -186,7 +186,7 @@ families, that are preserved between \emph{H. sapiens} and
 \emph{S. cerevisiae} \cite{Lestrade:2006}. Of these, 45 snoRNA
 families are conserved in the bird dataset.
 Over a third of the apparent losses of the yeast-human conserved
-snoRNA families appear to cluster on 2 locii of the ancestral
+snoRNA families appear to cluster on 2 loci of the ancestral
 vertebrate genome. We investigated these losses further.
 
 The first cluster is found at chr11:62620797-62622484 on the human
@@ -307,28 +307,29 @@ caused by sequence divergence beyond the thresholds of the Rfam CMs
 and/or missing or incomplete data, we complemented our analysis by
 dedicated searches for a few of these RNA groups.
 
-The simplest case are the selenocystein tRNAs. Here, tRNAscan is tuned
-for specificity and thus misses several occurrances that are easily
-found by \texttt{blastn} with $E\le 10^{-30}$. In some cases the
-sequences appear degraded at the ends, which may be explained e.g.\ by
-low sequence quality at the very ends of contigs or scaffolds. A
-\texttt{blastn} search also readily retrieves additional RNase P and
-RNAse MRP RNAs, capturing only the best conserved regions. In many
-cases these additional candidates are incomplete or contain
-undetermined sequence, explaining why they are missed by the
+The simplest case are the selenocysteine tRNAs. Here, tRNAscan is
+tuned for specificity and thus misses several occurrances that are
+easily found by \texttt{blastn} with $E\le 10^{-30}$. In some cases
+the sequences appear degraded at the ends, which may be explained
+e.g.\ by low sequence quality at the very ends of contigs or
+scaffolds. A \texttt{blastn} search also readily retrieves additional
+RNase P and RNAse MRP RNAs, capturing only the best conserved
+regions. In many cases these additional candidates are incomplete or
+contain undetermined sequence, explaining why they are missed by the
 CMs. Overall, we identify tRNA-Sec in most and RNAse P and MRP RNAs in
 the majority of the genomes. An additional candidate could also be
 retrieved for telomerase RNA. Telomerase is well known to exhibit very
 poor sequence conservation and rapid variations in size that make it
 notoriously hard to identify by homology search \cite{Xie:08a}. The
-poor return thus does not come as a surprise. Since \texttt{blastn}
-searches remained unsuccessfull we constructed a sauropsid-specific CM
-for the vault RNA. In addition to the hits identified by the Rfam
-model we obtained three additional homologs. Vault RNAs, with a size
-of about 100 nt, exhibit conserved sequence patterns only at their
-ends, with essentially unconstrained sequence in the central
-part. Their identification is one of the well-know difficult problems
-for homology search \cite{Stadler:09b,Kolbe:2009}.
+poor return thus does not come as a surprise. Vault RNA homology
+searches with \texttt{blastn} remained unsuccessful, therefore we
+constructed a sauropsid-specific CM.  In addition to the hits
+identified by the Rfam model we obtained three additional
+homologs. Vault RNAs, with a size of about 100 nt, exhibit conserved
+sequence patterns only at their ends, with essentially unconstrained
+sequence in the central part. Their identification is one of the
+well-known and difficult problems for homology search
+\cite{Stadler:09b,Kolbe:2009}.
 
 Our ability to find additional homologs for several RNA families that fill
 gaps in the abundance matrices (Figure~\ref{fig:2})
@@ -471,6 +472,15 @@ This figure illustrates the distribution of all members of the mir-17 clusters a
   \caption[]{Cysteine tRNA cluster.}\label{fig:13}
 \end{figure}
 
+\begin{figure}[ht]
+\includegraphics[width=0.475\textwidth]{figures/high-copy-numbers.pdf}
+\includegraphics[width=0.475\textwidth]{figures/high-copy-numbers-U6-SRP.pdf}
+  \caption[]{{\bf Left:} A comparison of the genomic copy numbers for
+    26 of the most abundant RNAs found in human, reptile and the bird
+    genomes. {\bf Right:} Bit-score distributions for the Rfam U6,
+    Metazoan SRP and the Y RNA covariance models for human and chicken
+    paralogues/pseudogenes. }\label{fig:14}
+\end{figure}
 
 
 
