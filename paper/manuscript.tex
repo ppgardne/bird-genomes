@@ -58,7 +58,7 @@
 
 %\title{Non-coding RNAs of bird genomes}
 %\title{Wins and losses: Non-coding RNAs of bird genomes}
-\title{Conservation and losses of avian non-coding RNAs}
+\title{Conservation and losses of avian non-coding RNA loci}
 
 \author{
 Paul P.\ Gardner\correspondingauthor$^{1,2}$
@@ -93,23 +93,22 @@ Peter F.\ Stadler\correspondingauthor$^5$
 
 \begin{abstract}
 Here we present the results of a large-scale bioinformatic annotation
-of non-coding RNAs in 48 avian genomes. Our approach uses
+of non-coding RNA loci in 48 avian genomes. Our approach uses
 probabilistic models of hand-curated families from the Rfam database
 to infer conserved RNA families within each avian genome. We
 supplement these annotations with predictions from the tRNA annotation
-tool, tRNAscan-SE and microRNAs from miRBase.  We show a significant
-number of lncRNAs are surprisingly well conserved between birds and
-mammals including several intriguing cases where the reported
-mammalian lncRNA function is not conserved in birds.  We also
-demonstrate extensive conservation of classical ncRNAs (e.g., tRNAs)
-and more recently discovered ncRNAs (e.g., snoRNAs and miRNAs) in
-birds. Furthermore, we describe numerous ``losses'' of several RNA
-families, and attribute these to genuine loss, divergence or missing
-data.  In particular, issues with assembling microchromosomes using
-next-generation sequencing methods. These combined results illustrate
-the utility of applying homology based methods for annotating novel
-vertebrate genomes and illustrate many complex evolutionary patterns
-within the avian ncRNA cohort.
+tool, tRNAscan-SE and microRNAs from miRBase.  We show a number of
+lncRNA associated loci are conserved between birds and mammals,
+including several intriguing cases where the reported mammalian lncRNA
+function is not conserved in birds.  We also demonstrate extensive
+conservation of classical ncRNAs (e.g., tRNAs) and more recently
+discovered ncRNAs (e.g., snoRNAs and miRNAs) in birds. Furthermore, we
+describe numerous ``losses'' of several RNA families, and attribute
+these to genuine loss, divergence or missing data.  In particular, we
+show that many of these losses are due to issues with assembling
+microchromosomes using next-generation sequencing methods. These
+combined results illustrate the utility of applying homology-based
+methods for annotating novel vertebrate genomes.
 \end{abstract}
 
 
@@ -157,7 +156,7 @@ tRNAscan-SE software package uses CMs to accurately predict transfer
 RNAs \cite{Lowe:1997,Chan:2009}.
 
 Independent benchmarks of bioinformatic annotation tools have shown
-that the CM approaches dramatically out-perform alternative methods
+that the CM approaches out-perform alternative methods
 \cite{Freyhult:2007}, although its sensitivity is limited for the most
 rapidly evolving families such as vault RNAs or telomerase RNA
 \cite{Menzel:09a}.
@@ -174,23 +173,23 @@ published chicken
 finch \cite{Warren:2010} and turkey \cite{Dalloul:2010} with the
 recently published 45 avian genomes
 \cite{birds:14,birds:14a,Huang:2013,Zhan:2013,Shapiro:2013,Howard:2013,Li:2014},
-provides exciting opportunities to explore ncRNA conservation in
+provides an exciting opportunity to explore ncRNA conservation in
 unprecedented detail.
 %{\bf MORE ON BIRD GENOMES. ESP. MACRO \& MICRO
 %  CHROMOSOMES.}
 
 In the following we explore the conservation patterns of the major
-classes of avian ncRNA in further detail.  Using homology search tools
-and evolutionary constraints, we produce an accurate set of genome
+classes of avian ncRNA loci in further detail.  Using homology search
+tools and evolutionary constraints, we have produced a set of genome
 annotations for 48 predominantly non-model bird species for ncRNAs
 that are conserved across the avian species. This conservative set of
-annotations is expected to contain the core avian ncRNAs. We focus our
-report on the unusual results within the avian lineages. These are
+annotations is expected to contain the core avian ncRNA loci. We focus
+our report on the unusual results within the avian lineages. These are
 either unexpectedly well-conserved ncRNAs or unexpectedly
-poorly-conserved ncRNAs. The former are ncRNAs that were not expected
-to be conserved between the birds and the other vertebrates,
+poorly-conserved ncRNAs. The former are ncRNA loci that were not
+expected to be conserved between the birds and the other vertebrates,
 particularly those ncRNAs whose function is not conserved in birds.
-The latter are apparent losses of ncRNAs expected to be conserved;
+The latter are apparent losses of ncRNA loci expected to be conserved;
 Here, we consider three categories of such ``loss'': First, genuine
 gene losses in the avian lineage where ncRNAs well conserved in other
 vertebrates are completely absent in birds.  Second, ``divergence''
@@ -202,11 +201,11 @@ largely fragmented, avian genomes.  We postulate that the latter
 category is likely to be prevalent in comparative avian genome studies
 given the distinctive organisation of the avian genome. Namely, the
 avian karyotype is characterised by a large number of chromosomes
-(average $2n \approx 80$) generally consisting of a few larger
-``macrochromosomes'' and many smaller ``microchromosomes''
+(average $2n \approx 80$) generally consisting of approximately 5
+larger ``macrochromosomes'' and many smaller ``microchromosomes''
 \cite{Griffin:2007}. This ’so many, so small’ pattern presents
 significant assembly challenges \cite{Ellegren:2005}. Indeed, of the
-48 published avian genomes, 20 of which are high-coverage ($>50X$ ),
+48 published avian genomes, 20 of which are high-coverage ($>50X$),
 only two are chromosomally assembled (chicken and zebra finch;
 \cite{birds:14,Warren:2010}).
 
@@ -214,24 +213,25 @@ only two are chromosomally assembled (chicken and zebra finch;
 
 \section*{Results}
 
-There is substantial gain and loss of lncRNA
+There is substantial gain and loss of lncRNAs
 \cite{Cabili:2011,Kutter:2012} and more generally ncRNA loci over
 evolutionary time \cite{Hoeppner:2012}. It is difficult to assess how
-much of this is due to bioinformatic sequence alignment tools failing
-to align correctly below 60-50\% sequence identity
-\cite{Gardner:2005:Nucleic-Acids-Res:15860779} or due to genuine gains
-and losses. Nevertheless, sequence conservation, generally speaking,
-provides useful evidence for gene and function conservation.
+many of these observations are due to limited bioinformatic sequence
+alignment tools (these generally fail align correctly below 60-50\%
+sequence identity \cite{Gardner:2005:Nucleic-Acids-Res:15860779}) or
+due to genuine gains and losses. Nevertheless, sequence conservation,
+generally speaking, provides useful evidence for gene and function
+conservation.
 
 We have identified 66,879 loci in 48 avian genomes that share sequence
 similarity with previously characterised ncRNAs and are conserved in
 $>10\%$ of these avian genomes. These loci have been classified into
-626 different families, the majority of which are miRNAs and snoRNAs
-(summarised in Table~\ref{table:1}). Out of necessity we have selected
-the most charismatic families for further discussion. These are
-lncRNAs that appear to be conserved between mammals and aves and the
-cases of apparent loss of genes that conserved in most other
-vertebrates. 
+626 different families, the majority of which correspond to miRNAs and
+snoRNAs (summarised in Table~\ref{table:1}). Out of necessity we have
+selected the most charismatic families for further discussion. These
+include the lncRNAs that appear to be conserved between Mammals and
+Aves and the cases of apparent loss of genes that conserved in most
+other Vertebrates.
 
 
 \subsection*{Unusually well conserved RNAs}
@@ -244,7 +244,7 @@ characterised in mammalian species, particularly human and
 mouse. Consequently, we generally do not expect these to be conserved
 outside of mammalia. Notable examples include Xist \cite{Duret:2006}
 and H19 \cite{Smits:2008}.  There is emerging evidence for the
-conservation of ``mammalian'' lncRNAs in other vertebrates
+conservation of ``Mammalian'' lncRNAs in other Vertebrates
 \cite{Chodroff:2010,Ulitsky:2011}), however, like most lncRNAs, the
 function of these lncRNAs remains largely unknown. Here, we show the
 conservation of several well-characterised lncRNAs of known function
@@ -252,9 +252,8 @@ in humans.
 
 
 The CM based approach is appropriate for most classes of ncRNA, but
-the long non-coding RNAs (lncRNAs) are a particular challenge
-\cite{Guttman:2009}. 
-CMs cannot model the exon-intron structures of spliced lncRNAs, nor do
+the lncRNAs are a particular challenge \cite{Guttman:2009}.  CMs
+cannot model the exon-intron structures of spliced lncRNAs, nor do
 they deal elegantly with the repeats that many lncRNAs
 host. Consequently in the latest release of Rfam the lncRNA families
 that were added were composed of local conserved (and possibly
@@ -289,19 +288,21 @@ androgen-receptor pathway in birds but whether the expression of these
 lncRNAs are tissue specific is unknown at present.
 
 The HOX cluster lncRNAs HOTAIRM1 (5 RNA-domains), HOXA11-AS1 (6
-RNA-domains), and HOTTIP (4 RNA domains) are remarkably well conserved. In
-the human genome they are located in the HOXA cluster (hg coordinates
-chr7:27135743-27245922), one of the most highly conserved regions in
-vertebrate genomes \cite{PascualAnaya:13}, in antisense orientation between
-HoxA1 and HoxA2, between HoxA11 and HoxA13, and upstream of HoxA13,
-respectively. Conservation and expression of HOTAIRM1 and HOXA11-AS1 within
-the HOXA cluster has been studied in some detail in marsupials
-\cite{Yu:12}.  Of the 15 RNA-domains five and six representing all three
-lncRNAs were recovered in the alligator and turtle genomes. All of them
-appear in the correct order at the expected, syntenically conserved
-positions within the HOXA cluster.  In the birds, where two or more of the
-HOX cluster lncRNA RNA-domains were predicted on the same scaffold, this
-gene order and location within HOX was also preserved.
+RNA-domains), and HOTTIP (4 RNA domains) are conserved across the
+Mammalian and Avian lineages. In the human genome they are located in
+the HOXA cluster (hg coordinates chr7:27135743-27245922), one of the
+most highly conserved regions in vertebrate genomes
+\cite{PascualAnaya:13}, in antisense orientation between HoxA1 and
+HoxA2, between HoxA11 and HoxA13, and upstream of HoxA13,
+respectively. Conservation and expression of HOTAIRM1 and HOXA11-AS1
+within the HOXA cluster has been studied in some detail in marsupials
+\cite{Yu:12}.  Of the 15 RNA-domains five and six representing all
+three lncRNAs were recovered in the alligator and turtle genomes. All
+of them appear in the correct order at the expected, syntenically
+conserved positions within the HOXA cluster.  In the birds, where two
+or more of the HOX cluster lncRNA RNA-domains were predicted on the
+same scaffold, this gene order and location within HOX was also
+preserved.
 
 %egrep 'HOXA11-AS1|HOTAIR|HOTTIP' clans_competed/*gff | perl -lane 'if(/\/(\S+?)\-.*gff:(\S+).*\-id=(\S+);eval/ or /\/(\S+?)\-.*gff:(\S+).*Alias=(\S+);Not/){print "$1\t$2\t$3\t$F[6]"}'
 %egrep 'PCA3' clans_competed/*gff | perl -lane 'if(/\/(\S+?)\-.*gff:(\S+).*\-id=(\S+);eval/ or /\/(\S+?)\-.*gff:(\S+).*Alias=(\S+);Not/){print "$1\t$2\t$3\t$F[6]"}'
@@ -333,7 +334,8 @@ The NBR2 lncRNA and BRCA1 gene share a bidirectional promotor
 tissues. Extensive research on BRCA1 has shown that it is involved in
 DNA repair \cite{Moynahan:1999}. The function of NBR2 remains unknown,
 yet its conservation across the vertebrates certainly implies a
-function (See Figure~\ref{fig:1}).
+function (See Figure~\ref{fig:1}). Possibly at the DNA level, however,
+function at the RNA level cannot be ruled out at this stage.
 
 Of the other classes of RNAs, none showed an unexpected degree of
 conservation or expansion within the avian lineage. The only exception
@@ -460,7 +462,7 @@ the main covariance model package, Infernal. An approach used by tRNAscan
 \cite{Lowe:1997}, is, in theory, generalisable to other RNA families
 but this remains a work in progress. 
 
-Is it possible that the avian annotations also contains excessive
+It is possible that the avian annotations also contains excessive
 pseudogenes. However, it has previously been noted that avian genomes
 are significantly smaller than other vertebrate species
 \cite{International_Chicken_Genome_Sequencing_Consortium:2004}. We
@@ -470,7 +472,7 @@ Supplemental Figure~12). The problematic human families, U6 snRNA, SRP
 RNA and Y RNA have, for example, just 26, 4 and 3 annotations
 respectively in the chicken genome and 13, 3 and 3 annotations
 respectively, on average, in the 48 avian genomes used here.
-Therefore, we suspect that the majority of our annotations are in fact
+Therefore, we conclude that the majority of our annotations are in fact
 functional orthologs.
 
 \section*{Experimentally confirmed ncRNAs}
@@ -550,6 +552,9 @@ mammal-specific, yet are also found in bird genomes.
 
 \section*{Methods}
 
+The 48 bird genome sequences used for the following analyses are available from
+the phylogenomics analysis of birds website \cite{birdphylogen}.
+
 Bird genomes were searched using the cmsearch program from INFERNAL
 1.1 and the covariance models from the Rfam database
 v11.0 \cite{Gardner:2011a,Burge:2013}. All matches above the curated GA
@@ -606,18 +611,17 @@ genes (see Figure~\ref{fig:1} and Supplemental Figure~1-3). All the
 scripts and annotations presented here are available from Github
 \cite{gitrepo}.
 
-
 Chicken ncRNA predictions were validated using two separate RNA-seq
 data sets. The first data set (Bioproject PRJNA204941) contains 971
 million reads and comprises 27 samples from 14 different chicken
 tissues sequenced on Illumina HiSeq2000 using a small RNA-seq
-protocol. The second data set (personal commun. Matt Schwartz and Igor
-Ulitsky) contains 1,46 billion Illumina HiSeq reads sequenced from
-whole chicken embryo RNA from 7 stages using a strand-specific dUTP
-protocol. Raw reads were checked for quality and adapters clipped if
-required by the protocol. Preprocessed reads were mapped to the
-galGal4 reference genome using SEGEMEHL short read aligner
-\cite{segemehl} and then overlapped with the ncRNA annotations.
+protocol. The second data set (SRA accession SRP041863) contains 1,46
+billion Illumina HiSeq reads sequenced from whole chicken embryo RNA
+from 7 stages using a strand-specific dUTP protocol. Raw reads were
+checked for quality and adapters clipped if required by the
+protocol. Preprocessed reads were mapped to the galGal4 reference
+genome using SEGEMEHL short read aligner \cite{segemehl} and then
+overlapped with the ncRNA annotations.
 
 
 \section*{Acknowledgements}
@@ -667,7 +671,7 @@ that improved this work.
 Heatmaps showing the presence/absence and approximate genomic copy
 number of ``unusually, well conserved RNAs'' (particularly the
 lncRNAs) on the left and families that have been identified as
-surprising RNA Losses, divergence or missing data. In several cases
+RNA losses, divergence or missing data. In several cases
 functionally related families have also been included, e.g. the RNA
 components of the major and minor spliceosomes: U1, U2, U4, U5 and U6;
 and U11, U12, U4atac, U5 and U6atac, respectively.\label{fig:1}
