@@ -308,9 +308,14 @@ preserved.
 %egrep 'PCA3' clans_competed/*gff | perl -lane 'if(/\/(\S+?)\-.*gff:(\S+).*\-id=(\S+);eval/ or /\/(\S+?)\-.*gff:(\S+).*Alias=(\S+);Not/){print "$1\t$2\t$3\t$F[6]"}'
 %egrep 'RMST' clans_competed/*gff | perl -lane 'if(/\/(\S+?)\-.*gff:(\S+).*\-id=(\S+);eval/ or /\/(\S+?)\-.*gff:(\S+).*Alias=(\S+);Not/){print "$1\t$2\t$3\t$F[6]"}'
 
-Many of the lncRNAs have been associated with cancer, sparking a minor
-review industry \cite{Prensner:2011,Spizzo:2012}. Three examples of
-these that are also conserved in the birds are described below.
+The majority ($>80\%$) of genome-wide association studies of cancer
+identify loci outside of protein-coding genes
+\cite{Cheetham:2013}. Many of these are loci are now known to be
+transcribed into lncRNAs. Furthermore, many lncRNAs are differentially
+expressed in tumorous tissues \cite{Chan:2002}, suggesting further
+mechanistic links with the aberrant gene expression associated cancer
+progression. In our work we have identified three examples of these
+that are also conserved in the birds are described below.
 
 The RMST (Rhabdomyosarcoma 2 associated transcript) RNA-domains 6, 7,
 8, and 9 are conserved across the birds. In each bird the gene order
@@ -631,7 +636,8 @@ University of Copenhagen) and Tom Gilbert (University of Copenhagen)
 for access to data and for invaluable feedback on the manuscript.
 
 Magnus Alm Rosenblad (Univ. of Gothenburg) and Eric Nawrocki (HHMI
-Janelia Farm) for useful discussions.
+Janelia Farm) for useful discussions. Matthew Walters for assistance
+with figures.
 
 We thank Fiona McCarthy (University of Arizona) and Carl
 Schmidt (University of Delaware) as well as Matt Schwartz (Harvard)
