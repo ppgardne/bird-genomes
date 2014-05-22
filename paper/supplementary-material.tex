@@ -342,7 +342,7 @@ sequence divergence rather then true losses.
 
 
  \begin{figure}[ht]
-   \includegraphics[width=0.75\textwidth]{figures/figure2.pdf}
+   \includegraphics[width=0.95\textwidth]{figures/figure2.pdf}
 \caption{Additional homologs of some sparsely represented RNA families were
 discovered using dedicated search strategies combined with highly
 sensitive settings, synteny information, lineage-specific CMs and
@@ -521,9 +521,51 @@ later updates to the avian genome sequences.
 \newpage
 
 \begin{figure}[ht]
+\includegraphics[width=0.99\textwidth]{figures/HOTAIR_loci_expression.pdf}
+\includegraphics[width=0.99\textwidth]{figures/HOTAIRM1_2.pdf}
+  \caption[]{Above: Expression of the chicken HOTAIRM1 (RF01976) locus
+    and the surrounding genes: HOXA1, HOXA2, and HOXA3. Below: The
+    predicted secondary structure of the Avian HOTAIRM1 domain.}\label{fig:15}
+\end{figure}
+
+\begin{figure}[ht]
+\includegraphics[width=0.99\textwidth]{figures/HOTAIR_loci_synteny.pdf}
+  \caption[]{The preservation of gene order (synteny) surrounding the
+    HOTAIRM1 (RF01976) locus across the Avian and other Vertebrate
+    lineages.}\label{fig:16}
+\end{figure}
+
+\clearpage
+\newpage
+
+\begin{table}[h!]
+  \begin{center}
+    \begin{tabular}{|l|l|r|c|}
+    \hline
+RNA family (Rfam ID) & Chromosome & Coordinates & Strand \\
+    \hline
+\multicolumn{4}{|l|}{Macro-chromosomes:}\\
+RNase MRP (RF00030)     & chr4 & 39276202-39276488 & -\\
+\multicolumn{4}{|l|}{Micro-chromosomes:}\\ 
+U4atac snRNA (RF00618)  & chr7 &	25702714-25702831 & +\\
+RNase P RNA (RF00009)   & chr8 & 6609347-6609668   & -\\
+Telomerase RNA (RF00024)& chr9 & 19429028-19429084 & +\\
+Vault RNA (RF00006)     & chr13& 380747-380840     & +\\
+U11 snRNA (RF00548)     & chr23& 2216932-2217058   & -\\
+\hline
+    \end{tabular}
+  \end{center}
+  \caption{The location of ``missing'' RNA families in the chicken genome (galGal4). }
+\end{table}
+
+
+\clearpage
+\newpage
+
+\begin{figure}[ht]
 \includegraphics[width=0.9\textwidth]{figures/phylo-tree.pdf}
   \caption[]{The phylogenetic relationships between the Avian species
-    used in this study. This figure has been reproduced, with permission from \cite{birds:14a}.}\label{fig:15}
+    used in this study. This figure has been reproduced, with permission from \cite{birds:14a}.}\label{fig:17}
 \end{figure}
 
 
@@ -534,7 +576,7 @@ later updates to the avian genome sequences.
 
 \subsection*{Database accessions}
 
-The NCBI BioProject/SRA and Study IDs for the genomes used in this study
+The NCBI BioProject, SRA and Study IDs for the genomes used in this study
 are are listed below.
 
 \begin{table}[h!]
@@ -602,7 +644,7 @@ Species & BioProject ID & SRA ID & Study ID \\
 \hline
 \emph{Aptenodytes forsteri} & PRJNA235982 & SRA129317 & SRP035855\\
 \emph{Pygoscelis adeliae} & PRJNA235983 & SRA129318 & SRP035856\\
-\emph{Gallus gallus} & PRJNA13342 & SRA030184 & SRP005856\\
+\emph{Gallus gallus} & PRJNA13342 & SRA030184 & SRP005856 (galGal4)\\
 \emph{Taeniopygia guttata} & PRJNA17289 & SRA010067 & SRP001389\\
 \emph{Meleagris gallopavo} & PRJNA42129 & Unknown & Unknown\\
 \emph{Melopsittacus undulatus} & PRJEB1588 & ERA200248 & ERP002324\\
@@ -613,14 +655,14 @@ Species & BioProject ID & SRA ID & Study ID \\
 \hline
 \multicolumn{4}{|l|}{Outgroups}\\
 \hline
-\emph{Homo sapiens} & & & \\
-\emph{Alligator mississippiensis} & & & \\
-\emph{Chelonia mydas} & & & \\
+\emph{Homo sapiens} & & & HG19/GRCh37\\
+\emph{Alligator mississippiensis} & & & allMis1\\
+\emph{Chelonia mydas} & PRJNA104937 & & \\
 \hline
 \multicolumn{4}{|l|}{RNA-seq data}\\
 \hline
 \emph{Gallus gallus} & PRJNA204941 & NA & NA \\
-\emph{Gallus gallus} & NA & & SRP041863 \\
+\emph{Gallus gallus} & NA & NA & SRP041863 \\
 \hline
     \end{tabular}
   \end{center}
