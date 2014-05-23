@@ -138,10 +138,13 @@ which ncRNAs are discovered and their functions are determined
 range of ncRNAs across multiple species we would require multiple RNA
 fractions (e.g. long and short), in multiple species, in multiple
 developmental stages and tissues types. The costs of this approach are
-still prohibitive. Consequently, for this work we have concentrated on
-bioinformatic approaches. Primarily, homology based methods, namely
-covariance models (CMs). These remain state of the art for ncRNA
-analyses \cite{Sakakibara:1994,Eddy:1994,Nawrocki:2009} and have well
+still prohibitive in terms of researcher-time and
+finances. Consequently, for this work we have concentrated on
+bioinformatic approaches. However, we do validate the majority of
+these predictions using RNA-seq. Primarily, homology based methods,
+namely covariance models (CMs). These remain state of the art for
+ncRNA bioinformatic analyses
+\cite{Sakakibara:1994,Eddy:1994,Nawrocki:2009} and have well
 established sensitivity and specificity rates \cite{Freyhult:2007}.
 The CM based approach for annotating ncRNAs in genomes requires
 reliable alignments and consensus secondary structures of
@@ -157,7 +160,7 @@ RNAs \cite{Lowe:1997,Chan:2009}.
 
 Independent benchmarks of bioinformatic annotation tools have shown
 that the CM approaches out-perform alternative methods
-\cite{Freyhult:2007}, although its sensitivity is limited for the most
+\cite{Freyhult:2007}, although its sensitivity can be limited for
 rapidly evolving families such as vault RNAs or telomerase RNA
 \cite{Menzel:09a}.
 
@@ -213,15 +216,15 @@ only two are chromosomally assembled (chicken and zebra finch;
 
 \section*{Results}
 
-There is substantial gain and loss of lncRNAs
-\cite{Cabili:2011,Kutter:2012} and more generally ncRNA loci over
-evolutionary time \cite{Hoeppner:2012}. It is difficult to assess how
-many of these observations are due to limited bioinformatic sequence
-alignment tools (these generally fail align correctly below 60-50\%
-sequence identity \cite{Gardner:2005:Nucleic-Acids-Res:15860779}) or
-due to genuine gains and losses. Nevertheless, sequence conservation,
-generally speaking, provides useful evidence for gene and function
-conservation.
+There is substantial gain and loss of lncRNAs and other ncRNA loci
+over evolutionary time
+\cite{Cabili:2011,Kutter:2012,Hoeppner:2012}. It is difficult to
+assess how many of these ``gains'' and ``losses'' are due to limited
+bioinformatic sequence alignment tools (these generally fail align
+correctly below 60-50\% sequence identity
+\cite{Gardner:2005:Nucleic-Acids-Res:15860779}) or due to genuine
+gains and losses. Nevertheless, sequence conservation, generally
+speaking, provides useful evidence for gene and function conservation.
 
 We have identified 66,879 loci in 48 avian genomes that share sequence
 similarity with previously characterised ncRNAs and are conserved in
@@ -696,7 +699,7 @@ and U11, U12, U4atac, U5 and U6atac, respectively.\label{fig:1}
 \clearpage
 \newpage
 
-  \subsection*{Table 1 - A summary of ncRNA genes in human, chicken and all bird genomes}
+\subsection*{Table 1 - A summary of ncRNA genes in human, chicken and all bird genomes}
 
 This table contains the total number of annotated ncRNAs from
 different RNA types in human, the median number for each of the 48
