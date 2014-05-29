@@ -106,10 +106,10 @@ conservation of classical ncRNAs (e.g., tRNAs) and more recently
 discovered ncRNAs (e.g., snoRNAs and miRNAs) in birds. Furthermore, we
 describe numerous ``losses'' of several RNA families, and attribute
 these to genuine loss, divergence or missing data.  In particular, we
-show that many of these losses are due to issues with assembling
-microchromosomes using next-generation sequencing methods. These
-combined results illustrate the utility of applying homology-based
-methods for annotating novel vertebrate genomes.
+show that many of these losses are due to the challenges associated
+with assembling Avian microchromosomes. These combined results illustrate the utility of
+applying homology-based methods for annotating novel vertebrate
+genomes.
 \end{abstract}
 
 
@@ -136,18 +136,17 @@ frames, G+C content and codon-usage biases \cite{Rivas:2000}.
 New sequencing technologies have dramatically expanded the rate at
 which ncRNAs are discovered and their functions are determined
 \cite{cech2014noncoding}. However, in order to determine the full
-range of ncRNAs across multiple species we would require multiple RNA
+range of ncRNAs across multiple species we require multiple RNA
 fractions (e.g. long and short), in multiple species, in multiple
 developmental stages and tissues types. The costs of this approach are
 still prohibitive in terms of researcher-time and
-finances. Consequently, for this work we have concentrated on
-bioinformatic approaches. However, we do validate the majority of
-these predictions using RNA-seq. Primarily, homology based methods,
-namely covariance models (CMs). These remain state of the art for
-ncRNA bioinformatic analyses
-\cite{Sakakibara:1994,Eddy:1994,Nawrocki:2009} and have well
+finances. Consequently, in this study we concentrate on bioinformatic
+approaches, primarily homology based methods (i.e. covariance models
+(CMs)). However, we do validate the majority of these predictions
+using RNA-seq. The bioinformatic approaches we use remain state of the art for ncRNA bioinformatic
+analyses \cite{Sakakibara:1994,Eddy:1994,Nawrocki:2009} and have well
 established sensitivity and specificity rates \cite{Freyhult:2007}.
-The CM based approach for annotating ncRNAs in genomes requires
+For example, the CM based approach for annotating ncRNAs in genomes requires
 reliable alignments and consensus secondary structures of
 representative sequences of RNA families, many of which can be found
 at Rfam
@@ -284,7 +283,7 @@ HOTAIRM1 lncRNA (See Supplemental Figures~13\&14).
 
 
 The conservation of these ``human'' lncRNAs among birds suggests they
-may also be functional in birds. But what these functions are, is not
+may also be functional in birds. But what these functions may be is not
 immediately obvious. For example, PART1 and PCA3 are both described as
 prostate-specific lncRNAs that play a role in the human
 androgen-receptor pathway
@@ -415,7 +414,7 @@ of paralog group specific covariance models) than the paralog linked
 to cluster, and there is no indication that any of these additional
 copies is evolutionarily conserved over longer time scales. We
 therefore suggest that most or all of these interspersed copies are in
-fact pseudogenes.
+fact pseudogenes (see below).
 
 \subsubsection*{Missing data}
 
@@ -435,7 +434,7 @@ data. Indeed, of the seven missing ncRNA families, six where found in
 the chicken genome and three were found in the zebra finch
 genome. Furthermore, only one of these (RNase MRP) is found on a
 macrochromosome, and all remaining missing ncRNAs are found on
-microchromosomes (see Supplemental Table ?). A Fisher’s exact test
+microchromosomes (see Supplemental Table~1). A Fisher’s exact test
 showed that there is significantly more missing ncRNAs on
 microchromosomes than macrochromosomes ($P<10^{16}$ for both the
 chicken and zebra finch). Thus, we suggest that many of
@@ -689,11 +688,13 @@ lncRNAs) on the left and families that have been identified as RNA
 losses, divergence or missing data. In several cases functionally
 related families have also been included, e.g. the RNA components of
 the major and minor spliceosomes: U1, U2, U4, U5 and U6; and U11, U12,
-U4atac, U5 and U6atac, respectively.\label{fig:1}
+U4atac, U5 and U6atac, respectively.
 
  \begin{figure}[ht]
    \centering
    \includegraphics[width=0.95\textwidth]{figures/figure1.pdf}
+   \caption{}
+   \label{fig:1}
  \end{figure}
 
 
@@ -707,7 +708,7 @@ different RNA types in human, the median number for each of the 48
 birds and chicken. The number of chicken ncRNA that show evidence for
 expression is also indicated (the percentage is given in parentheses).
 The threshold for determining expression was selected based upon a
-false positive rate of less than 10\%.\label{table:1}
+false positive rate of less than 10\%.
 
 %% \begin{tabular}{|r|r|r|r|l|}
 %% \hline 
@@ -738,6 +739,7 @@ false positive rate of less than 10\%.\label{table:1}
 %% \hline
 %% \end{tabular}
 
+\begin{table}
 \begin{tabular}{|r|r|r|r|l|}
 \hline 
 \multicolumn{5}{|l|}{{\bf ncRNA genes in human, chicken and all bird genomes}}\\
@@ -766,6 +768,9 @@ Number in human & median(48 birds) & Number in chicken & confirmed with RNA-seq 
 7340&1080.0&1194&865 (72.4\%) &Total\\ 
 \hline
 \end{tabular}
+\caption{}
+\label{table:1}
+\end{table}
 
 %totalExpressed[865] totalNegControlsExpressed[123] totalGenes[1194] FPR[10.3]
 
